@@ -1,0 +1,29 @@
+{
+  "name": "@MOXY/eslint-config",
+  "description": "MOXY eslint configuration to be used across several JavaScript projects",
+  "version": "1.0.0",
+  "keywords": [
+    "eslint-config",
+    "eslintconfig",
+    "eslint",
+    "lint",
+    "linter",
+    "style"
+  ],
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint '{*.js,addons/**/*.js,rules/**/*.js}'"
+  },
+  "author": "MOXY Studio",
+  "homepage": "https://bitbucket.org/moxystudio/eslint-config",
+  "repository": "git@bitbucket.org:moxystudio/eslint-config.git",
+  "main": "index.js",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": "^3.0.0",
+    "eslint-plugin-react": "^6.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.0.0"
+  }
+}
