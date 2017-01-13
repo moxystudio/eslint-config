@@ -1,7 +1,7 @@
 {
-  "name": "@MOXY/eslint-config",
+  "name": "@moxy/eslint-config",
   "description": "MOXY eslint configuration to be used across several JavaScript projects",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "eslint-config",
     "eslintconfig",
@@ -16,7 +16,10 @@
   },
   "author": "MOXY Studio",
   "homepage": "https://bitbucket.org/moxystudio/eslint-config",
-  "repository": "git@bitbucket.org:moxystudio/eslint-config.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/moxystudio/eslint-config.git"
+  },
   "main": "index.js",
   "license": "MIT",
   "peerDependencies": {

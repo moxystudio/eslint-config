@@ -2,6 +2,10 @@
 
 MOXY [eslint](http://eslint.org/) configuration to be used across several JavaScript projects.
 
+## Installation
+
+`$ npm install --save-dev @moxy/eslint-config`
+
 ## Usage
 
 First you need to choose the **base** configuration to use:
@@ -30,10 +34,10 @@ Cutting edge ES6 with modules in the browser, using react:
 {
     "root": true,
     "extends": [
-        "@MOXY/eslint-config/es6",
-        "@MOXY/eslint-config/addons/es6-modules",
-        "@MOXY/eslint-config/addons/browser",
-        "@MOXY/eslint-config/addons/react"
+        "@moxy/eslint-config/es6",
+        "@moxy/eslint-config/addons/es6-modules",
+        "@moxy/eslint-config/addons/browser",
+        "@moxy/eslint-config/addons/react"
     ]
 }
 ```
@@ -44,9 +48,9 @@ Cutting edge ES6 with modules in NodeJS (requires babel or similar):
 {
     "root": true,
     "extends": [
-        "@MOXY/eslint-config/es6",
-        "@MOXY/eslint-config/addons/es6-modules",
-        "@MOXY/eslint-config/addons/node"
+        "@moxy/eslint-config/es6",
+        "@moxy/eslint-config/addons/es6-modules",
+        "@moxy/eslint-config/addons/node"
     ]
 }
 ```
@@ -57,8 +61,8 @@ Use ES6 in NodeJS without any transpiler:
 {
     "root": true,
     "extends": [
-        "@MOXY/eslint-config/es6",
-        "@MOXY/eslint-config/addons/node"
+        "@moxy/eslint-config/es6",
+        "@moxy/eslint-config/addons/node"
     ]
 }
 ```
@@ -69,9 +73,9 @@ Use ES6 in NodeJS without any transpiler:
 {
     "root": true,
     "extends": [
-        "@MOXY/eslint-config/es6",
-        "@MOXY/eslint-config/addons/node"
-        "@MOXY/eslint-config/addons/node-v4-es6"
+        "@moxy/eslint-config/es6",
+        "@moxy/eslint-config/addons/node"
+        "@moxy/eslint-config/addons/node-v4-es6"
     ]
 }
 ```
@@ -83,8 +87,8 @@ Good old ES5 in NodeJS:
 {
     "root": true,
     "extends": [
-        "@MOXY/eslint-config/es5",
-        "@MOXY/eslint-config/addons/node"
+        "@moxy/eslint-config/es5",
+        "@moxy/eslint-config/addons/node"
     ]
 }
 ```
