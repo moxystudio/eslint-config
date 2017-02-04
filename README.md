@@ -1,5 +1,7 @@
 # eslint-config
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/moxystudio/eslint-config.svg)](https://greenkeeper.io/)
+
 MOXY [eslint](http://eslint.org/) configuration to be used across several JavaScript projects.
 
 
