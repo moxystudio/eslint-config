@@ -5,7 +5,7 @@ MOXY [eslint](http://eslint.org/) configuration to be used across several JavaSc
 
 ## Installation
 
-`$ npm install --save-dev eslint-config-moxy`
+`$ npm install --save-dev eslint-config-moxy eslint`
 
 
 ## Usage
@@ -21,8 +21,8 @@ Then enhance it with one or more **addons**:
 - `node` - If you are going to develop code for NodeJS
 - `node-v4-es6` - If you are going to develop code for NodeJS 4.x.x with the `es6` base configuration
 - `es6-modules` - If you are going to use ES6 import & export (must be used with the `es6` base configuration)
-- `react` - If you are going to use React and JSX (requires `eslint-plugin-react`)
-- `react-redux` - Same as React addon, but should be used if you are going to develop code using react-redux.
+- `react` - If you are going to use React and JSX (requires installation of `eslint-plugin-react` as a dev dependency)
+- `react-redux` - Same as the `react` addon, but should be used if you are going to develop code using [react-redux](https://github.com/reactjs/react-redux).
 
 Finally, simply create a `.eslintrc.json` file with the chosen base configuration and addons.
 
