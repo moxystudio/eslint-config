@@ -1,5 +1,5 @@
 {
-  "name": "@moxy/eslint-config",
+  "name": "eslint-config-moxy",
   "description": "MOXY eslint configuration to be used across several JavaScript projects",
   "version": "1.1.0",
   "keywords": [
@@ -14,11 +14,11 @@
     "test": "npm run lint",
     "lint": "eslint '{*.js,addons/**/*.js,rules/**/*.js}'"
   },
-  "author": "MOXY Studio",
-  "homepage": "https://bitbucket.org/moxystudio/eslint-config",
+  "author": "MOXY <hello@moxy.studio>",
+  "homepage": "https://github.com/moxystudio/eslint-config",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/moxystudio/eslint-config.git"
+    "url": "git@github.com:moxystudio/eslint-config.git"
   },
   "main": "index.js",
   "license": "MIT",
