@@ -24,9 +24,7 @@ Then enhance it with one or more **addons**:
 - `react` - If you are going to use React and JSX (requires `eslint-plugin-react`)
 - `react-redux` - Same as React addon, but should be used if you are going to develop code using react-redux.
 
-Finally, simply create a `.eslintrc.json` file with the chosen base configuration and addons. Feel free to override rules you won't agree with. You can look at some examples bellow.
-
-Alternatively, you can make your own configuration by using the set of **rules** individually. If you're interested in doing that, you can check `es5.js` to see how it is done.
+Finally, simply create a `.eslintrc.json` file with the chosen base configuration and addons.
 
 
 ### Examples
