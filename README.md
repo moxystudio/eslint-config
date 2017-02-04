@@ -2,9 +2,11 @@
 
 MOXY [eslint](http://eslint.org/) configuration to be used across several JavaScript projects.
 
+
 ## Installation
 
 `$ npm install --save-dev eslint-config-moxy`
+
 
 ## Usage
 
