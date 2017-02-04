@@ -99,7 +99,7 @@ Good old ES5 in NodeJS:
 Note that by setting `root` to true, we ensure that no ancestor configuration is used which also improves `eslint` performance because no more file lookups need to be done.
 
 
-## File name convention
+## File naming convention
 
 If your file exports a single class, your filename should be exactly the name of the class. For other cases, the name of the file should be the same as the default exports (prefer camelCase).
 
