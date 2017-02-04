@@ -73,8 +73,8 @@ module.exports = {
         'react/no-is-mounted': 2,
         // prevent multiple component definition per file
         'react/no-multi-comp': 2,
-        // prevent usage of setState
-        'react/no-set-state': 1,
+        // allow usage of setState
+        'react/no-set-state': 0,
         // prevent usage of unknown DOM property
         'react/no-unknown-property': 2,
         // require ES6 class declarations over React.createClass
