@@ -26,36 +26,37 @@ First you need to choose the **base** configuration to use:
 
 - `es5` - The configuration to be used in ECMAScript 5 based projects
 - `es6` - The configuration to be used in ECMAScript 6 based projects
+- `es7` - The configuration to be used in ECMAScript 7 based projects, enables `es6 modules` by default
+- `es8` - The configuration to be used in ECMAScript 8 based projects, enables object spread operator by default
 
 Then enhance it with one or more **addons**:
 
 - `browser` - If you are going to develop code for the browser (having in mind IE >= 9)
-- `node` - If you are going to develop code for NodeJS
-- `node-v4-es6` - If you are going to develop code for NodeJS 4.x.x with the `es6` base configuration
-- `es6-modules` - If you are going to use ES6 import & export (must be used with the `es6` base configuration)
 - `react` - If you are going to use React and JSX (requires installation of `eslint-plugin-react` as a dev dependency)
 - `react-redux` - Same as the `react` addon, but should be used if you are going to develop code using [react-redux](https://github.com/reactjs/react-redux).
+- Specific addons for the `es6` base configuration:
+    - `es6-modules`: If you are going to use ES6 import & export (must be used with the `es6` base configuration)
+    - `node-v4-es6`: If you are going to develop code for NodeJS 4.x.x with the `es6` base configuration (disables spread and other features unavailable in the V8 engine bundled with node `v4`)
 
 Finally, simply create a `.eslintrc.json` file with the chosen base configuration and addons.
 
 
 ### Examples
 
-Cutting edge ES6 with modules in the browser, using react:
+Cutting edge ES8 with modules in the browser, using react:
 
 ```json
 {
     "root": true,
     "extends": [
-        "eslint-config-moxy/es6",
-        "eslint-config-moxy/addons/es6-modules",
+        "eslint-config-moxy/es8",
         "eslint-config-moxy/addons/browser",
         "eslint-config-moxy/addons/react"
     ]
 }
 ```
 
-Cutting edge ES6 with modules in NodeJS (requires babel or similar):
+ES6 with modules in NodeJS (requires a transpiler such as Babel or similar):
 
 ```json
 {
