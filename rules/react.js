@@ -94,10 +94,11 @@ module.exports = {
         // enforce component methods order
         'react/sort-comp': [2, {
             'order': [
+                'static-methods',
                 'lifecycle',
                 '/^(get|set)(?!(InitialState$|DefaultProps$|ChildContext$)).+$/',
                 'render',
-                '/^render.+$/',
+                '/^_render.+$/',
                 'everything-else',
                 '/^_?handle/',
             ],
