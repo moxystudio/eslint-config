@@ -38,7 +38,7 @@ module.exports = {
         // limit maximum of props on a single line in JSX
         'react/jsx-max-props-per-line': 0,
         // no .bind() or Arrow Functions in JSX Props
-        'react/jsx-no-bind': [2, { 'allowArrowFunctions': true }],
+        'react/jsx-no-bind': 2,
         // prevent duplicate props in JSX
         'react/jsx-no-duplicate-props': 0,
         // prevent usage of unwrapped JSX strings
@@ -49,6 +49,8 @@ module.exports = {
         'react/jsx-pascal-case': 2,
         // enforce props alphabetical sorting
         'react/jsx-sort-props': 0,
+        // Enforce or forbid spaces before the closing bracket of self-closing JSX elements
+        'react/jsx-space-before-closing': [2, 'always'],
         // prevent React to be incorrectly marked as unused
         'react/jsx-uses-react': 2,
         // prevent variables used in JSX to be incorrectly marked as unused
