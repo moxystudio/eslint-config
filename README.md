@@ -17,7 +17,7 @@ MOXY [eslint](http://eslint.org/) configuration to be used across several JavaSc
 
 ## Installation
 
-`$ npm install --save-dev eslint eslint-config-moxy eslint-plugin-jsdoc`
+`$ npm install --save-dev eslint eslint-config-moxy`
 
 
 ## Usage
@@ -32,7 +32,7 @@ First you need to choose the **base** configuration to use:
 Then enhance it with one or more **addons**:
 
 - `browser` - If you are going to develop code for the browser (having in mind IE >= 9)
-- `react` - If you are going to use React and JSX (requires installation of `eslint-plugin-react` as a dev dependency)
+- `react` - If you are going to use React and JSX
 - `react-redux` - Same as the `react` addon, but should be used if you are going to develop code using [react-redux](https://github.com/reactjs/react-redux).
 - Specific addons for the `es6` base configuration:
     - `es6-modules`: If you are going to use ES6 import & export (must be used with the `es6` base configuration)
