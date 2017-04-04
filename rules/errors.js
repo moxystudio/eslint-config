@@ -60,13 +60,6 @@ module.exports = {
         'no-unreachable': 2,
         // disallow comparisons with the value NaN
         'use-isnan': 2,
-        // ensure JSDoc comments are valid
-        'valid-jsdoc': [2, {
-            'requireReturn': false,
-            'prefer': {
-                'return': 'return',
-            },
-        }],
         // ensure that the results of typeof are compared against a valid string
         'valid-typeof': 2,
     },

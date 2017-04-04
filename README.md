@@ -17,7 +17,7 @@ MOXY [eslint](http://eslint.org/) configuration to be used across several JavaSc
 
 ## Installation
 
-`$ npm install --save-dev eslint-config-moxy eslint`
+`$ npm install --save-dev eslint eslint-config-moxy eslint-plugin-jsdoc`
 
 
 ## Usage
