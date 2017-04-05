@@ -1,0 +1,38 @@
+[
+  {
+    "rule": "no-unused-vars",
+    "severity": 2,
+    "line": 4,
+    "column": 9
+  },
+  {
+    "rule": "no-delete-var",
+    "severity": 2,
+    "line": 26,
+    "column": 1
+  },
+  {
+    "rule": "no-label-var",
+    "severity": 2,
+    "line": 34,
+    "column": 1
+  },
+  {
+    "rule": "no-shadow-restricted-names",
+    "severity": 2,
+    "line": 50,
+    "column": 10
+  },
+  {
+    "rule": "no-undef",
+    "severity": 2,
+    "line": 75,
+    "column": 9
+  },
+  {
+    "rule": "no-undef",
+    "severity": 2,
+    "line": 83,
+    "column": 1
+  }
+]

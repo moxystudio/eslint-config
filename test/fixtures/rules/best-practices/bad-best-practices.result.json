@@ -1,0 +1,404 @@
+[
+  {
+    "rule": "array-callback-return",
+    "severity": 2,
+    "line": 16,
+    "column": 15
+  },
+  {
+    "rule": "vars-on-top",
+    "severity": 2,
+    "line": 27,
+    "column": 9
+  },
+  {
+    "rule": "block-scoped-var",
+    "severity": 2,
+    "line": 29,
+    "column": 9
+  },
+  {
+    "rule": "curly",
+    "severity": 2,
+    "line": 64,
+    "column": 1
+  },
+  {
+    "rule": "default-case",
+    "severity": 2,
+    "line": 72,
+    "column": 1
+  },
+  {
+    "rule": "dot-location",
+    "severity": 2,
+    "line": 84,
+    "column": 14
+  },
+  {
+    "rule": "dot-location",
+    "severity": 2,
+    "line": 95,
+    "column": 14
+  },
+  {
+    "rule": "dot-notation",
+    "severity": 2,
+    "line": 106,
+    "column": 15
+  },
+  {
+    "rule": "eqeqeq",
+    "severity": 2,
+    "line": 116,
+    "column": 8
+  },
+  {
+    "rule": "eqeqeq",
+    "severity": 2,
+    "line": 116,
+    "column": 18
+  },
+  {
+    "rule": "eqeqeq",
+    "severity": 2,
+    "line": 128,
+    "column": 8
+  },
+  {
+    "rule": "eqeqeq",
+    "severity": 2,
+    "line": 128,
+    "column": 18
+  },
+  {
+    "rule": "no-alert",
+    "severity": 1,
+    "line": 147,
+    "column": 1
+  },
+  {
+    "rule": "no-caller",
+    "severity": 2,
+    "line": 160,
+    "column": 7
+  },
+  {
+    "rule": "no-case-declarations",
+    "severity": 2,
+    "line": 175,
+    "column": 9
+  },
+  {
+    "rule": "no-else-return",
+    "severity": 2,
+    "line": 199,
+    "column": 12
+  },
+  {
+    "rule": "no-empty-pattern",
+    "severity": 2,
+    "line": 221,
+    "column": 5
+  },
+  {
+    "rule": "no-eval",
+    "severity": 2,
+    "line": 240,
+    "column": 6
+  },
+  {
+    "rule": "no-extend-native",
+    "severity": 2,
+    "line": 247,
+    "column": 1
+  },
+  {
+    "rule": "no-extra-bind",
+    "severity": 2,
+    "line": 257,
+    "column": 5
+  },
+  {
+    "rule": "no-labels",
+    "severity": 2,
+    "line": 267,
+    "column": 5
+  },
+  {
+    "rule": "no-unused-labels",
+    "severity": 2,
+    "line": 267,
+    "column": 5
+  },
+  {
+    "rule": "no-labels",
+    "severity": 2,
+    "line": 279,
+    "column": 7
+  },
+  {
+    "rule": "no-labels",
+    "severity": 2,
+    "line": 280,
+    "column": 9
+  },
+  {
+    "rule": "no-extra-label",
+    "severity": 2,
+    "line": 280,
+    "column": 15
+  },
+  {
+    "rule": "no-fallthrough",
+    "severity": 2,
+    "line": 292,
+    "column": 5
+  },
+  {
+    "rule": "no-floating-decimal",
+    "severity": 2,
+    "line": 301,
+    "column": 13
+  },
+  {
+    "rule": "vars-on-top",
+    "severity": 2,
+    "line": 318,
+    "column": 1
+  },
+  {
+    "rule": "no-implicit-globals",
+    "severity": 2,
+    "line": 318,
+    "column": 5
+  },
+  {
+    "rule": "no-implied-eval",
+    "severity": 2,
+    "line": 325,
+    "column": 1
+  },
+  {
+    "rule": "no-iterator",
+    "severity": 2,
+    "line": 343,
+    "column": 1
+  },
+  {
+    "rule": "no-labels",
+    "severity": 2,
+    "line": 351,
+    "column": 5
+  },
+  {
+    "rule": "no-unused-labels",
+    "severity": 2,
+    "line": 351,
+    "column": 5
+  },
+  {
+    "rule": "no-lone-blocks",
+    "severity": 2,
+    "line": 362,
+    "column": 5
+  },
+  {
+    "rule": "no-loop-func",
+    "severity": 2,
+    "line": 374,
+    "column": 9
+  },
+  {
+    "rule": "no-multi-spaces",
+    "severity": 2,
+    "line": 395,
+    "column": 21
+  },
+  {
+    "rule": "no-native-reassign",
+    "severity": 2,
+    "line": 418,
+    "column": 5
+  },
+  {
+    "rule": "no-implicit-globals",
+    "severity": 2,
+    "line": 418,
+    "column": 5
+  },
+  {
+    "rule": "no-new-func",
+    "severity": 2,
+    "line": 427,
+    "column": 13
+  },
+  {
+    "rule": "no-new-wrappers",
+    "severity": 2,
+    "line": 436,
+    "column": 13
+  },
+  {
+    "rule": "no-new",
+    "severity": 2,
+    "line": 445,
+    "column": 5
+  },
+  {
+    "rule": "no-octal-escape",
+    "severity": 2,
+    "line": 456,
+    "column": 15
+  },
+  {
+    "rule": "no-octal",
+    "severity": 2,
+    "line": 465,
+    "column": 15
+  },
+  {
+    "rule": "no-proto",
+    "severity": 2,
+    "line": 496,
+    "column": 13
+  },
+  {
+    "rule": "no-redeclare",
+    "severity": 2,
+    "line": 506,
+    "column": 9
+  },
+  {
+    "rule": "no-return-assign",
+    "severity": 2,
+    "line": 516,
+    "column": 5
+  },
+  {
+    "rule": "no-script-url",
+    "severity": 2,
+    "line": 524,
+    "column": 17
+  },
+  {
+    "rule": "no-self-assign",
+    "severity": 2,
+    "line": 533,
+    "column": 9
+  },
+  {
+    "rule": "no-self-compare",
+    "severity": 2,
+    "line": 542,
+    "column": 8
+  },
+  {
+    "rule": "eqeqeq",
+    "severity": 2,
+    "line": 553,
+    "column": 10
+  },
+  {
+    "rule": "no-sequences",
+    "severity": 2,
+    "line": 553,
+    "column": 14
+  },
+  {
+    "rule": "no-throw-literal",
+    "severity": 2,
+    "line": 564,
+    "column": 5
+  },
+  {
+    "rule": "no-unmodified-loop-condition",
+    "severity": 2,
+    "line": 574,
+    "column": 11
+  },
+  {
+    "rule": "no-unused-expressions",
+    "severity": 2,
+    "line": 585,
+    "column": 5
+  },
+  {
+    "rule": "no-unused-labels",
+    "severity": 2,
+    "line": 594,
+    "column": 5
+  },
+  {
+    "rule": "no-unused-labels",
+    "severity": 2,
+    "line": 595,
+    "column": 5
+  },
+  {
+    "rule": "no-useless-call",
+    "severity": 2,
+    "line": 606,
+    "column": 5
+  },
+  {
+    "rule": "no-useless-concat",
+    "severity": 2,
+    "line": 615,
+    "column": 17
+  },
+  {
+    "rule": "no-useless-escape",
+    "severity": 2,
+    "line": 624,
+    "column": 14
+  },
+  {
+    "rule": "no-void",
+    "severity": 2,
+    "line": 633,
+    "column": 5
+  },
+  {
+    "rule": "no-warning-comments",
+    "severity": 1,
+    "line": 642,
+    "column": 5
+  },
+  {
+    "rule": "no-with",
+    "severity": 2,
+    "line": 651,
+    "column": 5
+  },
+  {
+    "rule": "radix",
+    "severity": 2,
+    "line": 662,
+    "column": 13
+  },
+  {
+    "rule": "vars-on-top",
+    "severity": 2,
+    "line": 672,
+    "column": 9
+  },
+  {
+    "rule": "wrap-iife",
+    "severity": 2,
+    "line": 682,
+    "column": 13
+  },
+  {
+    "rule": "yoda",
+    "severity": 2,
+    "line": 693,
+    "column": 8
+  },
+  {
+    "rule": "eqeqeq",
+    "severity": 2,
+    "line": 693,
+    "column": 16
+  }
+]
