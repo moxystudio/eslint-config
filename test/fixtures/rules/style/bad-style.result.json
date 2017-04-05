@@ -1,0 +1,398 @@
+[
+  {
+    "rule": "comma-spacing",
+    "severity": 2,
+    "line": 3,
+    "column": 3
+  },
+  {
+    "rule": "comma-spacing",
+    "severity": 2,
+    "line": 3,
+    "column": 5
+  },
+  {
+    "rule": "semi",
+    "severity": 2,
+    "line": 3,
+    "column": 8
+  },
+  {
+    "rule": "block-spacing",
+    "severity": 2,
+    "line": 10,
+    "column": 14
+  },
+  {
+    "rule": "block-spacing",
+    "severity": 2,
+    "line": 10,
+    "column": 27
+  },
+  {
+    "rule": "semi",
+    "severity": 2,
+    "line": 10,
+    "column": 27
+  },
+  {
+    "rule": "brace-style",
+    "severity": 2,
+    "line": 18,
+    "column": 1
+  },
+  {
+    "rule": "camelcase",
+    "severity": 2,
+    "line": 27,
+    "column": 5
+  },
+  {
+    "rule": "id-match",
+    "severity": 2,
+    "line": 27,
+    "column": 5
+  },
+  {
+    "rule": "comma-spacing",
+    "severity": 2,
+    "line": 34,
+    "column": 17
+  },
+  {
+    "rule": "comma-style",
+    "severity": 2,
+    "line": 43,
+    "column": 5
+  },
+  {
+    "rule": "computed-property-spacing",
+    "severity": 2,
+    "line": 52,
+    "column": 12
+  },
+  {
+    "rule": "consistent-this",
+    "severity": 2,
+    "line": 59,
+    "column": 5
+  },
+  {
+    "rule": "indent",
+    "severity": 2,
+    "line": 101,
+    "column": 3
+  },
+  {
+    "rule": "semi",
+    "severity": 2,
+    "line": 102,
+    "column": 2
+  },
+  {
+    "rule": "key-spacing",
+    "severity": 2,
+    "line": 117,
+    "column": 7
+  },
+  {
+    "rule": "semi",
+    "severity": 2,
+    "line": 118,
+    "column": 2
+  },
+  {
+    "rule": "keyword-spacing",
+    "severity": 2,
+    "line": 125,
+    "column": 1
+  },
+  {
+    "rule": "max-depth",
+    "severity": 1,
+    "line": 157,
+    "column": 25
+  },
+  {
+    "rule": "max-len",
+    "severity": 1,
+    "line": 172,
+    "column": 1
+  },
+  {
+    "rule": "max-nested-callbacks",
+    "severity": 2,
+    "line": 185,
+    "column": 27
+  },
+  {
+    "rule": "semi",
+    "severity": 2,
+    "line": 187,
+    "column": 27
+  },
+  {
+    "rule": "semi",
+    "severity": 2,
+    "line": 188,
+    "column": 23
+  },
+  {
+    "rule": "semi",
+    "severity": 2,
+    "line": 189,
+    "column": 19
+  },
+  {
+    "rule": "semi",
+    "severity": 2,
+    "line": 190,
+    "column": 15
+  },
+  {
+    "rule": "semi",
+    "severity": 2,
+    "line": 191,
+    "column": 11
+  },
+  {
+    "rule": "semi",
+    "severity": 2,
+    "line": 192,
+    "column": 7
+  },
+  {
+    "rule": "max-params",
+    "severity": 1,
+    "line": 200,
+    "column": 1
+  },
+  {
+    "rule": "max-statements",
+    "severity": 1,
+    "line": 209,
+    "column": 1
+  },
+  {
+    "rule": "new-cap",
+    "severity": 2,
+    "line": 365,
+    "column": 22
+  },
+  {
+    "rule": "new-parens",
+    "severity": 2,
+    "line": 372,
+    "column": 26
+  },
+  {
+    "rule": "newline-after-var",
+    "severity": 2,
+    "line": 379,
+    "column": 1
+  },
+  {
+    "rule": "no-array-constructor",
+    "severity": 2,
+    "line": 404,
+    "column": 9
+  },
+  {
+    "rule": "no-bitwise",
+    "severity": 2,
+    "line": 411,
+    "column": 9
+  },
+  {
+    "rule": "no-lonely-if",
+    "severity": 2,
+    "line": 443,
+    "column": 5
+  },
+  {
+    "rule": "no-multiple-empty-lines",
+    "severity": 2,
+    "line": 461,
+    "column": 1
+  },
+  {
+    "rule": "no-nested-ternary",
+    "severity": 2,
+    "line": 480,
+    "column": 9
+  },
+  {
+    "rule": "no-nested-ternary",
+    "severity": 2,
+    "line": 480,
+    "column": 23
+  },
+  {
+    "rule": "no-unneeded-ternary",
+    "severity": 2,
+    "line": 480,
+    "column": 46
+  },
+  {
+    "rule": "no-new-object",
+    "severity": 2,
+    "line": 487,
+    "column": 9
+  },
+  {
+    "rule": "no-plusplus",
+    "severity": 2,
+    "line": 494,
+    "column": 9
+  },
+  {
+    "rule": "space-before-function-paren",
+    "severity": 2,
+    "line": 508,
+    "column": 11
+  },
+  {
+    "rule": "no-unneeded-ternary",
+    "severity": 2,
+    "line": 539,
+    "column": 16
+  },
+  {
+    "rule": "no-whitespace-before-property",
+    "severity": 2,
+    "line": 546,
+    "column": 1
+  },
+  {
+    "rule": "object-curly-spacing",
+    "severity": 2,
+    "line": 553,
+    "column": 9
+  },
+  {
+    "rule": "object-curly-spacing",
+    "severity": 2,
+    "line": 553,
+    "column": 14
+  },
+  {
+    "rule": "one-var",
+    "severity": 2,
+    "line": 570,
+    "column": 1
+  },
+  {
+    "rule": "one-var-declaration-per-line",
+    "severity": 2,
+    "line": 570,
+    "column": 8
+  },
+  {
+    "rule": "one-var-declaration-per-line",
+    "severity": 2,
+    "line": 570,
+    "column": 15
+  },
+  {
+    "rule": "one-var-declaration-per-line",
+    "severity": 2,
+    "line": 570,
+    "column": 18
+  },
+  {
+    "rule": "space-infix-ops",
+    "severity": 2,
+    "line": 577,
+    "column": 14
+  },
+  {
+    "rule": "padded-blocks",
+    "severity": 2,
+    "line": 595,
+    "column": 8
+  },
+  {
+    "rule": "padded-blocks",
+    "severity": 2,
+    "line": 599,
+    "column": 1
+  },
+  {
+    "rule": "quotes",
+    "severity": 2,
+    "line": 607,
+    "column": 5
+  },
+  {
+    "rule": "quote-props",
+    "severity": 2,
+    "line": 607,
+    "column": 5
+  },
+  {
+    "rule": "quotes",
+    "severity": 2,
+    "line": 615,
+    "column": 9
+  },
+  {
+    "rule": "semi-spacing",
+    "severity": 2,
+    "line": 629,
+    "column": 6
+  },
+  {
+    "rule": "quotes",
+    "severity": 2,
+    "line": 644,
+    "column": 12
+  },
+  {
+    "rule": "semi",
+    "severity": 2,
+    "line": 644,
+    "column": 20
+  },
+  {
+    "rule": "space-before-blocks",
+    "severity": 2,
+    "line": 658,
+    "column": 13
+  },
+  {
+    "rule": "space-before-function-paren",
+    "severity": 2,
+    "line": 667,
+    "column": 11
+  },
+  {
+    "rule": "space-in-parens",
+    "severity": 2,
+    "line": 676,
+    "column": 11
+  },
+  {
+    "rule": "space-infix-ops",
+    "severity": 2,
+    "line": 685,
+    "column": 10
+  },
+  {
+    "rule": "space-unary-ops",
+    "severity": 2,
+    "line": 692,
+    "column": 1
+  },
+  {
+    "rule": "spaced-comment",
+    "severity": 2,
+    "line": 699,
+    "column": 1
+  },
+  {
+    "rule": "spaced-comment",
+    "severity": 2,
+    "line": 700,
+    "column": 1
+  }
+]

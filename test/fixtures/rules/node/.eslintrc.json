@@ -1,0 +1,9 @@
+{
+    "root": true,
+    "extends": [
+        "../../../../rules/node.js"
+    ],
+    "no-restricted-modules": ["error",
+        "fs"
+    ]
+}

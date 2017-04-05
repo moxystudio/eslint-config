@@ -11,8 +11,9 @@
     "style"
   ],
   "scripts": {
-    "test": "npm run lint",
-    "lint": "eslint '{*.js,addons/**/*.js,rules/**/*.js}'"
+    "lint": "eslint '{*.js,rules/**/*.js,test/**/*.js}'",
+    "test": "jest",
+    "posttest": "npm run lint"
   },
   "author": "André Cruz <andre@moxy.studio>",
   "homepage": "https://github.com/moxystudio/eslint-config",
@@ -27,6 +28,7 @@
     "eslint-plugin-react": "^6.0.0"
   },
   "devDependencies": {
-    "eslint": "^3.0.0"
+    "eslint": "^3.0.0",
+    "jest": "^19.0.2"
   }
 }

@@ -1,0 +1,12 @@
+{
+    "root": true,
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "extends": [
+        "../../../../rules/react.js"
+    ]
+}

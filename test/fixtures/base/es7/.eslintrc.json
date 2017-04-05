@@ -1,0 +1,9 @@
+{
+    "root": true,
+    "parserOptions": {
+        "ecmaVersion": 7
+    },
+    "extends": [
+        "../../../../rules/errors.js"
+    ]
+}
