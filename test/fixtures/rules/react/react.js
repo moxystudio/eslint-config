@@ -9,15 +9,10 @@ import React, { Component, PropTypes, ReactDOM } from 'react';
 
 // `forbid-component-props` - forbid certain props on Components
 // ---------------------------------------------------------------------
-// Bad
+// Not active
 (function () {
     class MyComponent extends Component {}
     const a = <MyComponent style={ { color: 'red' } } />;
-})();
-// Good
-(function () {
-    class MyComponent extends Component {}
-    const a = <MyComponent className="foo" />;
 })();
 
 // `forbid-elements` - forbid certain elements
@@ -37,7 +32,7 @@ Component.propTypes = {
     o: PropTypes.object,
 };
 
-// `jsx-boolean-value` - Enforce boolean attributes notation in JSX
+// `jsx-boolean-value` - enforce boolean attributes notation in JSX
 // ---------------------------------------------------------------------
 // Bad
 (function () {
@@ -88,13 +83,9 @@ Component.propTypes = {
 
 // `jsx-filename-extension` - restrict file extensions that may contain JSX
 // ---------------------------------------------------------------------
-// Not active
-// filename: MyComponent.js
-function MyComponent() {
-    return <div />;
-}
+// See file ./react-jsx-extension.js
 
-// `jsx-first-prop-new-line - configure the position of the first property
+// `jsx-first-prop-new-line` - configure the position of the first property
 // ---------------------------------------------------------------------
 // Not active
 (function () {
@@ -114,17 +105,13 @@ function MyComponent() {
         _renderFoo() {
             return <div onClick={ this.handleClick }>foo</div>;
         }
-
-        _renderBar() {
-            return <div onClick={ this._handleClick }>bar</div>;
-        }
     }
 })();
 // Good
 (function () {
     class MyComponent extends Component {
-        _renderBar() {
-            return <div onClick={ this._handleClick }>bar</div>;
+        render() {
+            return <div onClick={ this._handleClick }>bleh</div>;
         }
     }
 })();
@@ -186,11 +173,6 @@ function MyComponent() {
 // Bad
 (function () {
     class MyComponent extends Component {
-        constructor() {
-            super();
-            this._handleClick = this._handleClick.bind(this);
-        }
-
         render() {
             return <div onClick={ this._handleClick.bind(this) }>bleh</div>;
         }
@@ -208,7 +190,7 @@ function MyComponent() {
             this._handleClick = this._handleClick.bind(this);
         }
 
-        _renderBar() {
+        render() {
             return <div onClick={ this._handleClick }>bar</div>;
         }
     }
@@ -220,9 +202,19 @@ function MyComponent() {
 (function () {
     class MyComponent extends Component {
         render() {
-            return (<div>
-                /* Empty div */
-            </div>);
+            return (
+                <div>
+                /* Comment */
+                </div>
+            );
+        }
+
+        _renderFoo() {
+            return (
+                <div>
+                // Comment
+                </div>
+            );
         }
     }
 })();
@@ -230,9 +222,11 @@ function MyComponent() {
 (function () {
     class MyComponent extends Component {
         render() {
-            return (<div>
-                {/* empty div */}
-            </div>);
+            return (
+                <div>
+                    {/* Comment */}
+                </div>
+            );
         }
     }
 })();
@@ -258,15 +252,14 @@ function MyComponent() {
 // `jsx-no-target-blank` - prevent usage of unsafe target='_blank'
 // ---------------------------------------------------------------------
 // Bad
-// using this attribute unaccompanied by
-// rel='noreferrer noopener'
-// is a severe security vulnerability
 (function () {
-    const component = <a target="_blank">foo</a>;
+    const href = 'http://this.link/comes/from/user/input';
+    const component = <a href={ href } target="_blank">foo</a>;
 })();
 // Good
 (function () {
-    const component = <a target="_blank" rel="noopener noreferrer">foo</a>;
+    const href = 'http://this.link/comes/from/user/input';
+    const component = <a href={ href } target="_blank" rel="noopener noreferrer">foo</a>;
 })();
 
 // `jsx-no-undef` - disallow undeclared variables in JSX
@@ -318,7 +311,7 @@ function MyComponent() {
 // ---------------------------------------------------------------------
 // Bad
 (function () {
-    const a = <div/ >;
+    const a = <div / >;
 })();
 // Good
 (function () {
@@ -333,7 +326,7 @@ function MyComponent() {
 // ---------------------------------------------------------------------
 // See file ./react-no-unused.js
 
-// `jsx-wrap-multilines` - Prevent missing parentheses around multilines JSX
+// `jsx-wrap-multilines` - prevent missing parentheses around multilines JSX
 // ---------------------------------------------------------------------
 // Bad
 (function () {
@@ -441,7 +434,7 @@ ReactDOM.render(<Component />, '#root');
 // Bad
 (function () {
     class MyComponent extends Component {
-        update() {
+        componentWillUpdate() {
             this.state.error = true;
         }
     }
@@ -449,7 +442,7 @@ ReactDOM.render(<Component />, '#root');
 // Good
 (function () {
     class MyComponent extends Component {
-        update() {
+        componentWillUpdate() {
             this.setState({
                 error: true,
             });
@@ -457,31 +450,45 @@ ReactDOM.render(<Component />, '#root');
     }
 })();
 
-// `no-find-dom-node - prevent usage of findDOMNode
+// `no-find-dom-node` - prevent usage of findDOMNode
 // ---------------------------------------------------------------------
-// Not active, facebook will eventually deprecate this
+// Not active
 
 // `no-is-mounted` - prevent usage of isMounted
 // ---------------------------------------------------------------------
 // Bad
 (function () {
     class MyComponent extends Component {
-        _handleClick() {
-            if (this.isMounted()) {
-                console.log('foo');
-            }
+        constructor() {
+            super();
+            this.state = { counter: 0 };
+        }
+
+        componentDidMount() {
+            setInterval(() => {
+                if (this.isMounted()) {
+                    this.setState({ counter: this.state.counter + 1 });
+                }
+            });
         }
     }
 })();
 // Good
 (function () {
     class MyComponent extends Component {
-        render() {
-            return <div onClick={ this._handleClick } />;
+        constructor() {
+            super();
+            this.state = { counter: 0 };
         }
 
-        _handleClick() {
-            console.log('clicked');
+        componentDidMount() {
+            this._interval = setInterval(() => {
+                this.setState({ counter: this.state.counter + 1 });
+            });
+        }
+
+        componentWillUnmount() {
+            clearInterval(this._interval);
         }
     }
 })();
@@ -490,7 +497,7 @@ ReactDOM.render(<Component />, '#root');
 // ---------------------------------------------------------------------
 // See file ./react-multi-comp.js
 
-// `no-render-return-value` - Prevent usage of the return value of React.render
+// `no-render-return-value` - prevent usage of the return value of React.render
 // ---------------------------------------------------------------------
 // Bad
 (function () {
@@ -503,8 +510,9 @@ ReactDOM.render(<Component />, '#root');
     ReactDOM.render(<App />, document.body);
 })();
 
-// `no-set-state` - allow usage of setState
+// `no-set-state` - prevent usage of setState
 // ---------------------------------------------------------------------
+// Not active
 (function () {
     class MyComponent extends Component {
         componentWillReceiveProps(nextProps) {
@@ -513,13 +521,13 @@ ReactDOM.render(<Component />, '#root');
     }
 })();
 
-// `no-string-refs - prevent using string references
+// `no-string-refs` - prevent using string references in ref attributes
 // ---------------------------------------------------------------------
 // Bad
 (function () {
     class MyComponent extends Component {
         render() {
-            return <div ref="hello">{ 'Hello '}</div>
+            return <div ref="hello">Hello</div>
         }
     }
 })();
@@ -528,15 +536,15 @@ ReactDOM.render(<Component />, '#root');
     class MyComponent extends Component {
         constructor() {
             super();
-            this.compRef = '';
+            this._handleRef = this._handleRef.bind(this);
         }
 
         render() {
-            return <div ref={ this._ref }>{ 'Hello '}</div>;
+            return <div ref={ this._handleRef }>Hello</div>;
         }
 
-        _ref(ref) {
-            this._compRef = ref;
+        _handleRef(ref) {
+            this._ref = ref;
         }
     }
 })();
@@ -579,7 +587,7 @@ ReactDOM.render(<Component />, '#root');
 
 // `no-unused-prop-types` - prevent definitions of unused prop types
 // ---------------------------------------------------------------------
-// Not working here
+// Not active
 (function () {
     class MyComponent extends Component {
         render() {
@@ -628,8 +636,7 @@ ReactDOM.render(<Component />, '#root');
         }
     }
 })();
-
-// Bad
+// Good
 (function () {
     class MyComponent extends Component {
         render() {
@@ -644,14 +651,11 @@ ReactDOM.render(<Component />, '#root');
 
 // `react-in-jsx-scope` - prevent missing React when using JSX
 // ---------------------------------------------------------------------
-// See file ./react-missing-import.js ???
+// See file ./react-missing-import.js
 
 // `require-default-props` - enforce a defaultProps definition for every prop that is not a required prop
 // ---------------------------------------------------------------------
-// Not active - Should it be activated?
-// if proptype is not required it is necessary
-// to define a defaultprop
-// might come in handy in some situations
+// Not active
 (function () {
     class MyComponent extends Component {
         render() {
@@ -661,10 +665,6 @@ ReactDOM.render(<Component />, '#root');
 
     MyComponent.propTypes = {
         name: PropTypes.string,
-    };
-
-    MyComponent.defaultProps = {
-        name: '',
     };
 })();
 
@@ -677,8 +677,7 @@ ReactDOM.render(<Component />, '#root');
 
 // `require-optimization` - enforce React components to have a shouldComponentUpdate method
 // ---------------------------------------------------------------------
-// I think this should be at 0.
-// Review it please.
+// Not active, we use PureComponent's
 
 // `require-render-return` - enforce ES5 or ES6 class for returning value in render function
 // ---------------------------------------------------------------------
@@ -690,7 +689,7 @@ ReactDOM.render(<Component />, '#root');
         }
     }
 })();
-// Bad
+// Good
 (function () {
     class MyComponent extends Component {
         render() {
@@ -754,14 +753,11 @@ ReactDOM.render(<Component />, '#root');
 // ---------------------------------------------------------------------
 // Bad
 (function () {
-    class MyComponent extends Component {}
-    const a = <MyComponent style="color: 'red'" />;
+    const div = <div style="color: 'red'">foo</div>;
 })();
-// Still bad forbid-component-props doesn't allow
-// to style components
+// Good
 (function () {
-    class MyComponent extends Component {}
-    const a = <MyComponent style={ { color: 'red' } } />;
+    const div = <div style={ { color: 'red' } }>foo</div>;
 })();
 
 // `void-dom-elements-no-children` - prevent void DOM elements (e.g. <img />, <br />) from receiving children
@@ -769,7 +765,7 @@ ReactDOM.render(<Component />, '#root');
 // Bad
 (function () {
     class MyComponent extends Component {}
-    const a = <img>{ 'children '}</img>;
+    const a = <img>children</img>;
 })();
 // Good
 (function () {

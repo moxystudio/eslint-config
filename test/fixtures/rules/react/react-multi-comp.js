@@ -2,7 +2,7 @@
 
 import React, { Component } from 'react';
 
-// Prevent multiple component definition per file
+// `no-multi-comp` - prevent multiple component definition per file
 // ---------------------------------------------------------------------
 class MyComponent extends Component {
     render() {

@@ -1,9 +1,8 @@
 'use strict';
 
-const eslintTop = require('eslint');
 const fs = require('fs');
 
-// `callback- return` - require return statements after callbacks
+// `callback-return` - require return statements after callbacks
 // ---------------------------------------------------------------------
 // Bad
 (function () {
@@ -12,8 +11,6 @@ const fs = require('fs');
             callback(err);
         }
     }
-
-    f();
 })();
 // Good
 (function () {
@@ -21,34 +18,15 @@ const fs = require('fs');
         if (err) {
             return callback(err);
         }
+
         callback();
     }
-
-    f();
 })();
 
 // `global-require` - require require() calls to be placed at top-level module scope
 // ---------------------------------------------------------------------
 (function () {
-    function lint(filename) {
-        const eslint = require('eslint');
-        const cli = eslint.CLIEngine;
-
-        cli.executeOnFiles([filename]);
-    }
-
-    lint();
-})();
-// Good
-(function () {
-    function lint(filename) {
-        // Require defined at top of the file
-        const cli = eslintTop.CLIEngine;
-
-        cli.executeOnFiles([filename]);
-    }
-
-    lint();
+    const someDep = require('some-dep');
 })();
 
 // `handle-callback-err` - require error handling in callbacks
@@ -58,8 +36,6 @@ const fs = require('fs');
     function f(err, callback) {
         callback();
     }
-
-    f();
 })();
 // Good
 (function () {
@@ -67,10 +43,15 @@ const fs = require('fs');
         if (err) {
             return callback(err);
         }
+
         callback();
     }
-
-    f();
+})();
+// Also good
+(function () {
+    function f(err, callback) {
+        callback(err);
+    }
 })();
 
 // `no-mixed-requires` - disallow require calls to be mixed with regular variable declarations
@@ -99,11 +80,12 @@ const fs = require('fs');
 
 // `no-process-exit` - disallow the use of process.exit()
 // ---------------------------------------------------------------------
-process.exit(0);  // Not active
+// Not active
+process.exit(0);
 
 // `no-restricted-modules` - disallow specified modules when loaded by require
 // ---------------------------------------------------------------------
-// Disabled, can't really test this
+// All modules are allowed
 
 // `no-sync` - disallow synchronous methods
 // ---------------------------------------------------------------------

@@ -2,8 +2,9 @@
 
 import React, { Component } from 'react';
 
-// React to be incorrectly marked as unused
+// `jsx-uses-react` - prevent React to be incorrectly marked as unused
 // ---------------------------------------------------------------------
+// Should not give an error
 (function () {
     class MyComponent extends Component {
         render() {
@@ -12,10 +13,11 @@ import React, { Component } from 'react';
     }
 
     console.log(MyComponent);
-})();  // Should not give an error
+})();
 
-// Prevent variables used in JSX to be incorrectly marked as unused
+// `jsx-uses-vars` - prevent variables used in JSX to be incorrectly marked as unused
 // ---------------------------------------------------------------------
+// Should not give an error
 (function () {
     const isLoading = true;
     const component = <Component isLoading={ isLoading } />;

@@ -13,9 +13,7 @@ module.exports = {
         // Prevent missing displayName in a React component definition
         'react/display-name': 0,
         // Forbid certain props on Components (forbid-component-props)
-        'react/forbid-component-props': [2, {
-            'forbid': ['style'],
-        }],
+        'react/forbid-component-props': 0,
         // Forbid certain elements (forbid-elements)
         'react/forbid-elements': 0,
         // Forbid foreign propTypes (forbid-foreign-prop-types)
@@ -31,7 +29,7 @@ module.exports = {
         // Enforce or disallow spaces around equal signs in JSX attributes
         'react/jsx-equals-spacing': [2, 'never'],
         // Restrict file extensions that may contain JSX (jsx-filename-extension)
-        'react/jsx-filename-extension': 0,
+        'react/jsx-filename-extension': [2, { 'extensions': ['.js'] }],
         // Ensure correct position of the first property.
         'react/jsx-first-prop-new-line': 0,
         // Enforce event handler naming conventions in JSX
@@ -56,7 +54,7 @@ module.exports = {
         // Prevent usage of unwrapped JSX strings
         'react/jsx-no-literals': 0,
         // Prevent usage of unsafe target='_blank'
-        'react/jsx-no-target-blank': 2,
+        'react/jsx-no-target-blank': 1,
         // Disallow undeclared variables in JSX
         'react/jsx-no-undef': 2,
         // Enforce PasalCase for user-defined JSX components
@@ -86,7 +84,7 @@ module.exports = {
         // Prevent passing of children as props (no-children-prop)
         'react/no-children-prop': 2,
         // Prevent problem with children and props.dangerouslySetInnerHTML
-        'react/no-danger-with-children': 0,
+        'react/no-danger-with-children': 2,
         // Prevent usage of dangerous JSX properties
         'react/no-danger': 0,
         // Prevent usage of deprecated methods
@@ -105,7 +103,7 @@ module.exports = {
         'react/no-multi-comp': 2,
         // Prevent usage of the return value of React.render (no-render-return-value)
         'react/no-render-return-value': 2,
-        // Allow usage of setState
+        // Prevent usage of setState
         'react/no-set-state': 0,
         // Prevent using string references (no-string-refs)
         'react/no-string-refs': 2,
@@ -114,8 +112,7 @@ module.exports = {
         // Prevent usage of unknown DOM property
         'react/no-unknown-property': 2,
         // Prevent definitions of unused prop types (no-unused-prop-types)
-        // check example, not working for current way
-        // to define proptypes
+        // comment: tried to enable it but was giving a lot of false positives..
         'react/no-unused-prop-types': 0,
         // Require ES6 class declarations over React.createClass
         'react/prefer-es6-class': [2, 'always'],
@@ -150,9 +147,6 @@ module.exports = {
         // Enforce propTypes declarations alphabetical sorting
         'react/sort-prop-types': 0,
         // Enforce style prop value being an object (style-prop-object)
-        // needs to be active to ensure
-        // forbid-component-props works
-        // <div style={ { color: "red" } } works
         'react/style-prop-object': 2,
         // Prevent void DOM elements (e.g. <img />, <br />) from receiving children (react/void-dom-elements-no-children)
         'react/void-dom-elements-no-children': 2,
