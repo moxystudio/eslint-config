@@ -1,0 +1,8 @@
+[
+  {
+    "rule": "react/no-multi-comp",
+    "severity": 2,
+    "line": 13,
+    "column": 1
+  }
+]

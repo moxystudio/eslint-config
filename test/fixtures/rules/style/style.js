@@ -1,12 +1,9 @@
-// Sort import declarations within module
-// ---------------------------------------------------------------------
-import z from 'z';
-import a from 'a';  // Not active
+'use strict';
 
 // `array-bracket-spacing` - enforce consistent spacing inside array brackets
 // ---------------------------------------------------------------------
 // Bad
-console.log([1, 2,3]);
+console.log([ 1, 2, 3 ]);
 
 // Good
 console.log([1, 2, 3]);
@@ -40,18 +37,19 @@ if (Math.random() > 0.5) {
 // ---------------------------------------------------------------------
 // Bad
 (function () {
-    const a_a = 1;
+    const items_count = 1;
 })();
 // Good
 (function () {
-    const aA = 1;
+    const itemsCount = 1;
 })();
 
 // `capitalized-comments` enforce or disallow capitalization of the first letter of a comment
 // ---------------------------------------------------------------------
 // Bad
-console.log('this is needed to throw the error ');
+console.log('this line must be here');
 // my first letter is not capitalized
+console.log('this line must be here');  // this is a inline comment
 
 // Good
 // My first letter is capitalized
@@ -59,6 +57,7 @@ console.log('lowercase can be used in multiple line comment');
 // My first letter is capitalized
 // continuing the last comment
 console.log('lowercase can be used in other contexts');
+console.log('this line contains an inline comment');  // This is a inline comment
 // func() - when calling a function you can start with a lowercase
 console.log('when talking about a prop');
 // this.props needs to be a string
@@ -113,7 +112,7 @@ console.log('sometimes you need to wrap the word inside of backtick quotes');
     };
 })();
 
-// `computed-property-spacingenforce consistent spacing inside computed property brackets
+// `computed-property-spacing` - enforce consistent spacing inside computed property brackets
 // ---------------------------------------------------------------------
 // Bad
 (function () {
@@ -153,15 +152,21 @@ console.log('sometimes you need to wrap the word inside of backtick quotes');
     }
 })();
 
+// `eol-last` - require or disallow newline at the end of files
+// ---------------------------------------------------------------------
+// Can't test this... editorconfig corrects this
+
 // `func-call-spacing` - require or disallow spacing between function identifiers and their invocations
 // ---------------------------------------------------------------------
 // Bad
 (function () {
-    function fn () {}
+    function fn() {}
+    fn ();
 })();
 // Good
 (function () {
     function fn() {}
+    fn();
 })();
 
 // `func-name-matching` - require function names to match the name of the variable or property to which they are assigned
@@ -180,13 +185,16 @@ console.log('sometimes you need to wrap the word inside of backtick quotes');
     };
 })();
 
-// `func-style` enforce the consistent use of either function declarations or expressions
+// `func-style` - enforce the consistent use of either function declarations or expressions
 // ---------------------------------------------------------------------
-// Not active
+// Bad
 (function () {
-    function ab() {
-        console.log('foo');
-    }
+    const fn = () => {};
+    const fn2 = function () {}
+})();
+// Good
+(function () {
+    function fn() {}
 })();
 
 // `id-blacklist` - disallow specified identifiers
@@ -253,14 +261,18 @@ console.log('sometimes you need to wrap the word inside of backtick quotes');
 // ---------------------------------------------------------------------
 // Bad
 (function () {
-    if (Math.random() === 1){
+    if (Math.random() === 1) {
         console.log('foo');
+    }else {
+        console.log('bar');
     }
 })();
 // Good
 (function () {
     if (Math.random() === 1) {
         console.log('foo');
+    } else {
+        console.log('bar');
     }
 })();
 
@@ -272,7 +284,7 @@ console.log('sometimes you need to wrap the word inside of backtick quotes');
     const a = 1 + 1;
 })(); // Inline comment
 
-// `linebreak-style - enforce consistent linebreak style
+// `linebreak-style` - enforce consistent linebreak style
 // ---------------------------------------------------------------------
 // Can't test..
 
@@ -368,20 +380,7 @@ if (Math.random() > 0.5) {
     });
 })();
 // Good
-(function () {
-    function f(cb) {
-        cb();
-    }
-
-    f(() => {
-        f(() => {
-            f(() => {
-                f(() => {
-                });
-            });
-        });
-    });
-})();
+// Flatten your code, use promises or async/await
 
 // `max-params` - enforce a maximum number of parameters in function definitions
 // ---------------------------------------------------------------------
@@ -815,14 +814,14 @@ if (Math.random() > 0.5) {
 // Bad
 (function () {
     let b = 1;
-    const a = b++;
+
+    b++;
 })();
 // Good
 (function () {
     let b = 1;
 
     b += 1;
-    const a = b;
 })();
 
 // `no-restricted-syntax` - disallow specified syntax
@@ -896,9 +895,7 @@ if (Math.random() > 0.5) {
 
 // `object-curly-newline` - nforce consistent line breaks inside braces
 // ---------------------------------------------------------------------
-// Not active
-// because the first is not allowed
-// with multiline:true and minProperties: 0
+// Not active because the first is not allowed with multiline:true and minProperties: 0
 (function () {
     const a = {
         a: 1,
@@ -1063,9 +1060,12 @@ if (Math.random() > 0.5) {
     };
 })();
 
-// Sort variables within the same declaration block
+// `sort-vars` - require variables within the same declaration block to be sorted
 // ---------------------------------------------------------------------
-// var b, a;  // Not active
+(function () {
+    const z = 1;
+    const a = 1;
+})();
 
 // `space-before-blocks` - enforce consistent spacing before blocks
 // ---------------------------------------------------------------------
@@ -1144,12 +1144,12 @@ console.log(typeof !console);
 // ---------------------------------------------------------------------
 // Bad
 (function () {
-    const func = function () {};
+    function func() {}
     const hello = func `Hello world`;
 })();
 // Good
 (function () {
-    const func = function () {};
+    function func() {}
     const hello = func`Hello world`;
 })();
 
@@ -1157,7 +1157,7 @@ console.log(typeof !console);
 // ---------------------------------------------------------------------
 // Can't test this
 
-// `wrap-reger` - require parenthesis around regex literals
+// `wrap-regex` - require parenthesis around regex literals
 // ---------------------------------------------------------------------
 // Not active
 (function () {
@@ -1165,7 +1165,3 @@ console.log(typeof !console);
         return /aaa/.a();
     }
 })();
-
-// `eol-last` - require or disallow newline at the end of files
-// ---------------------------------------------------------------------
-// Can't test this... editorconfig corrects this

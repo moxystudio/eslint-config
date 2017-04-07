@@ -1,3 +1,9 @@
+// Sort import declarations within module
+// ---------------------------------------------------------------------
+// Not active
+import z from 'z';
+import a from 'a';
+
 // Disallow duplicate module imports
 // ---------------------------------------------------------------------
 import { linter } from 'eslint';

@@ -1,0 +1,20 @@
+[
+  {
+    "rule": "callback-return",
+    "severity": 1,
+    "line": 10,
+    "column": 13
+  },
+  {
+    "rule": "global-require",
+    "severity": 1,
+    "line": 21,
+    "column": 24
+  },
+  {
+    "rule": "handle-callback-err",
+    "severity": 1,
+    "line": 33,
+    "column": 5
+  }
+]

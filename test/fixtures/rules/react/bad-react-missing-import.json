@@ -1,0 +1,8 @@
+[
+  {
+    "rule": "react/react-in-jsx-scope",
+    "severity": 2,
+    "line": 3,
+    "column": 13
+  }
+]

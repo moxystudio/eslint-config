@@ -37,7 +37,7 @@ module.exports = {
         // Require function expressions to have a name
         'func-names': 0,
         // Enforces use of function declarations or expressions
-        'func-style': 0,
+        'func-style': [2, 'declaration'],
         // Disallow specified identifiers
         'id-blacklist': 0,
         // This option enforces minimum and maximum identifier lengths (variable names, property names etc.)

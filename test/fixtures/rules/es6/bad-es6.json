@@ -1,0 +1,152 @@
+[
+  {
+    "rule": "no-duplicate-imports",
+    "severity": 2,
+    "line": 10,
+    "column": 1
+  },
+  {
+    "rule": "arrow-parens",
+    "severity": 2,
+    "line": 20,
+    "column": 15
+  },
+  {
+    "rule": "arrow-spacing",
+    "severity": 2,
+    "line": 24,
+    "column": 17
+  },
+  {
+    "rule": "arrow-spacing",
+    "severity": 2,
+    "line": 24,
+    "column": 20
+  },
+  {
+    "rule": "wrap-iife",
+    "severity": 2,
+    "line": 28,
+    "column": 2
+  },
+  {
+    "rule": "constructor-super",
+    "severity": 2,
+    "line": 30,
+    "column": 9
+  },
+  {
+    "rule": "generator-star-spacing",
+    "severity": 2,
+    "line": 37,
+    "column": 13
+  },
+  {
+    "rule": "no-class-assign",
+    "severity": 2,
+    "line": 50,
+    "column": 5
+  },
+  {
+    "rule": "no-const-assign",
+    "severity": 2,
+    "line": 62,
+    "column": 5
+  },
+  {
+    "rule": "no-dupe-class-members",
+    "severity": 2,
+    "line": 70,
+    "column": 9
+  },
+  {
+    "rule": "no-new-symbol",
+    "severity": 2,
+    "line": 77,
+    "column": 19
+  },
+  {
+    "rule": "no-this-before-super",
+    "severity": 1,
+    "line": 85,
+    "column": 13
+  },
+  {
+    "rule": "no-useless-constructor",
+    "severity": 2,
+    "line": 95,
+    "column": 9
+  },
+  {
+    "rule": "no-var",
+    "severity": 2,
+    "line": 104,
+    "column": 5
+  },
+  {
+    "rule": "object-shorthand",
+    "severity": 2,
+    "line": 112,
+    "column": 9
+  },
+  {
+    "rule": "prefer-arrow-callback",
+    "severity": 2,
+    "line": 123,
+    "column": 7
+  },
+  {
+    "rule": "prefer-const",
+    "severity": 2,
+    "line": 129,
+    "column": 9
+  },
+  {
+    "rule": "prefer-rest-params",
+    "severity": 2,
+    "line": 136,
+    "column": 21
+  },
+  {
+    "rule": "prefer-spread",
+    "severity": 2,
+    "line": 145,
+    "column": 5
+  },
+  {
+    "rule": "prefer-template",
+    "severity": 1,
+    "line": 150,
+    "column": 13
+  },
+  {
+    "rule": "require-yield",
+    "severity": 1,
+    "line": 155,
+    "column": 5
+  },
+  {
+    "rule": "template-curly-spacing",
+    "severity": 2,
+    "line": 162,
+    "column": 20
+  },
+  {
+    "rule": "template-curly-spacing",
+    "severity": 2,
+    "line": 162,
+    "column": 37
+  },
+  {
+    "rule": "yield-star-spacing",
+    "severity": 2,
+    "line": 168,
+    "column": 14
+  },
+  {
+    "rule": "yield-star-spacing",
+    "severity": 2,
+    "line": 168,
+    "column": 14
+  }
+]
