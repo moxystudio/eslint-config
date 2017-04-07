@@ -51,6 +51,14 @@ const fs = require('fs');
     const path = `${__dirname}/file`;
 })();  // Not active
 
+// Disallow use of process.env
+// ---------------------------------------------------------------------
+(function () {
+    if (process.env.NODE_ENV === 'development') {
+        console.log('foo');
+    }
+})();  // Not a
+
 // Disallow process.exit()
 // ---------------------------------------------------------------------
 process.exit(0);  // Not active
