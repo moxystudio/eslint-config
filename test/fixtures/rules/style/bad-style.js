@@ -3,38 +3,101 @@
 import z from 'z';
 import a from 'a';  // Not active
 
-// Enforce spacing inside array brackets
+// `array-bracket-spacing` - enforce consistent spacing inside array brackets
 // ---------------------------------------------------------------------
+// Bad
 console.log([1, 2,3]);
 
-// Disallow or enforce spaces inside of single line blocks
+// Good
+console.log([1, 2, 3]);
+
+// `block-spacing` - enforce consistent spacing inside single-line blocks
 // ---------------------------------------------------------------------
+// Bad
 (function () {
     [1, 2]
     .map((x) => {return x + 1;});
 })();
+// Good
+(function () {
+    [1, 2]
+    .map((x) => { return x + 1; });
+})();
 
-// Enforce consistent brace style for blocks
+// `brace-style` - enforce consistent brace style for blocks
 // ---------------------------------------------------------------------
+// Bad
 if (Math.random() > 0.5)
 {
     console.log('foo');
 }
+// Good
+if (Math.random() > 0.5) {
+    console.log('foo');
+}
 
-// Require camel case names
+// `camelcase` enforce camelcase naming convention
 // ---------------------------------------------------------------------
+// Bad
 (function () {
     const a_a = 1;
 })();
-
-// Enforce spacing before and after comma
-// ---------------------------------------------------------------------
+// Good
 (function () {
-    const a = [].concat(a,a);
+    const aA = 1;
 })();
 
-// Enforce one true comma style
+// `capitalized-comments` enforce or disallow capitalization of the first letter of a comment
 // ---------------------------------------------------------------------
+// Bad
+console.log('this is needed to throw the error ');
+// my first letter is not capitalized
+
+// Good
+// My first letter is capitalized
+console.log('lowercase can be used in multiple line comment');
+// My first letter is capitalized
+// continuing the last comment
+console.log('lowercase can be used in other contexts');
+// func() - when calling a function you can start with a lowercase
+console.log('when talking about a prop');
+// this.props needs to be a string
+console.log('when talking about a variable');
+// capitalized-comments is an array
+console.log('sometimes you need to wrap the word inside of backtick quotes');
+// `es6` octal.. alternatively you may use parseInt
+
+// `comma-dangle` require or disallow trailing commas
+// ---------------------------------------------------------------------
+// Bad
+(function () {
+    const foo = {
+        bar: 'baz',
+        qux: 'quux'
+    };
+})();
+// Good
+(function () {
+    const foo = {
+        bar: 'baz',
+        qux: 'quux',
+    };
+})();
+
+// `comma-spacing` - enforce consistent spacing before and after commas
+// ---------------------------------------------------------------------
+// Bad
+(function () {
+    const a = [].concat('hello','stranger');
+})();
+// Good
+(function () {
+    const b = [].concat('hello', 'again');
+})();
+
+// `comma-style` - enforce consistent comma style
+// ---------------------------------------------------------------------
+// Bad
 (function () {
     const b = {
         first: 1
@@ -42,91 +105,203 @@ if (Math.random() > 0.5)
         second: 2,
     };
 })();
+// Good
+(function () {
+    const b = {
+        first: 1,
+        second: 2,
+    };
+})();
 
-// Disallow padding inside computed properties
+// `computed-property-spacingenforce consistent spacing inside computed property brackets
 // ---------------------------------------------------------------------
+// Bad
 (function () {
     const obj = { foo: 'bar' };
     const prop = 'error';
     const c = obj[ prop];
 })();
-
-// Enforces consistent naming when capturing the current execution context
-// ---------------------------------------------------------------------
+// Good
 (function () {
-    const self = this;
+    const obj = { foo: 'bar' };
+    const prop = 'error';
+    const c = obj[prop];
 })();
 
-// Require function expressions to have a name
+// `consistent-this` - enforce consistent naming when capturing the current execution context
 // ---------------------------------------------------------------------
+// Bad
+(function () {
+    class Person {
+        constructor(name) {
+            this.name = name;
+        }
+        test() {
+            const self = this;
+        }
+    }
+})();
+// Good
+(function () {
+    class Person {
+        constructor(name) {
+            this.name = name;
+        }
+        test() {
+            const that = this;
+        }
+    }
+})();
+
+// `func-call-spacing` - require or disallow spacing between function identifiers and their invocations
+// ---------------------------------------------------------------------
+// Bad
+(function () {
+    function fn () {}
+})();
+// Good
+(function () {
+    function fn() {}
+})();
+
+// `func-name-matching` - require function names to match the name of the variable or property to which they are assigned
+// ---------------------------------------------------------------------
+// Not active
+(function () {
+    const foo = function bar() {};
+})();
+
+// `func-names` - require or disallow named function expressions
+// ---------------------------------------------------------------------
+// Not active
 (function () {
     const a = function () {
         console.log('foo');
     };
-})();  // Not active
+})();
 
-// Enforces use of function declarations or expressions
+// `func-style` enforce the consistent use of either function declarations or expressions
 // ---------------------------------------------------------------------
+// Not active
 (function () {
     function ab() {
         console.log('foo');
     }
-})();  // Not active
+})();
 
-// This option enforces minimum and maximum identifier lengths (variable names, property names etc.)
+// `id-blacklist` - disallow specified identifiers
 // ---------------------------------------------------------------------
+// Not active
+(function () {
+    function callback() {
+    }
+})();
+
+// `id-length` - enforce minimum and maximum identifier lengths
+// ---------------------------------------------------------------------
+// Not active
 (function () {
     const veryBigAndBadNameForSingleVariablesHashed = 1;
-})();  // Not active
+})();
 
-// Require identifiers to match the provided regular expression
+// `id-match` - require identifiers to match a specified regular expression
 // ---------------------------------------------------------------------
 // Not active
 
-// This option sets a specific tab width for your code
+// `indent` - enforce consistent indentation
 // ---------------------------------------------------------------------
+// Bad
 (function () {
     const obj = {
       a: 2,
     };
 })();
-
-// Specify whether double or single quotes should be used in JSX attributes
-// ---------------------------------------------------------------------
+// Good
 (function () {
-    const MyComponent = <a b='c' />;
+    const obj = {
+        a: 2,
+    };
 })();
 
-// Enforces spacing between keys and values in object literal properties
+// `jsx-quotes` - enforce the consistent use of either double or single quotes in JSX attributes
 // ---------------------------------------------------------------------
+// Bad
+(function () {
+    const MyComponent = <a b='c' />; // eslint-disable-line react/react-in-jsx-scope
+})();
+// Good
+(function () {
+    const MyComponent = <a b="c" />; // eslint-disable-line react/react-in-jsx-scope
+})();
+
+// `key-spacing` - enforce consistent spacing between keys and values in object literal properties
+// ---------------------------------------------------------------------
+// Bad
 (function () {
     const obj = {
         a:2,
     };
 })();
-
-// Enforces spacing before and after keywords
-// ---------------------------------------------------------------------
+// Good
 (function () {
-    if (a == 1) {
+    const obj = {
+        a: 2,
+    };
+})();
+
+// `keyword-spacing` - enforce consistent spacing before and after keywords
+// ---------------------------------------------------------------------
+// Bad
+(function () {
+    if (Math.random() === 1){
+        console.log('foo');
+    }
+})();
+// Good
+(function () {
+    if (Math.random() === 1) {
         console.log('foo');
     }
 })();
 
-// Disallow mixed 'LF' and 'CRLF' as linebreaks
+// `line-comment-position` - enforce position of line comments
+// ---------------------------------------------------------------------
+// Not active
+(function () {
+    // Before comment
+    const a = 1 + 1;
+})(); // Inline comment
+
+// `linebreak-style - enforce consistent linebreak style
 // ---------------------------------------------------------------------
 // Can't test..
 
-// Enforces empty lines around comments
+// `lines-around-comment` - require empty lines around comments
 // ---------------------------------------------------------------------
+// Not active
 (function () {
     const a = 'before';
     /* In between */
     const b = 'after';
-})();  // Not active
+})();
 
-// Specify the maximum depth that blocks can be nested
+// `lines-around-directive` - require or disallow newlines around directives
 // ---------------------------------------------------------------------
+// Bad
+(function () {
+    'use asm';
+    const foo = 0;
+})();
+// Good
+(function () {
+    'use asm';
+
+    const foo = 0;
+})();
+
+// `max-depth` - enforce a maximum depth that blocks can be nested
+// ---------------------------------------------------------------------
+// Bad
 if (Math.random() > 0.5) {
     if (Math.random() > 0.5) {
         if (Math.random() > 0.5) {
@@ -142,15 +317,37 @@ if (Math.random() > 0.5) {
         }
     }
 }
+// Good
+if (Math.random() > 0.5) {
+    if (Math.random() > 0.5) {
+        if (Math.random() > 0.5) {
+            if (Math.random() > 0.5) {
+                if (Math.random() > 0.5) {
+                    console.log('This is still correct');
+                }
+            }
+        }
+    }
+}
 
-// Specify the maximum length of a line in your program
+// `max-len` - enforce a maximum line length
 // ---------------------------------------------------------------------
+// Bad
 (function () {
     const maximumLength = 'We are writting this to check which one is the maximum length of our program. It should be somewhere around here-[ x ]';
 })();
+// Good
+(function () {
+    const maximumLength = 'This respects the max length';
+})();
 
-// Specify the maximum depth callbacks can be nested
+// `max-lines` - enforce a maximum number of lines per file
 // ---------------------------------------------------------------------
+// See file ./bad-style-lines.js
+
+// `max-nested-callbacks` - enforce a maximum depth that callbacks can be nested
+// ---------------------------------------------------------------------
+// Bad
 (function () {
     function f(cb) {
         cb();
@@ -170,17 +367,40 @@ if (Math.random() > 0.5) {
         });
     });
 })();
+// Good
+(function () {
+    function f(cb) {
+        cb();
+    }
 
-// Limits the number of parameters that can be used in the function declaration.
+    f(() => {
+        f(() => {
+            f(() => {
+                f(() => {
+                });
+            });
+        });
+    });
+})();
+
+// `max-params` - enforce a maximum number of parameters in function definitions
 // ---------------------------------------------------------------------
+// Bad
 (function () {
     function f(one, two, three, four, five, six, seven) {
         console.log('Too many args');
     }
 })();
+// Good
+(function () {
+    function f(one, two, three) {
+        console.log('Too many args');
+    }
+})();
 
-// Specify the maximum number of statement allowed in a function.
+// `max-statements` - enforce a maximum number of statements allowed in function blocks
 // ---------------------------------------------------------------------
+// Bad
 (function () {
     function maxStatements() {
         let a = 1;
@@ -327,80 +547,173 @@ if (Math.random() > 0.5) {
         a = 1;
     }
 })();
+// Good
+(function () {
+    function maxStatements() {
+        let a = 1;
 
-// Enforce a maximum number of statements allowed per line
+        a = 1;
+        a = 1;
+        a = 1;
+        a = 1;
+        a = 1;
+        a = 1;
+        a = 1;
+        a = 1;
+        a = 1;
+        a = 1;
+        a = 1;
+        a = 1;
+    }
+})();
+
+// `max-statements-per-line` - enforce a maximum number of statements allowed per line
 // ---------------------------------------------------------------------
+// Bad
 (function () {
     function f() { if (Math.random() > 0.5) { console.log('this is'); if (Math.random() > 0) { console.log('..confusing'); } } }
 })();
+// Good
+(function () {
+    function f() {
+        if (Math.random() > 0.5) {
+            console.log('here we have');
+            if (Math.random() > 0) {
+                console.log('...a structure');
+            }
+        }
+    }
+})();
 
-// Require a capital letter for constructors
+// `multiline-ternary` - enforce newlines between operands of ternary expressions
 // ---------------------------------------------------------------------
+// Not active
+(function () {
+    const foo = 2;
+    const bar = 3;
+
+    const res = foo > bar ? bar :
+        foo;
+})();
+
+// `new-cap` - require constructor names to begin with a capital letter
+// ---------------------------------------------------------------------
+// Bad
 (function () {
     function person() {}
 
     const notCapital = new person();
 })();
+// Good
+(function () {
+    function Person() {}
 
-// Disallow the omission of parentheses when invoking a constructor with no arguments
+    const notCapital = new Person();
+})();
+
+// `new-parens` - require parentheses when invoking a constructor with no arguments
 // ---------------------------------------------------------------------
+// Bad
 (function () {
     function Person() {}
 
     const notCapital = new Person;
 })();
+// Good
+(function () {
+    function Person() {}
 
-// Allow/disallow an empty newline after var statement
+    const notCapital = new Person();
+})();
+
+// `newline-after-var` - require or disallow an empty line after variable declarations
 // ---------------------------------------------------------------------
+// Bad
 (function () {
     const a = 0;
     console.log('Should have given an extra line before');
 })();
+// Good
+(function () {
+    const a = 0;
 
-// Require newline before return statement
+    console.log('An extra line before has been given');
+})();
+
+// `newline-before-return` - require an empty line before return statements
 // ---------------------------------------------------------------------
+// Bad
 (function () {
     function f() {
         console.log('foo');
         return true;
     }
 })();
+// Good
+(function () {
+    function f() {
+        console.log('foo');
 
-// Enforce newline after each call when chaining the calls
+        return true;
+    }
+})();
+
+// `newline-per-chained-call` - require a newline after each call in a method chain
 // ---------------------------------------------------------------------
 // This must be with arrow functions otherwise it has a conflict with the max statements per line rule
+// Bad
 [1, 2, 3].filter((x) => x > 0).find((x) => x === 1).toString();
+// Good
+[1, 2, 3].filter((x) => x > 0).find((x) => x === 1)
+.toString();
 
-// Disallow use of the Array constructor
+// `no-array-constructor` - disallow Array constructors
 // ---------------------------------------------------------------------
+// Bad
 (function () {
     const b = Array(0, 1, 2);
 })();
-
-// No-bitwise - disallow use of bitwise operators
-// ---------------------------------------------------------------------
+// Good
 (function () {
-    const a = a | b;
+    const b = [0, 1, 2];
 })();
 
-// Disallow use of the continue statement
+// `no-bitwise` - disallow bitwise operators
 // ---------------------------------------------------------------------
+// Bad
+(function () {
+    const a = undefined;
+    const b = 2;
+    const c = a | b;
+})();
+// Good
+(function () {
+    const a = undefined;
+    const b = 2;
+    const c = a || b;
+})();
+
+// `no-continue` - disallow continue statements
+// ---------------------------------------------------------------------
+// Not active
 (function () {
     for (let x; x < 2; x += 1) {
         if (x >= 1) {
             continue;
         }
     }
-})();  // Not active
+})();
 
-// Disallow comments inline after code
+// `no-inline-comments` - disallow inline comments after code
 // ---------------------------------------------------------------------
+// Not active
 if (Math.random() > 0.5) { // Comment
    // More comments
-} // Not active
+}
 
-// Disallow if as the only statement in an else block
+// `no-lonely-if` - disallow if statements as the only statement in else blocks
 // ---------------------------------------------------------------------
+// Bad
 if (Math.random() > 0.5) {
     console.log('foo');
 } else {
@@ -408,17 +721,48 @@ if (Math.random() > 0.5) {
         console.log('bar');
     }
 }
+// Good
+if (Math.random() > 0.5) {
+    console.log('foo');
+} else {
+    console.log('bar');
+}
 
-// Disallow mixed spaces and tabs for indentation
+// `no-mixed-operators` - disallow mixed binary operators
+// ---------------------------------------------------------------------
+// Bad
+(function () {
+    const foo = 1 * 2 + 3;
+})();
+// Good
+(function () {
+    const mult = 1 * 2;
+    const sum = mult + 3;
+})();
+
+// `no-mixed-spaces-and-tabs` - disallow mixed spaces and tabs for indentation
 // ---------------------------------------------------------------------
 // Cant test this because of editorconfig
 
-// Disallow multiple empty lines and only one newline at the end
+// `no-multi-assign` - disallow use of chained assignment expressions
 // ---------------------------------------------------------------------
+// Not active
+(function () {
+    let bar = 'foo';
+    const foo = bar = 'baz';
+})();
+
+// `no-multiple-empty-lines` - disallow multiple empty lines
+// ---------------------------------------------------------------------
+// Bad
 
 
-// Disallow negated conditions
+
+// Good
+
+// `no-negated-condition` - disallow negated conditions
 // ---------------------------------------------------------------------
+// Not active
 (function () {
     const a = true;
 
@@ -427,81 +771,169 @@ if (Math.random() > 0.5) {
     } else {
         console.log('yes');
     }
-})();  // Not active
-
-// Disallow nested ternary expressions
-// ---------------------------------------------------------------------
-(function () {
-    const a = Math.random() > 0.5 ? true : (Math.random() > 0.5 ? false : (Math.random() > 0.5 ? 'foo' : 'bar'));
 })();
 
-// Disallow use of the Object constructor
+// `no-nested-ternary` - disallow nested ternary expressions
 // ---------------------------------------------------------------------
+// Bad
+(function () {
+    const a = Math.random() > 0.5 ? true : Math.random() > 0.3 ? false : Math.random() > 0.5 ? 'foo' : 'bar';
+})();
+// Good
+(function () {
+    const a = Math.random() > 0.5;
+
+    if (!a) {
+        const b = Math.random() > 0.3;
+
+        if (b) {
+            const c = Math.random() > 0.5;
+
+            return c ? 'foo' : 'bar';
+        }
+    }
+
+    return true;
+})();
+
+// `no-new-object` - disallow Object constructors
+// ---------------------------------------------------------------------
+// Bad
 (function () {
     const a = new Object();
 })();
+// Good
+(function () {
+    class CustomObject {
 
-// Disallow use of unary operators, ++ and --
+    }
+    const a = new CustomObject();
+})();
+
+// `no-plusplus` - disallow the unary operators ++ and --
 // ---------------------------------------------------------------------
+// Bad
 (function () {
     let b = 1;
     const a = b++;
 })();
+// Good
+(function () {
+    let b = 1;
 
-// Disallow use of certain syntax in code
+    b += 1;
+    const a = b;
+})();
+
+// `no-restricted-syntax` - disallow specified syntax
 // ---------------------------------------------------------------------
 // Nothing is disallowed
 
-// Disallow space between function identifier and application
+// `no-tabs` - disallow all tabs
 // ---------------------------------------------------------------------
+// Can't test this. Editor doesn't allow it
+
+// `no-ternary` - disallow ternary operators
+// ---------------------------------------------------------------------
+// Not active
 (function () {
-    function f
-    () {}
+    const b = true;
+    const a = Math.random() > 0.5 ? b : false;
 })();
 
-// Disallow the use of ternary operators
-// ---------------------------------------------------------------------
-(function () {
-    const b = 1;
-    const a = a ? b : false;
-})();  // Not active
-
-// Disallow trailing whitespace at the end of lines
+// `no-trailing-spaces` - disallow trailing whitespace at the end of lines
 // ---------------------------------------------------------------------
 // Can't test this one, editor doesn't let me :(
 
-// Disallow dangling underscores in identifiers
+// `no-underscore-dangle` - disallow dangling underscores in identifiers
 // ---------------------------------------------------------------------
+// Not active
 (function () {
     const f = {
         _a() {},
     };
 
     f._a();
-})();  // Not active
-
-// Disallow the use of Boolean literals in conditional expressions
-// ---------------------------------------------------------------------
-(function () {
-    const a = true ? 'foo' : 'bar';
 })();
 
-// Disallow whitespace before properties
+// `no-unneeded-ternary` - disallow ternary operators when simpler alternatives exist
 // ---------------------------------------------------------------------
+// Bad
+(function () {
+    const b = 2;
+    const a = b ? true : false;
+})();
+// Good
+(function () {
+    const b = 2;
+    const a = b ? b : 0;
+})();
+
+// `no-whitespace-before-property` - disallow whitespace before properties
+// ---------------------------------------------------------------------
+// Bad
 (function () {
     const obj = {};
     const prop = 'foo';
     const value = obj [prop];
 })();
+// Good
+(function () {
+    const obj = {};
+    const prop = 'foo';
+    const value = obj[prop];
+})();
 
-// Require padding inside curly braces
+// `nonblock-statement-body-position` - enforce the location of single-line statements
 // ---------------------------------------------------------------------
+// Not active
+(function () {
+    const foo = true;
+
+    if (foo) // eslint-disable-line curly
+        console.log('aqui');
+})();
+
+// `object-curly-newline` - nforce consistent line breaks inside braces
+// ---------------------------------------------------------------------
+// Not active
+// because the first is not allowed
+// with multiline:true and minProperties: 0
+(function () {
+    const a = {
+        a: 1,
+    };
+
+    const b = { a: 1, b: 2, c: 3 };
+
+    const c = {
+        a: 1,
+        b: 2,
+        c: 3,
+    };
+})();
+
+// `object-curly-spacing` - enforce consistent spacing inside braces
+// ---------------------------------------------------------------------
+// Bad
 (function () {
     const a = {a: 2};
 })();
+// Good
+(function () {
+    const a = { a: 2 };
+})();
 
-// Allow just one var statement per function
+// `object-property-newline` - nforce placing object properties on separate lines
 // ---------------------------------------------------------------------
+// Not active
+(function () {
+    const a = { a: 2, b: 3, c: 4 };
+})();
+
+// `one-var` - enforce variables to be declared either together or separately in functions
+// ---------------------------------------------------------------------
+// Bad
 (function () {
     function f() {
         const a = 3;
@@ -510,32 +942,46 @@ if (Math.random() > 0.5) {
             d = 2;
     }
 })();
+// Good
+(function () {
+    function f() {
+        const a = 3;
+        const b = 4;
+        const c = 1;
+        const d = 2;
+    }
+})();
 
-// Require or disallow an newline around variable declarations
+// `one-var-declaration-per-line` - require or disallow newlines around variable declarations
 // ---------------------------------------------------------------------
 // Not allowed to set multiple variables with just one `var`, see rule above
 
-// Require assignment operator shorthand where possible or prohibit it entirely
+// `operator-assignment` require or disallow assignment operator shorthand where possible
 // ---------------------------------------------------------------------
+// Not active
 (function () {
     let x = 0;
 
     x += 1;
     x = x + 1;
-})();  // Not active
+})();
 
-// Enforce operators to be placed before or after line breaks
+// `operator-linebreak` - enforce consistent linebreak style for operators
 // ---------------------------------------------------------------------
+// Bad
 (function () {
-    const a = 1 +
-              2;
-
     const b = 1
             + 2;
 })();
+// Good
+(function () {
+    const a = 1 +
+              2;
+})();
 
-// Enforce padding within blocks
+// `padded-blocks` - require or disallow padding within blocks
 // ---------------------------------------------------------------------
+// Bad
 (function () {
     if (Math.random() > 0.5) {
 
@@ -543,92 +989,183 @@ if (Math.random() > 0.5) {
 
     }
 })();
+// Good
+(function () {
+    if (Math.random() > 0.5) {
+        console.log('foo');
+    }
+})();
 
-// Require quotes around object literal property names
+// `quote-props` - require quotes around object literal property names
 // ---------------------------------------------------------------------
+// Bad
 (function () {
     const a = {
         aa: 2,
         'bb': 0,
     };
 })();
+// Good
+(function () {
+    const a = {
+        aa: 2,
+        bb: 0,
+    };
+})();
 
-// Specify whether double or single quotes should be used
+// `quotes` - enforce the consistent use of either backticks, double, or single quotes
 // ---------------------------------------------------------------------
+// Bad
 (function () {
     const a = 'aa';
     const b = "bb";
 })();
+// Good
+(function () {
+    const a = 'aa';
+    const b = 'bb';
+})();
 
-// Require JSDoc
+// `require-jsdoc` - require JSDoc comments
 // ---------------------------------------------------------------------
 // Not active
 
-// Enforce spacing before and after semicolons
+// `semi` - require or disallow semicolons instead of ASI
 // ---------------------------------------------------------------------
+// Bad
+(function () {
+    const name = 'foo'
+})();
+// Good
+(function () {
+    const name = 'foo';
+})();
+
+// `semi-spacing` - enforce consistent spacing before and after semicolons
+// ---------------------------------------------------------------------
+// Bad
 (function () {
     const x = 1 ;
 })();
-
-// Require or disallow use of semicolons instead of ASI
-// ---------------------------------------------------------------------
+// Good
 (function () {
-    const name = 'foo'
+    const x = 1;
+})();
+
+// `sort-keys` - require object keys to be sorted
+// ---------------------------------------------------------------------
+// Not active
+(function () {
+    const obj = {
+        a: 1,
+        c: 2,
+        b: 3,
+    };
 })();
 
 // Sort variables within the same declaration block
 // ---------------------------------------------------------------------
 // var b, a;  // Not active
 
-// Require or disallow space before blocks
+// `space-before-blocks` - enforce consistent spacing before blocks
 // ---------------------------------------------------------------------
+// Bad
 (function () {
     function f(){
         console.log('foo');
     }
 })();
+// Good
+(function () {
+    function f() {
+        console.log('foo');
+    }
+})();
 
-// Require or disallow space before function opening parenthesis
+// `space-before-function-paren' - enforce consistent spacing before function definition opening parenthesis
 // ---------------------------------------------------------------------
+// Bad
 (function () {
     function f () {
 
     }
 })();
+// Good
+(function () {
+    function f() {
 
-// Require or disallow spaces inside parentheses
+    }
+})();
+
+// `space-in-parens` - enforce consistent spacing inside parentheses
 // ---------------------------------------------------------------------
+// Bad
 (function () {
     function f( ) {
 
     }
 })();
+// Good
+(function () {
+    function f() {
 
-// Require spaces around operators
+    }
+})();
+
+// `space-infix-ops` - require spacing around infix operators
 // ---------------------------------------------------------------------
+// Bad
 (function () {
     const a = 1+1;
 })();
+// Good
+(function () {
+    const a = 1 + 1;
+})();
 
-// Require or disallow spaces before/after unary operators
+// `space-unary-ops` - enforce consistent spacing before or after unary operators
 // ---------------------------------------------------------------------
+// Bad
 console.log(typeof!console);
+// Good
+console.log(typeof !console);
 
-// Require or disallow a space immediately following the // or /* in a comment
+// `spaced-comment` - enforce consistent spacing after the // or /* in a comment
 // ---------------------------------------------------------------------
-// This is right
-// This too
+// Bad
 //This is not right
 /*Neither is this*/
 
-// Require regex literals to be wrapped in parentheses
+// Good
+// This is right
+/* This too */
+
+// `template-tag-spacing` - require or disallow spacing between template tags and their literals
 // ---------------------------------------------------------------------
+// Bad
+(function () {
+    const func = function () {};
+    const hello = func `Hello world`;
+})();
+// Good
+(function () {
+    const func = function () {};
+    const hello = func`Hello world`;
+})();
+
+// `unicode-bom` - require or disallow Unicode byte order mark (BOM)
+// ---------------------------------------------------------------------
+// Can't test this
+
+// `wrap-reger` - require parenthesis around regex literals
+// ---------------------------------------------------------------------
+// Not active
 (function () {
     function f() {
         return /aaa/.a();
     }
-})();  // Not active
+})();
 
-// Enforces newline at the end of file, with no multiple empty lines
+// `eol-last` - require or disallow newline at the end of files
 // ---------------------------------------------------------------------
 // Can't test this... editorconfig corrects this

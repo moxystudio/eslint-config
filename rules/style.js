@@ -14,7 +14,7 @@ module.exports = {
         'camelcase': 2,
         // Enforce or disallow capitalization of the first letter of a comment
         'capitalized-comments': [2, 'always', {
-            'ignorePattern': '[a-z0-9]+[_\\-.()]',  // Ignore comments that have possible code samples as the first word (some-prop, fn(), etc.)
+            'ignorePattern': '([a-z0-9]+[_\\-.()]|falls?\\s?through)',  // Ignore comments that have possible code samples as the first word (some-prop, fn(), etc.)
             'ignoreInlineComments': true,
             'ignoreConsecutiveComments': true,
         }],
@@ -141,7 +141,7 @@ module.exports = {
         'nonblock-statement-body-position': 0,
         // Enforce consistent line breaks inside braces
         // comment: can't enable because it doesn't allow a lonely property to be in a new line
-        'object-curly-newline': [0, { 'multiline': true, 'minProperties': 10 }],
+        'object-curly-newline': [0, { 'multiline': true, 'minProperties': 0 }],
         // Require padding inside curly braces
         'object-curly-spacing': [2, 'always'],
         // Enforce placing object properties on separate lines
