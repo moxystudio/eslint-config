@@ -12,3 +12,18 @@
         await Promise.resolve();
     }
 })();
+
+// `require-await` - disallow async functions which have no await expression
+// ---------------------------------------------------------------------
+// Bad
+(function () {
+    async function foo() {
+        console.log('foo');
+    }
+})();
+// Good
+(function () {
+    async function foo() {
+        await Promise.resolve();
+    }
+})();

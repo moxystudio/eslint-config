@@ -20,6 +20,10 @@
 // Good
 [1, 2, 3].map((item) => item + 1);
 
+// `block-scoped-var` - enforce the use of variables within the scope they are defined
+// ---------------------------------------------------------------------
+// See file ./es5/best-practices.js
+
 // `class-methods-use-this` - enforce that class methods utilize this
 // ---------------------------------------------------------------------
 // Not active
@@ -441,11 +445,11 @@ or is it not?';
 // ---------------------------------------------------------------------
 // See file ./best-practices-non-strict.js
 
-// `no-octal-escape` - Disallow use of octal escape sequences in string literals
+// `no-octal-escape` - disallow use of octal escape sequences in string literals
 // ---------------------------------------------------------------------
 // See file ./best-practices-non-strict.js
 
-// Disallow reassignment of function parameters
+// `no-param-reassign` - disallow reassignment of function parameters
 // ---------------------------------------------------------------------
 // Not active
 (function () {
@@ -490,6 +494,10 @@ or is it not?';
 
     return a;
 })();
+
+// no-return-await - disallow unnecessary return await
+// ---------------------------------------------------------------------
+// See file ./es8/best-practices.js
 
 // `no-script-url` - disallow javascript: urls
 // ---------------------------------------------------------------------
@@ -602,6 +610,7 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa';
 (function () {
     function foo() {
         console.log('foo');
+
         return;
     }
 
@@ -654,7 +663,7 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa';
     const x = parseInt('13', 10);
 })();
 
-// `no-return-await` - disallow unnecessary return await
+// `require-await` - disallow async functions which have no await expression
 // ---------------------------------------------------------------------
 // See file ./es8/best-practices.js
 

@@ -30,3 +30,22 @@
 
     a = 2;
 })();
+
+// `vars-on-top` - require var declarations be placed at the top of their containing scope
+// ---------------------------------------------------------------------
+// Bad
+(function () {
+    if (Math.random() > 0.5) {
+        var x = 0;
+    }
+
+    console.log(x);
+})();
+// Good
+(function () {
+    var x;
+
+    if (Math.random() > 0.5) {
+        x = 0;
+    }
+})();
