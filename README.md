@@ -34,8 +34,8 @@ Then enhance it with one or more **addons**:
 - `browser` - If you are going to develop code for the browser (assumes you use CommonJS or AMD)
 - `node` - If you are going to develop code for NodeJS
 - `node-v4-es6`: Use this instead of `node` if you are developing against NodeJS 4.x with the `es6` base configuration (disables spread and other features unavailable in the V8 engine bundled with node `v4`)
-- `react` - If you are going to use React and JSX (requires `es6` base configuration or higher)
 - `es6-modules`: If you are going to use ES6 import & export instead of CommonJS or AMD
+- `react` - If you are going to use React and JSX (requires `es6` base configuration or higher)
 
 Finally, simply create a `.eslintrc.json` file with the chosen base configuration and addons.
 
