@@ -2,49 +2,43 @@
   {
     "rule": "no-delete-var",
     "severity": 2,
-    "line": 29,
+    "line": 22,
     "column": 5
   },
   {
-    "rule": "no-label-var",
+    "rule": "no-restricted-globals",
     "severity": 2,
-    "line": 37,
-    "column": 5
-  },
-  {
-    "rule": "no-labels",
-    "severity": 2,
-    "line": 37,
-    "column": 5
-  },
-  {
-    "rule": "no-unused-labels",
-    "severity": 2,
-    "line": 37,
-    "column": 5
+    "line": 35,
+    "column": 21
   },
   {
     "rule": "no-shadow-restricted-names",
     "severity": 2,
-    "line": 47,
+    "line": 64,
     "column": 14
-  },
-  {
-    "rule": "no-undef-init",
-    "severity": 2,
-    "line": 60,
-    "column": 9
   },
   {
     "rule": "no-undef",
     "severity": 2,
-    "line": 68,
+    "line": 70,
     "column": 15
+  },
+  {
+    "rule": "no-undef-init",
+    "severity": 2,
+    "line": 76,
+    "column": 9
   },
   {
     "rule": "no-use-before-define",
     "severity": 2,
-    "line": 82,
+    "line": 94,
     "column": 17
+  },
+  {
+    "rule": "no-use-before-define",
+    "severity": 2,
+    "line": 106,
+    "column": 19
   }
 ]

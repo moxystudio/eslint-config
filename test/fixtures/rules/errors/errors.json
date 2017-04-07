@@ -1,0 +1,224 @@
+[
+  {
+    "rule": "no-compare-neg-zero",
+    "severity": 2,
+    "line": 11,
+    "column": 9
+  },
+  {
+    "rule": "no-cond-assign",
+    "severity": 2,
+    "line": 30,
+    "column": 9
+  },
+  {
+    "rule": "no-constant-condition",
+    "severity": 2,
+    "line": 62,
+    "column": 1
+  },
+  {
+    "rule": "no-control-regex",
+    "severity": 2,
+    "line": 76,
+    "column": 5
+  },
+  {
+    "rule": "no-debugger",
+    "severity": 1,
+    "line": 82,
+    "column": 1
+  },
+  {
+    "rule": "no-dupe-args",
+    "severity": 2,
+    "line": 88,
+    "column": 5
+  },
+  {
+    "rule": "no-dupe-keys",
+    "severity": 2,
+    "line": 104,
+    "column": 5
+  },
+  {
+    "rule": "no-duplicate-case",
+    "severity": 2,
+    "line": 122,
+    "column": 5
+  },
+  {
+    "rule": "no-empty",
+    "severity": 2,
+    "line": 146,
+    "column": 26
+  },
+  {
+    "rule": "no-empty-character-class",
+    "severity": 2,
+    "line": 157,
+    "column": 1
+  },
+  {
+    "rule": "no-extra-boolean-cast",
+    "severity": 2,
+    "line": 173,
+    "column": 6
+  },
+  {
+    "rule": "no-extra-parens",
+    "severity": 2,
+    "line": 188,
+    "column": 12
+  },
+  {
+    "rule": "no-extra-semi",
+    "severity": 2,
+    "line": 216,
+    "column": 21
+  },
+  {
+    "rule": "no-func-assign",
+    "severity": 2,
+    "line": 225,
+    "column": 9
+  },
+  {
+    "rule": "no-inner-declarations",
+    "severity": 2,
+    "line": 243,
+    "column": 9
+  },
+  {
+    "rule": "no-func-assign",
+    "severity": 2,
+    "line": 250,
+    "column": 5
+  },
+  {
+    "rule": "no-invalid-regexp",
+    "severity": 2,
+    "line": 257,
+    "column": 20
+  },
+  {
+    "rule": "new-cap",
+    "severity": 2,
+    "line": 270,
+    "column": 13
+  },
+  {
+    "rule": "no-obj-calls",
+    "severity": 2,
+    "line": 270,
+    "column": 13
+  },
+  {
+    "rule": "no-prototype-builtins",
+    "severity": 2,
+    "line": 279,
+    "column": 47
+  },
+  {
+    "rule": "no-regex-spaces",
+    "severity": 2,
+    "line": 293,
+    "column": 20
+  },
+  {
+    "rule": "no-sparse-arrays",
+    "severity": 2,
+    "line": 303,
+    "column": 13
+  },
+  {
+    "rule": "array-bracket-spacing",
+    "severity": 2,
+    "line": 303,
+    "column": 16
+  },
+  {
+    "rule": "no-template-curly-in-string",
+    "severity": 1,
+    "line": 310,
+    "column": 13
+  },
+  {
+    "rule": "no-unreachable",
+    "severity": 2,
+    "line": 323,
+    "column": 5
+  },
+  {
+    "rule": "no-unsafe-finally",
+    "severity": 2,
+    "line": 340,
+    "column": 9
+  },
+  {
+    "rule": "no-unsafe-negation",
+    "severity": 2,
+    "line": 347,
+    "column": 5
+  },
+  {
+    "rule": "use-isnan",
+    "severity": 2,
+    "line": 358,
+    "column": 5
+  },
+  {
+    "rule": "jsdoc/check-param-names",
+    "severity": 2,
+    "line": 370,
+    "column": 5
+  },
+  {
+    "rule": "jsdoc/newline-after-description",
+    "severity": 2,
+    "line": 370,
+    "column": 5
+  },
+  {
+    "rule": "jsdoc/require-hyphen-before-param-description",
+    "severity": 2,
+    "line": 370,
+    "column": 5
+  },
+  {
+    "rule": "jsdoc/require-returns-type",
+    "severity": 2,
+    "line": 370,
+    "column": 5
+  },
+  {
+    "rule": "valid-jsdoc",
+    "severity": 2,
+    "line": 370,
+    "column": 5
+  },
+  {
+    "rule": "valid-jsdoc",
+    "severity": 2,
+    "line": 370,
+    "column": 5
+  },
+  {
+    "rule": "valid-jsdoc",
+    "severity": 2,
+    "line": 370,
+    "column": 5
+  },
+  {
+    "rule": "valid-jsdoc",
+    "severity": 2,
+    "line": 370,
+    "column": 5
+  },
+  {
+    "rule": "valid-typeof",
+    "severity": 2,
+    "line": 396,
+    "column": 18
+  }
+]

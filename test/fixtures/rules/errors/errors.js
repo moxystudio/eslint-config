@@ -12,7 +12,6 @@
         console.log(-0);
     }
 })();
-
 // Good
 (function () {
     const x = 0;
@@ -36,13 +35,18 @@
 (function () {
     let f = 0;
 
+    if ((f = Math.random())) {
+        console.log('foo');
+    }
+})();
+
+// Also good
+(function () {
+    let f = 0;
+
     f = Math.random();
 
     if (f) {
-        console.log('foo');
-    }
-
-    if ((f = Math.random())) {
         console.log('foo');
     }
 })();
@@ -75,12 +79,7 @@ if (/\x1f/.test('foo')) {
 
 // `no-debugger` - disallow the use of debugger
 // ---------------------------------------------------------------------
-// Bad
 debugger;
-
-// Good
-// don't use debugger unless
-// it's for testing purposes
 
 // `no-dupe-args` - disallow duplicate arguments in function definitions
 // ---------------------------------------------------------------------
@@ -185,14 +184,7 @@ if (!!Math.random()) {
 
 // `no-extra-parens` - disallow unnecessary parentheses
 // ---------------------------------------------------------------------
-// Bad
-if (typeof (console) === 'object') {
-    console.log('foo');
-}
-// Good
-if (typeof console === 'object') {
-    console.log('foo');
-}
+// TODO:
 
 // `no-extra-semi` - disallow unnecessary semicolons
 // ---------------------------------------------------------------------
@@ -229,11 +221,9 @@ console.log('foo');
 })();
 // Good
 (function () {
-    let fn = function () {};
+    function fn() {}
 
-    if (fn) {
-        fn = function d() { };
-    }
+    fn = function () { };
 })();
 
 // `no-invalid-regexp` - disallow invalid regular expression strings in RegExp constructors
@@ -253,24 +243,23 @@ console.log('foo');
 
 // `no-obj-calls` - disallow calling global object properties as functions
 // ---------------------------------------------------------------------
-// Bad
 console.log(Math());
-// Good
-console.log(Math);
 
 // `no-prototype-builtins` - disallow calling some Object.prototype methods directly on objects
 // ---------------------------------------------------------------------
 // Bad
 (function () {
-    const foo = {};
-    const bar = {};
-    const isPrototypeOfBar = foo.isPrototypeOf(bar);
+    function Person() {}
+    const person = new Person();
+
+    const isPrototypeOfBar = Person.prototype.isPrototypeOf(person);
 })();
 // Good
 (function () {
-    const foo = {};
-    const bar = {};
-    const isPrototypeOfBar = Object.prototype.isPrototypeOf.call(foo, bar);
+    function Person() {}
+    const person = new Person();
+
+    const isPrototypeOfBar = Object.prototype.isPrototypeOf.call(Person, person);
 })();
 
 // `no-regex-spaces` - disallow multiple spaces in regular expressions
@@ -319,15 +308,13 @@ if (Math.random() > 0) {
 // ---------------------------------------------------------------------
 // Bad
 (function () {
-    const foo = function () {
-        try {
-            return 1;
-        } catch (err) { // eslint-disable-line no-unreachable
-            return 2; // eslint-disable-line no-unreachable
-        } finally {  // eslint-disable-line no-unreachable
-            return 3;
-        }
-    };
+    try {
+        return 1;
+    } catch (err) { // eslint-disable-line no-unreachable
+        return 2; // eslint-disable-line no-unreachable
+    } finally {  // eslint-disable-line no-unreachable
+        return 3;
+    }
 })();
 
 // `no-unsafe-negation` - disallow negating the left operand of relational operators
@@ -369,11 +356,11 @@ if (Math.random().isNan()) {
 (function () {
     /**
      * Add two numbers.
-     * @param {number} num1 The first number.
-     * @param {number} num2 The second number.
-     * @returns {number} The sum of the two numbers.
+     *
+     * @param {Number} num1 - The first number.
+     * @param {Number} num2 - The second number.
+     * @returns {Number} The sum of the two numbers.
      */
-
     function add(num1, num2) {
         return num1 + num2;
     }

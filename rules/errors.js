@@ -35,12 +35,7 @@ module.exports = {
         // Disallow double-negation boolean casts in a boolean context
         'no-extra-boolean-cast': 2,
         // Disallow unnecessary parentheses
-        'no-extra-parens': [2, 'all', {
-            'conditionalAssign': false,
-            'returnAssign': false,
-            'nestedBinaryExpressions': false,
-            'ignoreJSX': 'all',  // We handle this in the react rules
-        }],
+        'no-extra-parens': [2, 'functions'],
         // Disallow unnecessary semicolons
         'no-extra-semi': 2,
         // Disallow overwriting functions written as function declarations

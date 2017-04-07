@@ -80,7 +80,7 @@ console.log(linter, cliEngine);
     Test = 1;
 })();
 
-// `no-confusing-arrow - disallow arrow functions where they could be confused with comparisons
+// `no-confusing-arrow` - disallow arrow functions where they could be confused with comparisons
 // ---------------------------------------------------------------------
 // Not active
 [1, 2, 3].map((x) => x ? 2 : 3);

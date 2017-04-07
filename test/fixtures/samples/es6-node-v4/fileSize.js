@@ -15,8 +15,8 @@ const log = logger.child({ module: 'util/file-size' });
 function fileSize(path) {
     const paths = Array.isArray(path) ? path : [path];
 
-    return Promise.map(paths, (path) => {
-        return stat(path)
+    return Promise.map(paths, (path) => (
+        stat(path)
         .then((stat) => stat.isFile() ? stat.size : 0)
         // Return 0 if path does not exist
         .catch({ code: 'ENOENT' }, () => 0)
@@ -33,8 +33,8 @@ function fileSize(path) {
 
             /* istanbul ignore next */
             return 0;
-        });
-    }, { concurrency: 50 })
+        })
+    ), { concurrency: 50 })
     .then((sizes) => sizes.reduce((sum, size) => sum + size, 0));
 }
 

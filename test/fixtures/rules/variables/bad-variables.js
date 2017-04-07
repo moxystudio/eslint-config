@@ -28,6 +28,7 @@
 
 // `no-restricted-globals` - disallow specified global variables
 // ---------------------------------------------------------------------
+// The only restricted global is `event` in the browser because it's easy to make mistakes.. see below
 // Bad
 (function () {
     function handleClick() {
@@ -50,12 +51,18 @@
 // `no-shadow` - disallow variable declarations from shadowing variables declared in the outer scope
 // ---------------------------------------------------------------------
 (function () {
-    function undefined() {}
+    const a = 1;
+
+    function f() {
+        const a = 2;
+    }
 })();
 
 // `no-shadow-restricted-names` - disallow identifiers from shadowing restricted names
 // ---------------------------------------------------------------------
-// `no-shadow` above is disallowing shadowing, so it's not necessary to test this..
+(function () {
+    function undefined() {}
+})();
 
 // `no-undef` - disallow the use of undeclared variables unless mentioned in /*global */ comments
 // ---------------------------------------------------------------------
@@ -65,12 +72,20 @@
 
 // `no-undef-init` - disallow initializing variables to undefined
 // ---------------------------------------------------------------------
-// See file ./bad-variables-with-unused.js
+(function () {
+    let x = undefined;
+
+    x = 1;
+})();
 
 // `no-undefined` - disallow the use of undefined as an identifier
 // ---------------------------------------------------------------------
 // Not active
 console.log(Math === undefined);
+
+// `no-unused-vars` - disallow unused variables
+// ---------------------------------------------------------------------
+// See file ./bad-variables-with-unused.js
 
 // `no-use-before-define` - disallow the use of variables before they are defined
 // ---------------------------------------------------------------------
@@ -97,4 +112,13 @@ console.log(Math === undefined);
     class Person {}
 
     const f = new Person();
+})();
+// Functions are simply allowed
+(function () {
+    a();
+
+    function b() {}
+    function a() {
+        b();
+    }
 })();
