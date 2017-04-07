@@ -1,5 +1,6 @@
-// Enforce or disallow variable initializations at definition
+// `init-declarations` - require or disallow initialization in variable declarations
 // ---------------------------------------------------------------------
+// Not active
 (function () {
     function f() {
         let x;
@@ -7,21 +8,13 @@
         x = 1;
         x = 2;
     }
-})();  // Not active
+})();
 
-// Disallow the catch clause parameter name being the same as a variable in the outer scope
+// `no-catch-shadow` - disallow catch clause parameters from shadowing variables in the outer scope
 // ---------------------------------------------------------------------
-(function () {
-    const err = true;
+ // Not active because we do not support IE8 or earlier..
 
-    try {
-        throw new Error('foo');
-    } catch (err) {
-        console.log(err);
-    }
-})();  // Not active
-
-// Disallow deletion of variables
+// `no-delete-var` - disallow deleting variables
 // ---------------------------------------------------------------------
 (function () {
     const x = 0;
@@ -29,56 +22,79 @@
     delete x;
 })();
 
-// Disallow labels that share a name with a variable
+// `no-label-var` - disallow labels that share a name with a variable
 // ---------------------------------------------------------------------
-(function () {
-    const A = 0;
+// Labels are not allowed, see `no-labels`
 
-    A: console.log('foo');
+// `no-restricted-globals` - disallow specified global variables
+// ---------------------------------------------------------------------
+// Bad
+(function () {
+    function handleClick() {
+        console.log(event);
+    }
+})();
+// Good
+(function () {
+    function handleClick(event) {
+        console.log(event);
+    }
+})();
+// Also good
+(function () {
+    function handleClick(e) {
+        console.log(e);
+    }
 })();
 
-// Restrict usage of specified global variables
-// ---------------------------------------------------------------------
-// Not specified, unless for the browser
-
-// Disallow shadowing of names such as arguments
+// `no-shadow` - disallow variable declarations from shadowing variables declared in the outer scope
 // ---------------------------------------------------------------------
 (function () {
     function undefined() {}
 })();
 
-// Disallow declaration of variables already declared in the outer scopes
+// `no-shadow-restricted-names` - disallow identifiers from shadowing restricted names
 // ---------------------------------------------------------------------
-/* var a = 0;
-function f() {
-    var a = 0;
-} */ // Not active
+// `no-shadow` above is disallowing shadowing, so it's not necessary to test this..
 
-// Disallow use of undefined when initializing variables
-// ---------------------------------------------------------------------
-(function () {
-    let x = undefined;
-
-    x = 0;
-})();
-
-// Disallow use of undeclared variables unless mentioned in a /* global * / block
+// `no-undef` - disallow the use of undeclared variables unless mentioned in /*global */ comments
 // ---------------------------------------------------------------------
 (function () {
     const x = y + 1;
 })();
 
-// Disallow use of undefined variable
+// `no-undef-init` - disallow initializing variables to undefined
 // ---------------------------------------------------------------------
-console.log(Math === undefined);  // Not active
+// See file ./bad-variables-with-unused.js
 
-// Disallow declaration of variables that are not used in the code
+// `no-undefined` - disallow the use of undefined as an identifier
 // ---------------------------------------------------------------------
-// Can't test this because we are forcing `no-unused-vars:0` to ease out tests
+// Not active
+console.log(Math === undefined);
 
-// Disallow use of variables before they are defined
+// `no-use-before-define` - disallow the use of variables before they are defined
 // ---------------------------------------------------------------------
+// Bad (variables)
 (function () {
     console.log(a);
+
     const a = 10;
+})();
+// Good (variables)
+(function () {
+    const a = 10;
+
+    console.log(a);
+})();
+// Bad (classes)
+(function () {
+    const f = new Person();
+
+    class Person {}
+})();
+// Good (classes)
+(function () {
+    class Person {}
+
+    const f = new Person();
 })();

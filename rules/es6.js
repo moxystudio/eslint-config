@@ -5,7 +5,7 @@
 module.exports = {
     'rules': {
         // Require braces in arrow function body
-        'arrow-body-style': 0,
+        'arrow-body-style': [2, 'as-needed'],
         // Require parens in arrow function arguments
         'arrow-parens': [2, 'always'],
         // Require space before/after arrow function's arrow
@@ -13,7 +13,7 @@ module.exports = {
         // Verify super() callings in constructors
         'constructor-super': 2,
         // Enforce the spacing around the * in generator functions
-        'generator-star-spacing': [2, { 'before': true, 'after': true }],
+        'generator-star-spacing': [2, { 'before': false, 'after': true }],
         // Disallow modifying variables of class declarations
         'no-class-assign': 2,
         // Disallow arrow functions where they could be confused with comparisons
@@ -65,6 +65,6 @@ module.exports = {
         // Enforce spacing around embedded expressions of template strings
         'template-curly-spacing': [2, 'never'],
         // Enforce spacing around the * in yield* expressions
-        'yield-star-spacing': [2, { 'before': true, 'after': false }],
+        'yield-star-spacing': [2, { 'before': false, 'after': true }],
     },
 };
