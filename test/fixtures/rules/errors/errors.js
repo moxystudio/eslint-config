@@ -184,7 +184,21 @@ if (!!Math.random()) {
 
 // `no-extra-parens` - disallow unnecessary parentheses
 // ---------------------------------------------------------------------
-// TODO:
+// Bad
+(function () {
+    ((function foo() {}))();
+})();
+// Good
+(function () {
+    (function foo() {})();
+})();
+// Also Good
+(function () {
+    const a = typeof ('hello');
+    const b = (2 * 3) + 1;
+
+    ({}.toString.call());
+})();
 
 // `no-extra-semi` - disallow unnecessary semicolons
 // ---------------------------------------------------------------------

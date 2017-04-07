@@ -1,9 +1,11 @@
 'use strict';
 
+const eslintTop = require('eslint');
 const fs = require('fs');
 
-// Enforce return after a callback
+// `callback- return` - require return statements after callbacks
 // ---------------------------------------------------------------------
+// Bad
 (function () {
     function f(err, callback) {
         if (err) {
@@ -13,8 +15,19 @@ const fs = require('fs');
 
     f();
 })();
+// Good
+(function () {
+    function f(err, callback) {
+        if (err) {
+            return callback(err);
+        }
+        callback();
+    }
 
-// Enforce require() on top-level module scope
+    f();
+})();
+
+// `global-require` - require require() calls to be placed at top-level module scope
 // ---------------------------------------------------------------------
 (function () {
     function lint(filename) {
@@ -26,9 +39,21 @@ const fs = require('fs');
 
     lint();
 })();
+// Good
+(function () {
+    function lint(filename) {
+        // Require defined at top of the file
+        const cli = eslintTop.CLIEngine;
 
-// Enforce error handling in callbacks
+        cli.executeOnFiles([filename]);
+    }
+
+    lint();
+})();
+
+// `handle-callback-err` - require error handling in callbacks
 // ---------------------------------------------------------------------
+// Bad
 (function () {
     function f(err, callback) {
         callback();
@@ -36,39 +61,53 @@ const fs = require('fs');
 
     f();
 })();
+// Good
+(function () {
+    function f(err, callback) {
+        if (err) {
+            return callback(err);
+        }
+        callback();
+    }
 
-// Disallow mixing regular variable and require declarations
+    f();
+})();
+
+// `no-mixed-requires` - disallow require calls to be mixed with regular variable declarations
 // ---------------------------------------------------------------------
 // This is not allowed because `one-var` is NOT allowed too
 
-// Disallow use of new operator with the require function
+// `no-new-require` - disallow new operators with calls to require
 // ---------------------------------------------------------------------
 // This is not allowed because `new-cap` disallows `new require('some-module')``
 
-// Disallow string concatenation with __dirname and __filename
+// `no-path-concat` - disallow string concatenation with __dirname and __filename
 // ---------------------------------------------------------------------
+// Not active
 (function () {
     const path = `${__dirname}/file`;
-})();  // Not active
+})();
 
-// Disallow use of process.env
+// `no-process-env` - disallow the use of process.env
 // ---------------------------------------------------------------------
+// Not active
 (function () {
     if (process.env.NODE_ENV === 'development') {
         console.log('foo');
     }
-})();  // Not a
+})();
 
-// Disallow process.exit()
+// `no-process-exit` - disallow the use of process.exit()
 // ---------------------------------------------------------------------
 process.exit(0);  // Not active
 
-// Restrict usage of specified node modules
+// `no-restricted-modules` - disallow specified modules when loaded by require
 // ---------------------------------------------------------------------
 // Disabled, can't really test this
 
-// Disallow use of synchronous methods
+// `no-sync` - disallow synchronous methods
 // ---------------------------------------------------------------------
+// Not active
 (function () {
     fs.existsSync('some/file');
-})();  // Not active
+})();

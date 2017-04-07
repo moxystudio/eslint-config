@@ -12,6 +12,14 @@ module.exports = {
     'rules': {
         // Prevent missing displayName in a React component definition
         'react/display-name': 0,
+        // Forbid certain props on Components (forbid-component-props)
+        'react/forbid-component-props': [2, {
+            'forbid': ['style'],
+        }],
+        // Forbid certain elements (forbid-elements)
+        'react/forbid-elements': 0,
+        // Forbid foreign propTypes (forbid-foreign-prop-types)
+        'react/forbid-foreign-prop-types': 2,
         // Forbid certain propTypes (forbid-prop-types)
         'react/forbid-prop-types': 0,
         // Enforce boolean attributes notation in JSX
@@ -22,6 +30,8 @@ module.exports = {
         'react/jsx-curly-spacing': [2, 'always'],
         // Enforce or disallow spaces around equal signs in JSX attributes
         'react/jsx-equals-spacing': [2, 'never'],
+        // Restrict file extensions that may contain JSX (jsx-filename-extension)
+        'react/jsx-filename-extension': 0,
         // Ensure correct position of the first property.
         'react/jsx-first-prop-new-line': 0,
         // Enforce event handler naming conventions in JSX
@@ -39,16 +49,22 @@ module.exports = {
         'react/jsx-max-props-per-line': 0,
         // No .bind() or Arrow Functions in JSX Props
         'react/jsx-no-bind': 2,
+        // Prevent comments from being inserted as text nodes (jsx-no-comment-textnodes)
+        'react/jsx-no-comment-textnodes': 2,
         // Prevent duplicate props in JSX
         'react/jsx-no-duplicate-props': 2,
         // Prevent usage of unwrapped JSX strings
         'react/jsx-no-literals': 0,
+        // Prevent usage of unsafe target='_blank'
+        'react/jsx-no-target-blank': 2,
         // Disallow undeclared variables in JSX
         'react/jsx-no-undef': 2,
         // Enforce PasalCase for user-defined JSX components
         'react/jsx-pascal-case': 2,
         // Enforce props alphabetical sorting
         'react/jsx-sort-props': 0,
+        // Validate spacing before closing bracket in JSX (jsx-space-before-closing)
+        'react/jsx-space-before-closing': [2, 'always'],
         // Enforce or forbid spaces before the closing bracket of self-closing JSX elements
         'react/jsx-tag-spacing': [2, {
             'closingSlash': 'never',
@@ -65,6 +81,12 @@ module.exports = {
             'assignment': true,
             'return': true,
         }],
+        // Prevent usage of Array index in keys
+        'react/no-array-index-key': 0,
+        // Prevent passing of children as props (no-children-prop)
+        'react/no-children-prop': 2,
+        // Prevent problem with children and props.dangerouslySetInnerHTML
+        'react/no-danger-with-children': 0,
         // Prevent usage of dangerous JSX properties
         'react/no-danger': 0,
         // Prevent usage of deprecated methods
@@ -75,14 +97,26 @@ module.exports = {
         'react/no-did-update-set-state': [2],
         // Prevent direct mutation of this.state
         'react/no-direct-mutation-state': 1,
+        // Prevent usage of findDOMNode (no-find-dom-node)
+        'react/no-find-dom-node': 0,
         // Prevent usage of isMounted
         'react/no-is-mounted': 2,
         // Prevent multiple component definition per file
         'react/no-multi-comp': 2,
+        // Prevent usage of the return value of React.render (no-render-return-value)
+        'react/no-render-return-value': 2,
         // Allow usage of setState
         'react/no-set-state': 0,
+        // Prevent using string references (no-string-refs)
+        'react/no-string-refs': 2,
+        // Prevent invalid characters from appearing in markup (no-unescaped-entities)
+        'react/no-unescaped-entities': 2,
         // Prevent usage of unknown DOM property
         'react/no-unknown-property': 2,
+        // Prevent definitions of unused prop types (no-unused-prop-types)
+        // check example, not working for current way
+        // to define proptypes
+        'react/no-unused-prop-types': 0,
         // Require ES6 class declarations over React.createClass
         'react/prefer-es6-class': [2, 'always'],
         // Enforce stateless components to be written as a pure function
@@ -91,8 +125,12 @@ module.exports = {
         'react/prop-types': 2,
         // Prevent missing React when using JSX
         'react/react-in-jsx-scope': 2,
+        // Enforce a defaultProps definition for every prop that is not a required prop (require-default-props)
+        'react/require-default-props': 0,
         // Restrict file extensions that may be required
         'react/require-extension': 0,
+        // Enforce React components to have a shouldComponentUpdate method (require-optimization)
+        'react/require-optimization': 0,
         // Enforce ES5 or ES6 class for returning value in render function
         'react/require-render-return': 2,
         // Prevent extra closing tags for components without children
@@ -111,5 +149,12 @@ module.exports = {
         }],
         // Enforce propTypes declarations alphabetical sorting
         'react/sort-prop-types': 0,
+        // Enforce style prop value being an object (style-prop-object)
+        // needs to be active to ensure
+        // forbid-component-props works
+        // <div style={ { color: "red" } } works
+        'react/style-prop-object': 2,
+        // Prevent void DOM elements (e.g. <img />, <br />) from receiving children (react/void-dom-elements-no-children)
+        'react/void-dom-elements-no-children': 2,
     },
 };
