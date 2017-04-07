@@ -1,0 +1,8 @@
+{
+    "root": true,
+    "extends": [
+        "../../../../es6.js",
+        "../../../../addons/node.js",
+        "../../../../addons/node-v4-es6.js"
+    ]
+}

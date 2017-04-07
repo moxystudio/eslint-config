@@ -1,0 +1,11 @@
+{
+    "root": true,
+    "extends": [
+        "../../../../../es5.js",
+        "../../../../../addons/browser.js"
+    ],
+    "rules": {
+        "strict": 0,
+        "no-unused-vars": 0
+    }
+}

@@ -1,9 +1,11 @@
 {
     "root": true,
-    "parserOptions": {
-        "ecmaVersion": 6
-    },
     "extends": [
-        "../../../../rules/es6.js"
-    ]
+        "../../../../es6.js",
+        "../../../../addons/browser.js",
+        "../../../../addons/es6-modules.js"
+    ],
+    "rules": {
+        "no-unused-vars": 0
+    }
 }

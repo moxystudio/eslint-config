@@ -1,9 +1,10 @@
 {
     "root": true,
     "extends": [
-        "../../../../rules/node.js"
+        "../../../../es6.js",
+        "../../../../addons/node.js"
     ],
-    "no-restricted-modules": ["error",
-        "fs"
-    ]
+    "rules": {
+        "no-unused-vars": 0
+    }
 }

@@ -1,7 +1,6 @@
-/* =========== | Rule to control usage of strict mode directives | =========== */
+// Rule to control usage of strict mode directives
+// ---------------------------------------------------------------------
 
-function foo() {
-    "use strict";
-}
-
-/* =================== // =================== */
+(function foo() {
+    'use strict';
+})();

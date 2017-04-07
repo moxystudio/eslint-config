@@ -126,12 +126,6 @@
     "column": 4
   },
   {
-    "rule": "valid-jsdoc",
-    "severity": 2,
-    "line": 224,
-    "column": 1
-  },
-  {
     "rule": "valid-typeof",
     "severity": 2,
     "line": 236,

@@ -1,210 +1,164 @@
-/* =========== | Require braces in arrow function body | =========== */
+// Disallow duplicate module imports
+// ---------------------------------------------------------------------
+import { linter } from 'eslint';
+import { cliEngine } from 'eslint';
 
-const f = () => 1; // not active
+console.log(linter, cliEngine);
 
-/* =================== // =================== */
+// Require braces in arrow function body
+// ---------------------------------------------------------------------
+[1, 2, 3].map((x) => x + 1);  // Not active
 
+// Require parens in arrow function arguments
+// ---------------------------------------------------------------------
+[1, 2, 3].map(x => x + 1);  // Not active
 
-/* =========== | Require parens in arrow function arguments | =========== */
+// Require space before/after arrow function's arrow
+// ---------------------------------------------------------------------
+[1, 2, 3].map((x)=>x + 1);
 
-f => 0;
-
-/* =================== // =================== */
-
-
-/* =========== | Require space before/after arrow function's arrow | =========== */
-
-(f)=>0;
-
-/* =================== // =================== */
-
-
-/* =========== | Verify super() callings in constructors | =========== */
-
-class Test extends Component {
-    constructor() {
-
+// Verify super() callings in constructors
+// ---------------------------------------------------------------------
+(function () {
+    class Test extends Array {
+        constructor() {}
     }
-}
+}());
 
-/* =================== // =================== */
+// Enforce the spacing around the * in generator functions
+// ---------------------------------------------------------------------
+(function () {
+    function* foo() {
+        let index = 0;
 
-
-/* =========== | Enforce the spacing around the * in generator functions | =========== */
-
-function* aa() {
-    yield "xy";
-}
-
-/* =================== // =================== */
-
-
-/* =========== | Enforce the spacing around the * in generator functions | =========== */
-
-function*aa() {
-    yield "xx";
-}
-
-/* =================== // =================== */
-
-
-/* =========== | Disallow modifying variables of class declarations | =========== */
-
-class Test {}
-Test = f;
-
-/* =================== // =================== */
-
-
-/* =========== | Disallow arrow functions where they could be confused with comparisons | =========== */
-
-const x = (a) => 1 ? 2 : 3; // not active
-
-/* =================== // =================== */
-
-
-/* =========== | Disallow modifying variables that are declared using const | =========== */
-
-const y = 2;
-y = 1;
-
-/* =================== // =================== */
-
-
-/* =========== | Disallow duplicate name in class members | =========== */
-
-class Test {
-    f() { 1 };
-    f() { 1 };
-
-}
-
-/* =================== // =================== */
-
-
-/* =========== | Disallow duplicate module imports | =========== */
-
-/* module.import { linter } from 'eslint';
-module.import { cliEngine } from 'eslint'; */
-
-// not active
-
-/* =================== // =================== */
-
-
-/* =========== | Disallow use of the new operator with the Symbol object | =========== */
-
-const a = new Symbol('aaaa'); // ?
-
-// ?
-
-/* =================== // =================== */
-
-
-/* =========== | Disallow to use this/super before super() calling in constructors | =========== */
-
-class Test extends Component {
-    constructor() {
-        this.one = 1;
-        super();
+        while (index <= 2) {
+            yield index += 1;
+        }
     }
-}
+})();
 
-/* =================== // =================== */
+// Disallow modifying variables of class declarations
+// ---------------------------------------------------------------------
+(function () {
+    class Test {}
+    Test = 1;
+})();
 
+// Disallow arrow functions where they could be confused with comparisons
+// ---------------------------------------------------------------------
+[1, 2, 3].map((x) => x ? 2 : 3);  // Not active
 
-/* =========== | Disallow unnecessary constructor | =========== */
+// Disallow modifying variables that are declared using const
+// ---------------------------------------------------------------------
+(function () {
+    const y = 2;
 
-class Test extends Component {
-    constructor() {
-        super();
+    y = 1;
+})();
+
+// Disallow duplicate name in class members
+// ---------------------------------------------------------------------
+(function () {
+    class Test {
+        f() {}
+        f() {}
     }
-}
+})();
 
-/* =================== // =================== */
+// Disallow use of the new operator with the Symbol object
+// ---------------------------------------------------------------------
+(function () {
+    const a = new Symbol('aaaa');
+})();
 
+// Disallow to use this/super before super() calling in constructors
+// ---------------------------------------------------------------------
+(function () {
+    class Test extends Array {
+        constructor() {
+            this.one = 1;
+            super();
+        }
+    }
+})();
 
-/* =========== | Require let or const instead of var | =========== */
+// Disallow unnecessary constructor
+// ---------------------------------------------------------------------
+(function () {
+    class Test extends Array {
+        constructor() {
+            super();
+        }
+    }
+})();
 
-var n = 0;
+// Require let or const instead of var
+// ---------------------------------------------------------------------
+(function () {
+    var n = 0;
+})();
 
-/* =================== // =================== */
+// Require method and property shorthand syntax for object literals
+// ---------------------------------------------------------------------
+(function () {
+    const a = 'foo';
+    const foo = {
+        a: a,
+    };
+})();
 
+// Suggest using arrow functions as callbacks
+// ---------------------------------------------------------------------
+(function () {
+    function f(cb) {
+        cb();
+    }
 
-/* =========== | Require method and property shorthand syntax for object literals | =========== */
+    f(function () {});
+})();
 
-const foo = {
-    a: a,
-};
+// Suggest using of const declaration for variables that are never modified after declared
+// ---------------------------------------------------------------------
+(function () {
+    let b = 0;
+})();
 
-/* =================== // =================== */
+// Suggest using the rest parameters instead of arguments
+// ---------------------------------------------------------------------
+(function () {
+    function f() {
+        console.log(arguments);
+    }
+})();
 
+// Suggest using the spread operator instead of .apply()
+// ---------------------------------------------------------------------
+(function () {
+    const arr = [1, 2, 3];
 
-/* =========== | Suggest using arrow functions as callbacks | =========== */
+    Math.max.apply(Math, arr);
+})();
 
-f(function(k) { return k; });
+// Require template literals instead of string concatenation
+// ---------------------------------------------------------------------
+console.log('a' + Math.random());
 
-/* =================== // =================== */
+// Generator functions that do not have yield
+// ---------------------------------------------------------------------
+(function () {
+    function * aa() {
+        return 10;
+    }
+})();
 
+// Enforce spacing around embedded expressions of template strings
+// ---------------------------------------------------------------------
+console.log(`x is, ${ Math.random() }!`);
 
-/* =========== | Suggest using of const declaration for variables that are never modified after declared | =========== */
-
-let b = 0;
-f();
-
-/* =================== // =================== */
-
-
-/* =========== | Suggest using Reflect methods where applicable | =========== */
-
-delete f.a; // ?
-
-/* =================== // =================== */
-
-
-/* =========== | Suggest using the rest parameters instead of arguments | =========== */
-
-function f1() {
-    console.log(arguments);
-}
-
-/* =================== // =================== */
-
-
-/* =========== | Suggest using the spread operator instead of .apply() | =========== */
-
-f.apply(null, args);
-
-/* =================== // =================== */
-
-
-/* =========== | Suggest using the spread operator instead of .apply() | =========== */
-
-const conc = 'a' + x;
-
-/* =================== // =================== */
-
-
-/* =========== | Generator functions that do not have yield | =========== */
-
-function * aa() {
-    f();
-}
-
-/* =================== // =================== */
-
-
-/* =========== | Enforce spacing around embedded expressions of template strings | =========== */
-
-`x is, ${ x}!`;
-
-/* =================== // =================== */
-
-
-/* =========== | Enforce spacing around the * in yield* expressions | =========== */
-
-function * aaa() {
-    yield*bbb();
-}
-
-/* =================== // =================== */
+// Enforce spacing around the * in yield* expressions
+// ---------------------------------------------------------------------
+(function () {
+    function * aaa() {
+        yield* 1;
+    }
+})();

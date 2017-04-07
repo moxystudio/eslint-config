@@ -1,6 +1,11 @@
 {
     "root": true,
     "extends": [
-        "../../../../rules/errors.js"
-    ]
+        "../../../../es6.js",
+        "../../../../addons/browser.js"
+    ],
+    "rules": {
+        "strict": 0,
+        "no-unused-vars": 0
+    }
 }

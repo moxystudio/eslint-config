@@ -1,9 +1,9 @@
 {
     "root": true,
-    "parserOptions": {
-        "ecmaVersion": 6
-    },
     "extends": [
-        "../../../../rules/errors.js"
-    ]
+        "../../../../es6.js"
+    ],
+    "env": {
+        "node": true
+    }
 }

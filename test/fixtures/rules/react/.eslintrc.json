@@ -1,12 +1,12 @@
 {
     "root": true,
-    "parserOptions": {
-        "ecmaVersion": 6,
-        "ecmaFeatures": {
-            "jsx": true
-        }
-    },
     "extends": [
-        "../../../../rules/react.js"
-    ]
+        "../../../../es8.js",
+        "../../../../addons/browser.js",
+        "../../../../addons/react.js"
+    ],
+    "rules": {
+        "no-unused-vars": 0,
+        "react/no-multi-comp": 0
+    }
 }

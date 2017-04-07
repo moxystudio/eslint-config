@@ -42,10 +42,22 @@
     "column": 23
   },
   {
+    "rule": "react/jsx-tag-spacing",
+    "severity": 2,
+    "line": 55,
+    "column": 9
+  },
+  {
     "rule": "react/jsx-handler-names",
     "severity": 2,
     "line": 62,
     "column": 18
+  },
+  {
+    "rule": "react/jsx-tag-spacing",
+    "severity": 2,
+    "line": 62,
+    "column": 44
   },
   {
     "rule": "react/jsx-indent-props",
@@ -54,10 +66,22 @@
     "column": 1
   },
   {
+    "rule": "react/jsx-tag-spacing",
+    "severity": 2,
+    "line": 70,
+    "column": 5
+  },
+  {
     "rule": "react/jsx-indent",
     "severity": 2,
     "line": 78,
     "column": 3
+  },
+  {
+    "rule": "react/jsx-tag-spacing",
+    "severity": 2,
+    "line": 78,
+    "column": 15
   },
   {
     "rule": "react/jsx-key",
@@ -66,10 +90,28 @@
     "column": 27
   },
   {
+    "rule": "react/jsx-tag-spacing",
+    "severity": 2,
+    "line": 93,
+    "column": 69
+  },
+  {
     "rule": "react/jsx-no-bind",
     "severity": 2,
     "line": 100,
     "column": 17
+  },
+  {
+    "rule": "react/jsx-tag-spacing",
+    "severity": 2,
+    "line": 100,
+    "column": 59
+  },
+  {
+    "rule": "react/jsx-tag-spacing",
+    "severity": 2,
+    "line": 107,
+    "column": 44
   },
   {
     "rule": "react/jsx-pascal-case",
@@ -84,10 +126,28 @@
     "column": 10
   },
   {
+    "rule": "react/jsx-tag-spacing",
+    "severity": 2,
+    "line": 128,
+    "column": 31
+  },
+  {
+    "rule": "react/jsx-tag-spacing",
+    "severity": 2,
+    "line": 135,
+    "column": 46
+  },
+  {
     "rule": "react/jsx-wrap-multilines",
     "severity": 2,
     "line": 157,
     "column": 9
+  },
+  {
+    "rule": "react/jsx-tag-spacing",
+    "severity": 2,
+    "line": 158,
+    "column": 10
   },
   {
     "rule": "react/no-deprecated",
@@ -168,25 +228,25 @@
     "column": 35
   },
   {
+    "rule": "react/no-multi-comp",
+    "severity": 2,
+    "line": 267,
+    "column": 27
+  },
+  {
     "rule": "react/prefer-es6-class",
     "severity": 2,
     "line": 267,
     "column": 27
   },
   {
-    "rule": "react/no-multi-comp",
-    "severity": 2,
-    "line": 267,
-    "column": 27
-  },
-  {
-    "rule": "react/no-multi-comp",
+    "rule": "react/prefer-es6-class",
     "severity": 2,
     "line": 278,
     "column": 27
   },
   {
-    "rule": "react/prefer-es6-class",
+    "rule": "react/no-multi-comp",
     "severity": 2,
     "line": 278,
     "column": 27
