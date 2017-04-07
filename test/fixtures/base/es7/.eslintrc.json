@@ -1,9 +1,0 @@
-{
-    "root": true,
-    "extends": [
-        "../../../../es7.js"
-    ],
-    "env": {
-        "node": true
-    }
-}

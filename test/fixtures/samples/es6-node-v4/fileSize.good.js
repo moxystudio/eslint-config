@@ -1,3 +1,5 @@
+// Taken from npms-analyzer project
+
 'use strict';
 
 const stat = Promise.promisify(require('fs').stat);

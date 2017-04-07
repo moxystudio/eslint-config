@@ -68,157 +68,157 @@
   {
     "rule": "no-extra-parens",
     "severity": 2,
-    "line": 188,
-    "column": 12
+    "line": 189,
+    "column": 6
   },
   {
     "rule": "no-extra-semi",
     "severity": 2,
-    "line": 216,
+    "line": 206,
     "column": 21
   },
   {
     "rule": "no-func-assign",
     "severity": 2,
-    "line": 225,
+    "line": 215,
     "column": 9
   },
   {
     "rule": "no-inner-declarations",
     "severity": 2,
-    "line": 243,
+    "line": 233,
     "column": 9
   },
   {
     "rule": "no-func-assign",
     "severity": 2,
-    "line": 250,
+    "line": 240,
     "column": 5
   },
   {
     "rule": "no-invalid-regexp",
     "severity": 2,
-    "line": 257,
+    "line": 247,
     "column": 20
   },
   {
     "rule": "new-cap",
     "severity": 2,
-    "line": 270,
+    "line": 260,
     "column": 13
   },
   {
     "rule": "no-obj-calls",
     "severity": 2,
-    "line": 270,
+    "line": 260,
     "column": 13
   },
   {
     "rule": "no-prototype-builtins",
     "severity": 2,
-    "line": 279,
+    "line": 269,
     "column": 47
   },
   {
     "rule": "no-regex-spaces",
     "severity": 2,
-    "line": 293,
+    "line": 283,
     "column": 20
   },
   {
     "rule": "no-sparse-arrays",
     "severity": 2,
-    "line": 303,
+    "line": 293,
     "column": 13
   },
   {
     "rule": "array-bracket-spacing",
     "severity": 2,
-    "line": 303,
+    "line": 293,
     "column": 16
   },
   {
     "rule": "no-template-curly-in-string",
     "severity": 1,
-    "line": 310,
+    "line": 300,
     "column": 13
   },
   {
     "rule": "no-unreachable",
     "severity": 2,
-    "line": 323,
+    "line": 313,
     "column": 5
   },
   {
     "rule": "no-unsafe-finally",
     "severity": 2,
-    "line": 340,
+    "line": 330,
     "column": 9
   },
   {
     "rule": "no-unsafe-negation",
     "severity": 2,
-    "line": 347,
+    "line": 337,
     "column": 5
   },
   {
     "rule": "use-isnan",
     "severity": 2,
-    "line": 358,
+    "line": 348,
     "column": 5
   },
   {
     "rule": "jsdoc/check-param-names",
     "severity": 2,
-    "line": 370,
+    "line": 360,
     "column": 5
   },
   {
     "rule": "jsdoc/newline-after-description",
     "severity": 2,
-    "line": 370,
+    "line": 360,
     "column": 5
   },
   {
     "rule": "jsdoc/require-hyphen-before-param-description",
     "severity": 2,
-    "line": 370,
+    "line": 360,
     "column": 5
   },
   {
     "rule": "jsdoc/require-returns-type",
     "severity": 2,
-    "line": 370,
+    "line": 360,
     "column": 5
   },
   {
     "rule": "valid-jsdoc",
     "severity": 2,
-    "line": 370,
+    "line": 360,
     "column": 5
   },
   {
     "rule": "valid-jsdoc",
     "severity": 2,
-    "line": 370,
+    "line": 360,
     "column": 5
   },
   {
     "rule": "valid-jsdoc",
     "severity": 2,
-    "line": 370,
+    "line": 360,
     "column": 5
   },
   {
     "rule": "valid-jsdoc",
     "severity": 2,
-    "line": 370,
+    "line": 360,
     "column": 5
   },
   {
     "rule": "valid-typeof",
     "severity": 2,
-    "line": 396,
+    "line": 386,
     "column": 18
   }
 ]

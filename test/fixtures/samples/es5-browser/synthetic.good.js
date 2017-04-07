@@ -1,3 +1,5 @@
+// Made up sample.. not genuine
+
 'use strict';
 
 function Person(name) {

@@ -1,3 +1,5 @@
+// Made up sample.. not genuine
+
 import React, { PureComponent } from 'react';
 
 class MyComponent extends PureComponent {

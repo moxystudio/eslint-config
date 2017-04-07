@@ -2,199 +2,277 @@
   {
     "rule": "react/jsx-boolean-value",
     "severity": 2,
-    "line": 20,
+    "line": 39,
     "column": 34
-  },
-  {
-    "rule": "semi",
-    "severity": 2,
-    "line": 20,
-    "column": 55
   },
   {
     "rule": "react/jsx-closing-bracket-location",
     "severity": 2,
-    "line": 28,
+    "line": 52,
     "column": 9
   },
   {
     "rule": "react/jsx-curly-spacing",
     "severity": 2,
-    "line": 35,
+    "line": 66,
     "column": 44
   },
   {
     "rule": "react/jsx-curly-spacing",
     "severity": 2,
-    "line": 35,
+    "line": 66,
     "column": 50
   },
   {
     "rule": "react/jsx-equals-spacing",
     "severity": 2,
-    "line": 41,
+    "line": 77,
     "column": 44
   },
   {
     "rule": "react/jsx-equals-spacing",
     "severity": 2,
-    "line": 41,
+    "line": 77,
     "column": 44
   },
   {
     "rule": "react/jsx-handler-names",
     "severity": 2,
-    "line": 58,
+    "line": 102,
     "column": 25
   },
   {
     "rule": "react/jsx-handler-names",
     "severity": 2,
-    "line": 62,
+    "line": 106,
     "column": 25
   },
   {
     "rule": "react/jsx-indent-props",
     "severity": 2,
-    "line": 76,
+    "line": 125,
     "column": 9
   },
   {
     "rule": "react/jsx-indent",
     "severity": 2,
-    "line": 84,
+    "line": 141,
     "column": 7
   },
   {
     "rule": "react/jsx-key",
     "severity": 1,
-    "line": 90,
-    "column": 25
-  },
-  {
-    "rule": "semi",
-    "severity": 2,
-    "line": 95,
-    "column": 86
+    "line": 155,
+    "column": 29
   },
   {
     "rule": "react/jsx-no-bind",
     "severity": 2,
-    "line": 108,
+    "line": 177,
     "column": 25
   },
   {
     "rule": "react/jsx-no-bind",
     "severity": 2,
-    "line": 108,
+    "line": 177,
     "column": 35
   },
   {
     "rule": "react/jsx-no-bind",
     "severity": 2,
-    "line": 112,
+    "line": 181,
     "column": 25
+  },
+  {
+    "rule": "react/jsx-no-comment-textnodes",
+    "severity": 2,
+    "line": 206,
+    "column": 22
+  },
+  {
+    "rule": "react/jsx-no-comment-textnodes",
+    "severity": 2,
+    "line": 214,
+    "column": 22
   },
   {
     "rule": "react/jsx-no-duplicate-props",
     "severity": 2,
-    "line": 124,
+    "line": 238,
     "column": 44
+  },
+  {
+    "rule": "react/jsx-no-target-blank",
+    "severity": 1,
+    "line": 257,
+    "column": 40
   },
   {
     "rule": "react/jsx-no-undef",
     "severity": 2,
-    "line": 136,
+    "line": 269,
     "column": 24
   },
   {
     "rule": "camelcase",
     "severity": 2,
-    "line": 142,
+    "line": 281,
     "column": 11
   },
   {
     "rule": "react/jsx-pascal-case",
     "severity": 2,
-    "line": 144,
+    "line": 283,
     "column": 17
+  },
+  {
+    "rule": "react/jsx-space-before-closing",
+    "severity": 2,
+    "line": 303,
+    "column": 31
+  },
+  {
+    "rule": "react/jsx-tag-spacing",
+    "severity": 2,
+    "line": 303,
+    "column": 31
+  },
+  {
+    "rule": "react/jsx-tag-spacing",
+    "severity": 2,
+    "line": 314,
+    "column": 20
   },
   {
     "rule": "react/jsx-wrap-multilines",
     "severity": 2,
-    "line": 156,
+    "line": 333,
     "column": 23
+  },
+  {
+    "rule": "react/no-children-prop",
+    "severity": 2,
+    "line": 357,
+    "column": 28
+  },
+  {
+    "rule": "react/no-danger-with-children",
+    "severity": 2,
+    "line": 371,
+    "column": 20
   },
   {
     "rule": "react/no-deprecated",
     "severity": 1,
-    "line": 168,
+    "line": 386,
     "column": 1
   },
   {
     "rule": "react/no-did-mount-set-state",
     "severity": 2,
-    "line": 175,
+    "line": 396,
     "column": 13
   },
   {
     "rule": "react/no-did-update-set-state",
     "severity": 2,
-    "line": 185,
+    "line": 417,
     "column": 13
   },
   {
     "rule": "react/no-direct-mutation-state",
     "severity": 1,
-    "line": 195,
+    "line": 438,
     "column": 13
   },
   {
     "rule": "react/no-is-mounted",
     "severity": 2,
-    "line": 205,
-    "column": 17
+    "line": 469,
+    "column": 21
+  },
+  {
+    "rule": "react/no-render-return-value",
+    "severity": 2,
+    "line": 505,
+    "column": 18
+  },
+  {
+    "rule": "react/no-string-refs",
+    "severity": 2,
+    "line": 530,
+    "column": 25
+  },
+  {
+    "rule": "semi",
+    "severity": 2,
+    "line": 530,
+    "column": 48
+  },
+  {
+    "rule": "react/no-unescaped-entities",
+    "severity": 2,
+    "line": 561,
+    "column": 11
+  },
+  {
+    "rule": "react/no-unescaped-entities",
+    "severity": 2,
+    "line": 561,
+    "column": 13
+  },
+  {
+    "rule": "react/no-unescaped-entities",
+    "severity": 2,
+    "line": 561,
+    "column": 14
   },
   {
     "rule": "react/no-unknown-property",
     "severity": 2,
-    "line": 225,
+    "line": 581,
     "column": 22
   },
   {
     "rule": "react/prefer-es6-class",
     "severity": 2,
-    "line": 231,
+    "line": 607,
     "column": 43
   },
   {
     "rule": "react/prop-types",
     "severity": 2,
-    "line": 253,
+    "line": 635,
     "column": 44
   },
   {
     "rule": "react/require-render-return",
     "severity": 2,
-    "line": 267,
+    "line": 686,
     "column": 5
-  },
-  {
-    "rule": "no-unused-expressions",
-    "severity": 2,
-    "line": 269,
-    "column": 13
   },
   {
     "rule": "react/self-closing-comp",
     "severity": 2,
-    "line": 277,
+    "line": 705,
     "column": 23
   },
   {
     "rule": "react/sort-comp",
     "severity": 2,
-    "line": 284,
+    "line": 717,
     "column": 9
+  },
+  {
+    "rule": "react/style-prop-object",
+    "severity": 2,
+    "line": 756,
+    "column": 22
+  },
+  {
+    "rule": "react/void-dom-elements-no-children",
+    "severity": 2,
+    "line": 768,
+    "column": 15
   }
 ]

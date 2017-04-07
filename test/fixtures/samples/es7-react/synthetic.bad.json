@@ -2,25 +2,31 @@
   {
     "rule": "react/prefer-es6-class",
     "severity": 2,
-    "line": 3,
+    "line": 5,
     "column": 39
   },
   {
     "rule": "react/jsx-no-bind",
     "severity": 2,
-    "line": 10,
+    "line": 12,
     "column": 18
   },
   {
     "rule": "react/jsx-handler-names",
     "severity": 2,
-    "line": 10,
+    "line": 12,
     "column": 56
+  },
+  {
+    "rule": "react/jsx-space-before-closing",
+    "severity": 2,
+    "line": 14,
+    "column": 55
   },
   {
     "rule": "react/jsx-tag-spacing",
     "severity": 2,
-    "line": 12,
+    "line": 14,
     "column": 55
   }
 ]

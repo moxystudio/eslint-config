@@ -2,7 +2,7 @@
   {
     "rule": "strict",
     "severity": 2,
-    "line": 1,
+    "line": 3,
     "column": 1
   }
 ]

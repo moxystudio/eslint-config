@@ -1,3 +1,5 @@
+// Made up sample.. not genuine
+
 function fnWithManyArgs(x, y,
     z, w) {
     return x + y + z + w;

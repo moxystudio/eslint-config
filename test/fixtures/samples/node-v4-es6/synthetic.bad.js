@@ -1,3 +1,5 @@
+// Made up sample.. not genuine
+
 'use strict';
 
 // Can't disallow using spread and rest params because there is no rule for that..

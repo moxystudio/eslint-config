@@ -1,3 +1,5 @@
+// Made up sample.. not genuine
+
 import React from 'react';
 
 const MyComponent = React.createClass({
