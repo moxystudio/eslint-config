@@ -1,56 +1,70 @@
-// eslint - ECMAScript6
+// ECMAScript6 - http://eslint.org/docs/rules/#ecmascript-6
 
 'use strict';
 
 module.exports = {
     'rules': {
-        // require braces in arrow function body
+        // Require braces in arrow function body
         'arrow-body-style': 0,
-        // require parens in arrow function arguments
+        // Require parens in arrow function arguments
         'arrow-parens': [2, 'always'],
-        // require space before/after arrow function's arrow
+        // Require space before/after arrow function's arrow
         'arrow-spacing': [2, { 'before': true, 'after': true }],
-        // verify super() callings in constructors
+        // Verify super() callings in constructors
         'constructor-super': 2,
-        // enforce the spacing around the * in generator functions
+        // Enforce the spacing around the * in generator functions
         'generator-star-spacing': [2, { 'before': true, 'after': true }],
-        // disallow modifying variables of class declarations
+        // Disallow modifying variables of class declarations
         'no-class-assign': 2,
-        // disallow arrow functions where they could be confused with comparisons
+        // Disallow arrow functions where they could be confused with comparisons
         'no-confusing-arrow': 0,
-        // disallow modifying variables that are declared using const
+        // Disallow modifying variables that are declared using const
         'no-const-assign': 2,
-        // disallow duplicate name in class members
+        // Disallow duplicate name in class members
         'no-dupe-class-members': 2,
-        // disallow duplicate module imports
+        // Disallow duplicate module imports
         'no-duplicate-imports': 2,
-        // disallow use of the new operator with the Symbol object
+        // Disallow use of the new operator with the Symbol object
         'no-new-symbol': 2,
-        // disallow to use this/super before super() calling in constructors.
+        // Disallow specified modules when loaded by import
+        'no-restricted-imports': 0,
+        // Disallow to use this/super before super() calling in constructors.
         'no-this-before-super': 1,
-        // disallow unnecessary constructor
+        // Disallow unnecessary computed property keys in object literals
+        'no-useless-computed-key': 2,
+        // Disallow unnecessary constructor
         'no-useless-constructor': 2,
-        // require let or const instead of var
+        // Disallow renaming import, export, and destructured assignments to the same name
+        'no-useless-rename': 2,
+        // Require let or const instead of var
         'no-var': 2,
-        // require method and property shorthand syntax for object literals
+        // Require method and property shorthand syntax for object literals
         'object-shorthand': [2, 'always'],
-        // suggest using arrow functions as callbacks
+        // Suggest using arrow functions as callbacks
         'prefer-arrow-callback': 2,
-        // suggest using of const declaration for variables that are never modified after declared
+        // Suggest using of const declaration for variables that are never modified after declared
         'prefer-const': 2,
-        // suggest using Reflect methods where applicable
-        'prefer-reflect': 0,
-        // suggest using the rest parameters instead of arguments
+        // Require destructuring from arrays and/or objects
+        'prefer-destructuring': 0,
+        // Disallow parseInt() in favor of binary, octal, and hexadecimal literals
+        'prefer-numeric-literals': 2,
+        // Suggest using the rest parameters instead of arguments
         'prefer-rest-params': 2,
-        // suggest using the spread operator instead of .apply()
+        // Suggest using the spread operator instead of .apply()
         'prefer-spread': 2,
-        // suggest using template literals instead of strings concatenation
+        // Suggest using template literals instead of strings concatenation
         'prefer-template': 1,
-        // disallow generator functions that do not have yield
+        // Disallow generator functions that do not have yield
         'require-yield': 1,
-        // enforce spacing around embedded expressions of template strings
+        // Enforce spacing between rest and spread operators and their expressions
+        'rest-spread-spacing': [2, 'never'],
+        // Sort import declarations within module
+        'sort-imports': 0,
+        // Require symbol descriptions
+        'symbol-description': 0,
+        // Enforce spacing around embedded expressions of template strings
         'template-curly-spacing': [2, 'never'],
-        // enforce spacing around the * in yield* expressions
+        // Enforce spacing around the * in yield* expressions
         'yield-star-spacing': [2, { 'before': true, 'after': false }],
     },
 };

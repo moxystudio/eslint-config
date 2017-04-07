@@ -7,9 +7,10 @@ module.exports = {
         './rules/strict',
         './rules/style',
         './rules/variables',
+        './rules/jsdoc',
     ].map(require.resolve),
-    'env': {},
-    'parserOptions': {},
-    'globals': {},
-    'rules': {},
+    'parserOptions': {
+        'ecmaVersion': 5,
+        'sourceType': 'script',
+    },
 };

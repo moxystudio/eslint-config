@@ -11,9 +11,11 @@
     "style"
   ],
   "scripts": {
-    "lint": "eslint '{*.js,rules/**/*.js,test/**/*.js}'",
+    "lint": "eslint . --ignore-pattern test/fixtures",
+    "lint:staged": "lint-staged",
     "test": "jest",
-    "posttest": "npm run lint"
+    "precommit": "npm run lint:staged",
+    "prepublish": "npm run lint && npm test"
   },
   "author": "André Cruz <andre@moxy.studio>",
   "homepage": "https://github.com/moxystudio/eslint-config",
@@ -32,6 +34,8 @@
   },
   "devDependencies": {
     "eslint": "^3.0.0",
-    "jest": "^19.0.2"
+    "husky": "^0.13.3",
+    "jest": "^19.0.2",
+    "lint-staged": "^3.4.0"
   }
 }
