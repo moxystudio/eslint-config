@@ -139,7 +139,7 @@
   },
   {
     "rule": "no-template-curly-in-string",
-    "severity": 1,
+    "severity": 2,
     "line": 300,
     "column": 13
   },

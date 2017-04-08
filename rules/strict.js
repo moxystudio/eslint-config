@@ -4,7 +4,7 @@
 
 module.exports = {
     'rules': {
-        // Rule to control usage of strict mode directives
+        // Require or disallow strict mode directives
         'strict': [2, 'global'],
     },
 };

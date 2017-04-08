@@ -4,29 +4,29 @@
 
 module.exports = {
     'rules': {
-        // Enforce or disallow variable initializations at definition
+        // Require or disallow initialization in variable declarations
         'init-declarations': 0,
-        // Disallow the catch clause parameter name being the same as a variable in the outer scope
+        // Disallow catch clause parameters from shadowing variables in the outer scope
         'no-catch-shadow': 0,
-        // Disallow deletion of variables
+        // Disallow deleting variables
         'no-delete-var': 2,
         // Disallow labels that share a name with a variable
         'no-label-var': 2,
-        // Restrict usage of specified global variables
+        // Disallow specified global variables
         'no-restricted-globals': 0,
-        // Disallow declaration of variables already declared in the outer scope
+        // Disallow variable declarations from shadowing variables declared in the outer scope
         'no-shadow': 0,
-        // Disallow shadowing of names such as arguments
+        // Disallow identifiers from shadowing restricted names
         'no-shadow-restricted-names': 2,
-        // Disallow use of undeclared variables unless mentioned in a /*global */ block
+        // Disallow the use of undeclared variables unless mentioned in /*global */ comments
         'no-undef': 2,
-        // Disallow use of undefined when initializing variables
+        // Disallow initializing variables to undefined
         'no-undef-init': 2,
-        // Disallow use of undefined variable
+        // Disallow use of undefined as an identifier
         'no-undefined': 0,
-        // Disallow declaration of variables that are not used in the code
+        // Disallow unused variables
         'no-unused-vars': [2, { 'vars': 'local', 'args': 'after-used' }],
-        // Disallow use of variables before they are defined
+        // Disallow the use of variables before they are defined
         'no-use-before-define': [2, {
             'functions': false,  // Completly disable for functions.. it feels weird
             'classes': false,  // Disable for classes but still checks in the same scope
