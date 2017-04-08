@@ -168,57 +168,9 @@
     "column": 5
   },
   {
-    "rule": "jsdoc/check-param-names",
-    "severity": 2,
-    "line": 360,
-    "column": 5
-  },
-  {
-    "rule": "jsdoc/newline-after-description",
-    "severity": 2,
-    "line": 360,
-    "column": 5
-  },
-  {
-    "rule": "jsdoc/require-hyphen-before-param-description",
-    "severity": 2,
-    "line": 360,
-    "column": 5
-  },
-  {
-    "rule": "jsdoc/require-returns-type",
-    "severity": 2,
-    "line": 360,
-    "column": 5
-  },
-  {
-    "rule": "valid-jsdoc",
-    "severity": 2,
-    "line": 360,
-    "column": 5
-  },
-  {
-    "rule": "valid-jsdoc",
-    "severity": 2,
-    "line": 360,
-    "column": 5
-  },
-  {
-    "rule": "valid-jsdoc",
-    "severity": 2,
-    "line": 360,
-    "column": 5
-  },
-  {
-    "rule": "valid-jsdoc",
-    "severity": 2,
-    "line": 360,
-    "column": 5
-  },
-  {
     "rule": "valid-typeof",
     "severity": 2,
-    "line": 386,
+    "line": 363,
     "column": 18
   }
 ]
