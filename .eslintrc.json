@@ -1,9 +1,6 @@
 {
-    "env": {
-      "jest": true
-    },
     "extends": [
-        "./es6.js",
+        "./es5.js",
         "./addons/node.js"
     ],
     "rules": {

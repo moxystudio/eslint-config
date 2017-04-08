@@ -1,0 +1,9 @@
+{
+    "env": {
+      "jest": true
+    },
+    "extends": [
+        "../es6.js",
+        "../addons/node.js"
+    ]
+}
