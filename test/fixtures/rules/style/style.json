@@ -312,99 +312,105 @@
     "column": 20
   },
   {
+    "rule": "object-property-newline",
+    "severity": 2,
+    "line": 929,
+    "column": 15
+  },
+  {
     "rule": "one-var",
     "severity": 2,
-    "line": 938,
+    "line": 953,
     "column": 9
   },
   {
     "rule": "operator-linebreak",
     "severity": 2,
-    "line": 971,
+    "line": 986,
     "column": 14
   },
   {
     "rule": "padded-blocks",
     "severity": 2,
-    "line": 983,
+    "line": 998,
     "column": 30
   },
   {
     "rule": "padded-blocks",
     "severity": 2,
-    "line": 987,
+    "line": 1002,
     "column": 5
   },
   {
     "rule": "quote-props",
     "severity": 2,
-    "line": 1002,
+    "line": 1017,
     "column": 9
   },
   {
     "rule": "quotes",
     "severity": 2,
-    "line": 1018,
+    "line": 1033,
     "column": 15
   },
   {
     "rule": "semi",
     "severity": 2,
-    "line": 1034,
+    "line": 1049,
     "column": 23
   },
   {
     "rule": "semi-spacing",
     "severity": 2,
-    "line": 1045,
+    "line": 1060,
     "column": 17
   },
   {
     "rule": "space-before-blocks",
     "severity": 2,
-    "line": 1074,
+    "line": 1089,
     "column": 17
   },
   {
     "rule": "space-before-function-paren",
     "severity": 2,
-    "line": 1089,
+    "line": 1104,
     "column": 15
   },
   {
     "rule": "space-in-parens",
     "severity": 2,
-    "line": 1104,
+    "line": 1119,
     "column": 15
   },
   {
     "rule": "space-infix-ops",
     "severity": 2,
-    "line": 1119,
+    "line": 1134,
     "column": 16
   },
   {
     "rule": "space-unary-ops",
     "severity": 2,
-    "line": 1129,
+    "line": 1144,
     "column": 13
   },
   {
     "rule": "spaced-comment",
     "severity": 2,
-    "line": 1136,
+    "line": 1151,
     "column": 1
   },
   {
     "rule": "spaced-comment",
     "severity": 2,
-    "line": 1137,
+    "line": 1152,
     "column": 1
   },
   {
     "rule": "template-tag-spacing",
     "severity": 2,
-    "line": 1148,
+    "line": 1163,
     "column": 19
   }
 ]
