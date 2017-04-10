@@ -4,10 +4,10 @@ module.exports = {
     'extends': [
         './rules/best-practices',
         './rules/errors',
+        './rules/jsdoc',
         './rules/strict',
         './rules/style',
         './rules/variables',
-        './rules/jsdoc',
     ].map(require.resolve),
     'parserOptions': {
         'ecmaVersion': 5,
