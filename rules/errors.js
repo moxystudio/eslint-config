@@ -46,7 +46,7 @@ module.exports = {
         'no-invalid-regexp': 2,
         // Disallow irregular whitespace outside of strings and comments
         'no-irregular-whitespace': 2,
-        // Ddisallow calling global object properties as functions
+        // Disallow calling global object properties as functions
         'no-obj-calls': 2,
         // Disallow calling some Object.prototype methods directly on objects
         'no-prototype-builtins': 2,
