@@ -1,5 +1,7 @@
 'use strict';
 
+const React = require('react');
+
 // `array-bracket-spacing` - enforce consistent spacing inside array brackets
 // ---------------------------------------------------------------------
 // Bad
@@ -235,11 +237,11 @@ console.log('sometimes you need to wrap the word inside of backtick quotes');
 // ---------------------------------------------------------------------
 // Bad
 (function () {
-    const MyComponent = <a b='c' />; // eslint-disable-line react/react-in-jsx-scope
+    const MyComponent = <a b='c'>foo</a>;
 })();
 // Good
 (function () {
-    const MyComponent = <a b="c" />; // eslint-disable-line react/react-in-jsx-scope
+    const MyComponent = <a b="c">foo</a>;
 })();
 
 // `key-spacing` - enforce consistent spacing between keys and values in object literal properties

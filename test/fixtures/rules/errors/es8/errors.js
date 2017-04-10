@@ -1,21 +1,32 @@
 // `no-await-in-loop` - disallow await inside of loops
 // ---------------------------------------------------------------------
 // Bad
-(async function fetchUsers(ids) {
+(async function () {
     const userIds = ['afb32432', 'fkldst3r2'];
     const users = [];
 
+    function fetchUser(id) {
+        return Promise.resolve({ id });
+    }
+
     for (let x = 0; x < userIds.length; x += 1) {
-        users.push(await fetchUser(userIds[x]));  // eslint-disable-line no-undef
+        users.push(await fetchUser(userIds[x]));
     }
 
     return users;
 })();
 // Good
-(function fetchUsers(ids) {
+(function () {
+    const pmap = require('pmap');
+
     const userIds = ['afb32432', 'fkldst3r2'];
     // Example uses https://github.com/sindresorhus/p-map
-    const users = pmap(userIds, (id) => fetchUser(id), { concurrency: 5 });  // eslint-disable-line no-undef
+
+    function fetchUser(id) {
+        return Promise.resolve({ id });
+    }
+
+    const users = pmap(userIds, (id) => fetchUser(id), { concurrency: 5 });
 
     return users;
 })();

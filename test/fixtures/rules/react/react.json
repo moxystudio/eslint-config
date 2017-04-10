@@ -39,13 +39,13 @@
     "rule": "react/jsx-handler-names",
     "severity": 2,
     "line": 102,
-    "column": 25
+    "column": 35
   },
   {
     "rule": "react/jsx-handler-names",
     "severity": 2,
     "line": 106,
-    "column": 25
+    "column": 35
   },
   {
     "rule": "react/jsx-indent-props",
@@ -69,19 +69,19 @@
     "rule": "react/jsx-no-bind",
     "severity": 2,
     "line": 177,
-    "column": 25
-  },
-  {
-    "rule": "react/jsx-no-bind",
-    "severity": 2,
-    "line": 177,
     "column": 35
   },
   {
     "rule": "react/jsx-no-bind",
     "severity": 2,
+    "line": 177,
+    "column": 45
+  },
+  {
+    "rule": "react/jsx-no-bind",
+    "severity": 2,
     "line": 181,
-    "column": 25
+    "column": 35
   },
   {
     "rule": "react/jsx-no-comment-textnodes",

@@ -2,7 +2,7 @@
   {
     "rule": "no-await-in-loop",
     "severity": 1,
-    "line": 9,
+    "line": 13,
     "column": 20
   }
 ]

@@ -85,7 +85,7 @@ debugger;
 // ---------------------------------------------------------------------
 // Bad
 (function () {
-    function f(arg, arg) {  // eslint-disable-line no-redeclare
+    function f(arg, arg) {
         console.log(arg);
     }
 })();
@@ -323,10 +323,10 @@ if (Math.random() > 0) {
 // Bad
 (function () {
     try {
-        return 1;
-    } catch (err) { // eslint-disable-line no-unreachable
-        return 2; // eslint-disable-line no-unreachable
-    } finally {  // eslint-disable-line no-unreachable
+        throw new Error('foo');
+    } catch (err) {
+        return 2;
+    } finally {
         return 3;
     }
 })();

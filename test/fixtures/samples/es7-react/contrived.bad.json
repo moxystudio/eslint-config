@@ -9,24 +9,24 @@
     "rule": "react/jsx-no-bind",
     "severity": 2,
     "line": 12,
-    "column": 18
+    "column": 28
   },
   {
     "rule": "react/jsx-handler-names",
     "severity": 2,
     "line": 12,
-    "column": 56
+    "column": 66
   },
   {
     "rule": "react/jsx-space-before-closing",
     "severity": 2,
     "line": 14,
-    "column": 55
+    "column": 62
   },
   {
     "rule": "react/jsx-tag-spacing",
     "severity": 2,
     "line": 14,
-    "column": 55
+    "column": 62
   }
 ]

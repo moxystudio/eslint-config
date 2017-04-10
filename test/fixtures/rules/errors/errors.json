@@ -36,6 +36,12 @@
     "column": 5
   },
   {
+    "rule": "no-redeclare",
+    "severity": 2,
+    "line": 88,
+    "column": 21
+  },
+  {
     "rule": "no-dupe-keys",
     "severity": 2,
     "line": 104,

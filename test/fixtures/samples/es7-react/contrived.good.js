@@ -15,10 +15,10 @@ class MyComponent extends PureComponent {
 
     render() {
         return (
-            <div onClick={ this._handleClick }>
+            <a href="/foo" onClick={ this._handleClick }>
                 Hello { this.state.name }
-                <img src="http://domain.com/image.png" />
-            </div>
+                <img src="http://domain.com/image.png" alt="" />
+            </a>
         );
     }
 

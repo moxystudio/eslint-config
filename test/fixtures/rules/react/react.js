@@ -99,11 +99,11 @@ Component.propTypes = {
 (function () {
     class MyComponent extends Component {
         render() {
-            return <div onClick={ this._onClick }>bleh</div>;
+            return <a href="/foo" onClick={ this._onClick }>bleh</a>;
         }
 
         _renderFoo() {
-            return <div onClick={ this.handleClick }>foo</div>;
+            return <a href="/foo" onClick={ this.handleClick }>foo</a>;
         }
     }
 })();
@@ -111,7 +111,7 @@ Component.propTypes = {
 (function () {
     class MyComponent extends Component {
         render() {
-            return <div onClick={ this._handleClick }>bleh</div>;
+            return <a href="/foo" onClick={ this._handleClick }>bleh</a>;
         }
     }
 })();
@@ -174,11 +174,11 @@ Component.propTypes = {
 (function () {
     class MyComponent extends Component {
         render() {
-            return <div onClick={ this._handleClick.bind(this) }>bleh</div>;
+            return <a href="/foo" onClick={ this._handleClick.bind(this) }>bleh</a>;
         }
 
         _renderFoo() {
-            return <div onClick={ (e) => this._handleClick(e) }>foo</div>;
+            return <a href="/foo" onClick={ (e) => this._handleClick(e) }>foo</a>;
         }
     }
 })();
@@ -191,7 +191,7 @@ Component.propTypes = {
         }
 
         render() {
-            return <div onClick={ this._handleClick }>bar</div>;
+            return <a href="/foo" onClick={ this._handleClick }>bar</a>;
         }
     }
 })();
@@ -685,7 +685,7 @@ ReactDOM.render(<Component />, '#root');
 (function () {
     class MyComponent extends Component {
         render() {
-            <div error />; // eslint-disable-line no-unused-expressions
+            const div = <div error />;
         }
     }
 })();
@@ -765,10 +765,10 @@ ReactDOM.render(<Component />, '#root');
 // Bad
 (function () {
     class MyComponent extends Component {}
-    const a = <img>children</img>;
+    const a = <img alt="">children</img>;
 })();
 // Good
 (function () {
     class MyComponent extends Component {}
-    const a = <img src="" />;
+    const a = <img alt="" src="" />;
 })();
