@@ -1,4 +1,5 @@
 {
+    "root": true,
     "extends": [
         "./es5.js",
         "./addons/node.js"
