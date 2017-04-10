@@ -27,7 +27,7 @@ First you need to choose the **base** configuration to use:
 - `es5` - The configuration to be used in ECMAScript 5 based projects
 - `es6` - The configuration to be used in ECMAScript 6 based projects
 - `es7` - The configuration to be used in ECMAScript 7 based projects, enables `es6 modules` by default
-- `es8` - The configuration to be used in ECMAScript 8 based projects, enables object spread operator by default
+- `es8` - The configuration to be used in ECMAScript 8 based projects
 
 Then enhance it with one or more **addons**:
 
@@ -35,6 +35,7 @@ Then enhance it with one or more **addons**:
 - `node` - If you are going to develop code for NodeJS
 - `node-v4-es6`: Use this instead of `node` if you are developing against NodeJS 4.x with the `es6` base configuration (disables spread and other features unavailable in the V8 engine bundled with node `v4`)
 - `es6-modules`: If you are going to use ES6 import & export instead of CommonJS or AMD
+- `object-spread`: Allows to use [object rest spread](https://github.com/tc39/proposal-object-rest-spread) when destructuring objects
 - `react` - If you are going to use React and JSX (requires `es6` base configuration or higher)
 
 Finally, simply create a `.eslintrc.json` file with the chosen base configuration and addons.
@@ -42,7 +43,7 @@ Finally, simply create a `.eslintrc.json` file with the chosen base configuratio
 
 ### Examples
 
-Cutting edge ES8 with modules in the browser, using react:
+Cutting edge ES8 with modules and object rest spread in the browser, using react:
 
 ```json
 {
@@ -50,7 +51,8 @@ Cutting edge ES8 with modules in the browser, using react:
     "extends": [
         "eslint-config-moxy/es8",
         "eslint-config-moxy/addons/browser",
-        "eslint-config-moxy/addons/react"
+        "eslint-config-moxy/addons/react",
+        "eslint-config-moxy/addons/object-spread"
     ]
 }
 ```
