@@ -921,11 +921,26 @@ if (Math.random() > 0.5) {
     const a = { a: 2 };
 })();
 
-// `object-property-newline` - nforce placing object properties on separate lines
+// `object-property-newline` - enforce placing object properties on separate lines
 // ---------------------------------------------------------------------
-// Not active
+// Bad
+(function () {
+    const a = {
+        a: 2, b: 3,
+        c: 4,
+    };
+})();
+// Good
 (function () {
     const a = { a: 2, b: 3, c: 4 };
+})();
+// Also good
+(function () {
+    const a = {
+        a: 2,
+        b: 3,
+        c: 4,
+    };
 })();
 
 // `one-var` - enforce variables to be declared either together or separately in functions
