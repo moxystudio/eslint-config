@@ -14,8 +14,9 @@
     "lint": "eslint . --ignore-pattern test/fixtures",
     "lint:staged": "lint-staged",
     "test": "jest",
-    "precommit": "npm run lint:staged",
-    "prepublish": "npm run lint && npm test"
+    "test:watch": "jest --watch",
+    "posttest": "npm run lint",
+    "precommit": "npm run lint:staged"
   },
   "author": "André Cruz <andre@moxy.studio>",
   "homepage": "https://github.com/moxystudio/eslint-config",
