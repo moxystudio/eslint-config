@@ -1,7 +1,7 @@
 {
     "root": true,
     "extends": [
-        "../../../../es8.js",
+        "../../../../es7.js",
         "../../../../addons/react.js"
     ]
 }
