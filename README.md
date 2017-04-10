@@ -22,11 +22,13 @@ MOXY [eslint](http://eslint.org/) configuration to be used across several JavaSc
 
 ## Usage
 
+Create a `.eslintrc.json` file in the project root using a base configuration and addons.
+
 First you need to choose the **base** configuration to use:
 
 - `es5` - The configuration to be used in ECMAScript 5 based projects
 - `es6` - The configuration to be used in ECMAScript 6 based projects
-- `es7` - The configuration to be used in ECMAScript 7 based projects, enables `es6 modules` by default
+- `es7` - The configuration to be used in ECMAScript 7 based projects
 - `es8` - The configuration to be used in ECMAScript 8 based projects
 
 Then enhance it with one or more **addons**:
@@ -43,7 +45,7 @@ Finally, simply create a `.eslintrc.json` file with the chosen base configuratio
 
 ### Examples
 
-Cutting edge ES8 with modules and object rest spread in the browser, using react:
+Cutting edge react in the browser:
 
 ```json
 {
@@ -51,6 +53,7 @@ Cutting edge ES8 with modules and object rest spread in the browser, using react
     "extends": [
         "eslint-config-moxy/es8",
         "eslint-config-moxy/addons/browser",
+        "eslint-config-moxy/addons/es6-modules",
         "eslint-config-moxy/addons/react",
         "eslint-config-moxy/addons/object-spread"
     ]
@@ -107,7 +110,7 @@ Good old ES5 in NodeJS:
 }
 ```
 
-Note that by setting `root` to true, we ensure that no ancestor configuration is used which also improves `eslint` performance because no more file lookups need to be done.
+Note that by setting `root` to true, we ensure that no ancestor configuration is used which also improves `ESLint` performance because no more file lookups need to be done.
 
 
 ## File naming convention
