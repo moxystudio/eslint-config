@@ -181,7 +181,7 @@
   },
   {
     "rule": "react/no-direct-mutation-state",
-    "severity": 1,
+    "severity": 2,
     "line": 438,
     "column": 13
   },

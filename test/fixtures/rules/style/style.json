@@ -223,7 +223,7 @@
   },
   {
     "rule": "newline-per-chained-call",
-    "severity": 1,
+    "severity": 2,
     "line": 664,
     "column": 53
   },

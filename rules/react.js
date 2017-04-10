@@ -94,7 +94,7 @@ module.exports = {
         // Prevent usage of setState in componentDidUpdate
         'react/no-did-update-set-state': [2],
         // Prevent direct mutation of this.state
-        'react/no-direct-mutation-state': 1,
+        'react/no-direct-mutation-state': 2,
         // Prevent usage of findDOMNode
         'react/no-find-dom-node': 0,
         // Prevent usage of isMounted

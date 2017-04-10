@@ -97,7 +97,7 @@ module.exports = {
         // Require an empty line before return statements
         'newline-before-return': 2,
         // Require a newline after each call in a method chain
-        'newline-per-chained-call': [1, { 'ignoreChainWithDepth': 2 }],
+        'newline-per-chained-call': [2, { 'ignoreChainWithDepth': 2 }],
         // Disallow Array constructors
         'no-array-constructor': 2,
         // Disallow bitwise operators
