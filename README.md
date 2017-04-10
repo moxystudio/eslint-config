@@ -40,8 +40,6 @@ Then enhance it with one or more **addons**:
 - `object-spread`: Allows to use [object rest spread](https://github.com/tc39/proposal-object-rest-spread) when destructuring objects
 - `react` - If you are going to use React and JSX (requires `es6` base configuration or higher)
 
-Finally, simply create a `.eslintrc.json` file with the chosen base configuration and addons.
-
 
 ### Examples
 
