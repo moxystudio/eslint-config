@@ -24,7 +24,6 @@
     "type": "git",
     "url": "git@github.com:moxystudio/eslint-config.git"
   },
-  "main": "index.js",
   "license": "MIT",
   "peerDependencies": {
     "eslint": "^3.0.0"
