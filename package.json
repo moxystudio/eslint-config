@@ -10,6 +10,13 @@
     "linter",
     "style"
   ],
+  "author": "André Cruz <andre@moxy.studio>",
+  "homepage": "https://github.com/moxystudio/eslint-config",
+  "repository": {
+      "type": "git",
+      "url": "git@github.com:moxystudio/eslint-config.git"
+  },
+  "license": "MIT",
   "scripts": {
     "lint": "eslint . --ignore-pattern test/fixtures",
     "lint:staged": "lint-staged",
@@ -18,13 +25,9 @@
     "posttest": "npm run lint",
     "precommit": "npm run lint:staged"
   },
-  "author": "André Cruz <andre@moxy.studio>",
-  "homepage": "https://github.com/moxystudio/eslint-config",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:moxystudio/eslint-config.git"
+  "lint-staged": {
+      "*.js": "eslint --ignore-pattern test/fixtures"
   },
-  "license": "MIT",
   "peerDependencies": {
     "eslint": "^3.0.0"
   },
