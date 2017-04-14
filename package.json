@@ -13,7 +13,7 @@
   "scripts": {
     "lint": "eslint . --ignore-pattern test/fixtures",
     "lint:staged": "lint-staged",
-    "test": "jest",
+    "test": "jest --coverage",
     "test:watch": "jest --watch",
     "posttest": "npm run lint",
     "precommit": "npm run lint:staged"
