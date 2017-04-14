@@ -19,6 +19,8 @@ MOXY [eslint](http://eslint.org/) configuration to be used across several JavaSc
 
 `$ npm install --save-dev eslint eslint-config-moxy`
 
+*NOTE*. `npm` v3 or greater is required for this package to work correctly until https://github.com/eslint/eslint/issues/3843 is resolved - this means that you must run `node` v6 or greater.
+
 
 ## Usage
 
@@ -35,7 +37,6 @@ Then enhance it with one or more **addons**:
 
 - `browser` - If you are going to develop code for the browser (assumes you use CommonJS or AMD)
 - `node` - If you are going to develop code for NodeJS
-- `node-v4-es6`: Use this instead of `node` if you are developing against NodeJS 4.x with the `es6` base configuration (disables spread and other features unavailable in the V8 engine bundled with node `v4`)
 - `es6-modules`: If you are going to use ES6 import & export instead of CommonJS or AMD
 - `object-spread`: Allows to use [object rest spread](https://github.com/tc39/proposal-object-rest-spread) when destructuring objects
 - `react` - If you are going to use React and JSX (requires `es6` base configuration or higher)
@@ -83,27 +84,14 @@ Use ES6 in NodeJS without any transpiler:
 }
 ```
 
-.. and if you are programming against NodeJS v4 please use:
-
-```json
-{
-    "root": true,
-    "extends": [
-        "eslint-config-moxy/es6",
-        "eslint-config-moxy/addons/node-v4-es6"
-    ]
-}
-```
-
-
-Good old ES5 in NodeJS:
+ES5 in the browser:
 
 ```json
 {
     "root": true,
     "extends": [
         "eslint-config-moxy/es5",
-        "eslint-config-moxy/addons/node"
+        "eslint-config-moxy/addons/browser"
     ]
 }
 ```
