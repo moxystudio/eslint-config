@@ -4,12 +4,13 @@ module.exports = {
     'extends': [
         './rules/best-practices',
         './rules/errors',
+        './rules/jsdoc',
         './rules/strict',
         './rules/style',
         './rules/variables',
     ].map(require.resolve),
-    'env': {},
-    'parserOptions': {},
-    'globals': {},
-    'rules': {},
+    'parserOptions': {
+        'ecmaVersion': 5,
+        'sourceType': 'script',
+    },
 };

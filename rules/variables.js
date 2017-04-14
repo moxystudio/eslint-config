@@ -1,32 +1,36 @@
-// eslint - Variables
+// Variables - http://eslint.org/docs/rules/#variables
 
 'use strict';
 
 module.exports = {
     'rules': {
-        // enforce or disallow variable initializations at definition
+        // Require or disallow initialization in variable declarations
         'init-declarations': 0,
-        // disallow the catch clause parameter name being the same as a variable in the outer scope
+        // Disallow catch clause parameters from shadowing variables in the outer scope
         'no-catch-shadow': 0,
-        // disallow deletion of variables
+        // Disallow deleting variables
         'no-delete-var': 2,
-        // disallow labels that share a name with a variable
+        // Disallow labels that share a name with a variable
         'no-label-var': 2,
-        // restrict usage of specified global variables
+        // Disallow specified global variables
         'no-restricted-globals': 0,
-        // disallow shadowing of names such as arguments
-        'no-shadow-restricted-names': 2,
-        // disallow declaration of variables already declared in the outer scope
+        // Disallow variable declarations from shadowing variables declared in the outer scope
         'no-shadow': 0,
-        // disallow use of undefined when initializing variables
-        'no-undef-init': 2,
-        // disallow use of undeclared variables unless mentioned in a /*global */ block
+        // Disallow identifiers from shadowing restricted names
+        'no-shadow-restricted-names': 2,
+        // Disallow the use of undeclared variables unless mentioned in /*global */ comments
         'no-undef': 2,
-        // disallow use of undefined variable
+        // Disallow initializing variables to undefined
+        'no-undef-init': 2,
+        // Disallow use of undefined as an identifier
         'no-undefined': 0,
-        // disallow declaration of variables that are not used in the code
+        // Disallow unused variables
         'no-unused-vars': [2, { 'vars': 'local', 'args': 'after-used' }],
-        // disallow use of variables before they are defined
-        'no-use-before-define': 0,
+        // Disallow the use of variables before they are defined
+        'no-use-before-define': [2, {
+            'functions': false,  // Completly disable for functions.. it feels weird
+            'classes': false,  // Disable for classes but still checks in the same scope
+            'variables': false,  // Disable for variables but still checks in the same scope
+        }],
     },
 };

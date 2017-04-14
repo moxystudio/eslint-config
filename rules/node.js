@@ -1,26 +1,29 @@
-// eslint - Node.js & CommonJS
+// Node.js & CommonJS - http://eslint.org/docs/rules/#nodejs-and-commonjs
 
 'use strict';
 
 module.exports = {
     'rules': {
-        // enforce return after a callback
+        // Require return statements after callbacks
         'callback-return': 1,
-        // enforce require() on top-level module scope
+        // Require require() calls to be placed at top-level module scope
         'global-require': 1,
-        // enforces error handling in callbacks
+        // Enforces error handling in callbacks
         'handle-callback-err': 1,
-        // disallow mixing regular variable and require declarations
-        'no-mixed-requires': [2, { 'grouping': true }],
-        // disallow use of new operator with the require function
-        'no-new-require': 0,
-        // disallow string concatenation with __dirname and __filename
+        // Disallow require calls to be mixed with regular variable declarations
+        // comment: this rule only works per var and we disallow multiple variables per var, so it's disabled
+        'no-mixed-requires': 0,
+        // Disallow new operators with calls to require
+        'no-new-require': 2,
+        // Disallow string concatenation with __dirname and __filename
         'no-path-concat': 0,
-        // disallow process.exit()
+        // Disallow the use of process.env
+        'no-process-env': 0,
+        // Disallow the use of process.exit()
         'no-process-exit': 0,
-        // restrict usage of specified node modules
+        // Disallow specified modules when loaded by require
         'no-restricted-modules': 0,
-        // disallow use of synchronous methods
+        // Disallow synchronous methods
         'no-sync': 0,
     },
 };

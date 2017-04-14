@@ -1,0 +1,14 @@
+[
+  {
+    "rule": "max-lines",
+    "severity": 1,
+    "line": 1,
+    "column": 1
+  },
+  {
+    "rule": "strict",
+    "severity": 2,
+    "line": 4,
+    "column": 1
+  }
+]

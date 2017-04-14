@@ -1,0 +1,44 @@
+[
+  {
+    "rule": "no-delete-var",
+    "severity": 2,
+    "line": 22,
+    "column": 5
+  },
+  {
+    "rule": "no-restricted-globals",
+    "severity": 2,
+    "line": 35,
+    "column": 21
+  },
+  {
+    "rule": "no-shadow-restricted-names",
+    "severity": 2,
+    "line": 64,
+    "column": 14
+  },
+  {
+    "rule": "no-undef",
+    "severity": 2,
+    "line": 70,
+    "column": 15
+  },
+  {
+    "rule": "no-undef-init",
+    "severity": 2,
+    "line": 76,
+    "column": 9
+  },
+  {
+    "rule": "no-use-before-define",
+    "severity": 2,
+    "line": 94,
+    "column": 17
+  },
+  {
+    "rule": "no-use-before-define",
+    "severity": 2,
+    "line": 106,
+    "column": 19
+  }
+]

@@ -22,28 +22,28 @@ MOXY [eslint](http://eslint.org/) configuration to be used across several JavaSc
 
 ## Usage
 
+Create a `.eslintrc.json` file in the project root using a base configuration and addons.
+
 First you need to choose the **base** configuration to use:
 
 - `es5` - The configuration to be used in ECMAScript 5 based projects
 - `es6` - The configuration to be used in ECMAScript 6 based projects
-- `es7` - The configuration to be used in ECMAScript 7 based projects, enables `es6 modules` by default
-- `es8` - The configuration to be used in ECMAScript 8 based projects, enables object spread operator by default
+- `es7` - The configuration to be used in ECMAScript 7 based projects
+- `es8` - The configuration to be used in ECMAScript 8 based projects
 
 Then enhance it with one or more **addons**:
 
-- `browser` - If you are going to develop code for the browser (having in mind IE >= 9)
-- `react` - If you are going to use React and JSX
-- `react-redux` - Same as the `react` addon, but should be used if you are going to develop code using [react-redux](https://github.com/reactjs/react-redux).
-- Specific addons for the `es6` base configuration:
-    - `es6-modules`: If you are going to use ES6 import & export (must be used with the `es6` base configuration)
-    - `node-v4-es6`: If you are going to develop code for NodeJS 4.x.x with the `es6` base configuration (disables spread and other features unavailable in the V8 engine bundled with node `v4`)
-
-Finally, simply create a `.eslintrc.json` file with the chosen base configuration and addons.
+- `browser` - If you are going to develop code for the browser (assumes you use CommonJS or AMD)
+- `node` - If you are going to develop code for NodeJS
+- `node-v4-es6`: Use this instead of `node` if you are developing against NodeJS 4.x with the `es6` base configuration (disables spread and other features unavailable in the V8 engine bundled with node `v4`)
+- `es6-modules`: If you are going to use ES6 import & export instead of CommonJS or AMD
+- `object-spread`: Allows to use [object rest spread](https://github.com/tc39/proposal-object-rest-spread) when destructuring objects
+- `react` - If you are going to use React and JSX (requires `es6` base configuration or higher)
 
 
 ### Examples
 
-Cutting edge ES8 with modules in the browser, using react:
+Cutting edge react in the browser:
 
 ```json
 {
@@ -51,7 +51,9 @@ Cutting edge ES8 with modules in the browser, using react:
     "extends": [
         "eslint-config-moxy/es8",
         "eslint-config-moxy/addons/browser",
-        "eslint-config-moxy/addons/react"
+        "eslint-config-moxy/addons/es6-modules",
+        "eslint-config-moxy/addons/react",
+        "eslint-config-moxy/addons/object-spread"
     ]
 }
 ```
@@ -88,7 +90,6 @@ Use ES6 in NodeJS without any transpiler:
     "root": true,
     "extends": [
         "eslint-config-moxy/es6",
-        "eslint-config-moxy/addons/node"
         "eslint-config-moxy/addons/node-v4-es6"
     ]
 }
@@ -107,7 +108,7 @@ Good old ES5 in NodeJS:
 }
 ```
 
-Note that by setting `root` to true, we ensure that no ancestor configuration is used which also improves `eslint` performance because no more file lookups need to be done.
+Note that by setting `root` to true, we ensure that no ancestor configuration is used which also improves `ESLint` performance because no more file lookups need to be done.
 
 
 ## File naming convention

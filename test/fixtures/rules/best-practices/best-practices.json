@@ -1,0 +1,314 @@
+[
+  {
+    "rule": "array-callback-return",
+    "severity": 2,
+    "line": 17,
+    "column": 22
+  },
+  {
+    "rule": "curly",
+    "severity": 2,
+    "line": 64,
+    "column": 1
+  },
+  {
+    "rule": "default-case",
+    "severity": 2,
+    "line": 73,
+    "column": 5
+  },
+  {
+    "rule": "dot-location",
+    "severity": 2,
+    "line": 96,
+    "column": 18
+  },
+  {
+    "rule": "dot-notation",
+    "severity": 2,
+    "line": 112,
+    "column": 19
+  },
+  {
+    "rule": "eqeqeq",
+    "severity": 2,
+    "line": 126,
+    "column": 11
+  },
+  {
+    "rule": "eqeqeq",
+    "severity": 2,
+    "line": 126,
+    "column": 23
+  },
+  {
+    "rule": "no-alert",
+    "severity": 1,
+    "line": 155,
+    "column": 1
+  },
+  {
+    "rule": "no-alert",
+    "severity": 1,
+    "line": 156,
+    "column": 1
+  },
+  {
+    "rule": "no-alert",
+    "severity": 1,
+    "line": 157,
+    "column": 1
+  },
+  {
+    "rule": "no-caller",
+    "severity": 2,
+    "line": 167,
+    "column": 9
+  },
+  {
+    "rule": "no-case-declarations",
+    "severity": 2,
+    "line": 178,
+    "column": 5
+  },
+  {
+    "rule": "no-else-return",
+    "severity": 2,
+    "line": 212,
+    "column": 12
+  },
+  {
+    "rule": "no-empty-pattern",
+    "severity": 2,
+    "line": 239,
+    "column": 11
+  },
+  {
+    "rule": "no-eval",
+    "severity": 2,
+    "line": 260,
+    "column": 1
+  },
+  {
+    "rule": "no-extend-native",
+    "severity": 2,
+    "line": 264,
+    "column": 1
+  },
+  {
+    "rule": "no-extra-bind",
+    "severity": 2,
+    "line": 272,
+    "column": 7
+  },
+  {
+    "rule": "func-style",
+    "severity": 2,
+    "line": 276,
+    "column": 11
+  },
+  {
+    "rule": "no-fallthrough",
+    "severity": 2,
+    "line": 294,
+    "column": 5
+  },
+  {
+    "rule": "no-floating-decimal",
+    "severity": 2,
+    "line": 320,
+    "column": 15
+  },
+  {
+    "rule": "no-global-assign",
+    "severity": 2,
+    "line": 329,
+    "column": 1
+  },
+  {
+    "rule": "no-global-assign",
+    "severity": 2,
+    "line": 330,
+    "column": 1
+  },
+  {
+    "rule": "no-implied-eval",
+    "severity": 2,
+    "line": 346,
+    "column": 1
+  },
+  {
+    "rule": "no-invalid-this",
+    "severity": 2,
+    "line": 352,
+    "column": 9
+  },
+  {
+    "rule": "no-iterator",
+    "severity": 2,
+    "line": 363,
+    "column": 5
+  },
+  {
+    "rule": "no-labels",
+    "severity": 2,
+    "line": 369,
+    "column": 5
+  },
+  {
+    "rule": "no-labels",
+    "severity": 2,
+    "line": 370,
+    "column": 9
+  },
+  {
+    "rule": "no-lone-blocks",
+    "severity": 2,
+    "line": 378,
+    "column": 5
+  },
+  {
+    "rule": "no-inner-declarations",
+    "severity": 2,
+    "line": 391,
+    "column": 9
+  },
+  {
+    "rule": "no-multi-spaces",
+    "severity": 2,
+    "line": 409,
+    "column": 16
+  },
+  {
+    "rule": "no-new",
+    "severity": 2,
+    "line": 429,
+    "column": 5
+  },
+  {
+    "rule": "no-new-func",
+    "severity": 2,
+    "line": 435,
+    "column": 15
+  },
+  {
+    "rule": "no-new-wrappers",
+    "severity": 2,
+    "line": 441,
+    "column": 15
+  },
+  {
+    "rule": "no-proto",
+    "severity": 2,
+    "line": 464,
+    "column": 15
+  },
+  {
+    "rule": "no-return-assign",
+    "severity": 2,
+    "line": 481,
+    "column": 5
+  },
+  {
+    "rule": "no-script-url",
+    "severity": 2,
+    "line": 504,
+    "column": 17
+  },
+  {
+    "rule": "no-self-assign",
+    "severity": 2,
+    "line": 511,
+    "column": 9
+  },
+  {
+    "rule": "no-self-compare",
+    "severity": 2,
+    "line": 519,
+    "column": 12
+  },
+  {
+    "rule": "no-sequences",
+    "severity": 2,
+    "line": 527,
+    "column": 16
+  },
+  {
+    "rule": "no-throw-literal",
+    "severity": 2,
+    "line": 536,
+    "column": 5
+  },
+  {
+    "rule": "no-unmodified-loop-condition",
+    "severity": 2,
+    "line": 548,
+    "column": 12
+  },
+  {
+    "rule": "no-unused-expressions",
+    "severity": 2,
+    "line": 558,
+    "column": 5
+  },
+  {
+    "rule": "no-useless-call",
+    "severity": 2,
+    "line": 571,
+    "column": 5
+  },
+  {
+    "rule": "no-useless-concat",
+    "severity": 2,
+    "line": 584,
+    "column": 19
+  },
+  {
+    "rule": "no-useless-escape",
+    "severity": 2,
+    "line": 600,
+    "column": 16
+  },
+  {
+    "rule": "no-useless-return",
+    "severity": 2,
+    "line": 614,
+    "column": 9
+  },
+  {
+    "rule": "no-void",
+    "severity": 2,
+    "line": 631,
+    "column": 5
+  },
+  {
+    "rule": "no-warning-comments",
+    "severity": 1,
+    "line": 637,
+    "column": 5
+  },
+  {
+    "rule": "prefer-promise-reject-errors",
+    "severity": 2,
+    "line": 648,
+    "column": 54
+  },
+  {
+    "rule": "radix",
+    "severity": 2,
+    "line": 659,
+    "column": 15
+  },
+  {
+    "rule": "wrap-iife",
+    "severity": 2,
+    "line": 677,
+    "column": 15
+  },
+  {
+    "rule": "yoda",
+    "severity": 2,
+    "line": 687,
+    "column": 9
+  }
+]

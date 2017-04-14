@@ -1,0 +1,8 @@
+[
+  {
+    "rule": "strict",
+    "severity": 2,
+    "line": 3,
+    "column": 1
+  }
+]

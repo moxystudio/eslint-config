@@ -1,0 +1,206 @@
+[
+  {
+    "rule": "no-duplicate-imports",
+    "severity": 2,
+    "line": 4,
+    "column": 1
+  },
+  {
+    "rule": "arrow-body-style",
+    "severity": 2,
+    "line": 17,
+    "column": 22
+  },
+  {
+    "rule": "max-statements-per-line",
+    "severity": 2,
+    "line": 17,
+    "column": 24
+  },
+  {
+    "rule": "arrow-body-style",
+    "severity": 2,
+    "line": 18,
+    "column": 22
+  },
+  {
+    "rule": "max-statements-per-line",
+    "severity": 2,
+    "line": 18,
+    "column": 24
+  },
+  {
+    "rule": "arrow-parens",
+    "severity": 2,
+    "line": 26,
+    "column": 15
+  },
+  {
+    "rule": "arrow-spacing",
+    "severity": 2,
+    "line": 33,
+    "column": 17
+  },
+  {
+    "rule": "arrow-spacing",
+    "severity": 2,
+    "line": 33,
+    "column": 20
+  },
+  {
+    "rule": "constructor-super",
+    "severity": 2,
+    "line": 42,
+    "column": 9
+  },
+  {
+    "rule": "generator-star-spacing",
+    "severity": 2,
+    "line": 59,
+    "column": 14
+  },
+  {
+    "rule": "generator-star-spacing",
+    "severity": 2,
+    "line": 59,
+    "column": 14
+  },
+  {
+    "rule": "generator-star-spacing",
+    "severity": 2,
+    "line": 65,
+    "column": 14
+  },
+  {
+    "rule": "no-class-assign",
+    "severity": 2,
+    "line": 80,
+    "column": 5
+  },
+  {
+    "rule": "no-const-assign",
+    "severity": 2,
+    "line": 94,
+    "column": 5
+  },
+  {
+    "rule": "no-dupe-class-members",
+    "severity": 2,
+    "line": 108,
+    "column": 9
+  },
+  {
+    "rule": "no-new-symbol",
+    "severity": 2,
+    "line": 116,
+    "column": 19
+  },
+  {
+    "rule": "no-this-before-super",
+    "severity": 1,
+    "line": 133,
+    "column": 13
+  },
+  {
+    "rule": "no-useless-computed-key",
+    "severity": 2,
+    "line": 152,
+    "column": 19
+  },
+  {
+    "rule": "no-useless-constructor",
+    "severity": 2,
+    "line": 164,
+    "column": 9
+  },
+  {
+    "rule": "no-var",
+    "severity": 2,
+    "line": 182,
+    "column": 5
+  },
+  {
+    "rule": "object-shorthand",
+    "severity": 2,
+    "line": 195,
+    "column": 9
+  },
+  {
+    "rule": "prefer-arrow-callback",
+    "severity": 2,
+    "line": 214,
+    "column": 7
+  },
+  {
+    "rule": "prefer-const",
+    "severity": 2,
+    "line": 229,
+    "column": 9
+  },
+  {
+    "rule": "prefer-numeric-literals",
+    "severity": 2,
+    "line": 253,
+    "column": 16
+  },
+  {
+    "rule": "prefer-rest-params",
+    "severity": 2,
+    "line": 265,
+    "column": 21
+  },
+  {
+    "rule": "prefer-spread",
+    "severity": 2,
+    "line": 281,
+    "column": 17
+  },
+  {
+    "rule": "prefer-template",
+    "severity": 1,
+    "line": 293,
+    "column": 13
+  },
+  {
+    "rule": "require-yield",
+    "severity": 1,
+    "line": 301,
+    "column": 5
+  },
+  {
+    "rule": "rest-spread-spacing",
+    "severity": 2,
+    "line": 318,
+    "column": 29
+  },
+  {
+    "rule": "template-curly-spacing",
+    "severity": 2,
+    "line": 338,
+    "column": 22
+  },
+  {
+    "rule": "template-curly-spacing",
+    "severity": 2,
+    "line": 338,
+    "column": 39
+  },
+  {
+    "rule": "yield-star-spacing",
+    "severity": 2,
+    "line": 347,
+    "column": 15
+  },
+  {
+    "rule": "yield-star-spacing",
+    "severity": 2,
+    "line": 347,
+    "column": 15
+  },
+  {
+    "rule": "yield-star-spacing",
+    "severity": 2,
+    "line": 353,
+    "column": 15
+  }
+]
