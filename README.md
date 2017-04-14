@@ -84,7 +84,7 @@ Use ES6 in NodeJS without any transpiler:
 }
 ```
 
-ES5 in the browser:
+Old ES5 in the browser:
 
 ```json
 {
