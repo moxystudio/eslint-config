@@ -20,8 +20,8 @@
   "scripts": {
     "lint": "eslint . --ignore-pattern test/fixtures",
     "lint:staged": "lint-staged",
-    "test": "jest --coverage",
-    "test:watch": "jest --watch",
+    "test": "jest --env node --coverage",
+    "test:watch": "jest --env node --watch",
     "posttest": "npm run lint",
     "precommit": "npm run lint:staged"
   },
