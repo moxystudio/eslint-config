@@ -1,12 +1,14 @@
 # eslint-config
 
-[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency status][david-dm-image]][david-dm-url] [![Dev Dependency status][david-dm-dev-image]][david-dm-dev-url]
+[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][codecov-image]][codecov-url] [![Dependency status][david-dm-image]][david-dm-url] [![Dev Dependency status][david-dm-dev-image]][david-dm-dev-url]
 
 [npm-url]:https://npmjs.org/package/eslint-config-moxy
-[downloads-image]:http://img.shields.io/npm/dm/eslint-config-moxy.svg
 [npm-image]:http://img.shields.io/npm/v/eslint-config-moxy.svg
+[downloads-image]:http://img.shields.io/npm/dm/eslint-config-moxy.svg
 [travis-url]:https://travis-ci.org/moxystudio/eslint-config
 [travis-image]:http://img.shields.io/travis/moxystudio/eslint-config/master.svg
+[codecov-url]:https://codecov.io/gh/moxystudio/eslint-config
+[codecov-image]:https://img.shields.io/codecov/c/github/moxystudio/eslint-config/master.svg
 [david-dm-url]:https://david-dm.org/moxystudio/eslint-config
 [david-dm-image]:https://img.shields.io/david/moxystudio/eslint-config.svg
 [david-dm-dev-url]:https://david-dm.org/moxystudio/eslint-config#info=devDependencies
