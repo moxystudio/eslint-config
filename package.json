@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-moxy",
   "description": "MOXY eslint configuration to be used across several JavaScript projects",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "keywords": [
     "eslint-config",
     "eslintconfig",
@@ -13,8 +13,8 @@
   "author": "André Cruz <andre@moxy.studio>",
   "homepage": "https://github.com/moxystudio/eslint-config",
   "repository": {
-      "type": "git",
-      "url": "git@github.com:moxystudio/eslint-config.git"
+    "type": "git",
+    "url": "git@github.com:moxystudio/eslint-config.git"
   },
   "license": "MIT",
   "scripts": {
@@ -26,7 +26,7 @@
     "precommit": "npm run lint:staged"
   },
   "lint-staged": {
-      "*.js": "eslint --ignore-pattern test/fixtures"
+    "*.js": "eslint --ignore-pattern test/fixtures"
   },
   "peerDependencies": {
     "eslint": "^3.0.0"
