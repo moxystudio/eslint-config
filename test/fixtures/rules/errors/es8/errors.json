@@ -1,8 +1,8 @@
 [
-  {
-    "rule": "no-await-in-loop",
-    "severity": 1,
-    "line": 13,
-    "column": 20
-  }
+    {
+        "rule": "no-await-in-loop",
+        "severity": 1,
+        "line": 13,
+        "column": 20
+    }
 ]

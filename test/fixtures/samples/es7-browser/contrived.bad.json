@@ -1,8 +1,8 @@
 [
-  {
-    "rule": "no-restricted-properties",
-    "severity": 2,
-    "line": 8,
-    "column": 16
-  }
+    {
+        "rule": "no-restricted-properties",
+        "severity": 2,
+        "line": 8,
+        "column": 16
+    }
 ]

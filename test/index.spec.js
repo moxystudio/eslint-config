@@ -21,7 +21,7 @@ it('should pass on all files', () => {
         .sort((warn1, warn2) => warn1.line - warn2.line || warn1.column - warn2.column || warn1.rule.localeCompare(warn2.rule));
 
         // Uncomment line below to rewrite all expected json results
-        // require('fs').writeFileSync(filePath.replace(/\.js$/, '.json'), JSON.stringify(actual, null, 2));
+        // require('fs').writeFileSync(filePath.replace(/\.js$/, '.json'), JSON.stringify(actual, null, 4));
 
         // Read expected
         const expected = require(filePath.replace(/\.js$/, '.json'));  // eslint-disable-line global-require

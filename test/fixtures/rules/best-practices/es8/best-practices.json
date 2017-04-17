@@ -1,14 +1,14 @@
 [
-  {
-    "rule": "no-return-await",
-    "severity": 2,
-    "line": 6,
-    "column": 16
-  },
-  {
-    "rule": "require-await",
-    "severity": 2,
-    "line": 20,
-    "column": 5
-  }
+    {
+        "rule": "no-return-await",
+        "severity": 2,
+        "line": 6,
+        "column": 16
+    },
+    {
+        "rule": "require-await",
+        "severity": 2,
+        "line": 20,
+        "column": 5
+    }
 ]

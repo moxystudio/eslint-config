@@ -1,20 +1,20 @@
 [
-  {
-    "rule": "callback-return",
-    "severity": 1,
-    "line": 11,
-    "column": 13
-  },
-  {
-    "rule": "global-require",
-    "severity": 1,
-    "line": 29,
-    "column": 21
-  },
-  {
-    "rule": "handle-callback-err",
-    "severity": 1,
-    "line": 36,
-    "column": 5
-  }
+    {
+        "rule": "callback-return",
+        "severity": 1,
+        "line": 11,
+        "column": 13
+    },
+    {
+        "rule": "global-require",
+        "severity": 1,
+        "line": 29,
+        "column": 21
+    },
+    {
+        "rule": "handle-callback-err",
+        "severity": 1,
+        "line": 36,
+        "column": 5
+    }
 ]
