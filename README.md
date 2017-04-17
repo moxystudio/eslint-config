@@ -21,7 +21,7 @@ MOXY [eslint](http://eslint.org/) configuration to be used across several JavaSc
 
 `$ npm install --save-dev eslint eslint-config-moxy`
 
-*NOTE*: `npm` v3 or greater is required for this package to work correctly until https://github.com/eslint/eslint/issues/3458 is resolved - this means that you must run `node` v6 or greater.
+*NOTE*: `npm` v3 or greater is required for this package to work correctly until [#3458](https://github.com/eslint/eslint/issues/3458) is resolved - this means that you must run `node` v6 or greater.
 
 
 ## Usage
