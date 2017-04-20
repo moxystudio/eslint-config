@@ -195,7 +195,7 @@
         "rule": "max-statements-per-line",
         "severity": 2,
         "line": 575,
-        "column": 20
+        "column": 47
     },
     {
         "rule": "new-cap",

@@ -12,22 +12,10 @@
         "column": 22
     },
     {
-        "rule": "max-statements-per-line",
-        "severity": 2,
-        "line": 17,
-        "column": 24
-    },
-    {
         "rule": "arrow-body-style",
         "severity": 2,
         "line": 18,
         "column": 22
-    },
-    {
-        "rule": "max-statements-per-line",
-        "severity": 2,
-        "line": 18,
-        "column": 24
     },
     {
         "rule": "arrow-parens",
