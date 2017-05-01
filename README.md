@@ -2,7 +2,6 @@
 
 [![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][codecov-image]][codecov-url] [![Dependency status][david-dm-image]][david-dm-url] [![Dev Dependency status][david-dm-dev-image]][david-dm-dev-url] [![Greenkeeper badge][greenkeeper-image]][greenkeeper-url]
 
-
 [npm-url]:https://npmjs.org/package/eslint-config-moxy
 [npm-image]:http://img.shields.io/npm/v/eslint-config-moxy.svg
 [downloads-image]:http://img.shields.io/npm/dm/eslint-config-moxy.svg
