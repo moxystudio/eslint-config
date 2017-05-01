@@ -1,8 +1,7 @@
 # eslint-config
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/moxystudio/eslint-config.svg)](https://greenkeeper.io/)
+[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][codecov-image]][codecov-url] [![Dependency status][david-dm-image]][david-dm-url] [![Dev Dependency status][david-dm-dev-image]][david-dm-dev-url] [![Greenkeeper badge][greenkeeper-image]][greenkeeper-url]
 
-[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][codecov-image]][codecov-url] [![Dependency status][david-dm-image]][david-dm-url] [![Dev Dependency status][david-dm-dev-image]][david-dm-dev-url]
 
 [npm-url]:https://npmjs.org/package/eslint-config-moxy
 [npm-image]:http://img.shields.io/npm/v/eslint-config-moxy.svg
@@ -15,6 +14,8 @@
 [david-dm-image]:https://img.shields.io/david/moxystudio/eslint-config.svg
 [david-dm-dev-url]:https://david-dm.org/moxystudio/eslint-config#info=devDependencies
 [david-dm-dev-image]:https://img.shields.io/david/dev/moxystudio/eslint-config.svg
+[greenkeeper-image]:https://badges.greenkeeper.io/moxystudio/eslint-config.svg
+[greenkeeper-url]:https://greenkeeper.io
 
 MOXY [eslint](http://eslint.org/) configuration to be used across several JavaScript projects.
 
