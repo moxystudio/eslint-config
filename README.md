@@ -11,7 +11,7 @@
 [codecov-image]:https://img.shields.io/codecov/c/github/moxystudio/eslint-config/master.svg
 [david-dm-url]:https://david-dm.org/moxystudio/eslint-config
 [david-dm-image]:https://img.shields.io/david/moxystudio/eslint-config.svg
-[david-dm-dev-url]:https://david-dm.org/moxystudio/eslint-config#info=devDependencies
+[david-dm-dev-url]:https://david-dm.org/moxystudio/eslint-config?type=dev
 [david-dm-dev-image]:https://img.shields.io/david/dev/moxystudio/eslint-config.svg
 [greenkeeper-image]:https://badges.greenkeeper.io/moxystudio/eslint-config.svg
 [greenkeeper-url]:https://greenkeeper.io
