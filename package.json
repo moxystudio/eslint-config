@@ -29,7 +29,7 @@
     "*.js": "eslint --ignore-pattern test/fixtures"
   },
   "peerDependencies": {
-    "eslint": "^3.0.0"
+    "eslint": "^4.1.0"
   },
   "dependencies": {
     "eslint-plugin-react": "^6.0.0",
