@@ -101,7 +101,7 @@ if (Math.random() > 0.5)
     const obj = {};
     const a = obj.a;
     const b = obj
-        .a;
+    .a;
 })();
 
 // `dot-notation` - enforce dot notation whenever possible
@@ -429,7 +429,7 @@ or is it not?';
     new Person();
 })();
 
- // `no-new-func` - disallow new operators with the Function object
+// `no-new-func` - disallow new operators with the Function object
 // ---------------------------------------------------------------------
 (function () {
     const f = new Function();

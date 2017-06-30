@@ -15,12 +15,12 @@ console.log([1, 2, 3]);
 // Bad
 (function () {
     [1, 2]
-    .map((x) => {return x + 1;});
+    .forEach((x) => {console.log(x + 1);});
 })();
 // Good
 (function () {
     [1, 2]
-    .map((x) => { return x + 1; });
+    .forEach((x) => { console.log(x + 1); });
 })();
 
 // `brace-style` - enforce consistent brace style for blocks
@@ -709,7 +709,7 @@ if (Math.random() > 0.5) {
 // ---------------------------------------------------------------------
 // Not active
 if (Math.random() > 0.5) { // Comment
-   // More comments
+    // More comments
 }
 
 // `no-lonely-if` - disallow if statements as the only statement in else blocks

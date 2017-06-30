@@ -1,4 +1,6 @@
-import React, { Component, PropTypes, ReactDOM } from 'react';
+import React, { Component, ReactDOM } from 'react';
+import PropTypes from 'prop-types';
+import createReactClass from 'create-react-class';
 
 // `display-name` - prevent missing displayName in a React component definition
 // ---------------------------------------------------------------------
@@ -157,8 +159,7 @@ Component.propTypes = {
 // Good
 (function () {
     class MyComponent extends Component {}
-    [1, 2, 3].map((item, index) => <MyComponent key={ index }
-        item={ item } />);
+    [1, 2, 3].map((item, index) => <MyComponent key={ index } item={ item } />);
 })();
 
 // `jsx-max-props-per-line` - limit maximum of props on a single line in JSX
@@ -253,13 +254,11 @@ Component.propTypes = {
 // ---------------------------------------------------------------------
 // Bad
 (function () {
-    const href = 'http://this.link/comes/from/user/input';
-    const component = <a href={ href } target="_blank">foo</a>;
+    const component = <a href="http://this.link/comes/from/user/input" target="_blank">foo</a>;
 })();
 // Good
 (function () {
-    const href = 'http://this.link/comes/from/user/input';
-    const component = <a href={ href } target="_blank" rel="noopener noreferrer">foo</a>;
+    const component = <a href="http://this.link/comes/from/user/input" target="_blank" rel="noopener noreferrer">foo</a>;
 })();
 
 // `jsx-no-undef` - disallow undeclared variables in JSX
@@ -600,11 +599,11 @@ ReactDOM.render(<Component />, '#root');
     };
 })();
 
-// `prefer-es6-class` - require ES6 class declarations over React.createClass
+// `prefer-es6-class` - require ES6 class declarations over createReactClass
 // ---------------------------------------------------------------------
 // Bad
 (function () {
-    const MyComponent = React.createClass({});
+    const MyComponent = createReactClass({});
 })();
 // Good
 (function () {
