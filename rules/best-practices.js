@@ -79,7 +79,7 @@ module.exports = {
         // Disallow magic numbers
         'no-magic-numbers': 0,
         // Disallow multiple spaces
-        'no-multi-spaces': 2,
+        'no-multi-spaces': [2, { 'ignoreEOLComments': true }],
         // Disallow multiline strings
         // comment: multiline strings are supported in IE9 and higher.. so why should one still live in 1990?
         'no-multi-str': 0,
