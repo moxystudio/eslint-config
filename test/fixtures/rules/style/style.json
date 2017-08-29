@@ -98,12 +98,6 @@
     {
         "rule": "func-style",
         "severity": 2,
-        "line": 194,
-        "column": 11
-    },
-    {
-        "rule": "func-style",
-        "severity": 2,
         "line": 195,
         "column": 11
     },
