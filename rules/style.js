@@ -39,7 +39,7 @@ module.exports = {
         // Require or disallow named function expressions
         'func-names': 0,
         // Enforce the consistent use of either function declarations or expressions
-        'func-style': [2, 'declaration'],
+        'func-style': [2, 'declaration', { "allowArrowFunctions": true }],
         // Disallow specified identifiers
         'id-blacklist': 0,
         // Enforce minimum and maximum identifier lengths
