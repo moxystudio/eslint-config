@@ -12,7 +12,7 @@
 
 // `no-catch-shadow` - disallow catch clause parameters from shadowing variables in the outer scope
 // ---------------------------------------------------------------------
- // Not active because we do not support IE8 or earlier..
+// Not active because we do not support IE8 or earlier..
 
 // `no-delete-var` - disallow deleting variables
 // ---------------------------------------------------------------------

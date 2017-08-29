@@ -2,277 +2,283 @@
     {
         "rule": "react/jsx-boolean-value",
         "severity": 2,
-        "line": 39,
+        "line": 41,
         "column": 34
     },
     {
         "rule": "react/jsx-closing-bracket-location",
         "severity": 2,
-        "line": 52,
+        "line": 54,
         "column": 9
     },
     {
         "rule": "react/jsx-curly-spacing",
         "severity": 2,
-        "line": 66,
+        "line": 68,
         "column": 44
     },
     {
         "rule": "react/jsx-curly-spacing",
         "severity": 2,
-        "line": 66,
+        "line": 68,
         "column": 50
     },
     {
         "rule": "react/jsx-equals-spacing",
         "severity": 2,
-        "line": 77,
+        "line": 79,
         "column": 44
     },
     {
         "rule": "react/jsx-equals-spacing",
         "severity": 2,
-        "line": 77,
+        "line": 79,
         "column": 44
     },
     {
         "rule": "react/jsx-handler-names",
         "severity": 2,
-        "line": 102,
+        "line": 104,
         "column": 35
     },
     {
         "rule": "react/jsx-handler-names",
         "severity": 2,
-        "line": 106,
+        "line": 108,
         "column": 35
+    },
+    {
+        "rule": "indent",
+        "severity": 2,
+        "line": 127,
+        "column": 1
     },
     {
         "rule": "react/jsx-indent-props",
         "severity": 2,
-        "line": 125,
+        "line": 127,
         "column": 9
+    },
+    {
+        "rule": "indent",
+        "severity": 2,
+        "line": 143,
+        "column": 1
     },
     {
         "rule": "react/jsx-indent",
         "severity": 2,
-        "line": 141,
+        "line": 143,
         "column": 7
     },
     {
         "rule": "react/jsx-key",
         "severity": 1,
-        "line": 155,
+        "line": 157,
         "column": 29
     },
     {
         "rule": "react/jsx-no-bind",
         "severity": 2,
-        "line": 177,
+        "line": 178,
         "column": 35
     },
     {
         "rule": "react/jsx-no-bind",
         "severity": 2,
-        "line": 177,
+        "line": 178,
         "column": 45
     },
     {
         "rule": "react/jsx-no-bind",
         "severity": 2,
-        "line": 181,
+        "line": 182,
         "column": 35
     },
     {
         "rule": "react/jsx-no-comment-textnodes",
         "severity": 2,
-        "line": 206,
+        "line": 207,
         "column": 22
     },
     {
         "rule": "react/jsx-no-comment-textnodes",
         "severity": 2,
-        "line": 214,
+        "line": 215,
         "column": 22
     },
     {
         "rule": "react/jsx-no-duplicate-props",
         "severity": 2,
-        "line": 238,
+        "line": 239,
         "column": 44
     },
     {
         "rule": "react/jsx-no-target-blank",
         "severity": 1,
         "line": 257,
-        "column": 40
+        "column": 72
     },
     {
         "rule": "react/jsx-no-undef",
         "severity": 2,
-        "line": 269,
+        "line": 268,
         "column": 24
     },
     {
         "rule": "camelcase",
         "severity": 2,
-        "line": 281,
+        "line": 280,
         "column": 11
     },
     {
         "rule": "react/jsx-pascal-case",
         "severity": 2,
-        "line": 283,
+        "line": 282,
         "column": 17
     },
     {
-        "rule": "react/jsx-space-before-closing",
+        "rule": "react/jsx-tag-spacing",
         "severity": 2,
-        "line": 303,
+        "line": 302,
         "column": 31
     },
     {
         "rule": "react/jsx-tag-spacing",
         "severity": 2,
-        "line": 303,
-        "column": 31
-    },
-    {
-        "rule": "react/jsx-tag-spacing",
-        "severity": 2,
-        "line": 314,
+        "line": 313,
         "column": 20
     },
     {
         "rule": "react/jsx-wrap-multilines",
         "severity": 2,
-        "line": 333,
+        "line": 332,
         "column": 23
     },
     {
         "rule": "react/no-children-prop",
         "severity": 2,
-        "line": 357,
+        "line": 356,
         "column": 28
     },
     {
         "rule": "react/no-danger-with-children",
         "severity": 2,
-        "line": 371,
+        "line": 370,
         "column": 20
     },
     {
         "rule": "react/no-deprecated",
         "severity": 1,
-        "line": 386,
+        "line": 385,
         "column": 1
     },
     {
         "rule": "react/no-did-mount-set-state",
         "severity": 2,
-        "line": 396,
+        "line": 395,
         "column": 13
     },
     {
         "rule": "react/no-did-update-set-state",
         "severity": 2,
-        "line": 417,
+        "line": 416,
         "column": 13
     },
     {
         "rule": "react/no-direct-mutation-state",
         "severity": 2,
-        "line": 438,
+        "line": 437,
         "column": 13
     },
     {
         "rule": "react/no-is-mounted",
         "severity": 2,
-        "line": 469,
+        "line": 468,
         "column": 21
     },
     {
         "rule": "react/no-render-return-value",
         "severity": 2,
-        "line": 505,
+        "line": 504,
         "column": 18
     },
     {
         "rule": "react/no-string-refs",
         "severity": 2,
-        "line": 530,
+        "line": 529,
         "column": 25
     },
     {
         "rule": "semi",
         "severity": 2,
-        "line": 530,
+        "line": 529,
         "column": 48
     },
     {
         "rule": "react/no-unescaped-entities",
         "severity": 2,
-        "line": 561,
+        "line": 560,
         "column": 11
     },
     {
         "rule": "react/no-unescaped-entities",
         "severity": 2,
-        "line": 561,
+        "line": 560,
         "column": 13
     },
     {
         "rule": "react/no-unescaped-entities",
         "severity": 2,
-        "line": 561,
+        "line": 560,
         "column": 14
     },
     {
         "rule": "react/no-unknown-property",
         "severity": 2,
-        "line": 581,
+        "line": 580,
         "column": 22
     },
     {
         "rule": "react/prefer-es6-class",
         "severity": 2,
-        "line": 607,
-        "column": 43
+        "line": 606,
+        "column": 42
     },
     {
         "rule": "react/prop-types",
         "severity": 2,
-        "line": 635,
+        "line": 634,
         "column": 44
     },
     {
         "rule": "react/require-render-return",
         "severity": 2,
-        "line": 686,
+        "line": 685,
         "column": 5
     },
     {
         "rule": "react/self-closing-comp",
         "severity": 2,
-        "line": 705,
+        "line": 704,
         "column": 23
     },
     {
         "rule": "react/sort-comp",
         "severity": 2,
-        "line": 717,
+        "line": 716,
         "column": 9
     },
     {
         "rule": "react/style-prop-object",
         "severity": 2,
-        "line": 756,
+        "line": 755,
         "column": 22
     },
     {
         "rule": "react/void-dom-elements-no-children",
         "severity": 2,
-        "line": 768,
+        "line": 767,
         "column": 15
     }
 ]

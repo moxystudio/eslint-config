@@ -12,28 +12,16 @@
         "column": 23
     },
     {
-        "rule": "arrow-body-style",
+        "rule": "block-spacing",
         "severity": 2,
         "line": 18,
-        "column": 17
+        "column": 21
     },
     {
         "rule": "block-spacing",
         "severity": 2,
         "line": 18,
-        "column": 17
-    },
-    {
-        "rule": "block-spacing",
-        "severity": 2,
-        "line": 18,
-        "column": 31
-    },
-    {
-        "rule": "arrow-body-style",
-        "severity": 2,
-        "line": 23,
-        "column": 17
+        "column": 41
     },
     {
         "rule": "brace-style",
@@ -129,7 +117,7 @@
         "rule": "indent",
         "severity": 2,
         "line": 226,
-        "column": 7
+        "column": 1
     },
     {
         "rule": "jsx-quotes",

@@ -6,8 +6,10 @@ module.exports = {
     'plugins': [
         'react',
     ],
-    'ecmaFeatures': {
-        'jsx': true,
+    'parserOptions': {
+        'ecmaFeatures': {
+            'jsx': true,
+        },
     },
     'rules': {
         // Prevent missing displayName in a React component definition
@@ -61,8 +63,6 @@ module.exports = {
         'react/jsx-pascal-case': 2,
         // Enforce props alphabetical sorting
         'react/jsx-sort-props': 0,
-        // Validate spacing before closing bracket in JSX
-        'react/jsx-space-before-closing': [2, 'always'],
         // Enforce or forbid spaces before the closing bracket of self-closing JSX elements
         'react/jsx-tag-spacing': [2, {
             'closingSlash': 'never',
