@@ -4,7 +4,7 @@ const fs = require('fs');
 
 // `callback-return` - require return statements after callbacks
 // ---------------------------------------------------------------------
-// Bad
+// Not active
 (function () {
     function f(err, callback) {
         if (err) {
@@ -12,7 +12,7 @@ const fs = require('fs');
         }
     }
 })();
-// Good
+// Not active
 (function () {
     function f(err, callback) {
         if (err) {

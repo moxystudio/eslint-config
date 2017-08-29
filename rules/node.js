@@ -5,7 +5,7 @@
 module.exports = {
     'rules': {
         // Require return statements after callbacks
-        'callback-return': 1,
+        'callback-return': 0,
         // Require require() calls to be placed at top-level module scope
         'global-require': 1,
         // Enforces error handling in callbacks

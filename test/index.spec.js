@@ -30,6 +30,7 @@ it('should pass on all files', () => {
             expect(actual).toEqual(expected);
         } catch (err) {
             console.log(`Tests failed at ${filePath}`);
+            console.log(`You might need to edit ${filePath.replace(/\.js$/, '.json')}`);
             throw err;
         }
     });
