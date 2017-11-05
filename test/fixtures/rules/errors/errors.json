@@ -15,7 +15,7 @@
         "rule": "no-constant-condition",
         "severity": 2,
         "line": 62,
-        "column": 1
+        "column": 5
     },
     {
         "rule": "no-control-regex",
