@@ -40,10 +40,11 @@ First you need to choose the **base** configuration to use:
 Then enhance it with one or more **addons**:
 
 - `browser` - If you are going to develop code for the browser (assumes you use CommonJS or AMD)
-- `node` - If you are going to develop code for NodeJS
+- `node` - If you are going to develop code for [NodeJS](nodejs.org)
 - `es6-modules`: If you are going to use ES6 import & export instead of CommonJS or AMD
 - `object-spread`: Allows to use [object rest spread](https://github.com/tc39/proposal-object-rest-spread) when destructuring objects
-- `react` - If you are going to use React and JSX (requires `es6` base configuration or higher)
+- `react` - If you are going to use [React](https://reactjs.org/) (requires `es6` base configuration or higher)
+- `jest` - If you are going to [Jest](https://facebook.github.io/jest/) to develop tests
 
 
 ### Examples

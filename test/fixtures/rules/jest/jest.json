@@ -1,0 +1,26 @@
+[
+    {
+        "rule": "jest/no-disabled-tests",
+        "severity": 1,
+        "line": 4,
+        "column": 1
+    },
+    {
+        "rule": "jest/no-focused-tests",
+        "severity": 2,
+        "line": 11,
+        "column": 4
+    },
+    {
+        "rule": "jest/no-identical-title",
+        "severity": 2,
+        "line": 19,
+        "column": 1
+    },
+    {
+        "rule": "jest/valid-expect",
+        "severity": 2,
+        "line": 28,
+        "column": 5
+    }
+]
