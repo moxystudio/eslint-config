@@ -2,7 +2,8 @@
     "root": true,
     "extends": [
         "../../../../es6.js",
-        "../../../../addons/browser.js"
+        "../../../../addons/browser.js",
+        "../../../../addons/object-spread.js"
     ],
     "rules": {
         "strict": 0,

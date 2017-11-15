@@ -12,6 +12,8 @@
 // Good
 (function () {
     const x = 1;
+    const { y, ...other } = { y: 1, z: 2 };
 
     console.log(x);
+    console.log(other);
 })();

@@ -25,7 +25,7 @@ module.exports = {
         // Disallow use of undefined as an identifier
         'no-undefined': 0,
         // Disallow unused variables
-        'no-unused-vars': [2, { 'vars': 'local', 'args': 'after-used' }],
+        'no-unused-vars': [2, { 'vars': 'local', 'args': 'after-used', 'ignoreRestSiblings': true }],
         // Disallow the use of variables before they are defined
         'no-use-before-define': [2, {
             'functions': false,  // Completly disable for functions.. it feels weird
