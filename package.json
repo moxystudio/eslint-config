@@ -19,14 +19,27 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint . --ignore-pattern test/fixtures",
-    "lint:staged": "lint-staged",
-    "test": "jest --env node --coverage",
-    "test:watch": "jest --env node --watch",
-    "posttest": "npm run lint",
-    "precommit": "npm run lint:staged"
+    "test": "jest --env node",
+    "prerelease": "npm t && npm run lint",
+    "release": "standard-version",
+    "precommit": "lint-staged",
+    "commitmsg": "commitlint -e $GIT_PARAMS"
+  },
+  "standard-version": {
+    "scripts": {
+      "posttag": "git push --follow-tags origin master && npm publish"
+    }
   },
   "lint-staged": {
-    "*.js": "eslint --ignore-pattern test/fixtures"
+    "*.js": [
+      "eslint --fix --ignore-pattern test/fixtures",
+      "git add"
+    ]
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-angular"
+    ]
   },
   "peerDependencies": {
     "eslint": "^4.0.0"
@@ -36,13 +49,16 @@
     "eslint-plugin-jsdoc": "^3.0.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^4.3.0",
+    "@commitlint/config-angular": "^4.3.0",
     "babel-eslint": "^8.0.2",
     "create-react-class": "^15.6.0",
     "eslint": "^4.0.0",
     "husky": "^0.14.0",
     "jest": "^21.0.0",
     "lint-staged": "^5.0.0",
-    "prop-types": "^15.5.10"
+    "prop-types": "^15.5.10",
+    "standard-version": "^4.2.0"
   },
   "engines": {
     "node": ">=6",
