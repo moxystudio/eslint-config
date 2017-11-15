@@ -45,8 +45,9 @@
     "eslint": "^4.0.0"
   },
   "dependencies": {
-    "eslint-plugin-react": "^7.0.0",
-    "eslint-plugin-jsdoc": "^3.0.0"
+    "eslint-plugin-jest": "^21.3.2",
+    "eslint-plugin-jsdoc": "^3.0.0",
+    "eslint-plugin-react": "^7.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^4.3.0",

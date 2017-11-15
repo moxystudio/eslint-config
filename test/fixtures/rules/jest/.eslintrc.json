@@ -1,0 +1,10 @@
+{
+    "root": true,
+    "extends": [
+        "../../../../es6.js",
+        "../../../../addons/jest.js"
+    ],
+    "rules": {
+        "strict": 0
+    }
+}
