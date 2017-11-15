@@ -7,7 +7,7 @@
     },
     {
         "rule": "react/jsx-no-bind",
-        "severity": 2,
+        "severity": 1,
         "line": 13,
         "column": 28
     },
@@ -15,7 +15,7 @@
         "rule": "react/jsx-handler-names",
         "severity": 2,
         "line": 13,
-        "column": 66
+        "column": 65
     },
     {
         "rule": "react/jsx-tag-spacing",

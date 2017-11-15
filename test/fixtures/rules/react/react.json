@@ -79,19 +79,19 @@
     },
     {
         "rule": "react/jsx-no-bind",
-        "severity": 2,
+        "severity": 1,
         "line": 178,
         "column": 35
     },
     {
         "rule": "react/jsx-no-bind",
-        "severity": 2,
+        "severity": 1,
         "line": 178,
         "column": 45
     },
     {
         "rule": "react/jsx-no-bind",
-        "severity": 2,
+        "severity": 1,
         "line": 182,
         "column": 35
     },
@@ -260,19 +260,19 @@
     {
         "rule": "react/sort-comp",
         "severity": 2,
-        "line": 716,
+        "line": 721,
         "column": 9
     },
     {
         "rule": "react/style-prop-object",
         "severity": 2,
-        "line": 755,
+        "line": 765,
         "column": 22
     },
     {
         "rule": "react/void-dom-elements-no-children",
         "severity": 2,
-        "line": 767,
+        "line": 777,
         "column": 15
     }
 ]
