@@ -10,14 +10,14 @@ const MyComponent = createReactClass({
 
     render() {
         return (
-            <a href="/foo" onClick={ () => this._handleClick() } onMouseEnter={ this.onMouseEnter }>
+            <a href="/foo" onClick={ () => this.handleClick() } onMouseEnter={ this.onMouseEnter }>
                 Hello { this.state.name }
                 <img src="http://domain.com/image.png" alt=""/>
             </a>
         );
     },
 
-    _handleClick() {
+    handleClick() {
         this.setState({ name: 'Cruz' });
     },
 });

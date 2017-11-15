@@ -101,11 +101,11 @@ Component.propTypes = {
 (function () {
     class MyComponent extends Component {
         render() {
-            return <a href="/foo" onClick={ this._onClick }>bleh</a>;
+            return <a href="/foo" onClick={ this.onClick }>bleh</a>;
         }
 
         _renderFoo() {
-            return <a href="/foo" onClick={ this.handleClick }>foo</a>;
+            return <a href="/foo" onClick={ this._handleClick }>foo</a>;
         }
     }
 })();
@@ -113,7 +113,7 @@ Component.propTypes = {
 (function () {
     class MyComponent extends Component {
         render() {
-            return <a href="/foo" onClick={ this._handleClick }>bleh</a>;
+            return <a href="/foo" onClick={ this.handleClick }>bleh</a>;
         }
     }
 })();
@@ -175,11 +175,11 @@ Component.propTypes = {
 (function () {
     class MyComponent extends Component {
         render() {
-            return <a href="/foo" onClick={ this._handleClick.bind(this) }>bleh</a>;
+            return <a href="/foo" onClick={ this.handleClick.bind(this) }>bleh</a>;
         }
 
         _renderFoo() {
-            return <a href="/foo" onClick={ (e) => this._handleClick(e) }>foo</a>;
+            return <a href="/foo" onClick={ (e) => this.handleClick(e) }>foo</a>;
         }
     }
 })();
@@ -188,11 +188,11 @@ Component.propTypes = {
     class MyComponent extends Component {
         constructor() {
             super();
-            this._handleClick = this._handleClick.bind(this);
+            this.handleClick = this.handleClick.bind(this);
         }
 
         render() {
-            return <a href="/foo" onClick={ this._handleClick }>bar</a>;
+            return <a href="/foo" onClick={ this.handleClick }>bar</a>;
         }
     }
 })();
@@ -535,14 +535,14 @@ ReactDOM.render(<Component />, '#root');
     class MyComponent extends Component {
         constructor() {
             super();
-            this._handleRef = this._handleRef.bind(this);
+            this.handleRef = this.handleRef.bind(this);
         }
 
         render() {
-            return <div ref={ this._handleRef }>Hello</div>;
+            return <div ref={ this.handleRef }>Hello</div>;
         }
 
-        _handleRef(ref) {
+        handleRef(ref) {
             this._ref = ref;
         }
     }
@@ -713,7 +713,12 @@ ReactDOM.render(<Component />, '#root');
 // Bad
 (function () {
     class MyComponent extends Component {
-        _handleChange(e) {
+        // Code below doesn´t error out because we have two errors of the same rule. They are shown one at a time.
+        // static propTypes = {
+        //     foo: PropTypes.string,
+        // }
+
+        handleChange(e) {
             console.log(e);
         }
 
@@ -729,9 +734,14 @@ ReactDOM.render(<Component />, '#root');
             return 'foo';
         }
 
-        _handleChange(e) {
+        handleChange(e) {
             console.log(e);
         }
+
+        // Example of good usage of static proptypes
+        // static propTypes = {
+        //     foo: PropTypes.string,
+        // }
     }
 })();
 

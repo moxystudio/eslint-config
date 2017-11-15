@@ -36,7 +36,7 @@ module.exports = {
         'react/jsx-first-prop-new-line': 0,
         // Enforce event handler naming conventions in JSX
         'react/jsx-handler-names': [2, {
-            'eventHandlerPrefix': '_handle',
+            'eventHandlerPrefix': 'handle',
             'eventHandlerPropPrefix': 'on',
         }],
         // Validate props indentation in JSX
@@ -48,7 +48,7 @@ module.exports = {
         // Limit maximum of props on a single line in JSX
         'react/jsx-max-props-per-line': 0,
         // No .bind() or Arrow Functions in JSX Props
-        'react/jsx-no-bind': 2,
+        'react/jsx-no-bind': 1,
         // Prevent comments from being inserted as text nodes
         'react/jsx-no-comment-textnodes': 2,
         // Prevent duplicate props in JSX
@@ -135,13 +135,13 @@ module.exports = {
         // Enforce component methods order
         'react/sort-comp': [2, {
             'order': [
-                'static-methods',
                 'lifecycle',
                 '/^(get|set)(?!(InitialState$|DefaultProps$|ChildContext$)).+$/',
                 'render',
-                '/^_render.+$/',
+                'render.+$/',
                 'everything-else',
-                '/^_?handle/',
+                'handle/',
+                'static-methods',
             ],
         }],
         // Enforce propTypes declarations alphabetical sorting

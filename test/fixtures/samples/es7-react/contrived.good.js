@@ -6,7 +6,7 @@ class MyComponent extends PureComponent {
     constructor() {
         super();
         this.state = {};
-        this._handleClick = this._handleClick.bind(this);
+        this.handleClick = this.handleClick.bind(this);
     }
 
     componentWillMount() {
@@ -15,14 +15,14 @@ class MyComponent extends PureComponent {
 
     render() {
         return (
-            <a href="/foo" onClick={ this._handleClick }>
+            <a href="/foo" onClick={ this.handleClick }>
                 Hello { this.state.name }
                 <img src="http://domain.com/image.png" alt="" />
             </a>
         );
     }
 
-    _handleClick() {
+    handleClick() {
         this.setState({ name: 'Cruz' });
     }
 }
