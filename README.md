@@ -116,7 +116,7 @@ If your file exports a single class, your filename should be exactly the name of
 ## Tests
 
 `$ npm test`   
-`$ npm test:watch` during development
+`$ npm test -- --watch` during development
 
 
 ## License
