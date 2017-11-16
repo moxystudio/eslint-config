@@ -60,13 +60,23 @@ console.log('lowercase can be used in multiple line comment');
 // continuing the last comment
 console.log('lowercase can be used in other contexts');
 console.log('this line contains an inline comment');  // This is a inline comment
-// func() - when calling a function you can start with a lowercase
-console.log('when talking about a prop');
-// this.props needs to be a string
-console.log('when talking about a variable');
-// capitalized-comments is an array
-console.log('sometimes you need to wrap the word inside of backtick quotes');
-// `es6` octal.. alternatively you may use parseInt
+console.log('...');
+// this.props
+console.log('words with dots are ok');
+// capitalized-comments
+console.log('words with dashes are ok');
+// capitalized_comments
+console.log('words with underscores are ok');
+// capitalizedComments
+console.log('camelCased words are ok');
+// capitalized()
+console.log('words with parenthesis are ok');
+// `capitalized`
+console.log('words inside of backtick quotes');
+// "capitalized"
+console.log('words inside of double quotes');
+// 'capitalized'
+console.log('words inside of single quotes');
 
 // `comma-dangle` require or disallow trailing commas
 // ---------------------------------------------------------------------

@@ -14,10 +14,9 @@ module.exports = {
         'camelcase': 2,
         // Enforce or disallow capitalization of the first letter of a comment
         'capitalized-comments': [2, 'always', {
-            // Ignore comments that have possible code samples as the first word (some-prop, fn(), etc.)
+            // Ignore comments that have possible code samples as the first word (camelCase, some-prop, fn(), etc.)
             // Additionally, ignore `falls through` because of switch statements
-            'ignorePattern': '([a-z0-9]+[_\\-.()]|falls?\\s?through)',
-            'ignoreInlineComments': true,
+            'ignorePattern': '([a-z0-9]+[A-Z_\\-.()\'"`]|falls?\\s?through)',
             'ignoreConsecutiveComments': true,
         }],
         // Require or disallow trailing commas
