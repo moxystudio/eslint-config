@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="4.1.1"></a>
+## [4.1.1](https://github.com/moxystudio/eslint-config/compare/v4.1.0...v4.1.1) (2017-11-16)
+
+
+### Bug Fixes
+
+* update capitalized-comments to not be so strict ([7e1b219](https://github.com/moxystudio/eslint-config/commit/7e1b219))
+
+
+
 <a name="4.1.0"></a>
 # [4.1.0](https://github.com/moxystudio/eslint-config/compare/v4.0.0...v4.1.0) (2017-11-15)
 
