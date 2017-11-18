@@ -51,7 +51,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^4.3.0",
-    "@commitlint/config-angular": "^4.3.0",
+    "@commitlint/config-angular": "^5.0.0",
     "babel-eslint": "^8.0.2",
     "create-react-class": "^15.6.0",
     "eslint": "^4.0.0",
