@@ -17,6 +17,11 @@
     "url": "git@github.com:moxystudio/eslint-config.git"
   },
   "license": "MIT",
+  "files": [
+    "es*.js",
+    "rules",
+    "addons"
+  ],
   "scripts": {
     "lint": "eslint . --ignore-pattern test/fixtures",
     "test": "jest --env node",
