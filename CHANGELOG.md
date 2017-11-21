@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="4.1.2"></a>
+## [4.1.2](https://github.com/moxystudio/eslint-config/compare/v4.1.1...v4.1.2) (2017-11-21)
+
+
+### Bug Fixes
+
+* fix es7 and es7 having sourceType set to module ([5e52ba5](https://github.com/moxystudio/eslint-config/commit/5e52ba5))
+
+
+
 <a name="4.1.1"></a>
 ## [4.1.1](https://github.com/moxystudio/eslint-config/compare/v4.1.0...v4.1.1) (2017-11-16)
 
