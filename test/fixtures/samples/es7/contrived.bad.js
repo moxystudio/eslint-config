@@ -1,3 +1,5 @@
+'use strict';
+
 // Made up sample.. not genuine
 
 // `restricted-properties`

@@ -6,6 +6,6 @@ module.exports = {
     ].map(require.resolve),
     'parserOptions': {
         'ecmaVersion': 8,
-        'sourceType': 'module',
+        'sourceType': 'script',
     },
 };

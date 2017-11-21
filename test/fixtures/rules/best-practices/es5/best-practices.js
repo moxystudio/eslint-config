@@ -1,3 +1,5 @@
+'use strict';
+
 // `block-scoped-var` - enforce the use of variables within the scope they are defined
 // ---------------------------------------------------------------------
 // Bad

@@ -6,7 +6,7 @@ module.exports = {
     ].map(require.resolve),
     'parserOptions': {
         'ecmaVersion': 7,
-        'sourceType': 'module',
+        'sourceType': 'script',
     },
     'rules': {
         // Disallow certain properties on certain objects

@@ -1,3 +1,5 @@
+'use strict';
+
 // no-return-await - disallow unnecessary return await
 // ---------------------------------------------------------------------
 // Bad

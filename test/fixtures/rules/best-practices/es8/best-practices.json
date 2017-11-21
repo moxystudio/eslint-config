@@ -2,13 +2,13 @@
     {
         "rule": "no-return-await",
         "severity": 2,
-        "line": 6,
+        "line": 8,
         "column": 16
     },
     {
         "rule": "require-await",
         "severity": 2,
-        "line": 20,
+        "line": 22,
         "column": 5
     }
 ]

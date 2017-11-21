@@ -1,7 +1,11 @@
+'use strict';
+
 // Made up sample.. not genuine
 
-function pow(x) {
-    return x ** 2;
-}
+(function () {
+    function pow(x) {
+        return x ** 2;
+    }
 
-pow();
+    pow();
+})();
