@@ -55,7 +55,7 @@
     "eslint-plugin-react": "^7.0.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^4.3.0",
+    "@commitlint/cli": "^5.0.1",
     "@commitlint/config-angular": "^4.3.0",
     "babel-eslint": "^8.0.2",
     "create-react-class": "^15.6.0",
