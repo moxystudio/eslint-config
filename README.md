@@ -43,6 +43,7 @@ Then enhance it with one or more **addons**:
 - `node` - If you are going to develop code for [NodeJS](nodejs.org)
 - `es6-modules`: If you are going to use ES6 import & export instead of CommonJS or AMD
 - `object-spread`: Allows to use [object rest spread](https://github.com/tc39/proposal-object-rest-spread) when destructuring objects
+- `babel-parser`: Use [babel-eslint](https://github.com/babel/babel-eslint) parser so that you may use language features that are not yet implemented in eslint (e.g.: dynamic imports)
 - `react` - If you are going to use [React](https://reactjs.org/) (requires `es6` base configuration or higher)
 - `jest` - If you are going to [Jest](https://facebook.github.io/jest/) to develop tests
 
@@ -102,11 +103,6 @@ Old ES5 in the browser:
 ```
 
 Note that by setting `root` to true, we ensure that no ancestor configuration is used which also improves `ESLint` performance because no more file lookups need to be done.
-
-
-### New language features
-
-If you are using [new language features](https://github.com/tc39/proposals) that are not yet supported by eslint, you should set the parser to [babel-eslint](https://github.com/babel/babel-eslint).
 
 
 ## File naming convention
