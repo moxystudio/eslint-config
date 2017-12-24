@@ -1,0 +1,1791 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should pass on fixtures/rules/best-practices/best-practices.js 1`] = `
+Array [
+  Object {
+    "column": 22,
+    "line": 17,
+    "rule": "array-callback-return",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 64,
+    "rule": "curly",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 73,
+    "rule": "default-case",
+    "severity": 2,
+  },
+  Object {
+    "column": 18,
+    "line": 96,
+    "rule": "dot-location",
+    "severity": 2,
+  },
+  Object {
+    "column": 19,
+    "line": 112,
+    "rule": "dot-notation",
+    "severity": 2,
+  },
+  Object {
+    "column": 11,
+    "line": 126,
+    "rule": "eqeqeq",
+    "severity": 2,
+  },
+  Object {
+    "column": 23,
+    "line": 126,
+    "rule": "eqeqeq",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 155,
+    "rule": "no-alert",
+    "severity": 1,
+  },
+  Object {
+    "column": 1,
+    "line": 156,
+    "rule": "no-alert",
+    "severity": 1,
+  },
+  Object {
+    "column": 1,
+    "line": 157,
+    "rule": "no-alert",
+    "severity": 1,
+  },
+  Object {
+    "column": 9,
+    "line": 167,
+    "rule": "no-caller",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 178,
+    "rule": "no-case-declarations",
+    "severity": 2,
+  },
+  Object {
+    "column": 12,
+    "line": 212,
+    "rule": "no-else-return",
+    "severity": 2,
+  },
+  Object {
+    "column": 11,
+    "line": 239,
+    "rule": "no-empty-pattern",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 260,
+    "rule": "no-eval",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 264,
+    "rule": "no-extend-native",
+    "severity": 2,
+  },
+  Object {
+    "column": 7,
+    "line": 272,
+    "rule": "no-extra-bind",
+    "severity": 2,
+  },
+  Object {
+    "column": 11,
+    "line": 276,
+    "rule": "func-style",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 294,
+    "rule": "no-fallthrough",
+    "severity": 2,
+  },
+  Object {
+    "column": 15,
+    "line": 320,
+    "rule": "no-floating-decimal",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 329,
+    "rule": "no-global-assign",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 330,
+    "rule": "no-global-assign",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 346,
+    "rule": "no-implied-eval",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 352,
+    "rule": "no-invalid-this",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 363,
+    "rule": "no-iterator",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 369,
+    "rule": "no-labels",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 370,
+    "rule": "no-labels",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 378,
+    "rule": "no-lone-blocks",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 391,
+    "rule": "no-inner-declarations",
+    "severity": 2,
+  },
+  Object {
+    "column": 16,
+    "line": 409,
+    "rule": "no-multi-spaces",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 429,
+    "rule": "no-new",
+    "severity": 2,
+  },
+  Object {
+    "column": 15,
+    "line": 435,
+    "rule": "no-new-func",
+    "severity": 2,
+  },
+  Object {
+    "column": 15,
+    "line": 441,
+    "rule": "no-new-wrappers",
+    "severity": 2,
+  },
+  Object {
+    "column": 15,
+    "line": 464,
+    "rule": "no-proto",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 481,
+    "rule": "no-return-assign",
+    "severity": 2,
+  },
+  Object {
+    "column": 17,
+    "line": 504,
+    "rule": "no-script-url",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 511,
+    "rule": "no-self-assign",
+    "severity": 2,
+  },
+  Object {
+    "column": 12,
+    "line": 519,
+    "rule": "no-self-compare",
+    "severity": 2,
+  },
+  Object {
+    "column": 16,
+    "line": 527,
+    "rule": "no-sequences",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 536,
+    "rule": "no-throw-literal",
+    "severity": 2,
+  },
+  Object {
+    "column": 12,
+    "line": 548,
+    "rule": "no-unmodified-loop-condition",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 558,
+    "rule": "no-unused-expressions",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 571,
+    "rule": "no-useless-call",
+    "severity": 2,
+  },
+  Object {
+    "column": 19,
+    "line": 584,
+    "rule": "no-useless-concat",
+    "severity": 2,
+  },
+  Object {
+    "column": 16,
+    "line": 600,
+    "rule": "no-useless-escape",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 614,
+    "rule": "no-useless-return",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 631,
+    "rule": "no-void",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 637,
+    "rule": "no-warning-comments",
+    "severity": 1,
+  },
+  Object {
+    "column": 54,
+    "line": 648,
+    "rule": "prefer-promise-reject-errors",
+    "severity": 2,
+  },
+  Object {
+    "column": 15,
+    "line": 659,
+    "rule": "radix",
+    "severity": 2,
+  },
+  Object {
+    "column": 15,
+    "line": 677,
+    "rule": "wrap-iife",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 687,
+    "rule": "yoda",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on fixtures/rules/best-practices/best-practices-non-strict.js 1`] = `
+Array [
+  Object {
+    "column": 17,
+    "line": 7,
+    "rule": "no-octal",
+    "severity": 2,
+  },
+  Object {
+    "column": 17,
+    "line": 18,
+    "rule": "no-octal-escape",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 31,
+    "rule": "no-with",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on fixtures/rules/best-practices/es5/best-practices.js 1`] = `
+Array [
+  Object {
+    "column": 9,
+    "line": 8,
+    "rule": "vars-on-top",
+    "severity": 2,
+  },
+  Object {
+    "column": 17,
+    "line": 11,
+    "rule": "block-scoped-var",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 27,
+    "rule": "no-redeclare",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 41,
+    "rule": "vars-on-top",
+    "severity": 2,
+  },
+  Object {
+    "column": 17,
+    "line": 44,
+    "rule": "block-scoped-var",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on fixtures/rules/best-practices/es8/best-practices.js 1`] = `
+Array [
+  Object {
+    "column": 16,
+    "line": 8,
+    "rule": "no-return-await",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 22,
+    "rule": "require-await",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on fixtures/rules/best-practices/no-implicit-globals/no-implicit-globals.js 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "line": 5,
+    "rule": "no-implicit-globals",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on fixtures/rules/errors/errors.js 1`] = `
+Array [
+  Object {
+    "column": 9,
+    "line": 11,
+    "rule": "no-compare-neg-zero",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 30,
+    "rule": "no-cond-assign",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 62,
+    "rule": "no-constant-condition",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 76,
+    "rule": "no-control-regex",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 82,
+    "rule": "no-debugger",
+    "severity": 1,
+  },
+  Object {
+    "column": 5,
+    "line": 88,
+    "rule": "no-dupe-args",
+    "severity": 2,
+  },
+  Object {
+    "column": 21,
+    "line": 88,
+    "rule": "no-redeclare",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 104,
+    "rule": "no-dupe-keys",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 122,
+    "rule": "no-duplicate-case",
+    "severity": 2,
+  },
+  Object {
+    "column": 26,
+    "line": 146,
+    "rule": "no-empty",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 157,
+    "rule": "no-empty-character-class",
+    "severity": 2,
+  },
+  Object {
+    "column": 6,
+    "line": 173,
+    "rule": "no-extra-boolean-cast",
+    "severity": 2,
+  },
+  Object {
+    "column": 6,
+    "line": 189,
+    "rule": "no-extra-parens",
+    "severity": 2,
+  },
+  Object {
+    "column": 21,
+    "line": 206,
+    "rule": "no-extra-semi",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 215,
+    "rule": "no-func-assign",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 233,
+    "rule": "no-inner-declarations",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 240,
+    "rule": "no-func-assign",
+    "severity": 2,
+  },
+  Object {
+    "column": 20,
+    "line": 247,
+    "rule": "no-invalid-regexp",
+    "severity": 2,
+  },
+  Object {
+    "column": 13,
+    "line": 260,
+    "rule": "new-cap",
+    "severity": 2,
+  },
+  Object {
+    "column": 13,
+    "line": 260,
+    "rule": "no-obj-calls",
+    "severity": 2,
+  },
+  Object {
+    "column": 47,
+    "line": 269,
+    "rule": "no-prototype-builtins",
+    "severity": 2,
+  },
+  Object {
+    "column": 20,
+    "line": 283,
+    "rule": "no-regex-spaces",
+    "severity": 2,
+  },
+  Object {
+    "column": 13,
+    "line": 293,
+    "rule": "no-sparse-arrays",
+    "severity": 2,
+  },
+  Object {
+    "column": 16,
+    "line": 293,
+    "rule": "array-bracket-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 13,
+    "line": 300,
+    "rule": "no-template-curly-in-string",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 313,
+    "rule": "no-unreachable",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 330,
+    "rule": "no-unsafe-finally",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 337,
+    "rule": "no-unsafe-negation",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 348,
+    "rule": "use-isnan",
+    "severity": 2,
+  },
+  Object {
+    "column": 18,
+    "line": 363,
+    "rule": "valid-typeof",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on fixtures/rules/errors/es8/errors.js 1`] = `
+Array [
+  Object {
+    "column": 20,
+    "line": 13,
+    "rule": "no-await-in-loop",
+    "severity": 1,
+  },
+]
+`;
+
+exports[`should pass on fixtures/rules/es6/es6.js 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "line": 4,
+    "rule": "no-duplicate-imports",
+    "severity": 2,
+  },
+  Object {
+    "column": 22,
+    "line": 17,
+    "rule": "arrow-body-style",
+    "severity": 2,
+  },
+  Object {
+    "column": 22,
+    "line": 18,
+    "rule": "arrow-body-style",
+    "severity": 2,
+  },
+  Object {
+    "column": 15,
+    "line": 26,
+    "rule": "arrow-parens",
+    "severity": 2,
+  },
+  Object {
+    "column": 17,
+    "line": 33,
+    "rule": "arrow-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 20,
+    "line": 33,
+    "rule": "arrow-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 42,
+    "rule": "constructor-super",
+    "severity": 2,
+  },
+  Object {
+    "column": 14,
+    "line": 59,
+    "rule": "generator-star-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 14,
+    "line": 59,
+    "rule": "generator-star-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 14,
+    "line": 65,
+    "rule": "generator-star-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 80,
+    "rule": "no-class-assign",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 94,
+    "rule": "no-const-assign",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 108,
+    "rule": "no-dupe-class-members",
+    "severity": 2,
+  },
+  Object {
+    "column": 19,
+    "line": 116,
+    "rule": "no-new-symbol",
+    "severity": 2,
+  },
+  Object {
+    "column": 13,
+    "line": 133,
+    "rule": "no-this-before-super",
+    "severity": 1,
+  },
+  Object {
+    "column": 19,
+    "line": 152,
+    "rule": "no-useless-computed-key",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 164,
+    "rule": "no-useless-constructor",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 182,
+    "rule": "no-var",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 195,
+    "rule": "object-shorthand",
+    "severity": 2,
+  },
+  Object {
+    "column": 7,
+    "line": 214,
+    "rule": "prefer-arrow-callback",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 229,
+    "rule": "prefer-const",
+    "severity": 2,
+  },
+  Object {
+    "column": 16,
+    "line": 253,
+    "rule": "prefer-numeric-literals",
+    "severity": 2,
+  },
+  Object {
+    "column": 21,
+    "line": 265,
+    "rule": "prefer-rest-params",
+    "severity": 2,
+  },
+  Object {
+    "column": 17,
+    "line": 281,
+    "rule": "prefer-spread",
+    "severity": 2,
+  },
+  Object {
+    "column": 13,
+    "line": 293,
+    "rule": "prefer-template",
+    "severity": 1,
+  },
+  Object {
+    "column": 5,
+    "line": 301,
+    "rule": "require-yield",
+    "severity": 1,
+  },
+  Object {
+    "column": 29,
+    "line": 318,
+    "rule": "rest-spread-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 22,
+    "line": 338,
+    "rule": "template-curly-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 39,
+    "line": 338,
+    "rule": "template-curly-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 15,
+    "line": 347,
+    "rule": "yield-star-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 15,
+    "line": 347,
+    "rule": "yield-star-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 15,
+    "line": 353,
+    "rule": "yield-star-spacing",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on fixtures/rules/jest/jest.js 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "line": 4,
+    "rule": "jest/no-disabled-tests",
+    "severity": 1,
+  },
+  Object {
+    "column": 4,
+    "line": 11,
+    "rule": "jest/no-focused-tests",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 19,
+    "rule": "jest/no-identical-title",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 28,
+    "rule": "jest/valid-expect",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on fixtures/rules/jsdoc/jsdoc.js 1`] = `
+Array [
+  Object {
+    "column": 5,
+    "line": 5,
+    "rule": "jsdoc/check-param-names",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 5,
+    "rule": "jsdoc/newline-after-description",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 5,
+    "rule": "jsdoc/require-hyphen-before-param-description",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 5,
+    "rule": "jsdoc/require-returns-type",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 5,
+    "rule": "valid-jsdoc",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 5,
+    "rule": "valid-jsdoc",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 5,
+    "rule": "valid-jsdoc",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 5,
+    "rule": "valid-jsdoc",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 16,
+    "rule": "jsdoc/newline-after-description",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on fixtures/rules/node/node.js 1`] = `
+Array [
+  Object {
+    "column": 21,
+    "line": 29,
+    "rule": "global-require",
+    "severity": 1,
+  },
+  Object {
+    "column": 5,
+    "line": 36,
+    "rule": "handle-callback-err",
+    "severity": 1,
+  },
+]
+`;
+
+exports[`should pass on fixtures/rules/react/react.js 1`] = `
+Array [
+  Object {
+    "column": 34,
+    "line": 41,
+    "rule": "react/jsx-boolean-value",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 54,
+    "rule": "react/jsx-closing-bracket-location",
+    "severity": 2,
+  },
+  Object {
+    "column": 44,
+    "line": 68,
+    "rule": "react/jsx-curly-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 50,
+    "line": 68,
+    "rule": "react/jsx-curly-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 44,
+    "line": 79,
+    "rule": "react/jsx-equals-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 44,
+    "line": 79,
+    "rule": "react/jsx-equals-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 35,
+    "line": 104,
+    "rule": "react/jsx-handler-names",
+    "severity": 2,
+  },
+  Object {
+    "column": 35,
+    "line": 108,
+    "rule": "react/jsx-handler-names",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 127,
+    "rule": "indent",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 127,
+    "rule": "react/jsx-indent-props",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 143,
+    "rule": "indent",
+    "severity": 2,
+  },
+  Object {
+    "column": 7,
+    "line": 143,
+    "rule": "react/jsx-indent",
+    "severity": 2,
+  },
+  Object {
+    "column": 29,
+    "line": 157,
+    "rule": "react/jsx-key",
+    "severity": 1,
+  },
+  Object {
+    "column": 35,
+    "line": 178,
+    "rule": "react/jsx-no-bind",
+    "severity": 1,
+  },
+  Object {
+    "column": 45,
+    "line": 178,
+    "rule": "react/jsx-no-bind",
+    "severity": 1,
+  },
+  Object {
+    "column": 35,
+    "line": 182,
+    "rule": "react/jsx-no-bind",
+    "severity": 1,
+  },
+  Object {
+    "column": 22,
+    "line": 207,
+    "rule": "react/jsx-no-comment-textnodes",
+    "severity": 2,
+  },
+  Object {
+    "column": 22,
+    "line": 215,
+    "rule": "react/jsx-no-comment-textnodes",
+    "severity": 2,
+  },
+  Object {
+    "column": 44,
+    "line": 239,
+    "rule": "react/jsx-no-duplicate-props",
+    "severity": 2,
+  },
+  Object {
+    "column": 72,
+    "line": 257,
+    "rule": "react/jsx-no-target-blank",
+    "severity": 1,
+  },
+  Object {
+    "column": 24,
+    "line": 268,
+    "rule": "react/jsx-no-undef",
+    "severity": 2,
+  },
+  Object {
+    "column": 11,
+    "line": 280,
+    "rule": "camelcase",
+    "severity": 2,
+  },
+  Object {
+    "column": 17,
+    "line": 282,
+    "rule": "react/jsx-pascal-case",
+    "severity": 2,
+  },
+  Object {
+    "column": 31,
+    "line": 302,
+    "rule": "react/jsx-tag-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 20,
+    "line": 313,
+    "rule": "react/jsx-tag-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 23,
+    "line": 332,
+    "rule": "react/jsx-wrap-multilines",
+    "severity": 2,
+  },
+  Object {
+    "column": 28,
+    "line": 356,
+    "rule": "react/no-children-prop",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 385,
+    "rule": "react/no-deprecated",
+    "severity": 1,
+  },
+  Object {
+    "column": 13,
+    "line": 395,
+    "rule": "react/no-did-mount-set-state",
+    "severity": 2,
+  },
+  Object {
+    "column": 13,
+    "line": 416,
+    "rule": "react/no-did-update-set-state",
+    "severity": 2,
+  },
+  Object {
+    "column": 13,
+    "line": 437,
+    "rule": "react/no-direct-mutation-state",
+    "severity": 2,
+  },
+  Object {
+    "column": 21,
+    "line": 468,
+    "rule": "react/no-is-mounted",
+    "severity": 2,
+  },
+  Object {
+    "column": 18,
+    "line": 504,
+    "rule": "react/no-render-return-value",
+    "severity": 2,
+  },
+  Object {
+    "column": 25,
+    "line": 529,
+    "rule": "react/no-string-refs",
+    "severity": 2,
+  },
+  Object {
+    "column": 48,
+    "line": 529,
+    "rule": "semi",
+    "severity": 2,
+  },
+  Object {
+    "column": 11,
+    "line": 560,
+    "rule": "react/no-unescaped-entities",
+    "severity": 2,
+  },
+  Object {
+    "column": 13,
+    "line": 560,
+    "rule": "react/no-unescaped-entities",
+    "severity": 2,
+  },
+  Object {
+    "column": 14,
+    "line": 560,
+    "rule": "react/no-unescaped-entities",
+    "severity": 2,
+  },
+  Object {
+    "column": 22,
+    "line": 580,
+    "rule": "react/no-unknown-property",
+    "severity": 2,
+  },
+  Object {
+    "column": 42,
+    "line": 606,
+    "rule": "react/prefer-es6-class",
+    "severity": 2,
+  },
+  Object {
+    "column": 44,
+    "line": 634,
+    "rule": "react/prop-types",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 685,
+    "rule": "react/require-render-return",
+    "severity": 2,
+  },
+  Object {
+    "column": 23,
+    "line": 704,
+    "rule": "react/self-closing-comp",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 721,
+    "rule": "react/sort-comp",
+    "severity": 2,
+  },
+  Object {
+    "column": 22,
+    "line": 765,
+    "rule": "react/style-prop-object",
+    "severity": 2,
+  },
+  Object {
+    "column": 15,
+    "line": 777,
+    "rule": "react/void-dom-elements-no-children",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on fixtures/rules/react/react-foreign-proptypes.js 1`] = `
+Array [
+  Object {
+    "column": 9,
+    "line": 6,
+    "rule": "react/forbid-foreign-prop-types",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on fixtures/rules/react/react-missing-import.js 1`] = `
+Array [
+  Object {
+    "column": 13,
+    "line": 3,
+    "rule": "react/react-in-jsx-scope",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on fixtures/rules/react/react-multi-comp.js 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "line": 13,
+    "rule": "react/no-multi-comp",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on fixtures/rules/react/react-no-unused.js 1`] = `Array []`;
+
+exports[`should pass on fixtures/rules/strict/strict.js 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "line": 4,
+    "rule": "strict",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 5,
+    "rule": "strict",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on fixtures/rules/style/style.js 1`] = `
+Array [
+  Object {
+    "column": 13,
+    "line": 8,
+    "rule": "array-bracket-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 23,
+    "line": 8,
+    "rule": "array-bracket-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 21,
+    "line": 18,
+    "rule": "block-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 41,
+    "line": 18,
+    "rule": "block-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 30,
+    "rule": "brace-style",
+    "severity": 2,
+  },
+  Object {
+    "column": 11,
+    "line": 42,
+    "rule": "camelcase",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 53,
+    "rule": "capitalized-comments",
+    "severity": 2,
+  },
+  Object {
+    "column": 41,
+    "line": 54,
+    "rule": "capitalized-comments",
+    "severity": 2,
+  },
+  Object {
+    "column": 20,
+    "line": 87,
+    "rule": "comma-dangle",
+    "severity": 2,
+  },
+  Object {
+    "column": 32,
+    "line": 102,
+    "rule": "comma-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 115,
+    "rule": "comma-style",
+    "severity": 2,
+  },
+  Object {
+    "column": 18,
+    "line": 133,
+    "rule": "computed-property-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 19,
+    "line": 151,
+    "rule": "consistent-this",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 176,
+    "rule": "func-call-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 11,
+    "line": 188,
+    "rule": "func-style",
+    "severity": 2,
+  },
+  Object {
+    "column": 11,
+    "line": 195,
+    "rule": "func-style",
+    "severity": 2,
+  },
+  Object {
+    "column": 11,
+    "line": 205,
+    "rule": "func-style",
+    "severity": 2,
+  },
+  Object {
+    "column": 31,
+    "line": 205,
+    "rule": "semi",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 236,
+    "rule": "indent",
+    "severity": 2,
+  },
+  Object {
+    "column": 30,
+    "line": 250,
+    "rule": "jsx-quotes",
+    "severity": 2,
+  },
+  Object {
+    "column": 11,
+    "line": 262,
+    "rule": "key-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 6,
+    "line": 278,
+    "rule": "keyword-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 316,
+    "rule": "lines-around-directive",
+    "severity": 2,
+  },
+  Object {
+    "column": 25,
+    "line": 335,
+    "rule": "max-depth",
+    "severity": 1,
+  },
+  Object {
+    "column": 1,
+    "line": 361,
+    "rule": "max-len",
+    "severity": 1,
+  },
+  Object {
+    "column": 27,
+    "line": 385,
+    "rule": "max-nested-callbacks",
+    "severity": 1,
+  },
+  Object {
+    "column": 31,
+    "line": 386,
+    "rule": "max-nested-callbacks",
+    "severity": 1,
+  },
+  Object {
+    "column": 5,
+    "line": 401,
+    "rule": "max-params",
+    "severity": 1,
+  },
+  Object {
+    "column": 5,
+    "line": 416,
+    "rule": "max-statements",
+    "severity": 1,
+  },
+  Object {
+    "column": 47,
+    "line": 585,
+    "rule": "max-statements-per-line",
+    "severity": 2,
+  },
+  Object {
+    "column": 28,
+    "line": 616,
+    "rule": "new-cap",
+    "severity": 2,
+  },
+  Object {
+    "column": 24,
+    "line": 631,
+    "rule": "new-parens",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 644,
+    "rule": "newline-after-var",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 660,
+    "rule": "newline-before-return",
+    "severity": 2,
+  },
+  Object {
+    "column": 53,
+    "line": 676,
+    "rule": "newline-per-chained-call",
+    "severity": 2,
+  },
+  Object {
+    "column": 15,
+    "line": 685,
+    "rule": "no-array-constructor",
+    "severity": 2,
+  },
+  Object {
+    "column": 15,
+    "line": 698,
+    "rule": "no-bitwise",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 731,
+    "rule": "no-lonely-if",
+    "severity": 2,
+  },
+  Object {
+    "column": 19,
+    "line": 746,
+    "rule": "no-mixed-operators",
+    "severity": 2,
+  },
+  Object {
+    "column": 23,
+    "line": 746,
+    "rule": "no-mixed-operators",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 769,
+    "rule": "no-multiple-empty-lines",
+    "severity": 2,
+  },
+  Object {
+    "column": 15,
+    "line": 791,
+    "rule": "no-nested-ternary",
+    "severity": 2,
+  },
+  Object {
+    "column": 44,
+    "line": 791,
+    "rule": "no-nested-ternary",
+    "severity": 2,
+  },
+  Object {
+    "column": 15,
+    "line": 814,
+    "rule": "no-new-object",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 830,
+    "rule": "no-plusplus",
+    "severity": 2,
+  },
+  Object {
+    "column": 19,
+    "line": 875,
+    "rule": "no-unneeded-ternary",
+    "severity": 2,
+  },
+  Object {
+    "column": 19,
+    "line": 889,
+    "rule": "no-whitespace-before-property",
+    "severity": 2,
+  },
+  Object {
+    "column": 15,
+    "line": 929,
+    "rule": "object-curly-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 20,
+    "line": 929,
+    "rule": "object-curly-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 15,
+    "line": 941,
+    "rule": "object-property-newline",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 965,
+    "rule": "one-var",
+    "severity": 2,
+  },
+  Object {
+    "column": 14,
+    "line": 998,
+    "rule": "operator-linebreak",
+    "severity": 2,
+  },
+  Object {
+    "column": 30,
+    "line": 1010,
+    "rule": "padded-blocks",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 1014,
+    "rule": "padded-blocks",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 1029,
+    "rule": "quote-props",
+    "severity": 2,
+  },
+  Object {
+    "column": 15,
+    "line": 1045,
+    "rule": "quotes",
+    "severity": 2,
+  },
+  Object {
+    "column": 23,
+    "line": 1061,
+    "rule": "semi",
+    "severity": 2,
+  },
+  Object {
+    "column": 17,
+    "line": 1072,
+    "rule": "semi-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 17,
+    "line": 1101,
+    "rule": "space-before-blocks",
+    "severity": 2,
+  },
+  Object {
+    "column": 15,
+    "line": 1116,
+    "rule": "space-before-function-paren",
+    "severity": 2,
+  },
+  Object {
+    "column": 15,
+    "line": 1131,
+    "rule": "space-in-parens",
+    "severity": 2,
+  },
+  Object {
+    "column": 16,
+    "line": 1146,
+    "rule": "space-infix-ops",
+    "severity": 2,
+  },
+  Object {
+    "column": 13,
+    "line": 1156,
+    "rule": "space-unary-ops",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 1163,
+    "rule": "spaced-comment",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 1164,
+    "rule": "spaced-comment",
+    "severity": 2,
+  },
+  Object {
+    "column": 19,
+    "line": 1175,
+    "rule": "template-tag-spacing",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on fixtures/rules/style/style-lines.js 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "line": 1,
+    "rule": "max-lines",
+    "severity": 1,
+  },
+  Object {
+    "column": 1,
+    "line": 4,
+    "rule": "strict",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on fixtures/rules/variables/variables.js 1`] = `
+Array [
+  Object {
+    "column": 5,
+    "line": 22,
+    "rule": "no-delete-var",
+    "severity": 2,
+  },
+  Object {
+    "column": 21,
+    "line": 35,
+    "rule": "no-restricted-globals",
+    "severity": 2,
+  },
+  Object {
+    "column": 14,
+    "line": 64,
+    "rule": "no-shadow-restricted-names",
+    "severity": 2,
+  },
+  Object {
+    "column": 15,
+    "line": 70,
+    "rule": "no-undef",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 76,
+    "rule": "no-undef-init",
+    "severity": 2,
+  },
+  Object {
+    "column": 17,
+    "line": 94,
+    "rule": "no-use-before-define",
+    "severity": 2,
+  },
+  Object {
+    "column": 19,
+    "line": 106,
+    "rule": "no-use-before-define",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on fixtures/rules/variables/variables-with-unused.js 1`] = `
+Array [
+  Object {
+    "column": 11,
+    "line": 8,
+    "rule": "no-unused-vars",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on fixtures/samples/es5/contrived.bad.js 1`] = `
+Array [
+  Object {
+    "column": 17,
+    "line": 6,
+    "rule": "no-restricted-globals",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on fixtures/samples/es5/contrived.good.js 1`] = `Array []`;
+
+exports[`should pass on fixtures/samples/es6/contrived.good.js 1`] = `Array []`;
+
+exports[`should pass on fixtures/samples/es6-modules/contrived.bad.js 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "line": 3,
+    "rule": "strict",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on fixtures/samples/es6-modules/contrived.good.js 1`] = `Array []`;
+
+exports[`should pass on fixtures/samples/es6-node/fileSize.good.js 1`] = `Array []`;
+
+exports[`should pass on fixtures/samples/es6-node/loudException.js 1`] = `Array []`;
+
+exports[`should pass on fixtures/samples/es7/contrived.bad.js 1`] = `
+Array [
+  Object {
+    "column": 16,
+    "line": 10,
+    "rule": "no-restricted-properties",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on fixtures/samples/es7/contrived.good.js 1`] = `Array []`;
+
+exports[`should pass on fixtures/samples/es7-object-spread/contrived.good.js 1`] = `Array []`;
+
+exports[`should pass on fixtures/samples/es7-react/contrived.bad.js 1`] = `
+Array [
+  Object {
+    "column": 38,
+    "line": 6,
+    "rule": "react/prefer-es6-class",
+    "severity": 2,
+  },
+  Object {
+    "column": 28,
+    "line": 13,
+    "rule": "react/jsx-no-bind",
+    "severity": 1,
+  },
+  Object {
+    "column": 65,
+    "line": 13,
+    "rule": "react/jsx-handler-names",
+    "severity": 2,
+  },
+  Object {
+    "column": 62,
+    "line": 15,
+    "rule": "react/jsx-tag-spacing",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on fixtures/samples/es7-react/contrived.good.js 1`] = `Array []`;
+
+exports[`should pass on fixtures/samples/es8/contrived.good.js 1`] = `Array []`;

@@ -1,8 +1,0 @@
-[
-    {
-        "rule": "no-unused-vars",
-        "severity": 2,
-        "line": 8,
-        "column": 11
-    }
-]
