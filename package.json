@@ -24,7 +24,7 @@
   ],
   "scripts": {
     "lint": "eslint . --ignore-pattern test/fixtures",
-    "test": "jest --env node",
+    "test": "jest --env node --coverage",
     "prerelease": "npm t && npm run lint",
     "release": "standard-version",
     "precommit": "lint-staged",
