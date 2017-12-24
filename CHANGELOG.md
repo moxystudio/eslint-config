@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="4.2.0"></a>
+# [4.2.0](https://github.com/moxystudio/eslint-config/compare/v4.1.2...v4.2.0) (2017-12-24)
+
+
+### Features
+
+* add babel-parser addon ([7842d1e](https://github.com/moxystudio/eslint-config/commit/7842d1e)), closes [#34](https://github.com/moxystudio/eslint-config/issues/34)
+
+
+
 <a name="4.1.2"></a>
 ## [4.1.2](https://github.com/moxystudio/eslint-config/compare/v4.1.1...v4.1.2) (2017-11-21)
 
