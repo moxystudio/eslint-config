@@ -988,12 +988,6 @@ Array [
     "severity": 1,
   },
   Object {
-    "column": 45,
-    "line": 178,
-    "rule": "react/jsx-no-bind",
-    "severity": 1,
-  },
-  Object {
     "column": 35,
     "line": 182,
     "rule": "react/jsx-no-bind",
@@ -1789,3 +1783,34 @@ Array [
 exports[`should pass on fixtures/samples/es7-react/contrived.good.js 1`] = `Array []`;
 
 exports[`should pass on fixtures/samples/es8/contrived.good.js 1`] = `Array []`;
+
+exports[`should pass on fixtures/samples/es8-babel-parser/contrived.bad.js 1`] = `
+Array [
+  Object {
+    "column": 19,
+    "line": 4,
+    "rule": "babel/no-invalid-this",
+    "severity": 2,
+  },
+  Object {
+    "column": 27,
+    "line": 11,
+    "rule": "babel/semi",
+    "severity": 2,
+  },
+  Object {
+    "column": 17,
+    "line": 15,
+    "rule": "babel/object-curly-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 29,
+    "line": 19,
+    "rule": "babel/new-cap",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on fixtures/samples/es8-babel-parser/contrived.good.js 1`] = `Array []`;

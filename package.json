@@ -50,6 +50,8 @@
     "eslint": "^4.0.0"
   },
   "dependencies": {
+    "babel-eslint": "^8.1.0",
+    "eslint-plugin-babel": "^4.1.2",
     "eslint-plugin-jest": "^21.3.2",
     "eslint-plugin-jsdoc": "^3.0.0",
     "eslint-plugin-react": "^7.0.0"
@@ -57,7 +59,6 @@
   "devDependencies": {
     "@commitlint/cli": "^5.2.4",
     "@commitlint/config-conventional": "^5.2.3",
-    "babel-eslint": "^8.0.2",
     "create-react-class": "^15.6.0",
     "eslint": "^4.0.0",
     "husky": "^0.14.0",
