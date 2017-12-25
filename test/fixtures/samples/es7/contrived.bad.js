@@ -3,10 +3,8 @@
 'use strict';
 
 // Test restricted properties
-(function () {
-    function pow(x) {
-        return Math.pow(x, 2);
-    }
+function pow(x) {
+    return Math.pow(x, 2);
+}
 
-    pow();
-})();
+pow();

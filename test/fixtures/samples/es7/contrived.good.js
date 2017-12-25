@@ -2,10 +2,8 @@
 
 'use strict';
 
-(function () {
-    function pow(x) {
-        return x ** 2;
-    }
+function pow(x) {
+    return x ** 2;
+}
 
-    pow();
-})();
+pow();

@@ -68,7 +68,7 @@ module.exports = {
         'lines-around-comment': 0,
         // Require or disallow newlines around directives
         'lines-around-directive': [2, {
-            'before': 'always',  // Enable because if there's a comment at the top of the file, it needs a blank line before the 'use strict'
+            'before': 'always', // Enable because if there's a comment at the top of the file, it needs a blank line before the 'use strict'
             'after': 'always',
         }],
         // Enforce a maximum depth that blocks can be nested

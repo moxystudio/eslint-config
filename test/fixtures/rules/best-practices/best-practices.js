@@ -399,7 +399,7 @@ setTimeout(() => console.log('Hello'), 1000);
 // Bad
 (function () {
     const funcs = [];
-    var x;  // eslint-disable-line no-var
+    var x; // eslint-disable-line no-var
 
     for (x; x < 2; x += 1) {
         funcs[x] = () => {
@@ -427,7 +427,7 @@ setTimeout(() => console.log('Hello'), 1000);
     const x = 0;
 })();
 
-//  `no-multi-str` - disallow multiline strings
+// `no-multi-str` - disallow multiline strings
 // ---------------------------------------------------------------------
 // Not active
 (function () {

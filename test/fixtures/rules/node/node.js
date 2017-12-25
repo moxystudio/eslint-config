@@ -12,16 +12,6 @@ const fs = require('fs');
         }
     }
 })();
-// Not active
-(function () {
-    function f(err, callback) {
-        if (err) {
-            return callback(err);
-        }
-
-        callback();
-    }
-})();
 
 // `global-require` - require require() calls to be placed at top-level module scope
 // ---------------------------------------------------------------------

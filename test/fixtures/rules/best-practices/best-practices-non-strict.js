@@ -8,7 +8,7 @@
 })();
 // Good
 (function () {
-    const num = 0o10;  // `es6` octal
+    const num = 0o10; // `es6` octal
 })();
 
 // `no-octal-escape` - Disallow use of octal escape sequences in string literals

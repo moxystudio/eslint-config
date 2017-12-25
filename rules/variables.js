@@ -28,9 +28,9 @@ module.exports = {
         'no-unused-vars': [2, { 'vars': 'local', 'args': 'after-used', 'ignoreRestSiblings': true }],
         // Disallow the use of variables before they are defined
         'no-use-before-define': [2, {
-            'functions': false,  // Completly disable for functions.. it feels weird
-            'classes': false,  // Disable for classes but still checks in the same scope
-            'variables': false,  // Disable for variables but still checks in the same scope
+            'functions': false, // Completly disable for functions.. it feels weird
+            'classes': false, // Disable for classes but still checks in the same scope
+            'variables': false, // Disable for variables but still checks in the same scope
         }],
     },
 };

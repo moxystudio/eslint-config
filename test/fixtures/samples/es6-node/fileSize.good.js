@@ -52,8 +52,8 @@ function fileSizeDir(dir) {
         cwd: dir,
         nodir: true,
         dot: true,
-        silent: true,   // Do not print warnings
-        strict: false,  // Do not crash on the first error
+        silent: true, // Do not print warnings
+        strict: false, // Do not crash on the first error
     })
     .then((paths) => paths.map((path) => `${dir}/${path}`))
     .then((paths) => fileSize(paths));

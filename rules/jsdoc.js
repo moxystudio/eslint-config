@@ -18,7 +18,7 @@ module.exports = {
                 'array': 'Array',
                 'date': 'Date',
             },
-            'matchDescription': '.+',  // Forcing description to be filled
+            'matchDescription': '.+', // Forcing description to be filled
         }],
         // Ensures that parameter names in JSDoc match those in the function declaration
         'jsdoc/check-param-names': 2,

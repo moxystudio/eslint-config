@@ -51,7 +51,7 @@ if (Math.random() > 0.5) {
 // Bad
 console.log('this line must be here');
 // my first letter is not capitalized
-console.log('this line must be here');  // this is a inline comment
+console.log('this line must be here'); // this is a inline comment
 
 // Good
 // My first letter is capitalized
@@ -59,7 +59,7 @@ console.log('lowercase can be used in multiple line comment');
 // My first letter is capitalized
 // continuing the last comment
 console.log('lowercase can be used in other contexts');
-console.log('this line contains an inline comment');  // This is a inline comment
+console.log('this line contains an inline comment'); // This is a inline comment
 console.log('...');
 // this.props
 console.log('words with dots are ok');

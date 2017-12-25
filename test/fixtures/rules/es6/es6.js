@@ -103,6 +103,7 @@ console.log(linter, cliEngine);
 
 // `no-dupe-class-members` - disallow duplicate class members
 // ---------------------------------------------------------------------
+// Bad
 (function () {
     class Test {
         f() {}
