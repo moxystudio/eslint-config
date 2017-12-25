@@ -651,121 +651,121 @@ Array [
   },
   Object {
     "column": 9,
-    "line": 109,
+    "line": 110,
     "rule": "no-dupe-class-members",
     "severity": 2,
   },
   Object {
     "column": 19,
-    "line": 117,
+    "line": 118,
     "rule": "no-new-symbol",
     "severity": 2,
   },
   Object {
     "column": 13,
-    "line": 134,
+    "line": 135,
     "rule": "no-this-before-super",
     "severity": 1,
   },
   Object {
     "column": 19,
-    "line": 153,
+    "line": 154,
     "rule": "no-useless-computed-key",
     "severity": 2,
   },
   Object {
     "column": 9,
-    "line": 165,
+    "line": 166,
     "rule": "no-useless-constructor",
     "severity": 2,
   },
   Object {
     "column": 5,
-    "line": 183,
+    "line": 184,
     "rule": "no-var",
     "severity": 2,
   },
   Object {
     "column": 9,
-    "line": 196,
+    "line": 197,
     "rule": "object-shorthand",
     "severity": 2,
   },
   Object {
     "column": 7,
-    "line": 215,
+    "line": 216,
     "rule": "prefer-arrow-callback",
     "severity": 2,
   },
   Object {
     "column": 9,
-    "line": 230,
+    "line": 231,
     "rule": "prefer-const",
     "severity": 2,
   },
   Object {
     "column": 16,
-    "line": 254,
+    "line": 255,
     "rule": "prefer-numeric-literals",
     "severity": 2,
   },
   Object {
     "column": 21,
-    "line": 266,
+    "line": 267,
     "rule": "prefer-rest-params",
     "severity": 2,
   },
   Object {
     "column": 17,
-    "line": 282,
+    "line": 283,
     "rule": "prefer-spread",
     "severity": 2,
   },
   Object {
     "column": 13,
-    "line": 294,
+    "line": 295,
     "rule": "prefer-template",
     "severity": 1,
   },
   Object {
     "column": 5,
-    "line": 302,
+    "line": 303,
     "rule": "require-yield",
     "severity": 1,
   },
   Object {
     "column": 29,
-    "line": 319,
+    "line": 320,
     "rule": "rest-spread-spacing",
     "severity": 2,
   },
   Object {
     "column": 22,
-    "line": 339,
+    "line": 340,
     "rule": "template-curly-spacing",
     "severity": 2,
   },
   Object {
     "column": 39,
-    "line": 339,
+    "line": 340,
     "rule": "template-curly-spacing",
     "severity": 2,
   },
   Object {
     "column": 15,
-    "line": 348,
+    "line": 349,
     "rule": "yield-star-spacing",
     "severity": 2,
   },
   Object {
     "column": 15,
-    "line": 348,
+    "line": 349,
     "rule": "yield-star-spacing",
     "severity": 2,
   },
   Object {
     "column": 15,
-    "line": 354,
+    "line": 355,
     "rule": "yield-star-spacing",
     "severity": 2,
   },
@@ -858,13 +858,13 @@ exports[`should pass on fixtures/rules/node/node.js 1`] = `
 Array [
   Object {
     "column": 21,
-    "line": 30,
+    "line": 20,
     "rule": "global-require",
     "severity": 1,
   },
   Object {
     "column": 5,
-    "line": 37,
+    "line": 27,
     "rule": "handle-callback-err",
     "severity": 1,
   },
@@ -1237,7 +1237,7 @@ Array [
     "severity": 2,
   },
   Object {
-    "column": 41,
+    "column": 40,
     "line": 54,
     "rule": "capitalized-comments",
     "severity": 2,
@@ -1686,13 +1686,13 @@ exports[`should pass on fixtures/samples/es6-modules/contrived.good.js 1`] = `Ar
 
 exports[`should pass on fixtures/samples/es6-node/fileSize.good.js 1`] = `Array []`;
 
-exports[`should pass on fixtures/samples/es6-node/loudException.js 1`] = `Array []`;
+exports[`should pass on fixtures/samples/es6-node/loudException.good.js 1`] = `Array []`;
 
 exports[`should pass on fixtures/samples/es7/contrived.bad.js 1`] = `
 Array [
   Object {
-    "column": 16,
-    "line": 8,
+    "column": 12,
+    "line": 7,
     "rule": "no-restricted-properties",
     "severity": 2,
   },
