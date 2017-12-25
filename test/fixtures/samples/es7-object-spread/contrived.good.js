@@ -1,6 +1,6 @@
-'use strict';
-
 // Made up sample.. not genuine
+
+'use strict';
 
 const myObject = { foo: 'bar', foz: 'baz' };
 

@@ -16,6 +16,7 @@
 
 // `no-delete-var` - disallow deleting variables
 // ---------------------------------------------------------------------
+// Bad
 (function () {
     const x = 0;
 
@@ -50,6 +51,7 @@
 
 // `no-shadow` - disallow variable declarations from shadowing variables declared in the outer scope
 // ---------------------------------------------------------------------
+// Not active
 (function () {
     const a = 1;
 
@@ -60,18 +62,21 @@
 
 // `no-shadow-restricted-names` - disallow identifiers from shadowing restricted names
 // ---------------------------------------------------------------------
+// Bad
 (function () {
     function undefined() {}
 })();
 
 // `no-undef` - disallow the use of undeclared variables unless mentioned in /*global */ comments
 // ---------------------------------------------------------------------
+// Bad
 (function () {
     const x = y + 1;
 })();
 
 // `no-undef-init` - disallow initializing variables to undefined
 // ---------------------------------------------------------------------
+// Bad
 (function () {
     let x = undefined;
 

@@ -9,7 +9,7 @@ const cli = new eslint.CLIEngine({
     useEslintrc: true,
 });
 
-const report = cli.executeOnFiles([`${__dirname}/fixtures/**/*.js`]);
+const report = cli.executeOnFiles([`${__dirname}/fixtures/**/*.{js,jsx}`]);
 const results = report.results;
 
 results.forEach((object) => {

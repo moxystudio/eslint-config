@@ -19,7 +19,7 @@ import createReactClass from 'create-react-class';
 
 // `forbid-elements` - forbid certain elements
 // ---------------------------------------------------------------------
-// All elements are allowed
+// Not active
 
 // `forbid-foreign-prop-types` - forbid foreign propTypes
 // ---------------------------------------------------------------------
@@ -104,7 +104,7 @@ Component.propTypes = {
             return <a href="/foo" onClick={ this.onClick }>bleh</a>;
         }
 
-        _renderFoo() {
+        renderFoo() {
             return <a href="/foo" onClick={ this._handleClick }>foo</a>;
         }
     }
@@ -152,7 +152,7 @@ Component.propTypes = {
 
 // `jsx-key` - detect missing key prop
 // ---------------------------------------------------------------------
-// Bad
+// Disencouraged
 (function () {
     [1, 2, 3].map((item) => <Component item={ item } />);
 })();
@@ -171,14 +171,14 @@ Component.propTypes = {
 
 // `jsx-no-bind` - no .bind() or Arrow Functions in JSX Props
 // ---------------------------------------------------------------------
-// Bad
+// Disencouraged
 (function () {
     class MyComponent extends Component {
         render() {
             return <a href="/foo" onClick={ this.handleClick.bind(this) }>bleh</a>;
         }
 
-        _renderFoo() {
+        renderFoo() {
             return <a href="/foo" onClick={ (e) => this.handleClick(e) }>foo</a>;
         }
     }
@@ -210,7 +210,7 @@ Component.propTypes = {
             );
         }
 
-        _renderFoo() {
+        renderFoo() {
             return (
                 <div>
                 // Comment
@@ -252,7 +252,7 @@ Component.propTypes = {
 
 // `jsx-no-target-blank` - prevent usage of unsafe target='_blank'
 // ---------------------------------------------------------------------
-// Bad
+// Disencouraged
 (function () {
     const component = <a href="http://this.link/comes/from/user/input" target="_blank">foo</a>;
 })();
@@ -277,7 +277,7 @@ Component.propTypes = {
 // ---------------------------------------------------------------------
 // Bad
 (function () {
-    class My_Component extends Component {}
+    class My_Component extends Component {}  // eslint-disable-line camelcase
 
     const foo = <My_Component />;
 })();
@@ -379,11 +379,11 @@ Component.propTypes = {
     const Hello = <div dangerouslySetInnerHTML={ { __html: 'Hello World' } } />;
 })();
 
-// `jsx-no-deprecated` - prevent usage of deprecated methods
+// `no-deprecated` - prevent usage of deprecated methods
 // ---------------------------------------------------------------------
-// Bad
+// Disencouraged
 React.render(<Component />, '#root');
-// Bad
+// Good
 ReactDOM.render(<Component />, '#root');
 
 // `no-did-mount-set-state` - prevent usage of setState in componentDidMount
@@ -400,9 +400,9 @@ ReactDOM.render(<Component />, '#root');
 (function () {
     class MyComponent extends Component {
         componentDidMount() {
-            this.onMount(() => {
+            setTimeout(() => {
                 this.setState({ error: true });
-            });
+            }, 10);
         }
     }
 })();
@@ -428,7 +428,7 @@ ReactDOM.render(<Component />, '#root');
     }
 })();
 
-// `jsx-no-direct-mutation-state` - prevent direct mutation of this.state
+// `no-direct-mutation-state` - prevent direct mutation of this.state
 // ---------------------------------------------------------------------
 // Bad
 (function () {
@@ -468,7 +468,7 @@ ReactDOM.render(<Component />, '#root');
                 if (this.isMounted()) {
                     this.setState({ counter: this.state.counter + 1 });
                 }
-            });
+            }, 1000);
         }
     }
 })();
@@ -494,7 +494,7 @@ ReactDOM.render(<Component />, '#root');
 
 // `no-multi-comp` - prevent multiple component definition per file
 // ---------------------------------------------------------------------
-// See file ./react-multi-comp.js
+// Not active
 
 // `no-render-return-value` - prevent usage of the return value of React.render
 // ---------------------------------------------------------------------
@@ -713,10 +713,11 @@ ReactDOM.render(<Component />, '#root');
 // Bad
 (function () {
     class MyComponent extends Component {
-        // Code below doesn´t error out because we have two errors of the same rule. They are shown one at a time.
+        // Code below doesn't error out because we have two errors of the same rule.
+        // They are shown one at a time.
         // static propTypes = {
         //     foo: PropTypes.string,
-        // }
+        // };
 
         handleChange(e) {
             console.log(e);
@@ -741,7 +742,7 @@ ReactDOM.render(<Component />, '#root');
         // Example of good usage of static proptypes
         // static propTypes = {
         //     foo: PropTypes.string,
-        // }
+        // };
     }
 })();
 

@@ -15,6 +15,7 @@
 (function () {
     /**
      * Add two numbers.
+     *
      * @param {Number} num1 - The first number.
      * @param {Number} num2 - The second number.
      * @returns {Number} The sum of the two numbers.

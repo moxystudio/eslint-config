@@ -25,13 +25,14 @@ const fs = require('fs');
 
 // `global-require` - require require() calls to be placed at top-level module scope
 // ---------------------------------------------------------------------
+// Disencouraged
 (function () {
     const someDep = require('some-dep');
 })();
 
 // `handle-callback-err` - require error handling in callbacks
 // ---------------------------------------------------------------------
-// Bad
+// Disencouraged
 (function () {
     function f(err, callback) {
         callback();

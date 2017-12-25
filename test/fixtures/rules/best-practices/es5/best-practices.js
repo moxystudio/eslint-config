@@ -5,7 +5,7 @@
 // Bad
 (function () {
     if (Math.random() > 0.5) {
-        var x = 0;
+        var x = 0; // eslint-disable-line vars-on-top
     }
 
     console.log(x);
@@ -41,7 +41,7 @@
         var x = 0;
     }
 
-    console.log(x);
+    console.log(x); // eslint-disable-line block-scoped-var
 })();
 // Good
 (function () {

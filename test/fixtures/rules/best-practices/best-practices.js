@@ -61,8 +61,13 @@
 
 // `curly` - enforce consistent brace style for all control statements
 // ---------------------------------------------------------------------
+// Bad
 if (Math.random() > 0.5)
     console.log('foo');
+// Good
+if (Math.random() > 0.5) {
+    console.log('foo');
+}
 
 // `default-case` - require default cases in switch statements
 // ---------------------------------------------------------------------
@@ -152,12 +157,14 @@ if (Math.random() > 0.5)
 
 // `no-alert` - disallow the use of alert, confirm, and prompt
 // ---------------------------------------------------------------------
+// Disencouraged
 alert('Hello');
 confirm('Hello');
 prompt('What\'s your name?');
 
 // `no-caller` - disallow the use of arguments.caller or arguments.callee
 // ---------------------------------------------------------------------
+// Bad
 (function () {
     function foo(n) {
         if (n <= 0) {
@@ -257,10 +264,12 @@ prompt('What\'s your name?');
 
 // `no-eval` - disallow the use of eval()
 // ---------------------------------------------------------------------
+// Bad
 eval('var a = 0');
 
 // `no-extend-native` - disallow extending native types
 // ---------------------------------------------------------------------
+// Bad
 Object.prototype.a = 'a';
 
 // `no-extra-bind` - disallow unnecessary calls to .bind()
@@ -270,12 +279,6 @@ Object.prototype.a = 'a';
     const x = function () {
         console.log('foo');
     }.bind({});
-})();
-// Good
-(function () {
-    const x = function () {
-        console.log('foo');
-    };
 })();
 
 // `no-extra-label` - disallow unnecessary labels
@@ -326,6 +329,7 @@ Object.prototype.a = 'a';
 
 // `no-global-assign` - disallow assignments to native objects or read-only global variables
 // ---------------------------------------------------------------------
+// Bad
 window = {};
 Object = 'a';
 
@@ -343,10 +347,14 @@ Object = 'a';
 
 // `no-implied-eval` - disallow the use of eval()-like methods
 // ---------------------------------------------------------------------
-setTimeout('alert(\'Hello!\');', 1000);
+// Bad
+setTimeout('console.log(\'Hello!\');', 1000);
+// Good
+setTimeout(() => console.log('Hello'), 1000);
 
 // `no-invalid-this` - disallow this keywords outside of classes or class-like objects
 // ---------------------------------------------------------------------
+// Bad
 (function () {
     function f() {
         this.a = 'bar';
@@ -357,6 +365,7 @@ setTimeout('alert(\'Hello!\');', 1000);
 
 // `no-iterator` - disallow the use of the __iterator__ property
 // ---------------------------------------------------------------------
+// Bad
 (function () {
     const a = {};
 
@@ -365,6 +374,7 @@ setTimeout('alert(\'Hello!\');', 1000);
 
 // `no-labels` - disallow labeled statements
 // ---------------------------------------------------------------------
+// Bad
 (function () {
     A: if (Math.random() > 0.5) {
         break A;
@@ -386,11 +396,15 @@ setTimeout('alert(\'Hello!\');', 1000);
 
 // `no-loop-func` - disallow function declarations and expressions inside loop statements
 // ---------------------------------------------------------------------
+// Bad
 (function () {
-    for (let x; x < 2; x += 1) {
-        function f() {
-            console.log('Can\'t');
-        }
+    const funcs = [];
+    var x;  // eslint-disable-line no-var
+
+    for (x; x < 2; x += 1) {
+        funcs[x] = () => {
+            console.log(x);
+        };
     }
 })();
 
@@ -424,21 +438,33 @@ or is it not?';
 
 // `no-new` - disallow new operators outside of assignments or comparisons
 // ---------------------------------------------------------------------
+// Bad
 (function () {
-    function Person() {}
+    class Person {}
+
     new Person();
 })();
 
 // `no-new-func` - disallow new operators with the Function object
 // ---------------------------------------------------------------------
+// Bad
 (function () {
     const f = new Function();
+})();
+// Good
+(function () {
+    const f = () => {};
 })();
 
 // `no-new-wrappers` - disallow new operators with the String, Number, and Boolean objects
 // ---------------------------------------------------------------------
+// Bad
 (function () {
     const x = new String();
+})();
+// Good
+(function () {
+    const x = '';
 })();
 
 // `no-octal` - Disallow use of (old style) octal literals
@@ -460,6 +486,7 @@ or is it not?';
 
 // `no-proto` - disallow the use of the __proto__ property
 // ---------------------------------------------------------------------
+// Bad
 (function () {
     const a = {}.__proto__;
 })();
@@ -501,10 +528,12 @@ or is it not?';
 
 // `no-script-url` - disallow javascript: urls
 // ---------------------------------------------------------------------
+// Bad
 location.href = 'javascript:void(0)';
 
 // `no-self-assign` - disallow assignments where both sides are exactly the same
 // ---------------------------------------------------------------------
+// Bad
 (function () {
     let a = 1;
 
@@ -513,6 +542,7 @@ location.href = 'javascript:void(0)';
 
 // `no-self-compare` - disallow comparisons where both sides are exactly the same
 // ---------------------------------------------------------------------
+// Bad
 (function () {
     const a = 1;
 
@@ -521,6 +551,7 @@ location.href = 'javascript:void(0)';
 
 // `no-sequences` - disallow comma operators
 // ---------------------------------------------------------------------
+// Bad
 (function () {
     const a = 2;
 
@@ -542,6 +573,7 @@ location.href = 'javascript:void(0)';
 
 // `no-unmodified-loop-condition` - disallow unmodified loop conditions
 // ---------------------------------------------------------------------
+// Bad
 (function () {
     const a = 0;
 
@@ -552,6 +584,7 @@ location.href = 'javascript:void(0)';
 
 // `no-unused-expressions` - disallow unused expressions
 // ---------------------------------------------------------------------
+// Bad
 (function () {
     function f() {}
 
@@ -627,12 +660,14 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa';
 
 // `no-void` - disallow void operators
 // ---------------------------------------------------------------------
+// Bad
 (function () {
     void 0;
 })();
 
 // `no-warning-comments` - disallow specified warning terms in comments
 // ---------------------------------------------------------------------
+// Disencouraged
 (function () {
     // TODO
 })();
@@ -673,18 +708,34 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa';
 
 // `wrap-iife` - require parentheses around immediate function invocations
 // ---------------------------------------------------------------------
+// Bad
 (function () {
-    const x = function f() {
+    const x = function () {
 
     }();
+})();
+// Good
+(function () {
+    const x = (function () {
+
+    })();
 })();
 
 // `yoda` - require or disallow “Yoda” conditions
 // ---------------------------------------------------------------------
+// Bad
 (function () {
     const a = 'foo';
 
     if ('Hello' === a) {
+        console.log('foo');
+    }
+})();
+// Good
+(function () {
+    const a = 'foo';
+
+    if (a === 'Hello') {
         console.log('foo');
     }
 })();

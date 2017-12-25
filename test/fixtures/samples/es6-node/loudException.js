@@ -1,3 +1,5 @@
+// Taken from npms-analyzer project
+
 'use strict';
 
 function loudException(promise) {

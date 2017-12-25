@@ -75,6 +75,7 @@ console.log(linter, cliEngine);
 
 // `no-class-assign` - disallow reassigning class members
 // ---------------------------------------------------------------------
+// Bad
 (function () {
     class Test {}
     Test = 1;

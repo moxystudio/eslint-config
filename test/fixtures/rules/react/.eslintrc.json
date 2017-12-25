@@ -7,7 +7,6 @@
         "../../../../addons/react.js"
     ],
     "rules": {
-        "no-unused-vars": 0,
-        "react/no-multi-comp": 0
+        "no-unused-vars": 0
     }
 }

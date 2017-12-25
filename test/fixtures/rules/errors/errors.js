@@ -39,7 +39,6 @@
         console.log('foo');
     }
 })();
-
 // Also good
 (function () {
     let f = 0;
@@ -73,12 +72,14 @@ if (false) {
 
 // `no-control-regex` - disallow control characters in regular expressions
 // ---------------------------------------------------------------------
+// Bad
 if (/\x1f/.test('foo')) {
     console.log('foo');
 }
 
 // `no-debugger` - disallow the use of debugger
 // ---------------------------------------------------------------------
+// Disencourage
 debugger;
 
 // `no-dupe-args` - disallow duplicate arguments in function definitions
@@ -230,14 +231,16 @@ console.log('foo');
     const cond = true;
 
     if (cond) {
-        function d() { }
+        function d() {}
     }
 })();
 // Good
 (function () {
-    function fn() {}
+    const cond = true;
 
-    fn = function () { };
+    if (cond) {
+        const d = () => {};
+    }
 })();
 
 // `no-invalid-regexp` - disallow invalid regular expression strings in RegExp constructors

@@ -23,4 +23,4 @@ import React, { Component } from 'react';
     const component = <Component isLoading={ isLoading } />;
 
     console.log(isLoading, component);
-})();  // Should not give an error
+})();

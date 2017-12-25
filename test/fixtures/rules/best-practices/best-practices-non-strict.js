@@ -25,6 +25,7 @@
 
 // `no-with` - disallow with statements
 // ---------------------------------------------------------------------
+// Bad
 (function () {
     const a = { foo: 'bar' };
 

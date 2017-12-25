@@ -185,14 +185,20 @@ console.log('words inside of single quotes');
 // ---------------------------------------------------------------------
 // Not active
 (function () {
-    const foo = function bar() {};
+    function Foo() {}
+
+    Foo.prototype.bar = function foo() {
+        console.log('foo');
+    };
 })();
 
 // `func-names` - require or disallow named function expressions
 // ---------------------------------------------------------------------
 // Not active
 (function () {
-    const a = function () {
+    function Foo() {}
+
+    Foo.prototype.bar = function () {
         console.log('foo');
     };
 })();
@@ -201,20 +207,19 @@ console.log('words inside of single quotes');
 // ---------------------------------------------------------------------
 // Bad
 (function () {
-    const fn = () => {};
-    const fn2 = function () {}
+    const fn = function () {}
 })();
 // Good
 (function () {
     function fn() {}
+    const fn2 = () => {};
 })();
 
 // `id-blacklist` - disallow specified identifiers
 // ---------------------------------------------------------------------
 // Not active
 (function () {
-    function callback() {
-    }
+    function callback() {}
 })();
 
 // `id-length` - enforce minimum and maximum identifier lengths
@@ -325,7 +330,7 @@ console.log('words inside of single quotes');
 
 // `max-depth` - enforce a maximum depth that blocks can be nested
 // ---------------------------------------------------------------------
-// Bad
+// Disencouraged
 if (Math.random() > 0.5) {
     if (Math.random() > 0.5) {
         if (Math.random() > 0.5) {
@@ -356,7 +361,7 @@ if (Math.random() > 0.5) {
 
 // `max-len` - enforce a maximum line length
 // ---------------------------------------------------------------------
-// Bad
+// Disencouraged
 (function () {
     const maximumLength = 'We are writting this to check which one is the maximum length of our program. It should be somewhere around here-[ x ]';
 })();
@@ -371,7 +376,7 @@ if (Math.random() > 0.5) {
 
 // `max-nested-callbacks` - enforce a maximum depth that callbacks can be nested
 // ---------------------------------------------------------------------
-// Bad
+// Disencouraged
 (function () {
     function f(cb) {
         cb();
@@ -396,7 +401,7 @@ if (Math.random() > 0.5) {
 
 // `max-params` - enforce a maximum number of parameters in function definitions
 // ---------------------------------------------------------------------
-// Bad
+// Disencouraged
 (function () {
     function f(one, two, three, four, five, six, seven) {
         console.log('Too many args');
@@ -411,7 +416,7 @@ if (Math.random() > 0.5) {
 
 // `max-statements` - enforce a maximum number of statements allowed in function blocks
 // ---------------------------------------------------------------------
-// Bad
+// Disencouraged
 (function () {
     function maxStatements() {
         let a = 1;
@@ -1109,7 +1114,7 @@ if (Math.random() > 0.5) {
     }
 })();
 
-// `space-before-function-paren' - enforce consistent spacing before function definition opening parenthesis
+// `space-before-function-paren` - enforce consistent spacing before function definition opening parenthesis
 // ---------------------------------------------------------------------
 // Bad
 (function () {
