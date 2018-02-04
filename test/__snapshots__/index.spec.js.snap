@@ -1701,6 +1701,17 @@ Array [
 
 exports[`should pass on fixtures/samples/es7/contrived.good.js 1`] = `Array []`;
 
+exports[`should pass on fixtures/samples/es7-object-spread/contrived.bad.js 1`] = `
+Array [
+  Object {
+    "column": 13,
+    "line": 7,
+    "rule": "prefer-object-spread/prefer-object-spread",
+    "severity": 2,
+  },
+]
+`;
+
 exports[`should pass on fixtures/samples/es7-object-spread/contrived.good.js 1`] = `Array []`;
 
 exports[`should pass on fixtures/samples/es7-react/contrived.bad.js 1`] = `
