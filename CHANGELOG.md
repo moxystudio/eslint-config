@@ -2,6 +2,28 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="5.0.0"></a>
+# [5.0.0](https://github.com/moxystudio/eslint-config/compare/v4.2.0...v5.0.0) (2018-02-05)
+
+
+### Chores
+
+* update no-restricted-properties and no-multi-spaces ([f913d74](https://github.com/moxystudio/eslint-config/commit/f913d74)), closes [#37](https://github.com/moxystudio/eslint-config/issues/37)
+
+
+### Features
+
+* prefer object spread instead of object assign ([23c89c6](https://github.com/moxystudio/eslint-config/commit/23c89c6)), closes [#30](https://github.com/moxystudio/eslint-config/issues/30)
+
+
+### BREAKING CHANGES
+
+* multiple spaces in EOL comments are no longer allowed
+* usage of __defineSetter__ and __defineGetter__ are no longer allowed
+* code that doesn't use spread will not pass linting
+
+
+
 <a name="4.2.0"></a>
 # [4.2.0](https://github.com/moxystudio/eslint-config/compare/v4.1.2...v4.2.0) (2017-12-24)
 
