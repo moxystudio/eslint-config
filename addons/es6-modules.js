@@ -1,8 +1,5 @@
 'use strict';
 
-// TODO: add a plugin to add support for 'prefer-import' to give preference on import over require
-//       see: https://github.com/eslint/eslint/issues/3902
-
 module.exports = {
     'parserOptions': {
         'sourceType': 'module',

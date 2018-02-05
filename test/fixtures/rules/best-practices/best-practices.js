@@ -422,6 +422,10 @@ setTimeout(() => console.log('Hello'), 1000);
 (function () {
     const x =  0;
 })();
+// Also bad
+(function () {
+    const x = 0;  // Some comment
+})();
 // Good
 (function () {
     const x = 0;
@@ -497,7 +501,22 @@ or is it not?';
 
 // `no-restricted-properties` - disallow certain properties on certain objects
 // ---------------------------------------------------------------------
-// Not active
+// Bad
+(function () {
+    const a = {};
+
+    a.__defineGetter__('foo', () => {});
+    a.__defineSetter__('foo', () => {});
+})();
+// Good
+(function () {
+    const a = {};
+
+    Object.defineProperty(a, 'foo', {
+        get: () => {},
+        set: () => {},
+    });
+})();
 
 // `no-return-assign` - disallow assignment operators in return statements
 // ---------------------------------------------------------------------

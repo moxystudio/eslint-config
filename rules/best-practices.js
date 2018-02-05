@@ -79,7 +79,7 @@ module.exports = {
         // Disallow magic numbers
         'no-magic-numbers': 0,
         // Disallow multiple spaces
-        'no-multi-spaces': [2, { 'ignoreEOLComments': true }],
+        'no-multi-spaces': 2,
         // Disallow multiline strings
         // comment: multiline strings are supported in IE9 and higher.. so why should one still live in 1990?
         'no-multi-str': 0,
@@ -100,7 +100,16 @@ module.exports = {
         // Disallow variable redeclaration
         'no-redeclare': 2,
         // Disallow certain properties on certain objects
-        'no-restricted-properties': 0,
+        'no-restricted-properties': [2,
+            {
+                'property': '__defineGetter__',
+                'message': 'Please use Object.defineProperty instead.',
+            },
+            {
+                'property': '__defineSetter__',
+                'message': 'Please use Object.defineProperty instead.',
+            },
+        ],
         // Disallow assignment operators in return statements
         'no-return-assign': 2,
         // Disallow unnecessary return await

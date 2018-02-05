@@ -184,7 +184,7 @@ module.exports = {
         // Enforce consistent spacing after the // or /* in a comment
         'spaced-comment': [2, 'always', {
             'exceptions': ['-', '+'],
-            'markers': ['=', '!'],                     // Space here to support sprockets directives
+            'markers': ['=', '!'], // Space here to support sprockets directives
         }],
         // Require or disallow spacing between template tags and their literals
         'template-tag-spacing': [2, 'never'],
