@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="5.1.0"></a>
+# [5.1.0](https://github.com/moxystudio/eslint-config/compare/v5.0.0...v5.1.0) (2018-02-19)
+
+
+### Bug Fixes
+
+* fix invalid `prefer-import/prefer-import-over-require` ([1e7e5c1](https://github.com/moxystudio/eslint-config/commit/1e7e5c1))
+
+
+### Features
+
+* ignore language-reserved keywords for capitalized-comments ([#38](https://github.com/moxystudio/eslint-config/issues/38)) ([562edfa](https://github.com/moxystudio/eslint-config/commit/562edfa))
+* prefer import  instead of require es6-modules ([1ae4568](https://github.com/moxystudio/eslint-config/commit/1ae4568)), closes [#43](https://github.com/moxystudio/eslint-config/issues/43)
+
+
+
 <a name="5.0.0"></a>
 # [5.0.0](https://github.com/moxystudio/eslint-config/compare/v4.2.0...v5.0.0) (2018-02-05)
 
