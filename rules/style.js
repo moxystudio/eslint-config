@@ -14,9 +14,43 @@ module.exports = {
         'camelcase': 2,
         // Enforce or disallow capitalization of the first letter of a comment
         'capitalized-comments': [2, 'always', {
-            // Ignore comments that have possible code samples as the first word (camelCase, some-prop, fn(), etc.)
-            // Additionally, ignore `falls through` because of switch statements
-            'ignorePattern': '([a-z0-9]+[A-Z_\\-.()\'"`]|falls?\\s?through)',
+            'ignorePattern': [
+                // Ignore comments that have possible code samples as the first word (camelCase, some-prop, fn(), etc.)
+                '[a-z0-9]+[A-Z_\\-.()\'"`]',
+                // Ignore `falls through` because of switch statements
+                'falls?\\s?through',
+                // Ignore language reserved keywords to allow commenting code
+                'async',
+                'await',
+                'break',
+                'case',
+                'class',
+                'const',
+                'continue',
+                'debugger',
+                'delete',
+                'do',
+                'else',
+                'export',
+                'exports',
+                'finally',
+                'for',
+                'function',
+                'if',
+                'import',
+                'instanceof',
+                'let',
+                'return',
+                'super',
+                'switch',
+                'this',
+                'throw',
+                'try',
+                'typeof',
+                'var',
+                'while',
+                'yield',
+            ].join('|'),
             'ignoreConsecutiveComments': true,
         }],
         // Require or disallow trailing commas

@@ -77,6 +77,64 @@ console.log('words inside of backtick quotes');
 console.log('words inside of double quotes');
 // 'capitalized'
 console.log('words inside of single quotes');
+// const foo = 'bar'
+console.log('variable definitions with const are ok');
+// let foo = 'bar'
+console.log('variable definitions with let is ok');
+// var foo = 'bar'
+console.log('variable definitions with var is ok');
+// import foo from 'foo'
+console.log('import statements are ok');
+// export { foo }
+console.log('export statements are ok');
+// class
+console.log('class declarations are ok');
+// try
+console.log('try-catch statements are ok');
+// switch
+console.log('switch statements are ok');
+// case
+console.log('switch case is ok');
+// break
+console.log('switch case break is ok');
+// if (foo)
+console.log('if clauses are ok');
+// else
+console.log('else conditions are ok');
+// async function foo()
+console.log('async is ok');
+// await foo()
+console.log('await is ok');
+// function foo(bar)
+console.log('functions are ok');
+// return
+console.log('return statements are ok');
+// do
+console.log('do while statements are ok');
+// for
+console.log('for statements are ok');
+// while
+console.log('while statements are ok');
+// continue
+console.log('continue statements are ok');
+// delete
+console.log('delete operators are ok');
+// this
+console.log('this keywords are ok');
+// super
+console.log('super keywords are ok');
+// throw
+console.log('throw statements are ok');
+// typeof
+console.log('typeof operators are ok');
+// instanceof
+console.log('instanceof operators are ok');
+// debugger
+console.log('debugger statements are ok');
+// yield
+console.log('yield keywords are ok');
+// finally
+console.log('finally clauses are ok');
 
 // `comma-dangle` require or disallow trailing commas
 // ---------------------------------------------------------------------
