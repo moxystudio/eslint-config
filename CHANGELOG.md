@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="5.2.0"></a>
+# [5.2.0](https://github.com/moxystudio/eslint-config/compare/v5.1.0...v5.2.0) (2018-02-27)
+
+
+### Features
+
+* ignore template literals in max-len rule ([519ba03](https://github.com/moxystudio/eslint-config/commit/519ba03)), closes [#49](https://github.com/moxystudio/eslint-config/issues/49)
+
+
+
 <a name="5.1.0"></a>
 # [5.1.0](https://github.com/moxystudio/eslint-config/compare/v5.0.0...v5.1.0) (2018-02-19)
 
