@@ -427,6 +427,13 @@ if (Math.random() > 0.5) {
 (function () {
     const maximumLength = 'This respects the max length';
 })();
+// Also good
+(function () {
+    const maximumLength = `
+This is gonna be a really long string but it's okay because it's a template literal and we are ignoring those from the 'max-len' rule, so you can write long paragraphs at will.
+Here's another paragraph!
+`;
+})();
 
 // `max-lines` - enforce a maximum number of lines per file
 // ---------------------------------------------------------------------
