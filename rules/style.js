@@ -108,7 +108,7 @@ module.exports = {
         // Enforce a maximum depth that blocks can be nested
         'max-depth': [1, 6],
         // Enforce a maximum line length
-        'max-len': [1, { 'code': 140, 'tabWidth': 4, 'ignoreTrailingComments': true, 'ignoreUrls': true }],
+        'max-len': [1, { 'code': 140, 'tabWidth': 4, 'ignoreTrailingComments': true, 'ignoreUrls': true, 'ignoreTemplateLiterals': true }],
         // Enforce a maximum number of lines per file
         'max-lines': [1, { 'max': 1000, 'skipComments': true, 'skipBlankLines': false }],
         // Enforce a maximum depth that callbacks can be nested
