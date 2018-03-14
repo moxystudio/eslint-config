@@ -790,7 +790,7 @@ Array [
 ]
 `;
 
-exports[`should pass on fixtures/rules/jest/jest.js 1`] = `
+exports[`should pass on fixtures/rules/jest/jest.spec.js 1`] = `
 Array [
   Object {
     "column": 1,
@@ -1801,3 +1801,283 @@ Array [
 `;
 
 exports[`should pass on fixtures/samples/es8-babel-parser/contrived.good.js 1`] = `Array []`;
+
+exports[`should pass on fixtures/samples/jest/__tests__/jest.js 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "line": 4,
+    "rule": "jest/no-disabled-tests",
+    "severity": 1,
+  },
+  Object {
+    "column": 4,
+    "line": 11,
+    "rule": "jest/no-focused-tests",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 19,
+    "rule": "jest/no-identical-title",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 28,
+    "rule": "jest/valid-expect",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on fixtures/samples/jest/jest.spec.js 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "line": 4,
+    "rule": "jest/no-disabled-tests",
+    "severity": 1,
+  },
+  Object {
+    "column": 4,
+    "line": 11,
+    "rule": "jest/no-focused-tests",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 19,
+    "rule": "jest/no-identical-title",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 28,
+    "rule": "jest/valid-expect",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on fixtures/samples/jest/jest.test.js 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "line": 4,
+    "rule": "jest/no-disabled-tests",
+    "severity": 1,
+  },
+  Object {
+    "column": 4,
+    "line": 11,
+    "rule": "jest/no-focused-tests",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 19,
+    "rule": "jest/no-identical-title",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 28,
+    "rule": "jest/valid-expect",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on fixtures/samples/jest/non-test-file.js 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "line": 4,
+    "rule": "no-undef",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 6,
+    "rule": "no-undef",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 11,
+    "rule": "no-undef",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 13,
+    "rule": "no-undef",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 18,
+    "rule": "no-undef",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 19,
+    "rule": "no-undef",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 21,
+    "rule": "no-undef",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 22,
+    "rule": "no-undef",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 27,
+    "rule": "no-undef",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 28,
+    "rule": "no-undef",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 31,
+    "rule": "no-undef",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 32,
+    "rule": "no-undef",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on fixtures/samples/jest/spec.js 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "line": 4,
+    "rule": "jest/no-disabled-tests",
+    "severity": 1,
+  },
+  Object {
+    "column": 4,
+    "line": 11,
+    "rule": "jest/no-focused-tests",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 19,
+    "rule": "jest/no-identical-title",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 28,
+    "rule": "jest/valid-expect",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on fixtures/samples/jest/test.js 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "line": 4,
+    "rule": "jest/no-disabled-tests",
+    "severity": 1,
+  },
+  Object {
+    "column": 4,
+    "line": 11,
+    "rule": "jest/no-focused-tests",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 19,
+    "rule": "jest/no-identical-title",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 28,
+    "rule": "jest/valid-expect",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on fixtures/samples/jest/test/jest.js 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "line": 4,
+    "rule": "jest/no-disabled-tests",
+    "severity": 1,
+  },
+  Object {
+    "column": 4,
+    "line": 11,
+    "rule": "jest/no-focused-tests",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 19,
+    "rule": "jest/no-identical-title",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 28,
+    "rule": "jest/valid-expect",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on fixtures/samples/jest/tests/jest.js 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "line": 4,
+    "rule": "jest/no-disabled-tests",
+    "severity": 1,
+  },
+  Object {
+    "column": 4,
+    "line": 11,
+    "rule": "jest/no-focused-tests",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 19,
+    "rule": "jest/no-identical-title",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 28,
+    "rule": "jest/valid-expect",
+    "severity": 2,
+  },
+]
+`;
