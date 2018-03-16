@@ -31,3 +31,10 @@ it('valid-expect bad', () => {
 it('valid-expect good', () => {
     expect('something').not.toEqual('else');
 });
+
+// `global-require` - Allow scoped require
+// `prefer-import/prefer-import-over-require` - Ignore imports
+// ---------------------------------------------------------------------
+it('global-require', () => {
+    require('foo');
+});
