@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="5.2.1"></a>
+## [5.2.1](https://github.com/moxystudio/eslint-config/compare/v5.2.0...v5.2.1) (2018-03-18)
+
+
+### Bug Fixes
+
+* allow scoped requires in Jest modules ([#52](https://github.com/moxystudio/eslint-config/issues/52)) ([6269e6d](https://github.com/moxystudio/eslint-config/commit/6269e6d)), closes [#50](https://github.com/moxystudio/eslint-config/issues/50)
+* disable Jest addon for source files ([#48](https://github.com/moxystudio/eslint-config/issues/48)) ([08bf0c6](https://github.com/moxystudio/eslint-config/commit/08bf0c6)), closes [#31](https://github.com/moxystudio/eslint-config/issues/31)
+
+
+
 <a name="5.2.0"></a>
 # [5.2.0](https://github.com/moxystudio/eslint-config/compare/v5.1.0...v5.2.0) (2018-02-27)
 
