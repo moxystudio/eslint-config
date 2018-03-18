@@ -1963,6 +1963,18 @@ Array [
     "rule": "no-undef",
     "severity": 2,
   },
+  Object {
+    "column": 1,
+    "line": 38,
+    "rule": "no-undef",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 39,
+    "rule": "prefer-import/prefer-import-over-require",
+    "severity": 1,
+  },
 ]
 `;
 
