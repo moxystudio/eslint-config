@@ -1786,7 +1786,7 @@ Array [
     "severity": 2,
   },
   Object {
-    "column": 17,
+    "column": 16,
     "line": 15,
     "rule": "babel/object-curly-spacing",
     "severity": 2,
