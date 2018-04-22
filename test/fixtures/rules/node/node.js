@@ -15,7 +15,7 @@ const fs = require('fs');
 
 // `global-require` - require require() calls to be placed at top-level module scope
 // ---------------------------------------------------------------------
-// Disencouraged
+// Not active
 (function () {
     const someDep = require('some-dep');
 })();

@@ -34,7 +34,6 @@ module.exports = {
     }, {
         'files': testFilePatterns,
         'rules': {
-            'global-require': 0,
             'prefer-import/prefer-import-over-require': 0,
         },
     }],

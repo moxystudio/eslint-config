@@ -875,12 +875,6 @@ Array [
 exports[`should pass on fixtures/rules/node/node.js 1`] = `
 Array [
   Object {
-    "column": 21,
-    "line": 20,
-    "rule": "global-require",
-    "severity": 1,
-  },
-  Object {
     "column": 5,
     "line": 27,
     "rule": "handle-callback-err",
