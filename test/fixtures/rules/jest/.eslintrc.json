@@ -3,10 +3,6 @@
     "extends": [
         "../../../../es6.js",
         "../../../../addons/jest.js",
-        "../../../../addons/node.js",
-        "../../../../addons/es6-modules.js"
-    ],
-    "rules": {
-        "strict": 0
-    }
+        "../../../../addons/node.js"
+    ]
 }

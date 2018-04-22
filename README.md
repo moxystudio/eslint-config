@@ -33,16 +33,17 @@ Create a `.eslintrc.json` file in the project root using a base configuration an
 First you need to choose the **base** configuration to use:
 
 - `es5` - The configuration to be used in ECMAScript 5 based projects
-- `es6` - The configuration to be used in ECMAScript 6 based projects
-- `es7` - The configuration to be used in ECMAScript 7 based projects
-- `es8` - The configuration to be used in ECMAScript 8 based projects
+- `es6` - The configuration to be used in ECMAScript 6 based projects (aka 2015)
+- `es7` - The configuration to be used in ECMAScript 7 based projects (aka 2016)
+- `es8` - The configuration to be used in ECMAScript 8 based projects (aka 2017)
+- `es9` - The configuration to be used in ECMAScript 8 based projects (aka 2018)
 
 Then enhance it with one or more **addons**:
 
 - `browser` - If you are going to develop code for the browser (assumes you use CommonJS or AMD)
 - `node` - If you are going to develop code for [NodeJS](nodejs.org)
 - `es6-modules`: If you are going to use ES6 import & export instead of CommonJS or AMD
-- `object-spread`: Allows to use [object rest spread](https://github.com/tc39/proposal-object-rest-spread) when destructuring objects
+- `object-spread`: Allows to use [object rest spread](https://github.com/tc39/proposal-object-rest-spread) when destructuring objects (not necessary if you are using the `es9` base configuration)
 - `babel-parser`: Use [babel-eslint](https://github.com/babel/babel-eslint) parser so that you may use language features that are not yet implemented in eslint (e.g.: dynamic imports)
 - `react` - If you are going to use [React](https://reactjs.org/) (requires `es6` base configuration or higher)
 - `jest` - If you are going to [Jest](https://facebook.github.io/jest/) to develop tests
@@ -59,8 +60,7 @@ Cutting edge react in the browser:
         "eslint-config-moxy/es8",
         "eslint-config-moxy/addons/browser",
         "eslint-config-moxy/addons/es6-modules",
-        "eslint-config-moxy/addons/react",
-        "eslint-config-moxy/addons/object-spread"
+        "eslint-config-moxy/addons/react"
     ]
 }
 ```

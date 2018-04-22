@@ -1,3 +1,5 @@
+'use strict';
+
 // `no-await-in-loop` - disallow await inside of loops
 // ---------------------------------------------------------------------
 // Bad

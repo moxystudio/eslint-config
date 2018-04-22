@@ -1,4 +1,4 @@
-/* eslint no-unused-vars:2 */
+'use strict';
 
 // `no-unused-vars` - disallow unused variables
 // ---------------------------------------------------------------------

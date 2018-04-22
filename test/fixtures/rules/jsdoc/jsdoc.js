@@ -1,3 +1,5 @@
+'use strict';
+
 // `valid-jsdoc` - enforce valid JSDoc comments
 // ---------------------------------------------------------------------
 // Bad

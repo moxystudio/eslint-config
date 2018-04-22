@@ -1,3 +1,5 @@
+/* eslint-disable strict */
+
 // `no-await-in-loop` - disallow await inside of loops
 // ---------------------------------------------------------------------
 // See file ./es8/errors.js

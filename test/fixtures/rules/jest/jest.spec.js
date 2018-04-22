@@ -1,3 +1,5 @@
+'use strict';
+
 // `no-disabled-tests` - Disallow disabled tests
 // ---------------------------------------------------------------------
 // Bad

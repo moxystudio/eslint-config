@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars, strict */
+
 // `init-declarations` - require or disallow initialization in variable declarations
 // ---------------------------------------------------------------------
 // Not active
