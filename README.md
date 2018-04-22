@@ -46,7 +46,7 @@ Then enhance it with one or more **addons**:
 - `object-spread`: Allows to use [object rest spread](https://github.com/tc39/proposal-object-rest-spread) when destructuring objects (not necessary if you are using the `es9` base configuration)
 - `babel-parser`: Use [babel-eslint](https://github.com/babel/babel-eslint) parser so that you may use language features that are not yet implemented in eslint (e.g.: dynamic imports)
 - `react` - If you are going to use [React](https://reactjs.org/) (requires `es6` base configuration or higher)
-- `jest` - If you are going to [Jest](https://facebook.github.io/jest/) to develop tests
+- `jest` - If you are going to use [Jest](https://facebook.github.io/jest/) to develop tests
 
 
 ### Examples
@@ -72,8 +72,8 @@ ES6 with modules in NodeJS (requires a transpiler such as Babel or similar):
     "root": true,
     "extends": [
         "eslint-config-moxy/es6",
-        "eslint-config-moxy/addons/es6-modules",
-        "eslint-config-moxy/addons/node"
+        "eslint-config-moxy/addons/node",
+        "eslint-config-moxy/addons/es6-modules"
     ]
 }
 ```
