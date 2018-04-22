@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="5.3.0"></a>
+# [5.3.0](https://github.com/moxystudio/eslint-config/compare/v5.2.1...v5.3.0) (2018-04-22)
+
+
+### Features
+
+* disable global-require ([8bbea74](https://github.com/moxystudio/eslint-config/commit/8bbea74))
+
+
+
 <a name="5.2.1"></a>
 ## [5.2.1](https://github.com/moxystudio/eslint-config/compare/v5.2.0...v5.2.1) (2018-03-18)
 
