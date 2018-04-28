@@ -305,6 +305,17 @@ console.log('finally clauses are ok');
         a: 2,
     };
 })();
+// Good - ignore indent on template literals
+(function () {
+    const foo = true;
+    const bar = `
+        Hello,
+
+        ${foo ?
+            'André' :
+            'Cruz'
+        }`;
+})();
 
 // `jsx-quotes` - enforce the consistent use of either double or single quotes in JSX attributes
 // ---------------------------------------------------------------------

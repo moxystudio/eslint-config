@@ -86,6 +86,7 @@ module.exports = {
             'MemberExpression': 0,
             'FunctionDeclaration': { 'body': 1, 'parameters': 1 },
             'CallExpression': { 'arguments': 1 },
+            'ignoredNodes': ['TemplateLiteral > *'],
         }],
         // Enforce the consistent use of either double or single quotes in JSX attributes
         'jsx-quotes': [2, 'prefer-double'],
