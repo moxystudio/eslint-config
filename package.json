@@ -60,7 +60,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^6.0.1",
-    "@commitlint/config-conventional": "^6.0.2",
+    "@commitlint/config-conventional": "^7.0.0",
     "create-react-class": "^15.6.0",
     "eslint": "^4.19.1",
     "husky": "^0.14.0",
