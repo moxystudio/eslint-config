@@ -10,6 +10,10 @@ class MyComponent extends PureComponent {
         message: PropTypes.string.isRequired,
     };
 
+    static defaultProps = {
+        message: 'Welcome!',
+    };
+
     bar = {};
     state = {};
 

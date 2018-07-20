@@ -150,6 +150,7 @@ module.exports = {
                     'propTypes',
                     'contextTypes',
                     'childContextTypes',
+                    'defaultProps',
                     'getDerivedStateFromProps',
                 ],
                 'lifecycle': [
