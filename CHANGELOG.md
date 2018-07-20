@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="5.5.1"></a>
+## [5.5.1](https://github.com/moxystudio/eslint-config/compare/v5.5.0...v5.5.1) (2018-07-20)
+
+
+### Bug Fixes
+
+* fix static methods reporting out-of-order in CRA apps ([be5a391](https://github.com/moxystudio/eslint-config/commit/be5a391))
+
+
+
 <a name="5.5.0"></a>
 # [5.5.0](https://github.com/moxystudio/eslint-config/compare/v5.4.1...v5.5.0) (2018-07-20)
 
