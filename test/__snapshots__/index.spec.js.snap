@@ -1784,6 +1784,8 @@ Array [
 
 exports[`should pass on fixtures/samples/es8-babel-parser/contrived.good.js 1`] = `Array []`;
 
+exports[`should pass on fixtures/samples/es8-react-babel-parser/contrived.good.js 1`] = `Array []`;
+
 exports[`should pass on fixtures/samples/es9/contrived.good.js 1`] = `Array []`;
 
 exports[`should pass on fixtures/samples/jest/__tests__/jest.js 1`] = `

@@ -135,13 +135,12 @@ module.exports = {
         // Enforce component methods order
         'react/sort-comp': [2, {
             'order': [
-                'lifecycle',
-                '/^(get|set)(?!(InitialState$|DefaultProps$|ChildContext$)).+$/',
-                'render',
-                'render.+$/',
-                'everything-else',
-                'handle/',
                 'static-methods',
+                'lifecycle',
+                'render',
+                '/^render.+$/',
+                'everything-else',
+                '/^handle.+$/',
             ],
         }],
         // Enforce propTypes declarations alphabetical sorting

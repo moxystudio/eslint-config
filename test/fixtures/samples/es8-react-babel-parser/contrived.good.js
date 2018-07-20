@@ -4,12 +4,13 @@ import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 
 class MyComponent extends PureComponent {
-    constructor() {
-        super();
-        this.state = {};
-        this.handleClick = this.handleClick.bind(this);
-        this.storeRef = this.storeRef.bind(this);
-    }
+    static foo = {};
+
+    static propTypes = {
+        message: PropTypes.string.isRequired,
+    };
+
+    state = {};
 
     componentDidMount() {
         this.setState({ name: 'André' });
@@ -26,17 +27,13 @@ class MyComponent extends PureComponent {
         );
     }
 
-    storeRef(ref) {
+    storeRef = (ref) => {
         this.ref = ref;
-    }
+    };
 
-    handleClick() {
+    handleClick = () => {
         this.setState({ name: 'Cruz' });
-    }
+    };
 }
-
-MyComponent.propTypes = {
-    message: PropTypes.string.isRequired,
-};
 
 export default MyComponent;
