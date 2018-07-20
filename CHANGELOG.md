@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="5.5.0"></a>
+# [5.5.0](https://github.com/moxystudio/eslint-config/compare/v5.4.1...v5.5.0) (2018-07-20)
+
+
+### Features
+
+* allow setState in didMount and didUpdate ([dd7fb66](https://github.com/moxystudio/eslint-config/commit/dd7fb66))
+
+
+
 <a name="5.4.1"></a>
 ## [5.4.1](https://github.com/moxystudio/eslint-config/compare/v5.4.0...v5.4.1) (2018-04-28)
 
