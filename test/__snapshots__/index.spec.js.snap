@@ -1720,35 +1720,6 @@ Array [
 
 exports[`should pass on fixtures/samples/es7-object-spread/contrived.good.js 1`] = `Array []`;
 
-exports[`should pass on fixtures/samples/es7-react/contrived.bad.js 1`] = `
-Array [
-  Object {
-    "column": 38,
-    "line": 6,
-    "rule": "react/prefer-es6-class",
-    "severity": 2,
-  },
-  Object {
-    "column": 28,
-    "line": 13,
-    "rule": "react/jsx-no-bind",
-    "severity": 1,
-  },
-  Object {
-    "column": 65,
-    "line": 13,
-    "rule": "react/jsx-handler-names",
-    "severity": 2,
-  },
-  Object {
-    "column": 62,
-    "line": 15,
-    "rule": "react/jsx-tag-spacing",
-    "severity": 2,
-  },
-]
-`;
-
 exports[`should pass on fixtures/samples/es7-react/contrived.good.js 1`] = `Array []`;
 
 exports[`should pass on fixtures/samples/es8/contrived.good.js 1`] = `Array []`;

@@ -17,7 +17,7 @@ class MyComponent extends PureComponent {
 
     render() {
         return (
-            <a href="/foo" onClick={ this.handleClick }>
+            <a ref={ this.storeRef } href="/foo" onClick={ this.handleClick }>
                 Hello { this.state.name }
                 <img src="http://domain.com/image.png" alt="" />
 
