@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="5.5.3"></a>
+## [5.5.3](https://github.com/moxystudio/eslint-config/compare/v5.5.2...v5.5.3) (2018-07-20)
+
+
+### Bug Fixes
+
+* add missing defaultProps ([8998aed](https://github.com/moxystudio/eslint-config/commit/8998aed))
+
+
+
 <a name="5.5.2"></a>
 ## [5.5.2](https://github.com/moxystudio/eslint-config/compare/v5.5.1...v5.5.2) (2018-07-20)
 
