@@ -9,7 +9,7 @@ class MyComponent extends PureComponent {
         this.handleClick = this.handleClick.bind(this);
     }
 
-    componentWillMount() {
+    componentDidMount() {
         this.setState({ name: 'André' });
     }
 

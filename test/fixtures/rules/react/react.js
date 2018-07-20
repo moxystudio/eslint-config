@@ -388,42 +388,22 @@ ReactDOM.render(<Component />, '#root');
 
 // `no-did-mount-set-state` - prevent usage of setState in componentDidMount
 // ---------------------------------------------------------------------
-// Bad
+// Not active
 (function () {
     class MyComponent extends Component {
         componentDidMount() {
             this.setState({ error: true });
-        }
-    }
-})();
-// Good
-(function () {
-    class MyComponent extends Component {
-        componentDidMount() {
-            setTimeout(() => {
-                this.setState({ error: true });
-            }, 10);
         }
     }
 })();
 
 // `no-did-update-set-state` - prevent usage of setState in componentDidUpdate
 // ---------------------------------------------------------------------
-// Bad
+// Not active
 (function () {
     class MyComponent extends Component {
         componentDidUpdate() {
             this.setState({ error: true });
-        }
-    }
-})();
-// Good
-(function () {
-    class MyComponent extends Component {
-        componentDidUpdate() {
-            this.didUpdate(() => {
-                this.setState({ error: true });
-            });
         }
     }
 })();
@@ -433,7 +413,7 @@ ReactDOM.render(<Component />, '#root');
 // Bad
 (function () {
     class MyComponent extends Component {
-        componentWillUpdate() {
+        componentDidMount() {
             this.state.error = true;
         }
     }
@@ -441,7 +421,7 @@ ReactDOM.render(<Component />, '#root');
 // Good
 (function () {
     class MyComponent extends Component {
-        componentWillUpdate() {
+        componentDidMount() {
             this.setState({
                 error: true,
             });
@@ -514,7 +494,7 @@ ReactDOM.render(<Component />, '#root');
 // Not active
 (function () {
     class MyComponent extends Component {
-        componentWillReceiveProps(nextProps) {
+        componentDidMount(nextProps) {
             this.setState({ received: nextProps });
         }
     }

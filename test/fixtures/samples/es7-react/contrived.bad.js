@@ -4,7 +4,7 @@ import React from 'react';
 import createReactClass from 'create-react-class';
 
 const MyComponent = createReactClass({
-    componentWillMount() {
+    componentDidMount() {
         this.setState({ name: 'André' });
     },
 

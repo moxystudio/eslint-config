@@ -90,9 +90,9 @@ module.exports = {
         // Prevent usage of deprecated methods
         'react/no-deprecated': 1,
         // Prevent usage of setState in componentDidMount
-        'react/no-did-mount-set-state': [2],
+        'react/no-did-mount-set-state': 0,
         // Prevent usage of setState in componentDidUpdate
-        'react/no-did-update-set-state': [2],
+        'react/no-did-update-set-state': 0,
         // Prevent direct mutation of this.state
         'react/no-direct-mutation-state': 2,
         // Prevent usage of findDOMNode
