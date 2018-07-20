@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="5.5.2"></a>
+## [5.5.2](https://github.com/moxystudio/eslint-config/compare/v5.5.1...v5.5.2) (2018-07-20)
+
+
+### Bug Fixes
+
+* ensure static lifecyle methods com before instance variables ([9db7d9d](https://github.com/moxystudio/eslint-config/commit/9db7d9d))
+
+
+
 <a name="5.5.1"></a>
 ## [5.5.1](https://github.com/moxystudio/eslint-config/compare/v5.5.0...v5.5.1) (2018-07-20)
 
