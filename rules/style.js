@@ -123,7 +123,7 @@ module.exports = {
         // Enforce newlines between operands of ternary expressions
         'multiline-ternary': 0,
         // Require constructor names to begin with a capital letter
-        'new-cap': [2, { 'newIsCap': true }],
+        'new-cap': 2,
         // Require parentheses when invoking a constructor with no arguments
         'new-parens': 2,
         // Require or disallow an empty line after variable declarations

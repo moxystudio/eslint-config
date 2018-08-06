@@ -69,8 +69,8 @@ Array [
     "severity": 2,
   },
   Object {
-    "column": 5,
-    "line": 185,
+    "column": 9,
+    "line": 186,
     "rule": "no-case-declarations",
     "severity": 2,
   },
@@ -1068,7 +1068,7 @@ Array [
   Object {
     "column": 48,
     "line": 509,
-    "rule": "semi",
+    "rule": "babel/semi",
     "severity": 2,
   },
   Object {
@@ -1707,19 +1707,6 @@ Array [
 
 exports[`should pass on fixtures/samples/es7/contrived.good.js 1`] = `Array []`;
 
-exports[`should pass on fixtures/samples/es7-object-spread/contrived.bad.js 1`] = `
-Array [
-  Object {
-    "column": 13,
-    "line": 7,
-    "rule": "prefer-object-spread/prefer-object-spread",
-    "severity": 2,
-  },
-]
-`;
-
-exports[`should pass on fixtures/samples/es7-object-spread/contrived.good.js 1`] = `Array []`;
-
 exports[`should pass on fixtures/samples/es7-react/contrived.good.js 1`] = `Array []`;
 
 exports[`should pass on fixtures/samples/es8/contrived.good.js 1`] = `Array []`;
@@ -1758,6 +1745,19 @@ exports[`should pass on fixtures/samples/es8-babel-parser/contrived.good.js 1`] 
 exports[`should pass on fixtures/samples/es8-react-babel-parser/contrived.good.js 1`] = `Array []`;
 
 exports[`should pass on fixtures/samples/es9/contrived.good.js 1`] = `Array []`;
+
+exports[`should pass on fixtures/samples/es9-object-spread/contrived.bad.js 1`] = `
+Array [
+  Object {
+    "column": 13,
+    "line": 7,
+    "rule": "prefer-object-spread/prefer-object-spread",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on fixtures/samples/es9-object-spread/contrived.good.js 1`] = `Array []`;
 
 exports[`should pass on fixtures/samples/jest/__tests__/jest.js 1`] = `
 Array [

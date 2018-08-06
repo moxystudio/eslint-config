@@ -8,4 +8,11 @@ module.exports = {
         'ecmaVersion': 2018,
         'sourceType': 'script',
     },
+    'plugins': [
+        'prefer-object-spread',
+    ],
+    'rules': {
+        // Require object spread properties to be used instead of Object.assign()
+        'prefer-object-spread/prefer-object-spread': 2,
+    },
 };

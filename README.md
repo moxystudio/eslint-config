@@ -43,7 +43,6 @@ Then enhance it with one or more **addons**:
 - `browser` - If you are going to develop code for the browser (assumes you use CommonJS or AMD)
 - `node` - If you are going to develop code for [NodeJS](nodejs.org)
 - `es6-modules`: If you are going to use ES6 import & export instead of CommonJS or AMD
-- `object-spread`: Allows to use [object rest spread](https://github.com/tc39/proposal-object-rest-spread) when destructuring objects (not necessary if you are using the `es9` base configuration)
 - `babel-parser`: Use [babel-eslint](https://github.com/babel/babel-eslint) parser so that you may use language features that are not yet implemented in eslint (e.g.: dynamic imports)
 - `react` - If you are going to use [React](https://reactjs.org/) (requires `es6` base configuration or higher)
 - `jest` - If you are going to use [Jest](https://facebook.github.io/jest/) to develop tests
@@ -57,7 +56,7 @@ Cutting edge react in the browser:
 {
     "root": true,
     "extends": [
-        "eslint-config-moxy/es8",
+        "eslint-config-moxy/es9",
         "eslint-config-moxy/addons/browser",
         "eslint-config-moxy/addons/es6-modules",
         "eslint-config-moxy/addons/react"
@@ -65,27 +64,27 @@ Cutting edge react in the browser:
 }
 ```
 
-ES6 with modules in NodeJS (requires a transpiler such as Babel or similar):
+Cutting edge in NodeJS:
 
 ```json
 {
     "root": true,
     "extends": [
-        "eslint-config-moxy/es6",
-        "eslint-config-moxy/addons/node",
-        "eslint-config-moxy/addons/es6-modules"
+        "eslint-config-moxy/es9",
+        "eslint-config-moxy/addons/node"
     ]
 }
 ```
 
-Use ES6 in NodeJS without any transpiler:
+Cutting edge with modules in NodeJS (requires a transpiler such as Babel or similar):
 
 ```json
 {
     "root": true,
     "extends": [
-        "eslint-config-moxy/es6",
-        "eslint-config-moxy/addons/node"
+        "eslint-config-moxy/es9",
+        "eslint-config-moxy/addons/node",
+        "eslint-config-moxy/addons/es6-modules"
     ]
 }
 ```

@@ -5,7 +5,7 @@ module.exports = {
     'plugins': ['babel'],
     'rules': {
         // Require constructor names to begin with a capital letter
-        'babel/new-cap': [2, { 'newIsCap': true }],
+        'babel/new-cap': 2,
         'new-cap': 0,
         // Enforce consistent spacing inside braces
         'babel/object-curly-spacing': [2, 'always'],
