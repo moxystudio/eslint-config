@@ -3,7 +3,7 @@
     "extends": [
         "../../../../es8.js",
         "../../../../addons/babel-parser.js",
-        "../../../../addons/es6-modules.js",
+        "../../../../addons/es-modules.js",
         "../../../../addons/react.js"
     ]
 }

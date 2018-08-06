@@ -3,7 +3,7 @@
     "extends": [
         "../../../../es6.js",
         "../../../../addons/browser.js",
-        "../../../../addons/es6-modules.js"
+        "../../../../addons/es-modules.js"
     ],
     "rules": {
         "no-unused-vars": 0

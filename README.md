@@ -42,7 +42,7 @@ Then enhance it with one or more **addons**:
 
 - `browser` - If you are going to develop code for the browser (assumes you use CommonJS or AMD)
 - `node` - If you are going to develop code for [NodeJS](nodejs.org)
-- `es6-modules`: If you are going to use ES6 import & export instead of CommonJS or AMD
+- `es-modules`: If you are going to use ES6 import & export instead of CommonJS or AMD
 - `babel-parser`: Use [babel-eslint](https://github.com/babel/babel-eslint) parser so that you may use language features that are not yet implemented in eslint (e.g.: dynamic imports)
 - `react` - If you are going to use [React](https://reactjs.org/) (requires `es6` base configuration or higher)
 - `jest` - If you are going to use [Jest](https://facebook.github.io/jest/) to develop tests
@@ -50,7 +50,7 @@ Then enhance it with one or more **addons**:
 
 ### Examples
 
-Cutting edge react in the browser:
+Cutting edge React in the browser:
 
 ```json
 {
@@ -58,13 +58,13 @@ Cutting edge react in the browser:
     "extends": [
         "eslint-config-moxy/es9",
         "eslint-config-moxy/addons/browser",
-        "eslint-config-moxy/addons/es6-modules",
+        "eslint-config-moxy/addons/es-modules",
         "eslint-config-moxy/addons/react"
     ]
 }
 ```
 
-Cutting edge in NodeJS:
+Cutting edge NodeJS:
 
 ```json
 {
@@ -76,7 +76,7 @@ Cutting edge in NodeJS:
 }
 ```
 
-Cutting edge with modules in NodeJS (requires a transpiler such as Babel or similar):
+Cutting edge NodeJS with ES modules (requires a transpiler such as Babel or similar):
 
 ```json
 {
@@ -84,7 +84,7 @@ Cutting edge with modules in NodeJS (requires a transpiler such as Babel or simi
     "extends": [
         "eslint-config-moxy/es9",
         "eslint-config-moxy/addons/node",
-        "eslint-config-moxy/addons/es6-modules"
+        "eslint-config-moxy/addons/es-modules"
     ]
 }
 ```

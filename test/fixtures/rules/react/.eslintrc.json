@@ -4,7 +4,7 @@
         "../../../../es8.js",
         "../../../../addons/browser.js",
         "../../../../addons/babel-parser.js",
-        "../../../../addons/es6-modules.js",
+        "../../../../addons/es-modules.js",
         "../../../../addons/react.js"
     ],
     "rules": {

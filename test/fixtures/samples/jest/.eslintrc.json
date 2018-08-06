@@ -4,6 +4,6 @@
         "../../../../es6.js",
         "../../../../addons/jest.js",
         "../../../../addons/node.js",
-        "../../../../addons/es6-modules.js"
+        "../../../../addons/es-modules.js"
     ]
 }

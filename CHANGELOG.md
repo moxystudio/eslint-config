@@ -13,8 +13,8 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### BREAKING CHANGES
 
-* remove object-spread addon, use es9 instead
-
+* removed `addons/object-spread`, use `es9` base config instead
+* renamed `addons/es6-modules` to `addons/es-modules`
 
 
 <a name="5.5.3"></a>
