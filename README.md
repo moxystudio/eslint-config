@@ -104,11 +104,6 @@ Old ES5 in the browser:
 Note that by setting `root` to true, we ensure that no ancestor configuration is used which also improves `ESLint` performance because no more file lookups need to be done.
 
 
-## File naming convention
-
-If your file exports a single class, your filename should be exactly the name of the class. For other cases, the name of the file should be the same as the default exports. If the file doesn't have a default export, the name can be in `kebab-case` (e.g.: `some-file.js`).
-
-
 ## Tests
 
 `$ npm test`   
