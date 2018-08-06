@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="6.0.0"></a>
+# [6.0.0](https://github.com/moxystudio/eslint-config/compare/v5.5.3...v6.0.0) (2018-08-06)
+
+
+### Features
+
+* update to eslint@5 ([07793b7](https://github.com/moxystudio/eslint-config/commit/07793b7))
+
+
+### BREAKING CHANGES
+
+* remove object-spread addon, use es9 instead
+
+
+
 <a name="5.5.3"></a>
 ## [5.5.3](https://github.com/moxystudio/eslint-config/compare/v5.5.2...v5.5.3) (2018-07-20)
 
