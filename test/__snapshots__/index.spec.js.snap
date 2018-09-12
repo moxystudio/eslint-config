@@ -1751,7 +1751,7 @@ Array [
   Object {
     "column": 13,
     "line": 7,
-    "rule": "prefer-object-spread/prefer-object-spread",
+    "rule": "prefer-object-spread",
     "severity": 2,
   },
 ]
