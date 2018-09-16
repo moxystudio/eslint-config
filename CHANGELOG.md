@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="6.1.1"></a>
+## [6.1.1](https://github.com/moxystudio/eslint-config/compare/v6.1.0...v6.1.1) (2018-09-16)
+
+
+### Bug Fixes
+
+* lock babel-eslint version due to a bug ([7e2a8fe](https://github.com/moxystudio/eslint-config/commit/7e2a8fe))
+
+
+
 <a name="6.1.0"></a>
 # [6.1.0](https://github.com/moxystudio/eslint-config/compare/v6.0.1...v6.1.0) (2018-09-12)
 
