@@ -1,20 +1,18 @@
 # eslint-config-moxy
 
-[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][codecov-image]][codecov-url] [![Dependency status][david-dm-image]][david-dm-url] [![Dev Dependency status][david-dm-dev-image]][david-dm-dev-url] [![Greenkeeper badge][greenkeeper-image]][greenkeeper-url]
+[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][codecov-image]][codecov-url] [![Dependency status][david-dm-image]][david-dm-url] [![Dev Dependency status][david-dm-dev-image]][david-dm-dev-url]
 
 [npm-url]:https://npmjs.org/package/eslint-config-moxy
 [npm-image]:http://img.shields.io/npm/v/eslint-config-moxy.svg
 [downloads-image]:http://img.shields.io/npm/dm/eslint-config-moxy.svg
-[travis-url]:https://travis-ci.org/moxystudio/eslint-config
-[travis-image]:http://img.shields.io/travis/moxystudio/eslint-config/master.svg
-[codecov-url]:https://codecov.io/gh/moxystudio/eslint-config
-[codecov-image]:https://img.shields.io/codecov/c/github/moxystudio/eslint-config/master.svg
-[david-dm-url]:https://david-dm.org/moxystudio/eslint-config
-[david-dm-image]:https://img.shields.io/david/moxystudio/eslint-config.svg
-[david-dm-dev-url]:https://david-dm.org/moxystudio/eslint-config?type=dev
-[david-dm-dev-image]:https://img.shields.io/david/dev/moxystudio/eslint-config.svg
-[greenkeeper-image]:https://badges.greenkeeper.io/moxystudio/eslint-config.svg
-[greenkeeper-url]:https://greenkeeper.io
+[travis-url]:https://travis-ci.org/moxystudio/eslint-config-moxy
+[travis-image]:http://img.shields.io/travis/moxystudio/eslint-config-moxy/master.svg
+[codecov-url]:https://codecov.io/gh/moxystudio/eslint-config-moxy
+[codecov-image]:https://img.shields.io/codecov/c/github/moxystudio/eslint-config-moxy/master.svg
+[david-dm-url]:https://david-dm.org/moxystudio/eslint-config-moxy
+[david-dm-image]:https://img.shields.io/david/moxystudio/eslint-config-moxy.svg
+[david-dm-dev-url]:https://david-dm.org/moxystudio/eslint-config-moxy?type=dev
+[david-dm-dev-image]:https://img.shields.io/david/dev/moxystudio/eslint-config-moxy.svg
 
 MOXY [eslint](http://eslint.org/) configuration to be used across several JavaScript projects.
 

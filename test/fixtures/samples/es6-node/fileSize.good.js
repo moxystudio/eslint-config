@@ -10,7 +10,7 @@ const log = logger.child({ module: 'util/file-size' });
 /**
  * Gets the size of a regular file(s).
  *
- * @param {String|Array} path - The path(s).
+ * @param {string|Array} path - The path(s).
  *
  * @returns {Promise} - A promise that fulfills when done.
  */
@@ -43,7 +43,7 @@ function fileSize(path) {
 /**
  * Gets the size of a directory.
  *
- * @param {String} dir - The directory path.
+ * @param {string} dir - The directory path.
  *
  * @returns {Promise} - A promise that fulfills when done.
  */

@@ -10,6 +10,8 @@ module.exports = {
         'jest/no-focused-tests': 2,
         // No identical title
         'jest/no-identical-title': 2,
+        // Prefer toHaveLength() over toBe()
+        'jest/prefer-to-have-length': 2,
         // Ensure expect is called correctly
         'jest/valid-expect': 2,
     },

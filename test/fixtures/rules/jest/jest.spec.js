@@ -23,6 +23,17 @@ it('no-identical-title bad', () => {});
 it('no-identical-title good', () => {});
 it('no-identical-title good 2', () => {});
 
+// `prefer-to-have-length` - Prefer toHaveLength() over toBe()
+// ---------------------------------------------------------------------
+// Bad
+it('prefer-to-have-length bad', () => {
+    expect([].length).toBe(0);
+});
+// Good
+it('prefer-to-have-length good', () => {
+    expect([].length).toHaveLength(0);
+});
+
 // `valid-expect` - Enforce valid expect() usage
 // ---------------------------------------------------------------------
 // Bad

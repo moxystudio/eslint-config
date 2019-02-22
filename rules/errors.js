@@ -66,9 +66,6 @@ module.exports = {
         'no-unsafe-negation': 2,
         // Require calls to isNaN() when checking for NaN
         'use-isnan': 2,
-        // Enforce valid JSDoc comments
-        // comment: valid-jsdoc is on the rules/jsdoc.js file
-        // 'valid-jsdoc': 2,
         // Enforce comparing typeof expressions against valid strings
         'valid-typeof': 2,
     },
