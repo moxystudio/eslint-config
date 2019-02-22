@@ -149,7 +149,7 @@ module.exports = {
         // Enforce the consistent use of the radix argument when using parseInt()
         'radix': 2,
         // Disallow async functions which have no await expression
-        'require-await': 2,
+        'require-await': 0,
         // Require var declarations be placed at the top of their containing scope
         'vars-on-top': 2,
         // Require parentheses around immediate function invocations
