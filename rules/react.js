@@ -11,6 +11,11 @@ module.exports = {
             'jsx': true,
         },
     },
+    'settings': {
+        'react': {
+            'version': 'detect', // React version, "detect" automatically picks the version you have installed
+        },
+    },
     'rules': {
         // Prevent missing displayName in a React component definition
         'react/display-name': 0,
