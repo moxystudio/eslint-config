@@ -17,15 +17,9 @@
 
 // `require-await` - disallow async functions which have no await expression
 // ---------------------------------------------------------------------
-// Bad
+// Not active
 (function () {
     async function foo() {
         console.log('foo');
-    }
-})();
-// Good
-(function () {
-    async function foo() {
-        await Promise.resolve();
     }
 })();

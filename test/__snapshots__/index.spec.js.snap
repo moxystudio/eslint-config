@@ -383,12 +383,6 @@ Array [
     "rule": "no-return-await",
     "severity": 2,
   },
-  Object {
-    "column": 5,
-    "line": 22,
-    "rule": "require-await",
-    "severity": 2,
-  },
 ]
 `;
 
