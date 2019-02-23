@@ -2,6 +2,32 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="7.0.0"></a>
+# [7.0.0](https://github.com/moxystudio/eslint-config/compare/v6.1.1...v7.0.0) (2019-02-23)
+
+
+### Chores
+
+* update dependencies ([#68](https://github.com/moxystudio/eslint-config/issues/68)) ([5d356c3](https://github.com/moxystudio/eslint-config/commit/5d356c3))
+
+
+### Features
+
+* relax require-await rule ([#69](https://github.com/moxystudio/eslint-config/issues/69)) ([fb416db](https://github.com/moxystudio/eslint-config/commit/fb416db))
+
+
+### BREAKING CHANGES
+
+* jest and jsdoc rules changed
+
+Also:
+
+- Add jest/prefer-to-have-length
+- Remove deprecated valid-jsdoc in favor of using more jsdoc plugin rules
+- Specify the react version as auto-detect
+
+
+
 <a name="6.1.1"></a>
 ## [6.1.1](https://github.com/moxystudio/eslint-config/compare/v6.1.0...v6.1.1) (2018-09-16)
 
