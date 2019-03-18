@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="7.1.0"></a>
+# [7.1.0](https://github.com/moxystudio/eslint-config/compare/v7.0.1...v7.1.0) (2019-03-18)
+
+
+### Bug Fixes
+
+* use padding-line-between-statements ([ea9d986](https://github.com/moxystudio/eslint-config/commit/ea9d986)), closes [/github.com/eslint/eslint/issues/11495#issuecomment-471536131](https://github.com//github.com/eslint/eslint/issues/11495/issues/issuecomment-471536131)
+
+
+### Features
+
+* enable react/default-props-match-prop-types ([0b572b5](https://github.com/moxystudio/eslint-config/commit/0b572b5))
+
+
+
 <a name="7.0.1"></a>
 ## [7.0.1](https://github.com/moxystudio/eslint-config/compare/v7.0.0...v7.0.1) (2019-02-23)
 
