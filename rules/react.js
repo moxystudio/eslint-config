@@ -17,6 +17,8 @@ module.exports = {
         },
     },
     'rules': {
+        // Enforce all defaultProps have a corresponding non-required PropType
+        'react/default-props-match-prop-types': 2,
         // Prevent missing displayName in a React component definition
         'react/display-name': 0,
         // Forbid certain props on Components

@@ -7,7 +7,7 @@ class MyComponent extends PureComponent {
     static foo = {};
 
     static propTypes = {
-        message: PropTypes.string.isRequired,
+        message: PropTypes.string,
     };
 
     static defaultProps = {

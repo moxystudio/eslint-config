@@ -2,6 +2,67 @@ import React, { Component, ReactDOM } from 'react';
 import PropTypes from 'prop-types';
 import createReactClass from 'create-react-class';
 
+// `default-props-match-prop-types` - enforce all defaultProps have a corresponding non-required PropType
+// ---------------------------------------------------------------------
+// Bad
+(function () {
+    const Div = () => <div />;
+
+    Div.propTypes = {
+        foo: PropTypes.string.isRequired,
+    };
+
+    Div.defaultProps.foo = 'bar';
+})();
+// Also bad
+(function () {
+    class Div extends Component {
+        render() {
+            return <div />;
+        }
+    }
+
+    Div.propTypes = {
+        foo: PropTypes.string.isRequired,
+    };
+
+    Div.defaultProps = {
+        foo: 'bar',
+    };
+})();
+// Still bad
+(function () {
+    class Div extends Component {
+        static propTypes = {
+            foo: PropTypes.string.isRequired,
+        };
+
+        static defaultProps = {
+            foo: 'bar',
+        };
+
+        render() {
+            return <div />;
+        }
+    }
+
+    Div.propTypes = {
+        foo: PropTypes.string.isRequired,
+    };
+
+    Div.defaultProps = {
+        foo: 'bar',
+    };
+})();
+// Good
+(function () {
+    const Div = () => <div />;
+
+    Div.propTypes = {
+        foo: PropTypes.string.isRequired,
+    };
+})();
+
 // `display-name` - prevent missing displayName in a React component definition
 // ---------------------------------------------------------------------
 // Not active
