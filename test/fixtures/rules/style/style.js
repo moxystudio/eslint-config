@@ -719,6 +719,7 @@ Here's another paragraph!
 })();
 
 // `newline-after-var` - require or disallow an empty line after variable declarations
+// Note: actual enabled rule is `padding-line-between-statements`
 // ---------------------------------------------------------------------
 // Bad
 (function () {
@@ -733,6 +734,7 @@ Here's another paragraph!
 })();
 
 // `newline-before-return` - require an empty line before return statements
+// Note: actual enabled rule is `padding-line-between-statements`
 // ---------------------------------------------------------------------
 // Bad
 (function () {

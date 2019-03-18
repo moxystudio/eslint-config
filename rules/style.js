@@ -127,9 +127,11 @@ module.exports = {
         // Require parentheses when invoking a constructor with no arguments
         'new-parens': 2,
         // Require or disallow an empty line after variable declarations
-        'newline-after-var': [2, 'always'],
+        // Note: disable because we are using `padding-line-between-statements`
+        'newline-after-var': 0,
         // Require an empty line before return statements
-        'newline-before-return': 2,
+        // Note: disable because we are using `padding-line-between-statements`
+        'newline-before-return': 0,
         // Require a newline after each call in a method chain
         'newline-per-chained-call': [2, { 'ignoreChainWithDepth': 2 }],
         // Disallow Array constructors
@@ -192,6 +194,13 @@ module.exports = {
         'operator-linebreak': [2, 'after'],
         // Require or disallow padding within blocks
         'padded-blocks': [2, 'never'],
+        // Require newlines in certain situations
+        'padding-line-between-statements': [
+            2,
+            { 'blankLine': 'always', 'prev': '*', 'next': 'return' },
+            { 'blankLine': 'always', 'prev': ['var', 'let', 'const'], 'next': '*' },
+            { 'blankLine': 'any', 'prev': ['var', 'let', 'const'], 'next': ['var', 'let', 'const'] },
+        ],
         // Require quotes around object literal property names
         'quote-props': [2, 'as-needed'],
         // Enforce the consistent use of either backticks, double, or single quotes
