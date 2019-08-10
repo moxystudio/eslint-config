@@ -1187,6 +1187,73 @@ Array [
 
 exports[`should pass on fixtures/rules/react/react-no-unused.js 1`] = `Array []`;
 
+exports[`should pass on fixtures/rules/react-hooks/call-at-top-level.js 1`] = `
+Array [
+  Object {
+    "column": 13,
+    "line": 17,
+    "rule": "react-hooks/rules-of-hooks",
+    "severity": 2,
+  },
+  Object {
+    "column": 13,
+    "line": 27,
+    "rule": "react-hooks/rules-of-hooks",
+    "severity": 2,
+  },
+  Object {
+    "column": 13,
+    "line": 37,
+    "rule": "react-hooks/rules-of-hooks",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on fixtures/rules/react-hooks/custom-hooks.js 1`] = `
+Array [
+  Object {
+    "column": 9,
+    "line": 20,
+    "rule": "react-hooks/rules-of-hooks",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on fixtures/rules/react-hooks/function-deps.js 1`] = `
+Array [
+  Object {
+    "column": 15,
+    "line": 7,
+    "rule": "react-hooks/exhaustive-deps",
+    "severity": 1,
+  },
+]
+`;
+
+exports[`should pass on fixtures/rules/react-hooks/instance-like-variables.js 1`] = `
+Array [
+  Object {
+    "column": 28,
+    "line": 10,
+    "rule": "react-hooks/exhaustive-deps",
+    "severity": 1,
+  },
+]
+`;
+
+exports[`should pass on fixtures/rules/react-hooks/missing-effect-deps.js 1`] = `
+Array [
+  Object {
+    "column": 12,
+    "line": 20,
+    "rule": "react-hooks/exhaustive-deps",
+    "severity": 1,
+  },
+]
+`;
+
 exports[`should pass on fixtures/rules/strict/strict.js 1`] = `
 Array [
   Object {
