@@ -3,7 +3,6 @@ node_js:
   - "node"
   - "lts/*"
   - "8"
-  - "6"
 # Report coverage
 after_success:
   - "npm i codecov"
