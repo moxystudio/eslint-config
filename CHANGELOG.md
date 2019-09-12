@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="8.0.0"></a>
+# [8.0.0](https://github.com/moxystudio/eslint-config/compare/v7.1.0...v8.0.0) (2019-09-12)
+
+
+### Features
+
+* add eslint-plugin-react-hooks ([#70](https://github.com/moxystudio/eslint-config/issues/70)) ([7ad0a5c](https://github.com/moxystudio/eslint-config/commit/7ad0a5c))
+
+
+### BREAKING CHANGES
+
+* Drop support for Node v6
+
+
+
 <a name="7.1.0"></a>
 # [7.1.0](https://github.com/moxystudio/eslint-config/compare/v7.0.1...v7.1.0) (2019-03-18)
 
