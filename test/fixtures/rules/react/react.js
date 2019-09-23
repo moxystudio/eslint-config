@@ -1,4 +1,4 @@
-import React, { Component, ReactDOM } from 'react';
+import React, { Component, ReactDOM, Fragment } from 'react';
 import PropTypes from 'prop-types';
 import createReactClass from 'create-react-class';
 
@@ -147,6 +147,48 @@ Component.propTypes = {
 // `jsx-filename-extension` - restrict file extensions that may contain JSX
 // ---------------------------------------------------------------------
 // See file ./react-jsx-extension.js
+
+// `jsx-fragments` - enforce shorthand or standard form for React fragments
+// ---------------------------------------------------------------------
+// Disencouraged
+(function () {
+    class MyComponent extends Component {
+        render() {
+            return (
+                <Fragment>
+                    <p>foo</p>
+                    <p>bar</p>
+                </Fragment>
+            );
+        }
+    }
+})();
+// Good
+(function () {
+    class MyComponent extends Component {
+        render() {
+            return (
+                <>
+                    <p>foo</p>
+                    <p>bar</p>
+                </>
+            );
+        }
+    }
+})();
+// Good
+(function () {
+    class MyComponent extends Component {
+        render() {
+            return (
+                <Fragment key="1">
+                    <p>foo</p>
+                    <p>bar</p>
+                </Fragment>
+            );
+        }
+    }
+})();
 
 // `jsx-first-prop-new-line` - configure the position of the first property
 // ---------------------------------------------------------------------
