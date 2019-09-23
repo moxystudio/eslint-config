@@ -41,6 +41,8 @@ module.exports = {
         'react/jsx-filename-extension': [2, { 'extensions': ['.js'] }],
         // Ensure correct position of the first property.
         'react/jsx-first-prop-new-line': 0,
+        // Enforce shorthand or standard form for React fragments
+        'react/jsx-fragments': [1, 'syntax'],
         // Enforce event handler naming conventions in JSX
         'react/jsx-handler-names': [2, {
             'eventHandlerPrefix': 'handle',
