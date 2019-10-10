@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="8.1.0"></a>
+# [8.1.0](https://github.com/moxystudio/eslint-config/compare/v8.0.0...v8.1.0) (2019-10-10)
+
+
+### Features
+
+* allow require for configs ([#72](https://github.com/moxystudio/eslint-config/issues/72)) ([a56e79a](https://github.com/moxystudio/eslint-config/commit/a56e79a))
+* enable jsx-fragment rule ([#71](https://github.com/moxystudio/eslint-config/issues/71)) ([b9d6b19](https://github.com/moxystudio/eslint-config/commit/b9d6b19))
+
+
+
 <a name="8.0.0"></a>
 # [8.0.0](https://github.com/moxystudio/eslint-config/compare/v7.1.0...v8.0.0) (2019-09-12)
 
