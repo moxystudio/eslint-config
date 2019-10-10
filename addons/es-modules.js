@@ -15,4 +15,10 @@ module.exports = {
         // comment: This should be a warning instead of an error because there are still cases when we must use require.
         'prefer-import/prefer-import-over-require': 1,
     },
+    "overrides": [{
+        'files': '**/*.config.js',
+        'rules': {
+            'prefer-import/prefer-import-over-require': 0
+        },
+    }],
 };
