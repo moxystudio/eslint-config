@@ -466,7 +466,7 @@ Array [
     "severity": 2,
   },
   Object {
-    "column": 6,
+    "column": 5,
     "line": 176,
     "rule": "no-extra-boolean-cast",
     "severity": 2,
@@ -824,19 +824,25 @@ Array [
   Object {
     "column": 5,
     "line": 5,
-    "rule": "jsdoc/check-param-names",
-    "severity": 2,
-  },
-  Object {
-    "column": 5,
-    "line": 5,
-    "rule": "jsdoc/newline-after-description",
+    "rule": "jsdoc/require-param",
     "severity": 2,
   },
   Object {
     "column": 5,
     "line": 5,
     "rule": "jsdoc/require-param",
+    "severity": 2,
+  },
+  Object {
+    "column": NaN,
+    "line": 6,
+    "rule": "jsdoc/newline-after-description",
+    "severity": 2,
+  },
+  Object {
+    "column": NaN,
+    "line": 7,
+    "rule": "jsdoc/check-param-names",
     "severity": 2,
   },
   Object {
@@ -1126,8 +1132,8 @@ Array [
     "severity": 1,
   },
   Object {
-    "column": 5,
-    "line": 768,
+    "column": 9,
+    "line": 769,
     "rule": "react/require-render-return",
     "severity": 2,
   },
@@ -1623,6 +1629,12 @@ Array [
   },
   Object {
     "column": 15,
+    "line": 1214,
+    "rule": "space-in-parens",
+    "severity": 2,
+  },
+  Object {
+    "column": 17,
     "line": 1214,
     "rule": "space-in-parens",
     "severity": 2,

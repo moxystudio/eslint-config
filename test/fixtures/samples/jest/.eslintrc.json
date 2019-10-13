@@ -2,8 +2,8 @@
     "root": true,
     "extends": [
         "../../../../es6.js",
+        "../../../../addons/es-modules.js",
         "../../../../addons/jest.js",
-        "../../../../addons/node.js",
-        "../../../../addons/es-modules.js"
+        "../../../../addons/node.js"
     ]
 }

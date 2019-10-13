@@ -144,6 +144,7 @@ module.exports = {
         // Enforce component methods order
         'react/sort-comp': [2, {
             'order': [
+                'static-variables',
                 'static-methods',
                 'static-lifecycle',
                 'instance-variables',
