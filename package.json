@@ -73,7 +73,7 @@
     "standard-version": "^7.0.0"
   },
   "engines": {
-    "node": ">=7",
+    "node": ">=8",
     "npm": ">=3"
   }
 }
