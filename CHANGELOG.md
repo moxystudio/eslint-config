@@ -1,6 +1,17 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [9.0.0](https://github.com/moxystudio/eslint-config/compare/v8.1.0...v9.0.0) (2019-10-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* eslint v6 is now required
+
+### Features
+
+* update eslint to v6 ([5e70b9f](https://github.com/moxystudio/eslint-config/commit/5e70b9f274ab6d01eb8d89479b92a8b7794838f4))
 
 <a name="8.1.0"></a>
 # [8.1.0](https://github.com/moxystudio/eslint-config/compare/v8.0.0...v8.1.0) (2019-10-10)
