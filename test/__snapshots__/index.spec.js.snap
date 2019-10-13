@@ -1874,6 +1874,8 @@ Array [
 
 exports[`should pass on fixtures/samples/es9-object-spread/contrived.good.js 1`] = `Array []`;
 
+exports[`should pass on fixtures/samples/es10/contrived.good.js 1`] = `Array []`;
+
 exports[`should pass on fixtures/samples/jest/__tests__/jest.js 1`] = `
 Array [
   Object {
