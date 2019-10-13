@@ -1781,6 +1781,17 @@ Array [
 
 exports[`should pass on fixtures/samples/es6-modules/contrived.good.js 1`] = `Array []`;
 
+exports[`should pass on fixtures/samples/es6-modules/nested/require.config.js 1`] = `
+Array [
+  Object {
+    "column": 14,
+    "line": 5,
+    "rule": "prefer-import/prefer-import-over-require",
+    "severity": 1,
+  },
+]
+`;
+
 exports[`should pass on fixtures/samples/es6-modules/require.config.js 1`] = `Array []`;
 
 exports[`should pass on fixtures/samples/es6-modules/require.js 1`] = `

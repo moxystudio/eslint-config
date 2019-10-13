@@ -16,7 +16,7 @@ module.exports = {
         'prefer-import/prefer-import-over-require': 1,
     },
     'overrides': [{
-        'files': '*.config.js',
+        'files': './*.config.js',
         'rules': {
             'prefer-import/prefer-import-over-require': 0,
         },
