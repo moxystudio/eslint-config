@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [9.0.1](https://github.com/moxystudio/eslint-config/compare/v9.0.0...v9.0.1) (2019-10-13)
+
+
+### Bug Fixes
+
+* only override prefer-import for root config files ([dcd65a9](https://github.com/moxystudio/eslint-config/commit/dcd65a934504b4678e215c0dba23730125215d58)), closes [#73](https://github.com/moxystudio/eslint-config/issues/73)
+
 ## [9.0.0](https://github.com/moxystudio/eslint-config/compare/v8.1.0...v9.0.0) (2019-10-13)
 
 
