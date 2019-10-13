@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [9.1.0](https://github.com/moxystudio/eslint-config/compare/v9.0.1...v9.1.0) (2019-10-13)
+
+
+### Features
+
+* add ECMA 2019 support (es10) ([0ddb47d](https://github.com/moxystudio/eslint-config/commit/0ddb47d607f0f8f3efea74791069b6bd396dbadc))
+
 ### [9.0.1](https://github.com/moxystudio/eslint-config/compare/v9.0.0...v9.0.1) (2019-10-13)
 
 
