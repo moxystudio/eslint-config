@@ -2703,7 +2703,7 @@ Array [
     "severity": 2,
   },
   Object {
-    "column": 16,
+    "column": 14,
     "line": 423,
     "rule": "no-multi-spaces",
     "severity": 2,
@@ -2733,7 +2733,7 @@ Array [
     "severity": 2,
   },
   Object {
-    "column": 19,
+    "column": 17,
     "line": 427,
     "rule": "no-multi-spaces",
     "severity": 2,
@@ -10866,7 +10866,7 @@ Array [
     "severity": 2,
   },
   Object {
-    "column": 1,
+    "column": 4,
     "line": 21,
     "rule": "jest/no-identical-title",
     "severity": 2,
@@ -25378,13 +25378,13 @@ Array [
     "severity": 2,
   },
   Object {
-    "column": 15,
+    "column": 16,
     "line": 1214,
     "rule": "space-in-parens",
     "severity": 2,
   },
   Object {
-    "column": 17,
+    "column": 16,
     "line": 1214,
     "rule": "space-in-parens",
     "severity": 2,
@@ -36857,7 +36857,7 @@ Array [
     "severity": 2,
   },
   Object {
-    "column": 1,
+    "column": 4,
     "line": 19,
     "rule": "jest/no-identical-title",
     "severity": 2,
@@ -37198,7 +37198,7 @@ Array [
     "severity": 2,
   },
   Object {
-    "column": 1,
+    "column": 4,
     "line": 19,
     "rule": "jest/no-identical-title",
     "severity": 2,
@@ -37539,7 +37539,7 @@ Array [
     "severity": 2,
   },
   Object {
-    "column": 1,
+    "column": 4,
     "line": 19,
     "rule": "jest/no-identical-title",
     "severity": 2,
@@ -38299,7 +38299,7 @@ Array [
     "severity": 2,
   },
   Object {
-    "column": 1,
+    "column": 4,
     "line": 19,
     "rule": "jest/no-identical-title",
     "severity": 2,
@@ -38640,7 +38640,7 @@ Array [
     "severity": 2,
   },
   Object {
-    "column": 1,
+    "column": 4,
     "line": 19,
     "rule": "jest/no-identical-title",
     "severity": 2,
@@ -38981,7 +38981,7 @@ Array [
     "severity": 2,
   },
   Object {
-    "column": 1,
+    "column": 4,
     "line": 19,
     "rule": "jest/no-identical-title",
     "severity": 2,
@@ -39322,7 +39322,7 @@ Array [
     "severity": 2,
   },
   Object {
-    "column": 1,
+    "column": 4,
     "line": 19,
     "rule": "jest/no-identical-title",
     "severity": 2,
