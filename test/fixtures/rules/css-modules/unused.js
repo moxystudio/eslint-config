@@ -6,10 +6,10 @@ import goodStyles from './test-copy.css';
 // ---------------------------------------------------------------------
 // Bad
 (function () {
-    const div = <div className={ badStyles.foo}/>;
+    const div = <div className={ badStyles.foo } />;
 })();
 // Good
 // Good
 (function () {
-    const div = <div className={`${goodStyles.foo} ${goodStyles.bar}`}/>;
+    const div = <div className={ `${goodStyles.foo} ${goodStyles.bar}` } />;
 })();
