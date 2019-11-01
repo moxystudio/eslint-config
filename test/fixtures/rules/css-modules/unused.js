@@ -2,7 +2,7 @@ import React from 'react';
 import badStyles from './test.css';
 import goodStyles from './test-copy.css';
 
-// `css-modules/no-unused-class` - Alerts whenever a CSS class is not being used
+// `css-modules/no-unused-class` - alerts whenever a CSS class is not being used
 // ---------------------------------------------------------------------
 // Bad
 (function () {
