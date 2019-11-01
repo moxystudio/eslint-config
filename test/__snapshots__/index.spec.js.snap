@@ -401,7 +401,7 @@ exports[`should pass on fixtures/rules/css-modules/undefined.js 1`] = `
 Array [
   Object {
     "column": 41,
-    "line": 9,
+    "line": 8,
     "rule": "css-modules/no-undef-class",
     "severity": 2,
   },
@@ -412,9 +412,39 @@ exports[`should pass on fixtures/rules/css-modules/unused.js 1`] = `
 Array [
   Object {
     "column": 8,
-    "line": 3,
+    "line": 2,
     "rule": "css-modules/no-unused-class",
     "severity": 1,
+  },
+  Object {
+    "column": 47,
+    "line": 9,
+    "rule": "react/jsx-curly-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 48,
+    "line": 9,
+    "rule": "react/jsx-tag-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 32,
+    "line": 14,
+    "rule": "react/jsx-curly-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 70,
+    "line": 14,
+    "rule": "react/jsx-curly-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 71,
+    "line": 14,
+    "rule": "react/jsx-tag-spacing",
+    "severity": 2,
   },
 ]
 `;
