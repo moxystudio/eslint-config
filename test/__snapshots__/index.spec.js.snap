@@ -416,36 +416,6 @@ Array [
     "rule": "css-modules/no-unused-class",
     "severity": 1,
   },
-  Object {
-    "column": 47,
-    "line": 9,
-    "rule": "react/jsx-curly-spacing",
-    "severity": 2,
-  },
-  Object {
-    "column": 48,
-    "line": 9,
-    "rule": "react/jsx-tag-spacing",
-    "severity": 2,
-  },
-  Object {
-    "column": 32,
-    "line": 14,
-    "rule": "react/jsx-curly-spacing",
-    "severity": 2,
-  },
-  Object {
-    "column": 70,
-    "line": 14,
-    "rule": "react/jsx-curly-spacing",
-    "severity": 2,
-  },
-  Object {
-    "column": 71,
-    "line": 14,
-    "rule": "react/jsx-tag-spacing",
-    "severity": 2,
-  },
 ]
 `;
 
