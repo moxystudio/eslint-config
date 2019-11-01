@@ -4,9 +4,9 @@
 
 module.exports = {
     'rules': {
-        // Warns  to the existence of unused  css classes
+        // Alerts whenever a CSS class is not being used
         'css-modules/no-unused-class': [1, { 'camelCase': true }],
-        // Alerts to the usage of undefined css class
+        // Alerts when using a CSS class that is not defined
         'css-modules/no-undef-class': [2, { 'camelCase': true }],
     },
 };
