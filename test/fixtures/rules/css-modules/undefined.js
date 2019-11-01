@@ -1,5 +1,4 @@
 import React from 'react';
-
 import styles from './test.css';
 
 // `css-modules/no-undef-class` - Alerts when using a CSS class that is not defined
