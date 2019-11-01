@@ -1769,8 +1769,6 @@ Array [
 ]
 `;
 
-exports[`should pass on fixtures/samples/css/css.js 1`] = `Array []`;
-
 exports[`should pass on fixtures/samples/es5/contrived.bad.js 1`] = `
 Array [
   Object {
