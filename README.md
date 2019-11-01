@@ -45,7 +45,7 @@ Then enhance it with one or more **addons**:
 - `babel-parser`: Use [babel-eslint](https://github.com/babel/babel-eslint) parser so that you may use language features that are not yet implemented in eslint (e.g.: dynamic imports)
 - `react` - If you are going to use [React](https://reactjs.org/) (requires `es6` base configuration or higher)
 - `jest` - If you are going to use [Jest](https://facebook.github.io/jest/) to develop tests
-- `css` - If you are going to use [css-modules](https://github.com/atfzl/eslint-plugin-css-modules) to lint css classes
+- `css-modules` - If you are going to use [css-modules](https://github.com/atfzl/eslint-plugin-css-modules) to lint css classes
 
 
 ### Examples
