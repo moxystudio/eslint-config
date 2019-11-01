@@ -4,6 +4,6 @@
         "../../../../es6.js",
         "../../../../addons/react.js",
         "../../../../addons/es-modules.js",
-        "../../../../addons/css.js"
+        "../../../../addons/css-modules.js"
     ]
 }

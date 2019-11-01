@@ -3,6 +3,6 @@
 module.exports = {
     'plugins': ['css-modules'],
     'extends': [
-        '../rules/css',
+        '../rules/css-modules',
     ],
 };
