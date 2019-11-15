@@ -380,7 +380,7 @@ Component.propTypes = {
 // ---------------------------------------------------------------------
 // Bad
 (function () {
-    class My_Component extends Component {} // eslint-disable-line camelcase
+    class My_Component extends Component {} // eslint-disable-line babel/camelcase
 
     const foo = <My_Component />;
 })();
