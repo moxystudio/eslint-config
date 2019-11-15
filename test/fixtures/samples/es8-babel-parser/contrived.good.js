@@ -5,9 +5,13 @@ function fetchData() {
 }
 
 class MyClass {
+    myObject = {};
+
     foo = () => this.bar();
 
     bar() {
+        this.myObject?.foo();
+
         return fetchData();
     }
 }
