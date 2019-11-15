@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [9.1.1](https://github.com/moxystudio/eslint-config/compare/v9.1.0...v9.1.1) (2019-11-15)
+
+
+### Bug Fixes
+
+* fix babel-parser addon not having new rules configured ([c53cb82](https://github.com/moxystudio/eslint-config/commit/c53cb82af52ab80a6ad5f7671e3413d20ddbce5f))
+
 ## [9.1.0](https://github.com/moxystudio/eslint-config/compare/v9.0.1...v9.1.0) (2019-10-13)
 
 
