@@ -1,25 +1,25 @@
-# eslint-config-moxy
+# eslint-config
 
 [![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][codecov-image]][codecov-url] [![Dependency status][david-dm-image]][david-dm-url] [![Dev Dependency status][david-dm-dev-image]][david-dm-dev-url]
 
-[npm-url]:https://npmjs.org/package/eslint-config-moxy
-[npm-image]:http://img.shields.io/npm/v/eslint-config-moxy.svg
-[downloads-image]:http://img.shields.io/npm/dm/eslint-config-moxy.svg
-[travis-url]:https://travis-ci.org/moxystudio/eslint-config-moxy
-[travis-image]:http://img.shields.io/travis/moxystudio/eslint-config-moxy/master.svg
-[codecov-url]:https://codecov.io/gh/moxystudio/eslint-config-moxy
-[codecov-image]:https://img.shields.io/codecov/c/github/moxystudio/eslint-config-moxy/master.svg
-[david-dm-url]:https://david-dm.org/moxystudio/eslint-config-moxy
-[david-dm-image]:https://img.shields.io/david/moxystudio/eslint-config-moxy.svg
-[david-dm-dev-url]:https://david-dm.org/moxystudio/eslint-config-moxy?type=dev
-[david-dm-dev-image]:https://img.shields.io/david/dev/moxystudio/eslint-config-moxy.svg
+[npm-url]:https://npmjs.org/package/@moxy/eslint-config
+[npm-image]:http://img.shields.io/npm/v/@moxy/eslint-config.svg
+[downloads-image]:http://img.shields.io/npm/dm/@moxy/eslint-config.svg
+[travis-url]:https://travis-ci.org/moxystudio/eslint-config
+[travis-image]:http://img.shields.io/travis/moxystudio/eslint-config/master.svg
+[codecov-url]:https://codecov.io/gh/moxystudio/eslint-config
+[codecov-image]:https://img.shields.io/codecov/c/github/moxystudio/eslint-config/master.svg
+[david-dm-url]:https://david-dm.org/moxystudio/eslint-config
+[david-dm-image]:https://img.shields.io/david/moxystudio/eslint-config.svg
+[david-dm-dev-url]:https://david-dm.org/moxystudio/eslint-config?type=dev
+[david-dm-dev-image]:https://img.shields.io/david/dev/moxystudio/eslint-config.svg
 
 MOXY [eslint](http://eslint.org/) configuration to be used across several JavaScript projects.
 
 
 ## Installation
 
-`$ npm install --save-dev eslint eslint-config-moxy`
+`$ npm install --save-dev eslint @moxy/eslint-moxy`
 
 *NOTE*: `npm` v3 or greater is required for this package to work correctly until [#3458](https://github.com/eslint/eslint/issues/3458) is resolved.
 
@@ -55,10 +55,10 @@ Cutting edge React in the browser:
 {
     "root": true,
     "extends": [
-        "eslint-config-moxy/es9",
-        "eslint-config-moxy/addons/browser",
-        "eslint-config-moxy/addons/es-modules",
-        "eslint-config-moxy/addons/react"
+        "@moxy/eslint-config/es9",
+        "@moxy/eslint-config/addons/browser",
+        "@moxy/eslint-config/addons/es-modules",
+        "@moxy/eslint-config/addons/react"
     ]
 }
 ```
@@ -69,8 +69,8 @@ Cutting edge NodeJS:
 {
     "root": true,
     "extends": [
-        "eslint-config-moxy/es9",
-        "eslint-config-moxy/addons/node"
+        "@moxy/eslint-config/es9",
+        "@moxy/eslint-config/addons/node"
     ]
 }
 ```
@@ -81,9 +81,9 @@ Cutting edge NodeJS with ES modules (requires a transpiler such as Babel or simi
 {
     "root": true,
     "extends": [
-        "eslint-config-moxy/es9",
-        "eslint-config-moxy/addons/node",
-        "eslint-config-moxy/addons/es-modules"
+        "@moxy/eslint-config/es9",
+        "@moxy/eslint-config/addons/node",
+        "@moxy/eslint-config/addons/es-modules"
     ]
 }
 ```
@@ -94,8 +94,8 @@ Old ES5 in the browser:
 {
     "root": true,
     "extends": [
-        "eslint-config-moxy/es5",
-        "eslint-config-moxy/addons/browser"
+        "@moxy/eslint-config/es5",
+        "@moxy/eslint-config/addons/browser"
     ]
 }
 ```
