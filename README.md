@@ -19,7 +19,7 @@ MOXY [eslint](http://eslint.org/) configuration to be used across several JavaSc
 
 ## Installation
 
-`$ npm install --save-dev eslint @moxy/eslint-moxy`
+`$ npm install --save-dev eslint @moxy/eslint-config`
 
 *NOTE*: `npm` v3 or greater is required for this package to work correctly until [#3458](https://github.com/eslint/eslint/issues/3458) is resolved.
 
@@ -35,7 +35,7 @@ First you need to choose the **base** configuration to use:
 - `es7` - The configuration to be used in ECMAScript 7 based projects (aka 2016)
 - `es8` - The configuration to be used in ECMAScript 8 based projects (aka 2017)
 - `es9` - The configuration to be used in ECMAScript 9 based projects (aka 2018)
-- `es10` - The configuration to be used in ECMAScript 9 based projects (aka 2019)
+- `es10` - The configuration to be used in ECMAScript 10 based projects (aka 2019)
 
 Then enhance it with one or more **addons**:
 
