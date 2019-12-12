@@ -9,8 +9,6 @@ import { cliEngine } from 'eslint';
 import z from 'z';
 import a from 'a';
 
-console.log(linter, cliEngine);
-
 // `arrow-body-style` - require braces around arrow function bodies
 // ---------------------------------------------------------------------
 // Bad
