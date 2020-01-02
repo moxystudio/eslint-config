@@ -1126,12 +1126,6 @@ Array [
     "severity": 2,
   },
   Object {
-    "column": 25,
-    "line": 757,
-    "rule": "prefer-import/prefer-import-over-require",
-    "severity": 1,
-  },
-  Object {
     "column": 9,
     "line": 769,
     "rule": "react/require-render-return",
@@ -2084,12 +2078,6 @@ Array [
     "line": 49,
     "rule": "no-undef",
     "severity": 2,
-  },
-  Object {
-    "column": 5,
-    "line": 50,
-    "rule": "prefer-import/prefer-import-over-require",
-    "severity": 1,
   },
 ]
 `;
