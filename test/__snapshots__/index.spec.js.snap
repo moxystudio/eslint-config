@@ -2111,7 +2111,7 @@ Array [
   },
   Object {
     "column": 1,
-    "line": 49,
+    "line": 48,
     "rule": "no-undef",
     "severity": 2,
   },
