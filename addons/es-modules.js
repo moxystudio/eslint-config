@@ -17,6 +17,9 @@ module.exports = {
         'import/no-amd': 1,
         'import/no-dynamic-require': [1, { 'allowConditionalRequire': false }],
         'import/first': 1,
+        // Default order is: ["builtin", "external", "parent", "sibling", "index"]
+        // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md
+        'import/order': [1, { 'alphabetize': { 'order': 'asc' } }],
     },
     'overrides': [{
         'files': './*.config.js',
