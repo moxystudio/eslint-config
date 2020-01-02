@@ -9,3 +9,5 @@
 const bar = require('foo/bar');
 
 console.log(bar);
+
+import fs from 'fs';

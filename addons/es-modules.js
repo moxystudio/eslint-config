@@ -16,6 +16,7 @@ module.exports = {
         'import/no-commonjs': 1,
         'import/no-amd': 1,
         'import/no-dynamic-require': [1, { 'allowConditionalRequire': false }],
+        'import/first': 1,
     },
     'overrides': [{
         'files': './*.config.js',

@@ -1,9 +1,7 @@
 // Made up sample.. not genuine
 
 import fs from 'fs';
-
-fs.readFileSync('/path/to/file');
-
 import bar from 'foo/bar';
 
+fs.readFileSync('/path/to/file');
 console.log(bar);

@@ -4,5 +4,8 @@
         "../../../../es6.js",
         "../../../../addons/browser.js",
         "../../../../addons/es-modules.js"
-    ]
+    ],
+    "rules": {
+        "no-unused-vars": 0
+    }
 }
