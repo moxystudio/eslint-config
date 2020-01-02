@@ -1,6 +1,6 @@
-import React, { Component, ReactDOM, Fragment } from 'react';
-import PropTypes from 'prop-types';
 import createReactClass from 'create-react-class';
+import PropTypes from 'prop-types';
+import React, { Component, ReactDOM, Fragment } from 'react';
 
 // `default-props-match-prop-types` - enforce all defaultProps have a corresponding non-required PropType
 // ---------------------------------------------------------------------

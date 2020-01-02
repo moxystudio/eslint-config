@@ -3,12 +3,6 @@
 import { linter } from 'eslint';
 import { cliEngine } from 'eslint';
 
-// `sort-imports` - enforce sorted import declarations within modules
-// ---------------------------------------------------------------------
-// Not active
-import z from 'z';
-import a from 'a';
-
 // `arrow-body-style` - require braces around arrow function bodies
 // ---------------------------------------------------------------------
 // Bad

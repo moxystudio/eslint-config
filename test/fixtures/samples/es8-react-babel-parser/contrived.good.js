@@ -1,7 +1,7 @@
 // Made up sample.. not genuine
 
-import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
+import React, { PureComponent } from 'react';
 
 class MyComponent extends PureComponent {
     static foo = {};
