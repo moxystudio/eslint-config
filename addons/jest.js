@@ -33,8 +33,5 @@ module.exports = {
         }, {}),
     }, {
         'files': testFilePatterns,
-        'rules': {
-            'prefer-import/prefer-import-over-require': 0,
-        },
     }],
 };

@@ -44,7 +44,6 @@ it('valid-expect good', () => {
 });
 
 // `global-require` - Allow scoped require
-// `prefer-import/prefer-import-over-require` - Ignore imports
 // ---------------------------------------------------------------------
 it('global-require', () => {
     require('foo');
