@@ -33,5 +33,9 @@ module.exports = {
         }, {}),
     }, {
         'files': testFilePatterns,
+        'rules': {
+            'import/no-commonjs': 0,
+            'import/no-dynamic-require': 0,
+        },
     }],
 };

@@ -46,6 +46,7 @@ it('valid-expect good', () => {
 });
 
 // `global-require` - Allow scoped require
+// `import/no-commonjs`, `import/no-dynamic-require` - Ignore imports
 // ---------------------------------------------------------------------
 it('global-require', () => {
     require('foo');
