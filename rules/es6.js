@@ -3,6 +3,9 @@
 'use strict';
 
 module.exports = {
+    'plugins': [
+        'import',
+    ],
     'rules': {
         // Require braces around arrow function bodies
         'arrow-body-style': [2, 'as-needed'],
@@ -66,5 +69,7 @@ module.exports = {
         'template-curly-spacing': [2, 'never'],
         // Require or disallow spacing around the * in yield* expressions
         'yield-star-spacing': [2, { 'before': false, 'after': true }],
+        'import/first': 1,
+        'import/order': [1, { 'alphabetize': { 'order': 'asc' } }],
     },
 };

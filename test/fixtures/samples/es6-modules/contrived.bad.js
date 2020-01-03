@@ -9,6 +9,7 @@
 import os from 'os'; // Builtin
 import external2 from 'external2';
 import external1 from 'external1';
+import scopedFoo from '@scope/foo';
 import sibling from './sibling';
 import parent from '../parent';
 import external3 from 'external3';
