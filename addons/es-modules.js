@@ -26,7 +26,7 @@ module.exports = {
         'rules': {
             'import/no-commonjs': 0,
             'import/no-amd': 0,
-            'import/no-dynamic-require': [0, { 'allowConditionalRequire': true }],
+            'import/no-dynamic-require': 0,
         },
     }],
 };
