@@ -10,7 +10,7 @@
     "linter",
     "style",
     "react-lint",
-    "react-lint",
+    "react-eslint",
     "vue-lint",
     "vue-eslint"
   ],
