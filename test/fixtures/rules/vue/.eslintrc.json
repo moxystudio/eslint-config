@@ -1,0 +1,13 @@
+{
+    "root": true,
+    "extends": [
+        "../../../../es9.js",
+        "../../../../addons/browser.js",
+        "../../../../addons/es-modules.js",
+        "../../../../addons/jest.js",
+        "../../../../addons/vue.js"
+    ],
+    "rules": {
+        "no-unused-vars": 0
+    }
+}

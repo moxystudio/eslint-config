@@ -1747,6 +1747,17 @@ Array [
 ]
 `;
 
+exports[`should pass on fixtures/rules/vue/vue.js 1`] = `
+Array [
+  Object {
+    "column": 17,
+    "line": 5,
+    "rule": "prettier/prettier",
+    "severity": 1,
+  },
+]
+`;
+
 exports[`should pass on fixtures/samples/es5/contrived.bad.js 1`] = `
 Array [
   Object {
