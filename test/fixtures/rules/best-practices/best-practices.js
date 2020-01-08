@@ -99,14 +99,14 @@ if (Math.random() > 0.5) {
 (function () {
     const obj = {};
     const a = obj.
-    a;
+        a;
 })();
 // Good
 (function () {
     const obj = {};
     const a = obj.a;
     const b = obj
-    .a;
+        .a;
 })();
 
 // `dot-notation` - enforce dot notation whenever possible

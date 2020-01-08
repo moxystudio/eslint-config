@@ -148,8 +148,8 @@ fnThatReturnsBigObject();
 
 function chaining(arr) {
     return arr
-    .filter(function () { return true; })
-    .map(function (x) { return x + 1; });
+        .filter(function () { return true; })
+        .map(function (x) { return x + 1; });
 }
 
 chaining([]);

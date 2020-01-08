@@ -83,8 +83,8 @@ returnSwitch(0.3);
 
 function chaining(arr) {
     return arr
-    .filter(() => true)
-    .map((x) => x + 1);
+        .filter(() => true)
+        .map((x) => x + 1);
 }
 
 chaining([]);
@@ -93,8 +93,8 @@ chaining([]);
 
 function fnWithRestParams(...arr) {
     return arr
-    .filter(() => true)
-    .map((x) => x + 1);
+        .filter(() => true)
+        .map((x) => x + 1);
 }
 
 fnWithRestParams(1, 2);

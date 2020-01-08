@@ -1298,13 +1298,13 @@ Array [
     "severity": 2,
   },
   Object {
-    "column": 21,
+    "column": 25,
     "line": 18,
     "rule": "block-spacing",
     "severity": 2,
   },
   Object {
-    "column": 41,
+    "column": 45,
     "line": 18,
     "rule": "block-spacing",
     "severity": 2,
