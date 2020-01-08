@@ -133,7 +133,7 @@ module.exports = {
         // Note: disable because we are using `padding-line-between-statements`
         'newline-before-return': 0,
         // Require a newline after each call in a method chain
-        'newline-per-chained-call': [2, { 'ignoreChainWithDepth': 2 }],
+        'newline-per-chained-call': 0,
         // Disallow Array constructors
         'no-array-constructor': 2,
         // Disallow bitwise operators
