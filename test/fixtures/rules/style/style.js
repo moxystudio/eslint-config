@@ -755,11 +755,8 @@ Here's another paragraph!
 // `newline-per-chained-call` - require a newline after each call in a method chain
 // ---------------------------------------------------------------------
 // This must be with arrow functions otherwise it has a conflict with the max statements per line rule
-// Bad
+// Not active
 [1, 2, 3].filter((x) => x > 0).find((x) => x === 1).toString();
-// Good
-[1, 2, 3].filter((x) => x > 0).find((x) => x === 1)
-.toString();
 
 // `no-array-constructor` - disallow Array constructors
 // ---------------------------------------------------------------------
