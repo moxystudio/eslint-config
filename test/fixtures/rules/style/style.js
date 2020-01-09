@@ -757,6 +757,10 @@ Here's another paragraph!
 // This must be with arrow functions otherwise it has a conflict with the max statements per line rule
 // Not active
 [1, 2, 3].filter((x) => x > 0).find((x) => x === 1).toString();
+[1, 2, 3]
+.filter((x) => x > 0)
+.find((x) => x === 1)
+.toString();
 
 // `no-array-constructor` - disallow Array constructors
 // ---------------------------------------------------------------------
