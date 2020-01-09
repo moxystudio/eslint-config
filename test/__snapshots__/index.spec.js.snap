@@ -1747,11 +1747,83 @@ Array [
 ]
 `;
 
-exports[`should pass on fixtures/rules/vue/vue.js 1`] = `
+exports[`should pass on fixtures/rules/vue/Vue.vue 1`] = `
 Array [
   Object {
-    "column": 17,
-    "line": 5,
+    "column": 9,
+    "line": 9,
+    "rule": "vue/return-in-computed-property",
+    "severity": 2,
+  },
+  Object {
+    "column": 14,
+    "line": 21,
+    "rule": "vue/no-async-in-computed-properties",
+    "severity": 2,
+  },
+  Object {
+    "column": 27,
+    "line": 21,
+    "rule": "vue/no-async-in-computed-properties",
+    "severity": 2,
+  },
+  Object {
+    "column": 16,
+    "line": 23,
+    "rule": "vue/no-async-in-computed-properties",
+    "severity": 2,
+  },
+  Object {
+    "column": 14,
+    "line": 27,
+    "rule": "vue/no-async-in-computed-properties",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 29,
+    "rule": "vue/return-in-computed-property",
+    "severity": 2,
+  },
+  Object {
+    "column": 7,
+    "line": 30,
+    "rule": "vue/no-async-in-computed-properties",
+    "severity": 2,
+  },
+  Object {
+    "column": 11,
+    "line": 32,
+    "rule": "vue/return-in-computed-property",
+    "severity": 2,
+  },
+  Object {
+    "column": 7,
+    "line": 33,
+    "rule": "vue/no-async-in-computed-properties",
+    "severity": 2,
+  },
+  Object {
+    "column": 10,
+    "line": 35,
+    "rule": "vue/return-in-computed-property",
+    "severity": 2,
+  },
+  Object {
+    "column": 7,
+    "line": 36,
+    "rule": "vue/no-async-in-computed-properties",
+    "severity": 2,
+  },
+  Object {
+    "column": 69,
+    "line": 61,
+    "rule": "vue/valid-template-root",
+    "severity": 2,
+  },
+  Object {
+    "column": 2,
+    "line": 359,
     "rule": "prettier/prettier",
     "severity": 1,
   },
