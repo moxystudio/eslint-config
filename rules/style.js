@@ -81,11 +81,6 @@ module.exports = {
         'id-match': 0,
         // Enforce consistent indentation
         'indent': [2, 4, {
-            'SwitchCase': 0,
-            'VariableDeclarator': 1,
-            'MemberExpression': 0,
-            'FunctionDeclaration': { 'body': 1, 'parameters': 1 },
-            'CallExpression': { 'arguments': 1 },
             'ignoredNodes': ['TemplateLiteral > *'],
         }],
         // Enforce the consistent use of either double or single quotes in JSX attributes

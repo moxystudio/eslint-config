@@ -15,12 +15,12 @@ console.log([1, 2, 3]);
 // Bad
 (function () {
     [1, 2]
-    .forEach((x) => {console.log(x + 1);});
+        .forEach((x) => {console.log(x + 1);});
 })();
 // Good
 (function () {
     [1, 2]
-    .forEach((x) => { console.log(x + 1); });
+        .forEach((x) => { console.log(x + 1); });
 })();
 
 // `brace-style` - enforce consistent brace style for blocks
@@ -756,7 +756,7 @@ Here's another paragraph!
 // ---------------------------------------------------------------------
 // This must be with arrow functions otherwise it has a conflict with the max statements per line rule
 // Not active
-[1, 2, 3].filter((x) => x > 0).find((x) => x === 1).toString();
+[1, 2, 3].filter((x) => x > 0).map((x) => x + 1).filter((x) => x === 2).toString().replace('2', 'foobar').split('b');
 
 // `no-array-constructor` - disallow Array constructors
 // ---------------------------------------------------------------------
