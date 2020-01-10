@@ -44,6 +44,7 @@ Then enhance it with one or more **addons**:
 - `es-modules`: If you are going to use ES6 import & export instead of CommonJS or AMD (this rule skips root `[...].config.js` files to avoid ignoring this rule in common configuration files)
 - `babel-parser`: Use [babel-eslint](https://github.com/babel/babel-eslint) parser so that you may use language features that are not yet implemented in eslint (e.g.: dynamic imports)
 - `react` - If you are going to use [React](https://reactjs.org/) (requires `es6` base configuration or higher)
+- `vue` - If you are going to use [Vue](https://vuejs.org/)
 - `jest` - If you are going to use [Jest](https://facebook.github.io/jest/) to develop tests
 
 
