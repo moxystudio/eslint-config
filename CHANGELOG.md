@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [10.0.0](https://github.com/moxystudio/eslint-config/compare/v9.1.2...v10.0.0) (2020-01-10)
+
+
+### ⚠ BREAKING CHANGES
+
+* indent is now 4 spaces in all cases
+
+### Features
+
+* add vue addon ([f32d93f](https://github.com/moxystudio/eslint-config/commit/f32d93fc05a8eeefdc377c3c4c300763fb39d467))
+* deactivate newline per chained call rule ([#82](https://github.com/moxystudio/eslint-config/issues/82)) ([a57c05c](https://github.com/moxystudio/eslint-config/commit/a57c05c1a89dfbd16db6f14d33d4b49a1912d75b))
+* make indent rule more consistent ([#83](https://github.com/moxystudio/eslint-config/issues/83)) ([7b3b103](https://github.com/moxystudio/eslint-config/commit/7b3b103373b5c7eba5c1ea0f6a8f2bacb47315ae))
+
 ### [9.1.2](https://github.com/moxystudio/eslint-config/compare/v9.1.1...v9.1.2) (2019-11-23)
 
 ### [9.1.1](https://github.com/moxystudio/eslint-config/compare/v9.1.0...v9.1.1) (2019-11-15)
