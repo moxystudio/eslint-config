@@ -242,16 +242,6 @@ import React from 'react';
     const good = () => <div />;
 })();
 
-// '/no-distracting-elements': Enforce distracting elements are not used.
-(() => {
-    // Fail
-    const bad1 = () => <marquee />;
-    const bad2 = () => <blink />;
-
-    // Succeed
-    const good = () => <div />;
-})();
-
 // '/no-interactive-element-to-noninteractive-role': Interactive elements should not be assigned non-interactive roles.
 (() => {
     // Fail
