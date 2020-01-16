@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [10.1.0](https://github.com/moxystudio/eslint-config/compare/v10.0.0...v10.1.0) (2020-01-16)
+
+
+### Features
+
+* ignore certain react rules in tests ([619d15f](https://github.com/moxystudio/eslint-config/commit/619d15f9810267a517cf7df2412a4da97b2120ed)), closes [#84](https://github.com/moxystudio/eslint-config/issues/84)
+
 ## [10.0.0](https://github.com/moxystudio/eslint-config/compare/v9.1.2...v10.0.0) (2020-01-10)
 
 
