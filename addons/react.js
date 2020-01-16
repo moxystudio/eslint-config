@@ -1,5 +1,7 @@
 'use strict';
 
+var testFilePatterns = require('./common/test-patterns');
+
 module.exports = {
     'extends': [
         '../rules/react',
@@ -14,4 +16,12 @@ module.exports = {
             'jsx': true,
         },
     },
+    'overrides': [{
+        'files': testFilePatterns,
+        // Disable rules that are cumbersome in tests
+        'rules': {
+            'react/jsx-no-bind': 0,
+            'react/prop-types': 0,
+        },
+    }],
 };

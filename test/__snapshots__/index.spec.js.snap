@@ -2313,6 +2313,8 @@ exports[`should pass on fixtures/samples/es7/contrived.good.js 1`] = `Array []`;
 
 exports[`should pass on fixtures/samples/es7-react/contrived.good.js 1`] = `Array []`;
 
+exports[`should pass on fixtures/samples/es7-react/contrived.good.test.js 1`] = `Array []`;
+
 exports[`should pass on fixtures/samples/es8/contrived.good.js 1`] = `Array []`;
 
 exports[`should pass on fixtures/samples/es8-babel-parser/contrived.bad.js 1`] = `
