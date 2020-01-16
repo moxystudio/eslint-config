@@ -1,11 +1,7 @@
 'use strict';
 
 var jestPlugin = require('eslint-plugin-jest');
-var testFilePatterns = [
-    '**/__tests__/**/*.js',
-    '**/?(*.)@(spec|test).js',
-    'test?(s)/**/*.js',
-];
+var testFilePatterns = require('./common/test-patterns');
 
 module.exports = {
     'env': {
