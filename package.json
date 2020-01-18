@@ -1,7 +1,7 @@
 {
   "name": "@moxy/eslint-config",
   "description": "MOXY eslint configuration to be used across several JavaScript projects",
-  "version": "10.1.0",
+  "version": "10.1.1",
   "keywords": [
     "eslint-config",
     "eslintconfig",

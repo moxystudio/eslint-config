@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [10.1.1](https://github.com/moxystudio/eslint-config/compare/v10.1.0...v10.1.1) (2020-01-18)
+
 ## [10.1.0](https://github.com/moxystudio/eslint-config/compare/v10.0.0...v10.1.0) (2020-01-16)
 
 
