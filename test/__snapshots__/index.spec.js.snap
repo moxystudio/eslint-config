@@ -532,7 +532,7 @@ Array [
     "severity": 2,
   },
   Object {
-    "column": 16,
+    "column": 15,
     "line": 298,
     "rule": "array-bracket-spacing",
     "severity": 2,
@@ -1286,13 +1286,13 @@ Array [
 exports[`should pass on fixtures/rules/style/style.js 1`] = `
 Array [
   Object {
-    "column": 13,
+    "column": 14,
     "line": 8,
     "rule": "array-bracket-spacing",
     "severity": 2,
   },
   Object {
-    "column": 23,
+    "column": 22,
     "line": 8,
     "rule": "array-bracket-spacing",
     "severity": 2,
@@ -1503,7 +1503,7 @@ Array [
   },
   Object {
     "column": 1,
-    "line": 849,
+    "line": 850,
     "rule": "no-multiple-empty-lines",
     "severity": 2,
   },
