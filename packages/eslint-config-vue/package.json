@@ -1,0 +1,57 @@
+{
+  "name": "@moxy/eslint-config-vue",
+  "description": "MOXY eslint configuration to be used across several JavaScript projects",
+  "version": "10.1.1",
+  "keywords": [
+    "eslint-config",
+    "eslintconfig",
+    "eslint",
+    "lint",
+    "linter",
+    "style",
+    "vue-lint",
+    "vue-eslint"
+  ],
+  "author": "André Cruz <andre@moxy.studio>",
+  "homepage": "https://github.com/moxystudio/eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:moxystudio/eslint-config.git"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "rules",
+    "addons"
+  ],
+  "scripts": {
+    "lint": "eslint . --ignore-pattern test/fixtures",
+    "test": "jest --env node --coverage"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix --ignore-pattern test/fixtures",
+      "git add"
+    ]
+  },
+  "peerDependencies": {
+    "eslint": "^6.0.0"
+  },
+  "dependencies": {
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-vue": "^6.1.2",
+    "prettier": "^1.19.1"
+  },
+  "devDependencies": {
+    "@moxy/eslint-config-node": "^10.1.1",
+    "@moxy/eslint-config-jest": "^10.1.1",
+    "eslint": "^6.6.0",
+    "jest": "^24.5.0",
+    "lint-staged": "^9.4.3"
+  },
+  "engines": {
+    "node": ">=8",
+    "npm": ">=3"
+  }
+}

@@ -1,8 +1,8 @@
 {
     "root": true,
     "extends": [
-        "./es5.js",
-        "./addons/node.js"
+        "@moxy/eslint-config/es6",
+        "@moxy/eslint-config/addons/node"
     ],
     "rules": {
         "quote-props": [2, "always"]

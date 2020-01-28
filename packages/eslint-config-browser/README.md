@@ -1,0 +1,57 @@
+# eslint-config-browser
+
+[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][codecov-image]][codecov-url] [![Dependency status][david-dm-image]][david-dm-url] [![Dev Dependency status][david-dm-dev-image]][david-dm-dev-url]
+
+[npm-url]:https://npmjs.org/package/@moxy/eslint-config-browser
+[npm-image]:https://img.shields.io/npm/v/@moxy/eslint-config-browser.svg
+[downloads-image]:https://img.shields.io/npm/dm/@moxy/eslint-config-browser.svg
+[travis-url]:https://travis-ci.org/moxystudio/eslint-config-browser
+[travis-image]:https://img.shields.io/travis/moxystudio/eslint-config-browser/master.svg
+[codecov-url]:https://codecov.io/gh/moxystudio/eslint-config-browser
+[codecov-image]:https://img.shields.io/codecov/c/github/moxystudio/eslint-config-browser/master.svg
+[david-dm-url]:https://david-dm.org/moxystudio/eslint-config-browser
+[david-dm-image]:https://img.shields.io/david/moxystudio/eslint-config-browser.svg
+[david-dm-dev-url]:https://david-dm.org/moxystudio/eslint-config-browser?type=dev
+[david-dm-dev-image]:https://img.shields.io/david/dev/moxystudio/eslint-config-browser.svg
+
+MOXY [eslint](http://eslint.org/) configuration to be used for JavaScript projects in the browser.
+
+
+## Installation
+
+`$ npm install --save-dev eslint @moxy/eslint-config-browser`
+
+*NOTE*: `npm` v3 or greater is required for this package to work correctly until [#3458](https://github.com/eslint/eslint/issues/3458) is resolved.
+
+
+## Usage
+
+Create a `.eslintrc.json` file in the project root and extend `@moxy/eslint-config-browser`.
+
+### Examples
+
+```json
+{
+    "root": true,
+    "extends": [
+        "@moxy/eslint-config-browser
+    ]
+}
+```
+
+Note that by setting `root` to true, we ensure that no ancestor configuration is used which also improves `ESLint` performance because no more file lookups need to be done.
+
+
+## Tests
+
+`$ npm test`   
+`$ npm test -- --watch` during development
+
+## Release and Publish
+
+In order to publish a new release of this package, please read the README in the root of this repository.
+
+
+## License
+
+[MIT License](http://opensource.org/licenses/MIT)

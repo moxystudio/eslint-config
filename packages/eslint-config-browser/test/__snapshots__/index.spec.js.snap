@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should pass on fixtures/rules/best-practices/best-practices.js 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "line": 5,
+    "rule": "no-alert",
+    "severity": 1,
+  },
+  Object {
+    "column": 1,
+    "line": 6,
+    "rule": "no-alert",
+    "severity": 1,
+  },
+  Object {
+    "column": 1,
+    "line": 7,
+    "rule": "no-alert",
+    "severity": 1,
+  },
+  Object {
+    "column": 1,
+    "line": 12,
+    "rule": "no-global-assign",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on fixtures/rules/variables/variables.js 1`] = `
+Array [
+  Object {
+    "column": 21,
+    "line": 8,
+    "rule": "no-restricted-globals",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on fixtures/samples/es6/contrived.good.js 1`] = `Array []`;
+
+exports[`should pass on fixtures/samples/es6-modules/contrived.bad.js 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "line": 5,
+    "rule": "strict",
+    "severity": 2,
+  },
+  Object {
+    "column": 13,
+    "line": 9,
+    "rule": "prefer-import/prefer-import-over-require",
+    "severity": 1,
+  },
+]
+`;
+
+exports[`should pass on fixtures/samples/es6-modules/contrived.good.js 1`] = `Array []`;
+
+exports[`should pass on fixtures/samples/es6-modules/nested/require.config.js 1`] = `
+Array [
+  Object {
+    "column": 14,
+    "line": 5,
+    "rule": "prefer-import/prefer-import-over-require",
+    "severity": 1,
+  },
+]
+`;
+
+exports[`should pass on fixtures/samples/es6-modules/require.config.js 1`] = `Array []`;
+
+exports[`should pass on fixtures/samples/es6-modules/require.js 1`] = `
+Array [
+  Object {
+    "column": 14,
+    "line": 5,
+    "rule": "prefer-import/prefer-import-over-require",
+    "severity": 1,
+  },
+]
+`;
+
+exports[`should pass on fixtures/samples/es7/contrived.bad.js 1`] = `
+Array [
+  Object {
+    "column": 12,
+    "line": 5,
+    "rule": "no-restricted-properties",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on fixtures/samples/es7/contrived.good.js 1`] = `Array []`;
+
+exports[`should pass on fixtures/samples/es8/contrived.good.js 1`] = `Array []`;
+
+exports[`should pass on fixtures/samples/es8-babel-parser/contrived.bad.js 1`] = `
+Array [
+  Object {
+    "column": 19,
+    "line": 4,
+    "rule": "babel/no-invalid-this",
+    "severity": 2,
+  },
+  Object {
+    "column": 27,
+    "line": 11,
+    "rule": "babel/semi",
+    "severity": 2,
+  },
+  Object {
+    "column": 16,
+    "line": 15,
+    "rule": "babel/object-curly-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 29,
+    "line": 19,
+    "rule": "babel/new-cap",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on fixtures/samples/es8-babel-parser/contrived.good.js 1`] = `Array []`;
+
+exports[`should pass on fixtures/samples/es9/contrived.good.js 1`] = `Array []`;
+
+exports[`should pass on fixtures/samples/es9-object-spread/contrived.bad.js 1`] = `
+Array [
+  Object {
+    "column": 13,
+    "line": 5,
+    "rule": "prefer-object-spread",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on fixtures/samples/es9-object-spread/contrived.good.js 1`] = `Array []`;
+
+exports[`should pass on fixtures/samples/es10/contrived.good.js 1`] = `Array []`;

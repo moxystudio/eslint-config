@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should pass on fixtures/rules/node/node.js 1`] = `
+Array [
+  Object {
+    "column": 5,
+    "line": 27,
+    "rule": "handle-callback-err",
+    "severity": 1,
+  },
+]
+`;
+
+exports[`should pass on fixtures/samples/es6/contrived.good.js 1`] = `Array []`;
+
+exports[`should pass on fixtures/samples/es6-node/fileSize.good.js 1`] = `Array []`;
+
+exports[`should pass on fixtures/samples/es6-node/loudException.good.js 1`] = `Array []`;
+
+exports[`should pass on fixtures/samples/es7/contrived.bad.js 1`] = `
+Array [
+  Object {
+    "column": 12,
+    "line": 7,
+    "rule": "no-restricted-properties",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on fixtures/samples/es7/contrived.good.js 1`] = `Array []`;
+
+exports[`should pass on fixtures/samples/es8/contrived.good.js 1`] = `Array []`;
+
+exports[`should pass on fixtures/samples/es9/contrived.good.js 1`] = `Array []`;
+
+exports[`should pass on fixtures/samples/es9-object-spread/contrived.bad.js 1`] = `
+Array [
+  Object {
+    "column": 13,
+    "line": 7,
+    "rule": "prefer-object-spread",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on fixtures/samples/es9-object-spread/contrived.good.js 1`] = `Array []`;
+
+exports[`should pass on fixtures/samples/es10/contrived.good.js 1`] = `Array []`;

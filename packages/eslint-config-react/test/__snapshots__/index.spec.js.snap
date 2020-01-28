@@ -1,0 +1,402 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should pass on fixtures/rules/react/react.js 1`] = `
+Array [
+  Object {
+    "column": 5,
+    "line": 15,
+    "rule": "react/default-props-match-prop-types",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 30,
+    "rule": "react/default-props-match-prop-types",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 54,
+    "rule": "react/default-props-match-prop-types",
+    "severity": 2,
+  },
+  Object {
+    "column": 34,
+    "line": 102,
+    "rule": "react/jsx-boolean-value",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 115,
+    "rule": "react/jsx-closing-bracket-location",
+    "severity": 2,
+  },
+  Object {
+    "column": 44,
+    "line": 129,
+    "rule": "react/jsx-curly-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 50,
+    "line": 129,
+    "rule": "react/jsx-curly-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 44,
+    "line": 140,
+    "rule": "react/jsx-equals-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 44,
+    "line": 140,
+    "rule": "react/jsx-equals-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 17,
+    "line": 158,
+    "rule": "react/jsx-fragments",
+    "severity": 1,
+  },
+  Object {
+    "column": 35,
+    "line": 207,
+    "rule": "react/jsx-handler-names",
+    "severity": 2,
+  },
+  Object {
+    "column": 35,
+    "line": 211,
+    "rule": "react/jsx-handler-names",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 230,
+    "rule": "indent",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 230,
+    "rule": "react/jsx-indent-props",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 246,
+    "rule": "indent",
+    "severity": 2,
+  },
+  Object {
+    "column": 7,
+    "line": 246,
+    "rule": "react/jsx-indent",
+    "severity": 2,
+  },
+  Object {
+    "column": 29,
+    "line": 260,
+    "rule": "react/jsx-key",
+    "severity": 1,
+  },
+  Object {
+    "column": 35,
+    "line": 281,
+    "rule": "react/jsx-no-bind",
+    "severity": 1,
+  },
+  Object {
+    "column": 35,
+    "line": 285,
+    "rule": "react/jsx-no-bind",
+    "severity": 1,
+  },
+  Object {
+    "column": 22,
+    "line": 310,
+    "rule": "react/jsx-no-comment-textnodes",
+    "severity": 2,
+  },
+  Object {
+    "column": 22,
+    "line": 318,
+    "rule": "react/jsx-no-comment-textnodes",
+    "severity": 2,
+  },
+  Object {
+    "column": 44,
+    "line": 342,
+    "rule": "react/jsx-no-duplicate-props",
+    "severity": 2,
+  },
+  Object {
+    "column": 72,
+    "line": 360,
+    "rule": "react/jsx-no-target-blank",
+    "severity": 1,
+  },
+  Object {
+    "column": 24,
+    "line": 371,
+    "rule": "react/jsx-no-undef",
+    "severity": 2,
+  },
+  Object {
+    "column": 17,
+    "line": 385,
+    "rule": "react/jsx-pascal-case",
+    "severity": 2,
+  },
+  Object {
+    "column": 30,
+    "line": 398,
+    "rule": "jsx-quotes",
+    "severity": 2,
+  },
+  Object {
+    "column": 31,
+    "line": 416,
+    "rule": "react/jsx-tag-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 20,
+    "line": 427,
+    "rule": "react/jsx-tag-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 23,
+    "line": 446,
+    "rule": "react/jsx-wrap-multilines",
+    "severity": 2,
+  },
+  Object {
+    "column": 28,
+    "line": 470,
+    "rule": "react/no-children-prop",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 499,
+    "rule": "react/no-deprecated",
+    "severity": 1,
+  },
+  Object {
+    "column": 13,
+    "line": 531,
+    "rule": "react/no-direct-mutation-state",
+    "severity": 2,
+  },
+  Object {
+    "column": 21,
+    "line": 562,
+    "rule": "react/no-is-mounted",
+    "severity": 2,
+  },
+  Object {
+    "column": 18,
+    "line": 598,
+    "rule": "react/no-render-return-value",
+    "severity": 2,
+  },
+  Object {
+    "column": 25,
+    "line": 623,
+    "rule": "react/no-string-refs",
+    "severity": 2,
+  },
+  Object {
+    "column": 48,
+    "line": 623,
+    "rule": "babel/semi",
+    "severity": 2,
+  },
+  Object {
+    "column": 11,
+    "line": 654,
+    "rule": "react/no-unescaped-entities",
+    "severity": 2,
+  },
+  Object {
+    "column": 13,
+    "line": 654,
+    "rule": "react/no-unescaped-entities",
+    "severity": 2,
+  },
+  Object {
+    "column": 14,
+    "line": 654,
+    "rule": "react/no-unescaped-entities",
+    "severity": 2,
+  },
+  Object {
+    "column": 22,
+    "line": 674,
+    "rule": "react/no-unknown-property",
+    "severity": 2,
+  },
+  Object {
+    "column": 42,
+    "line": 700,
+    "rule": "react/prefer-es6-class",
+    "severity": 2,
+  },
+  Object {
+    "column": 44,
+    "line": 728,
+    "rule": "react/prop-types",
+    "severity": 2,
+  },
+  Object {
+    "column": 25,
+    "line": 768,
+    "rule": "prefer-import/prefer-import-over-require",
+    "severity": 1,
+  },
+  Object {
+    "column": 9,
+    "line": 780,
+    "rule": "react/require-render-return",
+    "severity": 2,
+  },
+  Object {
+    "column": 23,
+    "line": 798,
+    "rule": "react/self-closing-comp",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 816,
+    "rule": "react/sort-comp",
+    "severity": 2,
+  },
+  Object {
+    "column": 22,
+    "line": 860,
+    "rule": "react/style-prop-object",
+    "severity": 2,
+  },
+  Object {
+    "column": 15,
+    "line": 872,
+    "rule": "react/void-dom-elements-no-children",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on fixtures/rules/react/react-foreign-proptypes.js 1`] = `
+Array [
+  Object {
+    "column": 9,
+    "line": 6,
+    "rule": "react/forbid-foreign-prop-types",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on fixtures/rules/react/react-jsx-extension.jsx 1`] = `
+Array [
+  Object {
+    "column": 16,
+    "line": 7,
+    "rule": "react/jsx-filename-extension",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on fixtures/rules/react/react-missing-import.js 1`] = `
+Array [
+  Object {
+    "column": 13,
+    "line": 3,
+    "rule": "react/react-in-jsx-scope",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on fixtures/rules/react/react-no-unused.js 1`] = `Array []`;
+
+exports[`should pass on fixtures/rules/react-hooks/call-at-top-level.js 1`] = `
+Array [
+  Object {
+    "column": 13,
+    "line": 17,
+    "rule": "react-hooks/rules-of-hooks",
+    "severity": 2,
+  },
+  Object {
+    "column": 13,
+    "line": 27,
+    "rule": "react-hooks/rules-of-hooks",
+    "severity": 2,
+  },
+  Object {
+    "column": 13,
+    "line": 37,
+    "rule": "react-hooks/rules-of-hooks",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on fixtures/rules/react-hooks/custom-hooks.js 1`] = `
+Array [
+  Object {
+    "column": 9,
+    "line": 20,
+    "rule": "react-hooks/rules-of-hooks",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on fixtures/rules/react-hooks/function-deps.js 1`] = `
+Array [
+  Object {
+    "column": 15,
+    "line": 7,
+    "rule": "react-hooks/exhaustive-deps",
+    "severity": 1,
+  },
+]
+`;
+
+exports[`should pass on fixtures/rules/react-hooks/instance-like-variables.js 1`] = `
+Array [
+  Object {
+    "column": 28,
+    "line": 10,
+    "rule": "react-hooks/exhaustive-deps",
+    "severity": 1,
+  },
+]
+`;
+
+exports[`should pass on fixtures/rules/react-hooks/missing-effect-deps.js 1`] = `
+Array [
+  Object {
+    "column": 12,
+    "line": 20,
+    "rule": "react-hooks/exhaustive-deps",
+    "severity": 1,
+  },
+]
+`;
+
+exports[`should pass on fixtures/samples/es7-react/contrived.good.js 1`] = `Array []`;
+
+exports[`should pass on fixtures/samples/es7-react/contrived.good.test.js 1`] = `Array []`;
+
+exports[`should pass on fixtures/samples/es8-react-babel-parser/contrived.good.js 1`] = `Array []`;

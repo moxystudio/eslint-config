@@ -1,0 +1,9 @@
+{
+    "root": true,
+    "extends": [
+        "../../../../../es8.js"
+    ],
+    "rules": {
+        "no-unused-vars": 0
+    }
+}
