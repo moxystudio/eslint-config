@@ -42,7 +42,6 @@ Note that by setting `root` to true, we ensure that no ancestor configuration is
 
 In order to publish a new release of this package, please read the README in the root of this repository.
 
-
 ## License
 
 [MIT License](http://opensource.org/licenses/MIT)

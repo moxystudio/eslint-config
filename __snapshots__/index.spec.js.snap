@@ -1198,6 +1198,8 @@ Array [
 ]
 `;
 
+exports[`should pass on packages/eslint-config-isomorphic/test/fixtures/globals/globals.config.js 1`] = `Array []`;
+
 exports[`should pass on packages/eslint-config-jest/test/fixtures/rules/jest/jest.spec.js 1`] = `
 Array [
   Object {
