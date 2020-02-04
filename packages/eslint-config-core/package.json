@@ -26,15 +26,6 @@
     "rules",
     "addons"
   ],
-  "scripts": {
-    "lint": "eslint . --ignore-pattern test/fixtures"
-  },
-  "lint-staged": {
-    "*.js": [
-      "eslint --fix --ignore-pattern test/fixtures",
-      "git add"
-    ]
-  },
   "peerDependencies": {
     "eslint": "^6.0.0"
   },
@@ -44,8 +35,7 @@
   },
   "devDependencies": {
     "@moxy/eslint-config-node": "^10.1.1",
-    "@moxy/eslint-config-jest": "^10.1.1",
-    "lint-staged": "^9.4.3"
+    "@moxy/eslint-config-jest": "^10.1.1"
   },
   "engines": {
     "node": ">=8",

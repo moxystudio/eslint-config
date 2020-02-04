@@ -25,24 +25,12 @@
     "rules",
     "addons"
   ],
-  "scripts": {
-    "lint": "eslint . --ignore-pattern test/fixtures"
-  },
-  "lint-staged": {
-    "*.js": [
-      "eslint --fix --ignore-pattern test/fixtures",
-      "git add"
-    ]
-  },
   "peerDependencies": {
     "eslint": "^6.0.0"
   },
   "dependencies": {
     "@moxy/eslint-config-browser": "^10.1.1",
     "@moxy/eslint-config-node": "^10.1.1"
-  },
-  "devDependencies": {
-    "lint-staged": "^9.4.3"
   },
   "engines": {
     "node": ">=8",

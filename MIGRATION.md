@@ -1,5 +1,6 @@
 # Migration guide
 
+The previous package that existed in this repository, `@moxy/eslint-config`, has been deprecated. To learn how to migrate into the new configuration structure, read below.
 
 ## Migrating from <= 10
 
@@ -19,11 +20,23 @@ Your `.eslint.config` would look similar to this:
 }
 ```
 
-This monolithic, multiple **addon** approach has been refactored into a set of 3 different **base** configuration packages and 3 **enhancer** packages.
+This monolithic, multiple **addon** approach has been refactored into a set of 3 different **base** configuration packages and 3 **enhancer** packages (more info on what packges exist and how to use them is in this repository's [README](README.md)).
 
-There is also an additional **core** package which is used by the **base** configuration packages. This package is not meant to be used directly.
+There is also an additional **core** package which is used by the **base** configuration packages. This package is not meant to be used directly in your projects.
 
-NOTE: If you are migrating from a previous version of `@moxy/eslint-config`, note that both `@moxy/eslint-config-browser` and `@moxy/eslint-config-isomorphic` already introduce the previous `es-modules` and `babel-parser` **addons**.
+NOTE: both `@moxy/eslint-config-browser` and `@moxy/eslint-config-isomorphic` already introduce the previous `es-modules` and `babel-parser` **addons**.
 
 - `es-modules`: If you are going to use ES6 import & export instead of CommonJS or AMD (this rule skips root `[...].config.js` files to avoid ignoring this rule in common configuration files)
 - `babel-parser`: Use [babel-eslint](https://github.com/babel/babel-eslint) parser so that you may use language features that are not yet implemented in eslint (e.g.: dynamic imports)
+
+For example, the example given above would look like this after migrating to the newest version:
+
+```json
+{
+    "root": true,
+    "extends": [
+        "@moxy/eslint-config-browser",
+        "@moxy/eslint-config-react"
+    ]
+}
+```

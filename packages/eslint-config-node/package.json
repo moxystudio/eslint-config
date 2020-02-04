@@ -25,15 +25,6 @@
 		"rules",
 		"addons"
   ],
-  "scripts": {
-    "lint": "eslint . --ignore-pattern test/fixtures"
-  },
-	"lint-staged": {
-		"*.js": [
-			"eslint --fix --ignore-pattern test/fixtures",
-			"git add"
-		]
-	},
 	"peerDependencies": {
 		"eslint": "^6.0.0"
 	},
@@ -43,8 +34,7 @@
 	"devDependencies": {
     "@moxy/eslint-config-jest": "^10.1.1",
 		"create-react-class": "^15.6.3",
-		"jest": "^24.5.0",
-		"lint-staged": "^9.4.3"
+		"jest": "^24.5.0"
 	},
 	"engines": {
 		"node": ">=8",
