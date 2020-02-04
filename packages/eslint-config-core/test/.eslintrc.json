@@ -1,7 +1,0 @@
-{
-    "root": true,
-    "extends": [
-        "@moxy/eslint-config-node",
-        "@moxy/eslint-config-jest"
-    ]
-}

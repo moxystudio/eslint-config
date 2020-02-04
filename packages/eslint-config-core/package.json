@@ -27,8 +27,7 @@
     "addons"
   ],
   "scripts": {
-    "lint": "eslint . --ignore-pattern test/fixtures",
-    "test": "jest --env node --coverage"
+    "lint": "eslint . --ignore-pattern test/fixtures"
   },
   "lint-staged": {
     "*.js": [
@@ -46,8 +45,6 @@
   "devDependencies": {
     "@moxy/eslint-config-node": "^10.1.1",
     "@moxy/eslint-config-jest": "^10.1.1",
-    "eslint": "^6.6.0",
-    "jest": "^24.5.0",
     "lint-staged": "^9.4.3"
   },
   "engines": {

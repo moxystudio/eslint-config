@@ -1,4 +1,4 @@
 node_modules/
 npm-debug.*
-coverage/
 lerna-debug.log
+coverage/

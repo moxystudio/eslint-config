@@ -21,9 +21,6 @@ MOXY [eslint](http://eslint.org/) configuration to be used for JavaScript projec
 
 `$ npm install --save-dev eslint @moxy/eslint-config-browser`
 
-*NOTE*: `npm` v3 or greater is required for this package to work correctly until [#3458](https://github.com/eslint/eslint/issues/3458) is resolved.
-
-
 ## Usage
 
 Create a `.eslintrc.json` file in the project root and extend `@moxy/eslint-config-browser`.
@@ -34,18 +31,12 @@ Create a `.eslintrc.json` file in the project root and extend `@moxy/eslint-conf
 {
     "root": true,
     "extends": [
-        "@moxy/eslint-config-browser
+        "@moxy/eslint-config-browser"
     ]
 }
 ```
 
 Note that by setting `root` to true, we ensure that no ancestor configuration is used which also improves `ESLint` performance because no more file lookups need to be done.
-
-
-## Tests
-
-`$ npm test`   
-`$ npm test -- --watch` during development
 
 ## Release and Publish
 

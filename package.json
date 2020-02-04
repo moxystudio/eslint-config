@@ -2,17 +2,19 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "lint": "lerna run lint",
-    "test": "lerna run test",
+    "lint": "eslint . --ignore-pattern **/test/fixtures",
+    "test": "jest --env node --coverage",
+    "postinstall": "lerna bootstrap",
     "prerelease": "npm run test && npm run lint",
-    "release": "lerna version --no-commit-hooks --no-push",
-    "postrelease": "git push --follow-tags origin HEAD && lerna publish from-git"
+    "release": "lerna publish"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
     "@commitlint/config-conventional": "^8.2.0",
     "@moxy/eslint-config": "^10.1.1",
     "eslint": "^6.8.0",
+    "glob": "^7.1.6",
+    "jest": "^25.1.0",
     "lerna": "^3.20.2"
   },
   "husky": {
@@ -20,10 +22,5 @@
       "pre-commit": "lint-staged",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
-  },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
   }
 }

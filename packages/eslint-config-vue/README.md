@@ -21,9 +21,6 @@ MOXY [eslint](http://eslint.org/) configuration to be used in [Vue](https://vuej
 
 `$ npm install --save-dev eslint @moxy/eslint-config-vue`
 
-*NOTE*: `npm` v3 or greater is required for this package to work correctly until [#3458](https://github.com/eslint/eslint/issues/3458) is resolved.
-
-
 ## Usage
 
 Create a `.eslintrc.json` file in the project root and extend `@moxy/eslint-config-vue`.

@@ -25,8 +25,7 @@
     "addons"
   ],
   "scripts": {
-    "lint": "eslint . --ignore-pattern test/fixtures",
-    "test": "jest --env node --coverage"
+    "lint": "eslint . --ignore-pattern test/fixtures"
   },
   "lint-staged": {
     "*.js": [
@@ -42,14 +41,12 @@
     "eslint-plugin-react-hooks": "^2.3.0"
   },
   "devDependencies": {
-    "@moxy/eslint-config-core": "^10.1.1",
+    "@moxy/babel-preset": "^3.2.4",
     "@moxy/eslint-config-browser": "^10.1.1",
-    "@moxy/eslint-config-node": "^10.1.1",
+    "@moxy/eslint-config-core": "^10.1.1",
     "@moxy/eslint-config-jest": "^10.1.1",
-    "babel-preset-moxy": "^3.0.4",
+    "@moxy/eslint-config-node": "^10.1.1",
     "create-react-class": "^15.6.3",
-    "eslint": "^6.6.0",
-    "jest": "^24.5.0",
     "lint-staged": "^9.4.3",
     "prop-types": "^15.6.2",
     "react": "^16.12.0"

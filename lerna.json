@@ -5,10 +5,8 @@
   "version": "independent",
   "command": {
     "publish": {
-      "conventionalCommits": true
-    },
-    "version": {
-        "conventionalCommits": true
+      "conventionalCommits": true,
+      "commitHooks": false
     }
   }
 }

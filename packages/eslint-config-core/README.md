@@ -21,9 +21,6 @@ MOXY [eslint](http://eslint.org/) **core** configuration to be used by _eslint_ 
 
 `$ npm install --save-dev eslint @moxy/eslint-config-core`
 
-*NOTE*: `npm` v3 or greater is required for this package to work correctly until [#3458](https://github.com/eslint/eslint/issues/3458) is resolved.
-
-
 ## Usage
 
 Create a `.eslintrc.json` file in the project root using a base configuration and addons.
@@ -61,12 +58,6 @@ You can directly access **addons** provided by this package.
     ]
 }
 ```
-
-
-## Tests
-
-`$ npm test`   
-`$ npm test -- --watch` during development
 
 ## Release and Publish
 
