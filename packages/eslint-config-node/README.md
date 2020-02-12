@@ -16,10 +16,11 @@
 
 MOXY [eslint](http://eslint.org/) configuration to be used in Javascript projects targeted for [NodeJS](https://nodejs.org).
 
-
 ## Installation
 
-`$ npm install --save-dev eslint @moxy/eslint-config-node`
+```sh
+$ npm install --save-dev eslint @moxy/eslint-config-node
+```
 
 ## Usage
 
@@ -58,18 +59,3 @@ In case you want to specity an ECMAScript version:
 ```
 
 Note that by setting `root` to true, we ensure that no ancestor configuration is used which also improves `ESLint` performance because no more file lookups need to be done.
-
-
-## Tests
-
-`$ npm test`   
-`$ npm test -- --watch` during development
-
-## Release and Publish
-
-In order to publish a new release of this package, please read the README in the root of this repository.
-
-
-## License
-
-[MIT License](http://opensource.org/licenses/MIT)

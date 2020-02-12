@@ -4,16 +4,14 @@ MOXY's set of [eslint](http://eslint.org/) configuration packages to be used acr
 
 ## How it works
 
-Introduce base and enhancer configs concept and how it 
-
 These repository contains two sets of _eslint_ configurations to be used in Javascript projects:
 
 - the **base** configurations, which contain specific settings for each specific target (browser, node or isomorphic).
 - the **enhancer** configurations, which contain specific settings for different target frameworks (jest, react or vue).
 
-Using on or more of these packages, you can enforce the desired code styles for each type of project.
+By using one or more of these packages, you can enforce the desired code styles for each type of project.
 
-For more information on how to use each package and their specific configurations, please read the package's README be following the links below.
+For more information on how to use each package and their specific configurations, please read the package's README by following the links below.
 
 ### Base configs
 

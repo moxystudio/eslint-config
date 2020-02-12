@@ -16,10 +16,13 @@
 
 MOXY [eslint](http://eslint.org/) **core** configuration to be used by _eslint_ **base** configurations.
 
+This package is not meant to be used directly in your projects.
 
 ## Installation
 
-`$ npm install --save-dev eslint @moxy/eslint-config-core`
+```sh
+$ npm install --save-dev eslint @moxy/eslint-config-core
+```
 
 ## Usage
 
@@ -58,11 +61,3 @@ You can directly access **addons** provided by this package.
     ]
 }
 ```
-
-## Release and Publish
-
-In order to publish a new release of this package, please read the README in the root of this repository.
-
-## License
-
-[MIT License](http://opensource.org/licenses/MIT)

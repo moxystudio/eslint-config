@@ -1,6 +1,6 @@
 {
   "name": "@moxy/eslint-config-vue",
-  "description": "MOXY eslint configuration to be used across several JavaScript projects",
+  "description": "MOXY eslint configuration to be used in Vue projects",
   "version": "10.1.1",
   "keywords": [
     "eslint-config",
@@ -38,7 +38,7 @@
     "@moxy/eslint-config-jest": "^10.1.1"
   },
   "engines": {
-    "node": ">=8",
+    "node": ">=10",
     "npm": ">=3"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "@moxy/eslint-config-jest",
-  "description": "MOXY eslint configuration to be used across several JavaScript projects",
+  "description": "MOXY eslint configuration to be used in testing using jest",
   "version": "10.1.1",
   "keywords": [
     "eslint-config",
@@ -38,7 +38,7 @@
     "jest": "^24.5.0"
   },
   "engines": {
-    "node": ">=8",
+    "node": ">=10",
     "npm": ">=3"
   }
 }

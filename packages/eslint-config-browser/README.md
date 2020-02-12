@@ -16,10 +16,11 @@
 
 MOXY [eslint](http://eslint.org/) configuration to be used for JavaScript projects in the browser.
 
-
 ## Installation
 
-`$ npm install --save-dev eslint @moxy/eslint-config-browser`
+```sh
+$ npm install --save-dev eslint @moxy/eslint-config-browser
+```
 
 ## Usage
 
@@ -37,11 +38,3 @@ Create a `.eslintrc.json` file in the project root and extend `@moxy/eslint-conf
 ```
 
 Note that by setting `root` to true, we ensure that no ancestor configuration is used which also improves `ESLint` performance because no more file lookups need to be done.
-
-## Release and Publish
-
-In order to publish a new release of this package, please read the README in the root of this repository.
-
-## License
-
-[MIT License](http://opensource.org/licenses/MIT)

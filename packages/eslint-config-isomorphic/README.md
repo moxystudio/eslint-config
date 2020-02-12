@@ -16,18 +16,17 @@
 
 MOXY [eslint](http://eslint.org/) configuration to be used in isomorphic Javascript projects.
 
-
 ## Installation
 
-`$ npm install --save-dev eslint @moxy/eslint-config`
+```sh
+$ npm install --save-dev eslint @moxy/eslint-config
+```
 
 *NOTE*: `npm` v3 or greater is required for this package to work correctly until [#3458](https://github.com/eslint/eslint/issues/3458) is resolved.
-
 
 ## Usage
 
 Create a `.eslintrc.json` file in the project root and extend `@moxy/eslint-config-isomorphic`.
-
 
 ### Examples
 
@@ -41,7 +40,3 @@ Create a `.eslintrc.json` file in the project root and extend `@moxy/eslint-conf
 ```
 
 Note that by setting `root` to true, we ensure that no ancestor configuration is used which also improves `ESLint` performance because no more file lookups need to be done.
-
-## License
-
-[MIT License](http://opensource.org/licenses/MIT)

@@ -1,6 +1,6 @@
 {
   "name": "@moxy/eslint-config-react",
-  "description": "MOXY eslint configuration to be used across several JavaScript projects",
+  "description": "MOXY eslint configuration to be used in React projects",
   "version": "10.1.1",
   "keywords": [
     "eslint-config",
@@ -42,7 +42,7 @@
     "react": "^16.12.0"
   },
   "engines": {
-    "node": ">=8",
+    "node": ">=10",
     "npm": ">=3"
   }
 }

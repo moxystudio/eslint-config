@@ -1,6 +1,6 @@
 {
   "name": "@moxy/eslint-config-core",
-  "description": "MOXY eslint configuration to be used across several JavaScript projects",
+  "description": "MOXY eslint core configuration to be used by eslint base configurations",
   "version": "10.1.1",
   "keywords": [
     "eslint-config",
@@ -8,11 +8,7 @@
     "eslint",
     "lint",
     "linter",
-    "style",
-    "react-lint",
-    "react-eslint",
-    "vue-lint",
-    "vue-eslint"
+    "style"
   ],
   "author": "André Cruz <andre@moxy.studio>",
   "homepage": "https://github.com/moxystudio/eslint-config",
@@ -38,7 +34,7 @@
     "@moxy/eslint-config-jest": "^10.1.1"
   },
   "engines": {
-    "node": ">=8",
+    "node": ">=10",
     "npm": ">=3"
   }
 }

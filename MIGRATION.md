@@ -6,7 +6,7 @@ The previous package that existed in this repository, `@moxy/eslint-config`, has
 
 Until now, in order to use MOXY's eslint configuration, you would have to import the `@moxy/eslint-config` package and extend your project's eslint configuration with a **base** configuration (`es5`, `es6`, `es7`, ...) and the **addons** you wished to use (`browser`, `node`, `react`, ...).
 
-Your `.eslint.config` would look similar to this:
+Your `.eslintrc.json` would look similar to this:
 
 ```json
 {
@@ -21,8 +21,6 @@ Your `.eslint.config` would look similar to this:
 ```
 
 This monolithic, multiple **addon** approach has been refactored into a set of 3 different **base** configuration packages and 3 **enhancer** packages (more info on what packges exist and how to use them is in this repository's [README](README.md)).
-
-There is also an additional **core** package which is used by the **base** configuration packages. This package is not meant to be used directly in your projects.
 
 NOTE: both `@moxy/eslint-config-browser` and `@moxy/eslint-config-isomorphic` already introduce the previous `es-modules` and `babel-parser` **addons**.
 

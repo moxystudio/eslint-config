@@ -1,6 +1,6 @@
 {
   "name": "@moxy/eslint-config-browser",
-  "description": "MOXY eslint configuration to be used across several JavaScript projects",
+  "description": "MOXY eslint configuration to be used for JavaScript projects in the browser",
   "version": "10.1.1",
   "keywords": [
     "eslint-config",
@@ -39,7 +39,7 @@
     "babel-preset-moxy": "^3.0.4"
   },
   "engines": {
-    "node": ">=8",
+    "node": ">=10",
     "npm": ">=3"
   }
 }
