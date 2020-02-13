@@ -1,5 +1,12 @@
 # eslint-config
 
+[![Build Status][travis-image]][travis-url] [![Coverage Status][codecov-image]][codecov-url]
+
+[travis-url]:https://travis-ci.org/moxystudio/eslint-config
+[travis-image]:https://img.shields.io/travis/moxystudio/eslint-config/master.svg
+[codecov-url]:https://codecov.io/gh/moxystudio/eslint-config
+[codecov-image]:https://img.shields.io/codecov/c/github/moxystudio/eslint-config/master.svg
+
 MOXY's set of [eslint](http://eslint.org/) configuration packages to be used across several JavaScript projects.
 
 ## How it works
