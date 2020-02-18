@@ -13,7 +13,7 @@
 
 MOXY [eslint](http://eslint.org/) **core** configuration to be used by _eslint_ **base** configurations.
 
-This package is not meant to be used directly in your projects.
+❗️ **IMPORTANT**: This package is not meant to be used directly in your projects.
 
 ## Installation
 
@@ -45,16 +45,16 @@ Example:
 }
 ```
 
-This package also currently provides one **addon**:
+This package also currently provides one **common** functionality:
 - _test-patterns_
   
-You can directly access **addons** provided by this package.
+You can directly access **common** functionality provided by this package.
 
 ```json
 {
     "root": true,
     "extends": [
-        "@moxy/eslint-config-core/addons/test-patterns",
+        "@moxy/eslint-config-core/common/test-patterns",
     ]
 }
 ```

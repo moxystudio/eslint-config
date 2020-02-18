@@ -1,6 +1,6 @@
 'use strict';
 
-const testFilePatterns = require('@moxy/eslint-config-core/addons/test-patterns');
+const testFilePatterns = require('@moxy/eslint-config-core/common/test-patterns');
 
 module.exports = {
     'extends': [
