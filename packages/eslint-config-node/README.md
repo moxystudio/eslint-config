@@ -44,7 +44,7 @@ The default configuration is `es10`.
 }
 ```
 
-In case you want to specity an ECMAScript version:
+In case you want to specify an ECMAScript version:
 
 ```json
 {

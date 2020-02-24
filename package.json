@@ -6,7 +6,8 @@
     "test": "jest --env node --coverage",
     "postinstall": "lerna bootstrap",
     "prerelease": "npm run test && npm run lint",
-    "release": "lerna publish"
+    "release": "lerna publish",
+    "lcov": "open coverage/lcov-report/index.html"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",

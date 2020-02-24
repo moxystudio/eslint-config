@@ -20,7 +20,7 @@ Your `.eslintrc.json` would look similar to this:
 }
 ```
 
-This monolithic, multiple **addon** approach has been refactored into a set of 3 different **base** configuration packages and 3 **enhancer** packages (more info on what packges exist and how to use them is in this repository's [README](README.md)).
+This monolithic, multiple **addon** approach has been refactored into a set of 3 different **base** configuration packages and 3 **enhancer** packages (more info on what packages exist and how to use them is in this repository's [README](README.md)).
 
 NOTE: both `@moxy/eslint-config-browser` and `@moxy/eslint-config-isomorphic` already introduce the previous `es-modules` and `babel-parser` **addons**.
 

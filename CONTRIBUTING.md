@@ -1,6 +1,6 @@
 # Contributing
 
-This repository follows a _monorepo_ structure, for which we use [lerna](https://lerna.js.org) to manage vergions of changed packages, as well as the release and publishing process.
+This repository follows a _monorepo_ structure, for which we use [lerna](https://lerna.js.org) to manage versions of changed packages, as well as the release and publishing process.
 
 To learn more about what commands are available for lerna, how it works and how it can be configured, please check out [lerna's repository](https://github.com/lerna/lerna/).
 
