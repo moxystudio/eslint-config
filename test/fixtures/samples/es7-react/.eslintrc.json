@@ -1,8 +1,0 @@
-{
-    "root": true,
-    "extends": [
-        "../../../../es7.js",
-        "../../../../addons/es-modules.js",
-        "../../../../addons/react.js"
-    ]
-}

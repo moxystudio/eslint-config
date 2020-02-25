@@ -1,0 +1,39 @@
+{
+  "name": "@moxy/eslint-config-isomorphic",
+  "description": "MOXY eslint configuration to be used in isomorphic Javascript projects",
+  "version": "10.1.1",
+  "keywords": [
+    "eslint-config",
+    "eslintconfig",
+    "eslint",
+    "lint",
+    "linter",
+    "style",
+    "isomorphic-lint",
+    "isomorphic-eslint"
+  ],
+  "author": "André Cruz <andre@moxy.studio>",
+  "homepage": "https://github.com/moxystudio/eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:moxystudio/eslint-config.git"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "es*.js",
+    "rules",
+    "addons"
+  ],
+  "peerDependencies": {
+    "eslint": "^6.0.0"
+  },
+  "dependencies": {
+    "@moxy/eslint-config-browser": "^10.1.1",
+    "@moxy/eslint-config-node": "^10.1.1"
+  },
+  "engines": {
+    "node": ">=10",
+    "npm": ">=3"
+  }
+}

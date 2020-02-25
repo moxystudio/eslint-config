@@ -1,0 +1,43 @@
+{
+  "name": "@moxy/eslint-config-node",
+  "description": "MOXY eslint configuration to be used in Javascript projects targeted for NodeJS",
+  "version": "10.1.1",
+  "keywords": [
+    "eslint-config",
+    "eslintconfig",
+    "eslint",
+    "lint",
+    "linter",
+    "style",
+    "node-lint",
+    "node-eslint"
+  ],
+  "author": "André Cruz <andre@moxy.studio>",
+  "homepage": "https://github.com/moxystudio/eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:moxystudio/eslint-config.git"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "es*.js",
+    "rules",
+    "addons"
+  ],
+  "peerDependencies": {
+    "eslint": "^6.0.0"
+  },
+  "dependencies": {
+    "@moxy/eslint-config-core": "^10.1.1"
+  },
+  "devDependencies": {
+    "@moxy/eslint-config-jest": "^10.1.1",
+    "create-react-class": "^15.6.3",
+    "jest": "^24.5.0"
+  },
+  "engines": {
+    "node": ">=10",
+    "npm": ">=3"
+  }
+}

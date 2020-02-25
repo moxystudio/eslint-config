@@ -1,0 +1,40 @@
+{
+  "name": "@moxy/eslint-config-core",
+  "description": "MOXY eslint core configuration to be used by eslint base configurations",
+  "version": "10.1.1",
+  "keywords": [
+    "eslint-config",
+    "eslintconfig",
+    "eslint",
+    "lint",
+    "linter",
+    "style"
+  ],
+  "author": "André Cruz <andre@moxy.studio>",
+  "homepage": "https://github.com/moxystudio/eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:moxystudio/eslint-config.git"
+  },
+  "license": "MIT",
+  "files": [
+    "es*.js",
+    "rules",
+    "addons"
+  ],
+  "peerDependencies": {
+    "eslint": "^6.0.0"
+  },
+  "dependencies": {
+    "eslint-plugin-jsdoc": "^20.3.1",
+    "eslint-plugin-prefer-import": "0.0.1"
+  },
+  "devDependencies": {
+    "@moxy/eslint-config-node": "^10.1.1",
+    "@moxy/eslint-config-jest": "^10.1.1"
+  },
+  "engines": {
+    "node": ">=10",
+    "npm": ">=3"
+  }
+}

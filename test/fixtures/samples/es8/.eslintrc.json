@@ -1,7 +1,0 @@
-{
-    "root": true,
-    "extends": [
-        "../../../../es8.js",
-        "../../../../addons/browser.js"
-    ]
-}

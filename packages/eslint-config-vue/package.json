@@ -1,0 +1,44 @@
+{
+  "name": "@moxy/eslint-config-vue",
+  "description": "MOXY eslint configuration to be used in Vue projects",
+  "version": "10.1.1",
+  "keywords": [
+    "eslint-config",
+    "eslintconfig",
+    "eslint",
+    "lint",
+    "linter",
+    "style",
+    "vue-lint",
+    "vue-eslint"
+  ],
+  "author": "André Cruz <andre@moxy.studio>",
+  "homepage": "https://github.com/moxystudio/eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:moxystudio/eslint-config.git"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "rules",
+    "addons"
+  ],
+  "peerDependencies": {
+    "eslint": "^6.0.0"
+  },
+  "dependencies": {
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-vue": "^6.1.2",
+    "prettier": "^1.19.1"
+  },
+  "devDependencies": {
+    "@moxy/eslint-config-node": "^10.1.1",
+    "@moxy/eslint-config-jest": "^10.1.1"
+  },
+  "engines": {
+    "node": ">=10",
+    "npm": ">=3"
+  }
+}

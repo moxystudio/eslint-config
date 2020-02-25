@@ -1,5 +1,0 @@
-{
-    "presets": [
-        ["babel-preset-moxy/lib", { "react": true }]
-    ]
-}

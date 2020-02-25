@@ -1,0 +1,9 @@
+{
+    "root": true,
+    "extends": [
+        "../../../addons/vue.js"
+    ],
+    "rules": {
+        "no-unused-vars": 0
+    }
+}

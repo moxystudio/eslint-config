@@ -1,0 +1,44 @@
+{
+  "name": "@moxy/eslint-config-jest",
+  "description": "MOXY eslint configuration to be used in testing using jest",
+  "version": "10.1.1",
+  "keywords": [
+    "eslint-config",
+    "eslintconfig",
+    "eslint",
+    "lint",
+    "linter",
+    "style",
+    "jest-lint",
+    "jest-eslint"
+  ],
+  "author": "André Cruz <andre@moxy.studio>",
+  "homepage": "https://github.com/moxystudio/eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:moxystudio/eslint-config.git"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "es*.js",
+    "rules",
+    "addons"
+  ],
+  "peerDependencies": {
+    "eslint": "^6.0.0"
+  },
+  "dependencies": {
+    "eslint-plugin-jest": "^23.0.4"
+  },
+  "devDependencies": {
+    "@moxy/eslint-config-core": "^10.1.1",
+    "@moxy/eslint-config-node": "^10.1.1",
+    "@moxy/eslint-config-browser": "^10.1.1",
+    "jest": "^24.5.0"
+  },
+  "engines": {
+    "node": ">=10",
+    "npm": ">=3"
+  }
+}

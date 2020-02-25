@@ -1,0 +1,10 @@
+{
+    "root": true,
+    "extends": [
+        "@moxy/eslint-config-browser",
+        "../../../../index.js"
+    ],
+    "rules": {
+        "no-unused-vars": 0
+    }
+}
