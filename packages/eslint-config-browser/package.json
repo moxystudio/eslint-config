@@ -23,7 +23,7 @@
   "files": [
     "es*.js",
     "rules",
-    "addons"
+    "lib"
   ],
   "dependencies": {
     "@moxy/eslint-config-core": "^0.0.1",

@@ -2,7 +2,7 @@
     "root": true,
     "extends": [
         "@moxy/eslint-config-core/es7.js",
-        "@moxy/eslint-config-browser/addons/es-modules.js",
+        "@moxy/eslint-config-browser/lib/es-modules.js",
         "../../../../index.js"
     ]
 }

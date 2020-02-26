@@ -23,7 +23,7 @@
   "files": [
     "es*.js",
     "rules",
-    "addons"
+    "lib"
   ],
   "peerDependencies": {
     "eslint": "^6.0.0"

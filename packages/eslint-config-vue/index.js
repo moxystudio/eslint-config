@@ -2,6 +2,6 @@
 
 module.exports = {
     'extends': [
-        './addons/vue',
+        './lib/vue',
     ].map(require.resolve),
 };

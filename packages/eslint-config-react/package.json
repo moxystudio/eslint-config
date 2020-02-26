@@ -22,7 +22,7 @@
   "main": "index.js",
   "files": [
     "rules",
-    "addons"
+    "lib"
   ],
   "peerDependencies": {
     "eslint": "^6.0.0"
