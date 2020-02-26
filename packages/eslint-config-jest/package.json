@@ -1,7 +1,7 @@
 {
   "name": "@moxy/eslint-config-jest",
   "description": "MOXY eslint configuration to be used in testing using jest",
-  "version": "10.1.1",
+  "version": "0.0.1",
   "keywords": [
     "eslint-config",
     "eslintconfig",
@@ -32,10 +32,9 @@
     "eslint-plugin-jest": "^23.0.4"
   },
   "devDependencies": {
-    "@moxy/eslint-config-core": "^10.1.1",
-    "@moxy/eslint-config-node": "^10.1.1",
-    "@moxy/eslint-config-browser": "^10.1.1",
-    "jest": "^24.5.0"
+    "@moxy/eslint-config-core": "^0.0.1",
+    "@moxy/eslint-config-node": "^0.0.1",
+    "@moxy/eslint-config-browser": "^0.0.1"
   },
   "engines": {
     "node": ">=10",

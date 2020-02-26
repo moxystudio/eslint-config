@@ -5,4 +5,3 @@ module.exports = {
         './addons/jest',
     ].map(require.resolve),
 };
-
