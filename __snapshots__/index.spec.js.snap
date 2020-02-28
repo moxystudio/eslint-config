@@ -2037,11 +2037,11 @@ Array [
 ]
 `;
 
-exports[`should pass on packages/eslint-config-react/test/fixtures/samples/es7-react/contrived.good.js 1`] = `Array []`;
+exports[`should pass on packages/eslint-config-react/test/fixtures/samples/react/contrived-old-es7.good.js 1`] = `Array []`;
 
-exports[`should pass on packages/eslint-config-react/test/fixtures/samples/es7-react/contrived.good.test.js 1`] = `Array []`;
+exports[`should pass on packages/eslint-config-react/test/fixtures/samples/react/contrived-old-es7.good.test.js 1`] = `Array []`;
 
-exports[`should pass on packages/eslint-config-react/test/fixtures/samples/es8-react-babel-parser/contrived.good.js 1`] = `Array []`;
+exports[`should pass on packages/eslint-config-react/test/fixtures/samples/react/contrived-old-es8.good.js 1`] = `Array []`;
 
 exports[`should pass on packages/eslint-config-vue/test/fixtures/rules/Vue.vue 1`] = `
 Array [

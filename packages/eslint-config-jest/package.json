@@ -29,10 +29,10 @@
     "eslint": "^6.0.0"
   },
   "dependencies": {
+    "@moxy/eslint-config-core": "^0.0.1",
     "eslint-plugin-jest": "^23.0.4"
   },
   "devDependencies": {
-    "@moxy/eslint-config-core": "^0.0.1",
     "@moxy/eslint-config-node": "^0.0.1",
     "@moxy/eslint-config-browser": "^0.0.1"
   },
