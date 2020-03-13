@@ -1,7 +1,7 @@
 {
   "name": "@moxy/eslint-config-isomorphic",
   "description": "MOXY eslint configuration to be used in isomorphic Javascript projects",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "keywords": [
     "eslint-config",
     "eslintconfig",
@@ -29,8 +29,8 @@
     "eslint": "^6.0.0"
   },
   "dependencies": {
-    "@moxy/eslint-config-browser": "^0.0.1",
-    "@moxy/eslint-config-node": "^0.0.1"
+    "@moxy/eslint-config-browser": "^1.0.0",
+    "@moxy/eslint-config-node": "^1.0.0"
   },
   "engines": {
     "node": ">=10",

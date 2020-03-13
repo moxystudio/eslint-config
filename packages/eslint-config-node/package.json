@@ -1,7 +1,7 @@
 {
   "name": "@moxy/eslint-config-node",
   "description": "MOXY eslint configuration to be used in Javascript projects targeted for NodeJS",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "keywords": [
     "eslint-config",
     "eslintconfig",
@@ -29,7 +29,7 @@
     "eslint": "^6.0.0"
   },
   "dependencies": {
-    "@moxy/eslint-config-core": "^0.0.1"
+    "@moxy/eslint-config-core": "^1.0.0"
   },
   "engines": {
     "node": ">=10",
