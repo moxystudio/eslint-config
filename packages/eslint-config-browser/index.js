@@ -3,8 +3,8 @@
 module.exports = {
     'extends': [
         '@moxy/eslint-config-core/es10',
-        './addons/browser',
-        './addons/babel-parser',
-        './addons/es-modules',
+        './lib/browser',
+        './lib/babel-parser',
+        './lib/es-modules',
     ].map(require.resolve),
 };

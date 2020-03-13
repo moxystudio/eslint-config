@@ -2,6 +2,6 @@
 
 module.exports = {
     'extends': [
-        './addons/react',
+        './lib/react',
     ].map(require.resolve),
 };

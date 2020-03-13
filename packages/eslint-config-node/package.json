@@ -1,7 +1,7 @@
 {
   "name": "@moxy/eslint-config-node",
   "description": "MOXY eslint configuration to be used in Javascript projects targeted for NodeJS",
-  "version": "10.1.1",
+  "version": "0.0.1",
   "keywords": [
     "eslint-config",
     "eslintconfig",
@@ -23,18 +23,13 @@
   "files": [
     "es*.js",
     "rules",
-    "addons"
+    "lib"
   ],
   "peerDependencies": {
     "eslint": "^6.0.0"
   },
   "dependencies": {
-    "@moxy/eslint-config-core": "^10.1.1"
-  },
-  "devDependencies": {
-    "@moxy/eslint-config-jest": "^10.1.1",
-    "create-react-class": "^15.6.3",
-    "jest": "^24.5.0"
+    "@moxy/eslint-config-core": "^0.0.1"
   },
   "engines": {
     "node": ">=10",

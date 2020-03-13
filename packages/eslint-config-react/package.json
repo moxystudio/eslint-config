@@ -1,7 +1,7 @@
 {
   "name": "@moxy/eslint-config-react",
   "description": "MOXY eslint configuration to be used in React projects",
-  "version": "10.1.1",
+  "version": "0.0.1",
   "keywords": [
     "eslint-config",
     "eslintconfig",
@@ -22,21 +22,19 @@
   "main": "index.js",
   "files": [
     "rules",
-    "addons"
+    "lib"
   ],
   "peerDependencies": {
     "eslint": "^6.0.0"
   },
   "dependencies": {
+    "@moxy/eslint-config-core": "^0.0.1",
     "eslint-plugin-react": "^7.16.0",
     "eslint-plugin-react-hooks": "^2.3.0"
   },
   "devDependencies": {
     "@moxy/babel-preset": "^3.2.4",
-    "@moxy/eslint-config-browser": "^10.1.1",
-    "@moxy/eslint-config-core": "^10.1.1",
-    "@moxy/eslint-config-jest": "^10.1.1",
-    "@moxy/eslint-config-node": "^10.1.1",
+    "@moxy/eslint-config-browser": "^0.0.1",
     "create-react-class": "^15.6.3",
     "prop-types": "^15.6.2",
     "react": "^16.12.0"

@@ -308,7 +308,7 @@ Component.propTypes = {
         render() {
             return (
                 <div>
-                /* Comment */
+                    /* Comment */
                 </div>
             );
         }
@@ -316,7 +316,7 @@ Component.propTypes = {
         renderFoo() {
             return (
                 <div>
-                // Comment
+                    // Comment
                 </div>
             );
         }

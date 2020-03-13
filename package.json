@@ -12,8 +12,11 @@
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
     "@commitlint/config-conventional": "^8.2.0",
-    "@moxy/eslint-config": "^10.1.1",
     "eslint": "^6.8.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-jest": "^23.8.0",
+    "eslint-plugin-jsdoc": "^21.0.0",
+    "eslint-plugin-prefer-import": "0.0.1",
     "glob": "^7.1.6",
     "jest": "^25.1.0",
     "lerna": "^3.20.2",

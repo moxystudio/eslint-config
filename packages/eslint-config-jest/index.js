@@ -2,7 +2,6 @@
 
 module.exports = {
     'extends': [
-        './addons/jest',
+        './lib/jest',
     ].map(require.resolve),
 };
-

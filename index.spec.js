@@ -2,23 +2,29 @@
 
 const path = require('path');
 const eslint = require('eslint');
+const glob = require('glob');
 
-const cli = new eslint.CLIEngine({
-    useEslintrc: true,
-});
+const packagePaths = glob.sync(`${__dirname}/packages/eslint-config-*`);
 
-const report = cli.executeOnFiles([`${__dirname}/packages/eslint-config-*/test/fixtures/**/*.{js,jsx,vue}`]);
-const results = report.results;
+packagePaths.forEach((packagePath) => {
+    const cli = new eslint.CLIEngine({
+        useEslintrc: true,
+        cwd: packagePath,
+    });
 
-results.forEach((object) => {
-    const filePath = object.filePath;
-    const relativeFilePath = path.relative(__dirname, filePath).replace(/\\/g, '/');
+    const report = cli.executeOnFiles(['test/fixtures/**/*.{js,jsx,vue}']);
+    const results = report.results;
 
-    it(`should pass on ${relativeFilePath}`, () => {
-        const result = object.messages
-            .map((message) => ({ rule: message.ruleId, severity: message.severity, line: message.line, column: message.column }))
-            .sort((warn1, warn2) => warn1.line - warn2.line || warn1.column - warn2.column || warn1.rule.localeCompare(warn2.rule));
+    results.forEach((object) => {
+        const filePath = object.filePath;
+        const relativeFilePath = path.relative(__dirname, filePath).replace(/\\/g, '/');
 
-        expect(result).toMatchSnapshot();
+        it(`should pass on ${relativeFilePath}`, () => {
+            const result = object.messages
+                .map((message) => ({ rule: message.ruleId, severity: message.severity, line: message.line, column: message.column }))
+                .sort((warn1, warn2) => warn1.line - warn2.line || warn1.column - warn2.column || warn1.rule.localeCompare(warn2.rule));
+
+            expect(result).toMatchSnapshot();
+        });
     });
 });

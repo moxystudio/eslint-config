@@ -45,16 +45,16 @@ Example:
 }
 ```
 
-This package also currently provides one **common** functionality:
+This package also currently provides one **shared** functionality:
 - _test-patterns_
   
-You can directly access **common** functionality provided by this package.
+You can directly access **shared** functionality provided by this package.
 
 ```json
 {
     "root": true,
     "extends": [
-        "@moxy/eslint-config-core/common/test-patterns",
+        "@moxy/eslint-config-core/lib/test-patterns",
     ]
 }
 ```

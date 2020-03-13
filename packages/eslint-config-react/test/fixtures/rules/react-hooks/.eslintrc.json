@@ -1,8 +1,8 @@
 {
     "root": true,
     "extends": [
-        "@moxy/eslint-config-browser/addons/babel-parser.js",
-        "@moxy/eslint-config-browser/addons/es-modules.js",
+        "@moxy/eslint-config-browser/lib/babel-parser.js",
+        "@moxy/eslint-config-browser/lib/es-modules.js",
         "../../../../index.js"
     ],
     "rules": {

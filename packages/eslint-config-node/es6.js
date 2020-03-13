@@ -3,6 +3,6 @@
 module.exports = {
     'extends': [
         '@moxy/eslint-config-core/es6',
-        './addons/node',
+        './lib/node',
     ].map(require.resolve),
 };

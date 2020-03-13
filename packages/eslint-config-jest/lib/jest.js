@@ -1,7 +1,7 @@
 'use strict';
 
 const jestPlugin = require('eslint-plugin-jest');
-const testFilePatterns = require('@moxy/eslint-config-core/common/test-patterns');
+const testFilePatterns = require('@moxy/eslint-config-core/lib/test-patterns');
 
 module.exports = {
     'env': {
