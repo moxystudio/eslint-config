@@ -6,7 +6,8 @@
   "command": {
     "publish": {
       "conventionalCommits": true,
-      "commitHooks": false
+      "commitHooks": false,
+      "message": "chore(release): %v"
     }
   }
 }
