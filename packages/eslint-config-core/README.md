@@ -11,7 +11,7 @@
 [david-dm-dev-url]:https://david-dm.org/moxystudio/eslint-config?type=dev&path=packages/eslint-config-core
 [david-dm-dev-image]:https://img.shields.io/david/dev/moxystudio/eslint-config.svg?path=packages/eslint-config-core
 
-MOXY [eslint](http://eslint.org/) **core** configuration to be used by _eslint_ **base** configurations.
+MOXY's [ESLint](http://eslint.org/) **core** configuration to be used by **base** configurations.
 
 ❗️ **IMPORTANT**: This package is not meant to be used directly in your projects.
 
@@ -46,6 +46,7 @@ Example:
 ```
 
 This package also currently provides one **shared** functionality:
+
 - _test-patterns_
   
 You can directly access **shared** functionality provided by this package.

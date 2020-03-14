@@ -11,7 +11,7 @@
 [david-dm-dev-url]:https://david-dm.org/moxystudio/eslint-config?type=dev&path=packages/eslint-config-node
 [david-dm-dev-image]:https://img.shields.io/david/dev/moxystudio/eslint-config.svg?path=packages/eslint-config-node
 
-MOXY [eslint](http://eslint.org/) configuration to be used in Javascript projects targeted for [NodeJS](https://nodejs.org).
+MOXY's [ESLint](http://eslint.org/) configuration for Javascript projects that run on [NodeJS](https://nodejs.org).
 
 ## Installation
 

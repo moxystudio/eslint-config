@@ -11,7 +11,7 @@
 [david-dm-dev-url]:https://david-dm.org/moxystudio/eslint-config?type=dev&path=packages/eslint-config-browser
 [david-dm-dev-image]:https://img.shields.io/david/dev/moxystudio/eslint-config.svg?path=packages/eslint-config-browser
 
-MOXY [eslint](http://eslint.org/) configuration to be used for JavaScript projects in the browser.
+MOXY's [ESLint](http://eslint.org/) **base** configuration for JavaScript projects that run in the browser.
 
 ## Installation
 

@@ -1,6 +1,6 @@
 {
   "name": "@moxy/eslint-config-core",
-  "description": "MOXY eslint core configuration to be used by eslint base configurations",
+  "description": "MOXY's eslint core configuration to be used by base configurations",
   "version": "1.0.0",
   "keywords": [
     "eslint-config",

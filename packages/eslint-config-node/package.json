@@ -1,6 +1,6 @@
 {
   "name": "@moxy/eslint-config-node",
-  "description": "MOXY eslint configuration to be used in Javascript projects targeted for NodeJS",
+  "description": "MOXY's ESLint configuration for Javascript projects that run on NodeJS",
   "version": "1.0.0",
   "keywords": [
     "eslint-config",

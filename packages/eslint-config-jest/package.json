@@ -1,6 +1,6 @@
 {
   "name": "@moxy/eslint-config-jest",
-  "description": "MOXY eslint configuration to be used in testing using jest",
+  "description": "MOXY's ESLint configuration enhancer for projects that use Jest for testing",
   "version": "1.0.0",
   "keywords": [
     "eslint-config",
@@ -21,7 +21,6 @@
   "license": "MIT",
   "main": "index.js",
   "files": [
-    "es*.js",
     "rules",
     "lib"
   ],

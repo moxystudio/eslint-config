@@ -1,6 +1,6 @@
 {
   "name": "@moxy/eslint-config-vue",
-  "description": "MOXY eslint configuration to be used in Vue projects",
+  "description": "MOXY's ESLint configuration enhancer for projects that use Vue",
   "version": "1.0.0",
   "keywords": [
     "eslint-config",

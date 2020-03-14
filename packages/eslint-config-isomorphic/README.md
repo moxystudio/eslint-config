@@ -11,7 +11,7 @@
 [david-dm-dev-url]:https://david-dm.org/moxystudio/eslint-config?type=dev&path=packages/eslint-config-isomorphic
 [david-dm-dev-image]:https://img.shields.io/david/dev/moxystudio/eslint-config.svg?path=packages/eslint-config-isomorphic
 
-MOXY [eslint](http://eslint.org/) configuration to be used in isomorphic Javascript projects.
+MOXY's [ESLint](http://eslint.org/) **base** configuration for isomorphic Javascript projects (Node.js and browser).
 
 ## Installation
 

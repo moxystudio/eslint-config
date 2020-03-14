@@ -7,11 +7,11 @@
 [codecov-url]:https://codecov.io/gh/moxystudio/eslint-config
 [codecov-image]:https://img.shields.io/codecov/c/github/moxystudio/eslint-config/master.svg
 
-MOXY's set of [eslint](http://eslint.org/) configuration packages to be used across several JavaScript projects.
+MOXY's set of [ESLint](http://eslint.org/) configuration packages to be used across several JavaScript projects.
 
 ## How it works
 
-These repository contains two sets of _eslint_ configurations to be used in Javascript projects:
+These repository contains two sets of _ESLint_ configurations to be used in Javascript projects:
 
 - the **base** configurations, which contain specific settings for each specific target (browser, node or isomorphic).
 - the **enhancer** configurations, which contain specific settings for different target frameworks (jest, react or vue).
@@ -24,17 +24,17 @@ For more information on how to use each package and their specific configuration
 
 There are three available **base** configuration packages,
 
-- [`@moxy/eslint-config-browser`](packages/eslint-config-browser/) - If you are going to develop code for the browser
-- [`@moxy/eslint-config-node`](packages/eslint-config-node/) - If you are going to develop code for [NodeJS](nodejs.org)
-- [`@moxy/eslint-config-isomorphic`](packages/eslint-config-isomorphic/) - If you are going to develop code that targets both the browser and [NodeJS](nodejs.org)
+- [`@moxy/eslint-config-browser`](packages/eslint-config-browser/) - If you are going to develop code for the browser.
+- [`@moxy/eslint-config-node`](packages/eslint-config-node/) - If you are going to develop code for [NodeJS](nodejs.org).
+- [`@moxy/eslint-config-isomorphic`](packages/eslint-config-isomorphic/) - If you are going to develop code that targets both the browser and [NodeJS](nodejs.org).
 
 ### Enhancer configs
 
 There are three available **enhancer** packages, which are intended to be used in conjunction with a **base** configuration,
 
-- [`@moxy/eslint-config-jest`](packages/eslint-config-jest/) - If you are going to use [Jest](https://facebook.github.io/jest/) to develop tests
-- [`@moxy/eslint-config-react`](packages/eslint-config-react/) - If you are going to use [React](https://reactjs.org/)
-- [`@moxy/eslint-config-vue`](packages/eslint-config-vue/) - If you are going to use [Vue](https://vuejs.org/)
+- [`@moxy/eslint-config-jest`](packages/eslint-config-jest/) - If you are going to use [Jest](https://facebook.github.io/jest/) to develop tests.
+- [`@moxy/eslint-config-react`](packages/eslint-config-react/) - If you are going to use [React](https://reactjs.org/).
+- [`@moxy/eslint-config-vue`](packages/eslint-config-vue/) - If you are going to use [Vue](https://vuejs.org/).
 
 ## Older versions
 

@@ -11,7 +11,7 @@
 [david-dm-dev-url]:https://david-dm.org/moxystudio/eslint-config?type=dev&path=packages/eslint-config-react
 [david-dm-dev-image]:https://img.shields.io/david/dev/moxystudio/eslint-config.svg?path=packages/eslint-config-react
 
-MOXY [eslint](http://eslint.org/) configuration to be used in [React](https://reactjs.org) projects.
+MOXY's [ESLint](http://eslint.org/) configuration **enhancer** for projects that use [React](https://reactjs.org).
 
 ## Installation
 
