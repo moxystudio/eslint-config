@@ -1,0 +1,47 @@
+{
+  "name": "@moxy/eslint-config-react-a11y",
+  "description": "MOXY's ESLint accessibility rules for web projects that use React",
+  "version": "1.0.0",
+  "keywords": [
+    "eslint-config",
+    "eslintconfig",
+    "eslint",
+    "lint",
+    "linter",
+    "style",
+    "react-lint",
+    "react-eslint",
+    "accessibility",
+    "a11y"
+  ],
+  "author": "André Cruz <andre@moxy.studio>",
+  "homepage": "https://github.com/moxystudio/eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:moxystudio/eslint-config.git"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "rules",
+    "lib"
+  ],
+  "peerDependencies": {
+    "eslint": "^6.0.0"
+  },
+  "dependencies": {
+    "eslint-plugin-jsx-a11y": "^6.2.3"
+  },
+  "devDependencies": {
+    "@moxy/babel-preset": "^3.2.4",
+    "@moxy/eslint-config-browser": "^1.0.0",
+    "react": "^16.12.0"
+  },
+  "engines": {
+    "node": ">=10",
+    "npm": ">=3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

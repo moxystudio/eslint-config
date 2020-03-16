@@ -2043,6 +2043,287 @@ exports[`should pass on packages/eslint-config-react/test/fixtures/samples/react
 
 exports[`should pass on packages/eslint-config-react/test/fixtures/samples/react/contrived-old-es8.good.js 1`] = `Array []`;
 
+exports[`should pass on packages/eslint-config-react-a11y/test/fixtures/rules/jsx-a11y/jsx-a11y.js 1`] = `
+Array [
+  Object {
+    "column": 23,
+    "line": 6,
+    "rule": "jsx-a11y/accessible-emoji",
+    "severity": 1,
+  },
+  Object {
+    "column": 23,
+    "line": 15,
+    "rule": "jsx-a11y/alt-text",
+    "severity": 1,
+  },
+  Object {
+    "column": 24,
+    "line": 24,
+    "rule": "jsx-a11y/anchor-has-content",
+    "severity": 1,
+  },
+  Object {
+    "column": 24,
+    "line": 25,
+    "rule": "jsx-a11y/anchor-has-content",
+    "severity": 1,
+  },
+  Object {
+    "column": 24,
+    "line": 35,
+    "rule": "jsx-a11y/anchor-is-valid",
+    "severity": 1,
+  },
+  Object {
+    "column": 24,
+    "line": 36,
+    "rule": "jsx-a11y/anchor-is-valid",
+    "severity": 1,
+  },
+  Object {
+    "column": 24,
+    "line": 37,
+    "rule": "jsx-a11y/anchor-is-valid",
+    "severity": 1,
+  },
+  Object {
+    "column": 24,
+    "line": 37,
+    "rule": "jsx-a11y/click-events-have-key-events",
+    "severity": 1,
+  },
+  Object {
+    "column": 24,
+    "line": 37,
+    "rule": "jsx-a11y/no-static-element-interactions",
+    "severity": 1,
+  },
+  Object {
+    "column": 23,
+    "line": 47,
+    "rule": "jsx-a11y/aria-activedescendant-has-tabindex",
+    "severity": 1,
+  },
+  Object {
+    "column": 31,
+    "line": 56,
+    "rule": "jsx-a11y/aria-props",
+    "severity": 2,
+  },
+  Object {
+    "column": 31,
+    "line": 57,
+    "rule": "jsx-a11y/aria-props",
+    "severity": 2,
+  },
+  Object {
+    "column": 31,
+    "line": 67,
+    "rule": "jsx-a11y/aria-proptypes",
+    "severity": 2,
+  },
+  Object {
+    "column": 31,
+    "line": 68,
+    "rule": "jsx-a11y/aria-proptypes",
+    "severity": 2,
+  },
+  Object {
+    "column": 31,
+    "line": 78,
+    "rule": "jsx-a11y/aria-role",
+    "severity": 2,
+  },
+  Object {
+    "column": 31,
+    "line": 79,
+    "rule": "jsx-a11y/aria-role",
+    "severity": 2,
+  },
+  Object {
+    "column": 31,
+    "line": 80,
+    "rule": "jsx-a11y/aria-role",
+    "severity": 2,
+  },
+  Object {
+    "column": 23,
+    "line": 89,
+    "rule": "jsx-a11y/aria-unsupported-elements",
+    "severity": 1,
+  },
+  Object {
+    "column": 23,
+    "line": 98,
+    "rule": "jsx-a11y/click-events-have-key-events",
+    "severity": 1,
+  },
+  Object {
+    "column": 23,
+    "line": 98,
+    "rule": "jsx-a11y/no-static-element-interactions",
+    "severity": 1,
+  },
+  Object {
+    "column": 24,
+    "line": 107,
+    "rule": "jsx-a11y/heading-has-content",
+    "severity": 1,
+  },
+  Object {
+    "column": 24,
+    "line": 108,
+    "rule": "jsx-a11y/heading-has-content",
+    "severity": 1,
+  },
+  Object {
+    "column": 24,
+    "line": 117,
+    "rule": "jsx-a11y/html-has-lang",
+    "severity": 1,
+  },
+  Object {
+    "column": 23,
+    "line": 126,
+    "rule": "jsx-a11y/iframe-has-title",
+    "severity": 1,
+  },
+  Object {
+    "column": 23,
+    "line": 135,
+    "rule": "jsx-a11y/img-redundant-alt",
+    "severity": 1,
+  },
+  Object {
+    "column": 23,
+    "line": 144,
+    "rule": "jsx-a11y/interactive-supports-focus",
+    "severity": 1,
+  },
+  Object {
+    "column": 13,
+    "line": 156,
+    "rule": "jsx-a11y/label-has-associated-control",
+    "severity": 1,
+  },
+  Object {
+    "column": 13,
+    "line": 163,
+    "rule": "jsx-a11y/label-has-associated-control",
+    "severity": 1,
+  },
+  Object {
+    "column": 29,
+    "line": 188,
+    "rule": "jsx-a11y/lang",
+    "severity": 2,
+  },
+  Object {
+    "column": 23,
+    "line": 208,
+    "rule": "jsx-a11y/mouse-events-have-key-events",
+    "severity": 1,
+  },
+  Object {
+    "column": 23,
+    "line": 218,
+    "rule": "jsx-a11y/no-access-key",
+    "severity": 1,
+  },
+  Object {
+    "column": 40,
+    "line": 218,
+    "rule": "no-undef",
+    "severity": 2,
+  },
+  Object {
+    "column": 28,
+    "line": 227,
+    "rule": "jsx-a11y/no-autofocus",
+    "severity": 1,
+  },
+  Object {
+    "column": 24,
+    "line": 236,
+    "rule": "jsx-a11y/no-distracting-elements",
+    "severity": 1,
+  },
+  Object {
+    "column": 24,
+    "line": 237,
+    "rule": "jsx-a11y/no-distracting-elements",
+    "severity": 1,
+  },
+  Object {
+    "column": 30,
+    "line": 246,
+    "rule": "jsx-a11y/no-interactive-element-to-noninteractive-role",
+    "severity": 1,
+  },
+  Object {
+    "column": 23,
+    "line": 255,
+    "rule": "jsx-a11y/no-noninteractive-element-interactions",
+    "severity": 1,
+  },
+  Object {
+    "column": 81,
+    "line": 264,
+    "rule": "jsx-a11y/no-noninteractive-element-to-interactive-role",
+    "severity": 1,
+  },
+  Object {
+    "column": 28,
+    "line": 273,
+    "rule": "jsx-a11y/no-noninteractive-tabindex",
+    "severity": 1,
+  },
+  Object {
+    "column": 23,
+    "line": 282,
+    "rule": "jsx-a11y/no-onchange",
+    "severity": 1,
+  },
+  Object {
+    "column": 23,
+    "line": 292,
+    "rule": "jsx-a11y/no-redundant-roles",
+    "severity": 1,
+  },
+  Object {
+    "column": 23,
+    "line": 305,
+    "rule": "jsx-a11y/no-static-element-interactions",
+    "severity": 1,
+  },
+  Object {
+    "column": 29,
+    "line": 316,
+    "rule": "jsx-a11y/role-has-required-aria-props",
+    "severity": 1,
+  },
+  Object {
+    "column": 23,
+    "line": 326,
+    "rule": "jsx-a11y/role-supports-aria-props",
+    "severity": 2,
+  },
+  Object {
+    "column": 28,
+    "line": 335,
+    "rule": "jsx-a11y/scope",
+    "severity": 1,
+  },
+  Object {
+    "column": 49,
+    "line": 344,
+    "rule": "jsx-a11y/tabindex-no-positive",
+    "severity": 1,
+  },
+]
+`;
+
 exports[`should pass on packages/eslint-config-vue/test/fixtures/rules/Vue.vue 1`] = `
 Array [
   Object {

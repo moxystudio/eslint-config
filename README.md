@@ -34,6 +34,7 @@ There are three available **enhancer** packages, which are intended to be used i
 
 - [`@moxy/eslint-config-jest`](packages/eslint-config-jest/) - If you are going to use [Jest](https://facebook.github.io/jest/) to develop tests.
 - [`@moxy/eslint-config-react`](packages/eslint-config-react/) - If you are going to use [React](https://reactjs.org/).
+- [`@moxy/eslint-config-react-a11y`](packages/eslint-config-react-a11y/) - If you are want to enforce accessibility rules in [React](https://reactjs.org/). Should only be used with [React](https://reactjs.org/) and [`@moxy/eslint-config-browser`](packages/eslint-config-browser/) or [`@moxy/eslint-config-isomorphic`](packages/eslint-config-isomorphic/).
 - [`@moxy/eslint-config-vue`](packages/eslint-config-vue/) - If you are going to use [Vue](https://vuejs.org/).
 
 ## Older versions
