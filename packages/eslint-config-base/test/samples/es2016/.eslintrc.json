@@ -1,0 +1,9 @@
+{
+    "root": true,
+    "extends": [
+        "../../../es2016"
+    ],
+    "rules": {
+        "no-implicit-globals": "off"
+    }
+}

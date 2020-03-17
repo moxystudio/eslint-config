@@ -1,16 +1,27 @@
 {
     "root": true,
-    "extends": [
-        "./packages/eslint-config-node/es6"
-    ],
-    "rules": {
-        "quote-props": [2, "always"]
+    "env": {
+        "node": true
     },
-    "overrides": [{
-        "files": "./index.spec.js",
-        "extends": [
-            "./packages/eslint-config-node/es6",
-            "./packages/eslint-config-jest"
-        ]
-    }]
+    "extends": [
+        "./packages/eslint-config-base/cjs/es2015"
+    ],
+    "overrides": [
+        {
+            "files": "**/*.js",
+            "excludedFiles": [
+                "./index.spec.js",
+                "./*.config.js"
+            ],
+            "rules": {
+                "quote-props": [2, "always"]
+            }
+        },
+        {
+            "files": "./index.spec.js",
+            "extends": [
+                "./packages/eslint-config-jest"
+            ]
+        }
+    ]
 }

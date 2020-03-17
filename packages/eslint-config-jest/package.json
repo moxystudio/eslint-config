@@ -19,21 +19,18 @@
     "url": "git@github.com:moxystudio/eslint-config.git"
   },
   "license": "MIT",
-  "main": "index.js",
+  "main": "lib/index.js",
   "files": [
-    "rules",
     "lib"
   ],
-  "peerDependencies": {
-    "eslint": "^6.0.0"
-  },
   "dependencies": {
-    "@moxy/eslint-config-core": "^1.0.0",
     "eslint-plugin-jest": "^23.0.4"
   },
+  "peerDependencies": {
+    "@moxy/eslint-config-base": "^0.0.0"
+  },
   "devDependencies": {
-    "@moxy/eslint-config-browser": "^1.0.0",
-    "@moxy/eslint-config-node": "^1.0.0"
+    "@moxy/eslint-config-base": "^0.0.0"
   },
   "engines": {
     "node": ">=10",

@@ -1,0 +1,44 @@
+{
+  "name": "@moxy/eslint-config-babel",
+  "description": "MOXY's ESLint configuration enhancer for projects that use Babel",
+  "version": "0.0.0",
+  "keywords": [
+    "eslint-config",
+    "eslintconfig",
+    "eslint",
+    "lint",
+    "linter",
+    "style",
+    "babel",
+    "babel-eslint"
+  ],
+  "author": "André Cruz <andre@moxy.studio>",
+  "homepage": "https://github.com/moxystudio/eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:moxystudio/eslint-config.git"
+  },
+  "license": "MIT",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "eslint-plugin-babel": "^5.3.0",
+    "babel-eslint": "^10.1.0"
+  },
+  "peerDependencies": {
+    "@moxy/eslint-config-base": "^0.0.0"
+  },
+  "devDependencies": {
+    "@moxy/babel-preset": "^3.2.4",
+    "@moxy/eslint-config-base": "^0.0.0"
+  },
+  "engines": {
+    "node": ">=10",
+    "npm": ">=3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

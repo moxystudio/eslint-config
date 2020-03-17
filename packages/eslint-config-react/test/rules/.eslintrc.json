@@ -1,0 +1,20 @@
+{
+    "root": true,
+    "env": {
+        "browser": true
+    },
+    "extends": [
+        "@moxy/eslint-config-base/esm",
+        "@moxy/eslint-config-babel",
+        "../.."
+    ],
+    "overrides": [
+        {
+            "files": "./**/*.js",
+            "excludedFiles": "./react-no-unused.js",
+            "rules": {
+                "no-unused-vars": 0
+            }
+        }
+    ]
+}
