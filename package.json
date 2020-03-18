@@ -20,11 +20,5 @@
   },
   "lint-staged": {
     "*.js": "eslint --ignore-pattern **/test"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
   }
 }
