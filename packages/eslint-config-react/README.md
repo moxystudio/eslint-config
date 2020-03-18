@@ -31,7 +31,7 @@ This package should be used in conjunction with [`@moxy/eslint-config-base`](../
 {
     "root": true,
     "extends": [
-        "`@moxy/eslint-config-base/esm",
+        "@moxy/eslint-config-base/esm",
         "@moxy/eslint-config-react"
     ]
 }
