@@ -18,7 +18,7 @@ These repository contains two sets of _ESLint_ configurations to be used in Java
 
 By using one or more of these packages, you can enforce the desired code styles for each type of project.
 
-For more information on how to use each package and their specific configurations, please read the package's README by following the links below.
+For more information on how to use each package and their specific configurations, please read the package's README by following the links below. You may also check the examples listed in [Typical Configs](#typical-configs) to see how the packages may be combined for the most common scenarios.
 
 ### Base config
 
