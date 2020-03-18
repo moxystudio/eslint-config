@@ -3,18 +3,18 @@
 'use strict';
 
 module.exports = {
-    'rules': {
+    rules: {
         // Enforce consistent spacing inside array brackets
         'array-bracket-spacing': ['error', 'never'],
         // Enforce consistent spacing inside single-line blocks
         'block-spacing': 'error',
         // Enforce consistent brace style for blocks
-        'brace-style': ['error', '1tbs', { 'allowSingleLine': true }],
+        'brace-style': ['error', '1tbs', { allowSingleLine: true }],
         // Enforce camelcase naming convention
-        'camelcase': 'error',
+        camelcase: 'error',
         // Enforce or disallow capitalization of the first letter of a comment
         'capitalized-comments': ['error', 'always', {
-            'ignorePattern': [
+            ignorePattern: [
                 // Ignore comments that have possible code samples as the first word (camelCase, some-prop, fn(), etc.)
                 '[a-z0-9]+[A-Z_\\-.()\'"`]',
                 // Ignore `falls through` because of switch statements
@@ -50,12 +50,12 @@ module.exports = {
                 'while',
                 'yield',
             ].join('|'),
-            'ignoreConsecutiveComments': true,
+            ignoreConsecutiveComments: true,
         }],
         // Require or disallow trailing commas
         'comma-dangle': ['error', 'always-multiline'],
         // Enforce consistent spacing before and after commas
-        'comma-spacing': ['error', { 'before': false, 'after': true }],
+        'comma-spacing': ['error', { before: false, after: true }],
         // Enforce consistent comma style
         'comma-style': ['error', 'last'],
         // Enforce consistent spacing inside computed property brackets
@@ -67,36 +67,36 @@ module.exports = {
         // Require or disallow spacing between function identifiers and their invocations
         'func-call-spacing': ['error', 'never'],
         // Enforce the consistent use of either function declarations or expressions
-        'func-style': ['error', 'declaration', { 'allowArrowFunctions': true }],
+        'func-style': ['error', 'declaration', { allowArrowFunctions: true }],
         // Enforce consistent indentation
-        'indent': ['error', 4, {
-            'ignoredNodes': ['TemplateLiteral > *'],
+        indent: ['error', 4, {
+            ignoredNodes: ['TemplateLiteral > *'],
         }],
         // Enforce the consistent use of either double or single quotes in JSX attributes
         'jsx-quotes': ['error', 'prefer-double'],
         // Enforce consistent spacing between keys and values in object literal properties
-        'key-spacing': ['error', { 'beforeColon': false, 'afterColon': true }],
+        'key-spacing': ['error', { beforeColon: false, afterColon: true }],
         // Enforce consistent spacing before and after keywords
         'keyword-spacing': 'error',
         // Enforce consistent linebreak style
         'linebreak-style': ['error', 'unix'],
         // Require or disallow newlines around directives
         'lines-around-directive': ['error', {
-            'before': 'always', // Enable because if there's a comment at the top of the file, it needs a blank line before the 'use strict'
-            'after': 'always',
+            before: 'always', // Enable because if there's a comment at the top of the file, it needs a blank line before the 'use strict'
+            after: 'always',
         }],
         // Enforce a maximum depth that blocks can be nested
         'max-depth': ['warn', 6],
         // Enforce a maximum line length
         'max-len': ['warn', {
-            'code': 140,
-            'tabWidth': 4,
-            'ignoreTrailingComments': true,
-            'ignoreUrls': true,
-            'ignoreTemplateLiterals': true,
+            code: 140,
+            tabWidth: 4,
+            ignoreTrailingComments: true,
+            ignoreUrls: true,
+            ignoreTemplateLiterals: true,
         }],
         // Enforce a maximum number of lines per file
-        'max-lines': ['warn', { 'max': 1000, 'skipComments': true, 'skipBlankLines': false }],
+        'max-lines': ['warn', { max: 1000, skipComments: true, skipBlankLines: false }],
         // Enforce a maximum depth that callbacks can be nested
         'max-nested-callbacks': ['warn', 6],
         // Enforce a maximum number of parameters in function definitions
@@ -104,7 +104,7 @@ module.exports = {
         // Enforce a maximum number of statements allowed in function blocks
         'max-statements': ['warn', 140],
         // Enforce a maximum number of statements allowed per line
-        'max-statements-per-line': ['error', { 'max': 2 }],
+        'max-statements-per-line': ['error', { max: 2 }],
         // Require constructor names to begin with a capital letter
         'new-cap': 'error',
         // Require parentheses when invoking a constructor with no arguments
@@ -120,7 +120,7 @@ module.exports = {
         // Disallow mixed spaces and tabs for indentation
         'no-mixed-spaces-and-tabs': 'error',
         // Disallow multiple empty lines
-        'no-multiple-empty-lines': ['error', { 'max': 1, 'maxBOF': 0 }],
+        'no-multiple-empty-lines': ['error', { max: 1, maxBOF: 0 }],
         // Disallow nested ternary expressions
         'no-nested-ternary': 'error',
         // Disallow Object constructors
@@ -138,7 +138,7 @@ module.exports = {
         // Enforce consistent spacing inside braces
         'object-curly-spacing': ['error', 'always'],
         // Enforce placing object properties on separate lines
-        'object-property-newline': ['error', { 'allowMultiplePropertiesPerLine': true }],
+        'object-property-newline': ['error', { allowMultiplePropertiesPerLine: true }],
         // Enforce variables to be declared either together or separately in functions
         'one-var': ['error', 'never'],
         // Require or disallow newlines around variable declarations
@@ -150,9 +150,9 @@ module.exports = {
         // Require newlines in certain situations
         'padding-line-between-statements': [
             2,
-            { 'blankLine': 'always', 'prev': '*', 'next': 'return' },
-            { 'blankLine': 'always', 'prev': ['let', 'const'], 'next': '*' },
-            { 'blankLine': 'any', 'prev': ['let', 'const'], 'next': ['let', 'const'] },
+            { blankLine: 'always', prev: '*', next: 'return' },
+            { blankLine: 'always', prev: ['let', 'const'], next: '*' },
+            { blankLine: 'any', prev: ['let', 'const'], next: ['let', 'const'] },
         ],
         // Disallow using Object.assign with an object literal as the first argument and prefer the use of object spread instead
         // comment: can't use this rule as it errors in ES2015; instead, we are enabling it in `es2016`
@@ -163,17 +163,17 @@ module.exports = {
         // Require quotes around object literal property names
         'quote-props': ['error', 'as-needed'],
         // Enforce the consistent use of either backticks, double, or single quotes
-        'quotes': ['error', 'single', 'avoid-escape'],
+        quotes: ['error', 'single', 'avoid-escape'],
         // Require or disallow semicolons instead of ASI
-        'semi': ['error', 'always'],
+        semi: ['error', 'always'],
         // Enforce consistent spacing before and after semicolons
-        'semi-spacing': ['error', { 'before': false, 'after': true }],
+        'semi-spacing': ['error', { before: false, after: true }],
         // Enforce location of semicolons
         'semi-style': ['error', 'last'],
         // Enforce consistent spacing before blocks
         'space-before-blocks': 'error',
         // Enforce consistent spacing before function definition opening parenthesis
-        'space-before-function-paren': ['error', { 'anonymous': 'always', 'named': 'never' }],
+        'space-before-function-paren': ['error', { anonymous: 'always', named: 'never' }],
         // Enforce consistent spacing inside parentheses
         'space-in-parens': ['error', 'never'],
         // Require spacing around infix operators
@@ -182,8 +182,8 @@ module.exports = {
         'space-unary-ops': 'error',
         // Enforce consistent spacing after the // or /* in a comment
         'spaced-comment': ['error', 'always', {
-            'exceptions': ['-', '+'],
-            'markers': ['=', '!'], // Space here to support sprockets directives
+            exceptions: ['-', '+'],
+            markers: ['=', '!'], // Space here to support sprockets directives
         }],
         // Enforce spacing around colons of switch statements
         'switch-colon-spacing': 'error',

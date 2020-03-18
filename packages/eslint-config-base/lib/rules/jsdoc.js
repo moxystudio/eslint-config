@@ -3,7 +3,7 @@
 'use strict';
 
 module.exports = {
-    'rules': {
+    rules: {
         // Ensures that parameter names in JSDoc match those in the function declaration
         'jsdoc/check-param-names': 'error',
         // Reports invalid block tag names

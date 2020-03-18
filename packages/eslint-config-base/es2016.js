@@ -1,13 +1,13 @@
 'use strict';
 
 module.exports = {
-    'extends': [
+    extends: [
         './es2015',
     ].map(require.resolve),
-    'parserOptions': {
-        'ecmaVersion': 2016,
+    parserOptions: {
+        ecmaVersion: 2016,
     },
-    'rules': {
+    rules: {
         // Disallow certain properties on certain objects
         'prefer-exponentiation-operator': 'error',
     },

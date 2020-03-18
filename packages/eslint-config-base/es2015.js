@@ -1,11 +1,11 @@
 'use strict';
 
 module.exports = {
-    'plugins': [
+    plugins: [
         'import',
         'jsdoc',
     ],
-    'extends': [
+    extends: [
         './lib/rules/best-practices',
         './lib/rules/errors',
         './lib/rules/es6',
@@ -15,19 +15,19 @@ module.exports = {
         './lib/rules/style',
         './lib/rules/variables',
     ].map(require.resolve),
-    'env': {
-        'es6': true,
+    env: {
+        es6: true,
     },
-    'parserOptions': {
-        'ecmaVersion': 2015,
+    parserOptions: {
+        ecmaVersion: 2015,
     },
-    'overrides': [
+    overrides: [
         {
-            'files': './*.config.js',
-            'env': {
-                'node': true,
+            files: './*.config.js',
+            env: {
+                node: true,
             },
-            'extends': [
+            extends: [
                 './lib/rules/cjs-modules',
             ],
         },

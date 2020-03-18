@@ -3,17 +3,17 @@
 'use strict';
 
 module.exports = {
-    'rules': {
+    rules: {
         // Require braces around arrow function bodies
         'arrow-body-style': ['error', 'as-needed'],
         // Require parentheses around arrow function arguments
         'arrow-parens': ['error', 'always'],
         // Enforce consistent spacing before and after the arrow in arrow functions
-        'arrow-spacing': ['error', { 'before': true, 'after': true }],
+        'arrow-spacing': ['error', { before: true, after: true }],
         // Require super() calls in constructors
         'constructor-super': 'error',
         // Enforce consistent spacing around * operators in generator functions
-        'generator-star-spacing': ['error', { 'before': false, 'after': true }],
+        'generator-star-spacing': ['error', { before: false, after: true }],
         // Disallow reassigning class members
         'no-class-assign': 'error',
         // Disallow reassigning const variables
@@ -55,6 +55,6 @@ module.exports = {
         // Require or disallow spacing around embedded expressions of template strings
         'template-curly-spacing': ['error', 'never'],
         // Require or disallow spacing around the * in yield* expressions
-        'yield-star-spacing': ['error', { 'before': false, 'after': true }],
+        'yield-star-spacing': ['error', { before: false, after: true }],
     },
 };

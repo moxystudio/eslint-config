@@ -3,19 +3,19 @@
 'use strict';
 
 module.exports = {
-    'rules': {
+    rules: {
         // Enforce return statements in callbacks of array methods
         'array-callback-return': 'error',
         // Enforce consistent brace style for all control statements
-        'curly': 'error',
+        curly: 'error',
         // Require default cases in switch statements
         'default-case': 'error',
         // Enforce dot notation whenever possible
         'dot-location': ['error', 'property'],
         // Encourages use of dot notation whenever possible
-        'dot-notation': ['error', { 'allowKeywords': true }],
+        'dot-notation': ['error', { allowKeywords: true }],
         // Require the use of === and !==
-        'eqeqeq': ['error', 'allow-null'],
+        eqeqeq: ['error', 'allow-null'],
         // Disallow the use of arguments.caller or arguments.callee
         'no-caller': 'error',
         // Disallow lexical declarations in case clauses
@@ -38,7 +38,7 @@ module.exports = {
         // Disallow assignments to native objects or read-only global variables
         'no-global-assign': 'error',
         // Disallow variable and function declarations in the global scope
-        'no-implicit-globals': ['error', { 'lexicalBindings': true }],
+        'no-implicit-globals': ['error', { lexicalBindings: true }],
         // Disallow the use of eval()-like methods
         'no-implied-eval': 'error',
         // Disallow this keywords outside of classes or class-like objects
@@ -64,12 +64,12 @@ module.exports = {
         // Disallow certain properties on certain objects
         'no-restricted-properties': ['error',
             {
-                'property': '__defineGetter__',
-                'message': 'Please use Object.defineProperty instead.',
+                property: '__defineGetter__',
+                message: 'Please use Object.defineProperty instead.',
             },
             {
-                'property': '__defineSetter__',
-                'message': 'Please use Object.defineProperty instead.',
+                property: '__defineSetter__',
+                message: 'Please use Object.defineProperty instead.',
             },
         ],
         // Disallow the use of `alert`, `confirm`, and `prompt`
@@ -91,7 +91,7 @@ module.exports = {
         // Disallow unmodified loop conditions
         'no-unmodified-loop-condition': 'error',
         // Disallow unused expressions
-        'no-unused-expressions': ['error', { 'allowShortCircuit': true }],
+        'no-unused-expressions': ['error', { allowShortCircuit: true }],
         // Disallow unnecessary calls to .call() and .apply()
         'no-useless-call': 'error',
         // Disallow unnecessary `catch` clauses
@@ -109,10 +109,10 @@ module.exports = {
         // Require using Error objects as Promise rejection reasons
         'prefer-promise-reject-errors': 'error',
         // Enforce the consistent use of the radix argument when using parseInt()
-        'radix': 'error',
+        radix: 'error',
         // Require parentheses around immediate function invocations
         'wrap-iife': ['error', 'inside'],
         // Require or disallow Yoda conditions
-        'yoda': 'error',
+        yoda: 'error',
     },
 };

@@ -1,11 +1,11 @@
 'use strict';
 
 module.exports = {
-    'extends': [
+    extends: [
         'plugin:vue/essential',
         require.resolve('@vue/eslint-config-prettier'),
     ],
-    'plugins': [
+    plugins: [
         'vue',
     ],
 };

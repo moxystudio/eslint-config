@@ -23,7 +23,7 @@ const rules = Object.keys(babelRules).reduce((rules, name) => {
 }, {});
 
 module.exports = {
-    'parser': require.resolve('babel-eslint'),
-    'plugins': ['babel'],
+    parser: require.resolve('babel-eslint'),
+    plugins: ['babel'],
     rules,
 };

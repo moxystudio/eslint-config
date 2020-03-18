@@ -3,8 +3,8 @@
 'use strict';
 
 module.exports = {
-    'rules': {
+    rules: {
         // Require or disallow strict mode directives
-        'strict': ['error', 'global'],
+        strict: ['error', 'global'],
     },
 };

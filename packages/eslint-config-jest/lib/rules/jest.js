@@ -3,7 +3,7 @@
 'use strict';
 
 module.exports = {
-    'rules': {
+    rules: {
         // Disallow disabled Tests
         'jest/no-disabled-tests': 'warn',
         // No focused tests

@@ -3,7 +3,7 @@
 'use strict';
 
 module.exports = {
-    'rules': {
+    rules: {
         // Enforces error handling in callbacks
         'handle-callback-err': 'warn',
         // Disallow new operators with calls to require

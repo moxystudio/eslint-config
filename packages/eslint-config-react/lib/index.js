@@ -3,29 +3,29 @@
 const testFilePatterns = require('@moxy/eslint-config-base/lib/test-patterns');
 
 module.exports = {
-    'extends': [
+    extends: [
         './rules/react',
         './rules/react-hooks',
     ].map(require.resolve),
-    'plugins': [
+    plugins: [
         'react',
         'react-hooks',
     ],
-    'parserOptions': {
-        'ecmaFeatures': {
-            'jsx': true,
+    parserOptions: {
+        ecmaFeatures: {
+            jsx: true,
         },
     },
-    'settings': {
-        'react': {
-            'version': 'detect', // React version, "detect" automatically picks the version you have installed
+    settings: {
+        react: {
+            version: 'detect', // React version, "detect" automatically picks the version you have installed
         },
     },
-    'overrides': [
+    overrides: [
         {
-            'files': testFilePatterns,
+            files: testFilePatterns,
             // Disable rules that are cumbersome in tests
-            'rules': {
+            rules: {
                 'react/jsx-no-bind': 0,
                 'react/prop-types': 0,
             },

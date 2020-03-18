@@ -1,13 +1,13 @@
 'use strict';
 
 module.exports = {
-    'extends': [
+    extends: [
         './es2019',
     ].map(require.resolve),
-    'env': {
-        'es2020': true,
+    env: {
+        es2020: true,
     },
-    'parserOptions': {
-        'ecmaVersion': 2020,
+    parserOptions: {
+        ecmaVersion: 2020,
     },
 };

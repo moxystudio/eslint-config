@@ -8,16 +8,6 @@
     ],
     "overrides": [
         {
-            "files": "**/*.js",
-            "excludedFiles": [
-                "./index.spec.js",
-                "./*.config.js"
-            ],
-            "rules": {
-                "quote-props": [2, "always"]
-            }
-        },
-        {
             "files": "./index.spec.js",
             "extends": [
                 "./packages/eslint-config-jest"

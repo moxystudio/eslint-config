@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-    'extends': [
+    extends: [
         '../es2019',
         '../lib/rules/es-modules',
     ].map(require.resolve),

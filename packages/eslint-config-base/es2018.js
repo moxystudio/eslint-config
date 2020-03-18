@@ -1,13 +1,13 @@
 'use strict';
 
 module.exports = {
-    'extends': [
+    extends: [
         './es2017',
     ].map(require.resolve),
-    'parserOptions': {
-        'ecmaVersion': 2018,
+    parserOptions: {
+        ecmaVersion: 2018,
     },
-    'rules': {
+    rules: {
         // Require object spread properties to be used instead of Object.assign()
         'prefer-object-spread': 'error',
     },

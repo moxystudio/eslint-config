@@ -3,7 +3,7 @@
 'use strict';
 
 module.exports = {
-    'rules': {
+    rules: {
         // Enforce all defaultProps have a corresponding non-required PropType
         'react/default-props-match-prop-types': 'error',
         // Forbid foreign propTypes
@@ -17,13 +17,13 @@ module.exports = {
         // Enforce or disallow spaces around equal signs in JSX attributes
         'react/jsx-equals-spacing': ['error', 'never'],
         // Restrict file extensions that may contain JSX
-        'react/jsx-filename-extension': ['error', { 'extensions': ['.js'] }],
+        'react/jsx-filename-extension': ['error', { extensions: ['.js'] }],
         // Enforce shorthand or standard form for React fragments
         'react/jsx-fragments': ['warn', 'syntax'],
         // Enforce event handler naming conventions in JSX
         'react/jsx-handler-names': ['error', {
-            'eventHandlerPrefix': 'handle',
-            'eventHandlerPropPrefix': 'on',
+            eventHandlerPrefix: 'handle',
+            eventHandlerPropPrefix: 'on',
         }],
         // Validate props indentation in JSX
         'react/jsx-indent-props': ['error', 4],
@@ -45,10 +45,10 @@ module.exports = {
         'react/jsx-pascal-case': 'error',
         // Enforce or forbid spaces before the closing bracket of self-closing JSX elements
         'react/jsx-tag-spacing': ['error', {
-            'closingSlash': 'never',
-            'beforeClosing': 'never',
-            'beforeSelfClosing': 'always',
-            'afterOpening': 'never',
+            closingSlash: 'never',
+            beforeClosing: 'never',
+            beforeSelfClosing: 'always',
+            afterOpening: 'never',
         }],
         // Prevent React to be incorrectly marked as unused
         'react/jsx-uses-react': 'error',
@@ -56,9 +56,9 @@ module.exports = {
         'react/jsx-uses-vars': 'error',
         // Prevent missing parentheses around multilines JSX
         'react/jsx-wrap-multilines': ['error', {
-            'declaration': true,
-            'assignment': true,
-            'return': true,
+            declaration: true,
+            assignment: true,
+            return: true,
         }],
         // Prevent passing of children as props
         'react/no-children-prop': 'error',
@@ -90,7 +90,7 @@ module.exports = {
         'react/self-closing-comp': 'error',
         // Enforce component methods order
         'react/sort-comp': ['error', {
-            'order': [
+            order: [
                 'static-variables',
                 'static-methods',
                 'static-lifecycle',
@@ -101,7 +101,7 @@ module.exports = {
                 'everything-else',
                 '/^handle.+$/',
             ],
-            'groups': {
+            groups: {
                 'static-lifecycle': [
                     'displayName',
                     'propTypes',
@@ -110,7 +110,7 @@ module.exports = {
                     'defaultProps',
                     'getDerivedStateFromProps',
                 ],
-                'lifecycle': [
+                lifecycle: [
                     'mixins',
                     'statics',
                     'constructor',

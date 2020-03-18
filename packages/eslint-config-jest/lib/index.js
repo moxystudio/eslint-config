@@ -3,19 +3,19 @@
 const testFilePatterns = require('@moxy/eslint-config-base/lib/test-patterns');
 
 module.exports = {
-    'overrides': [
+    overrides: [
         {
-            'files': testFilePatterns,
-            'plugins': [
+            files: testFilePatterns,
+            plugins: [
                 'jest',
             ],
-            'env': {
+            env: {
                 'jest/globals': true,
             },
-            'extends': [
+            extends: [
                 './rules/jest',
             ].map(require.resolve),
-            'rules': {
+            rules: {
                 // Allow `require` as it's needed for when we are using `jest.doMock` and friends
                 'import/no-commonjs': 0,
             },
