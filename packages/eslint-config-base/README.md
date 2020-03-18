@@ -23,9 +23,9 @@ $ npm install --save-dev eslint @moxy/eslint-config-base
 
 Create a `.eslintrc.json` file in the project root and extend from one of these base configurations:
 
-- `@moxy/eslint-config-base` - Latest ECMAScript version without modules, currently an alias to `@moxy/eslint-config-base/es2020`).
-- `@moxy/eslint-config-base/esm` - Latest ECMAScript version with ECMAScript modules, currently an alias to `@moxy/eslint-config-base/esm/es2020`).
-- `@moxy/eslint-config-base/cjs` - Latest ECMAScript version with CommonJS modules, currently an alias to `@moxy/eslint-config-base/cjs/es2020`).
+- `@moxy/eslint-config-base` - Latest ECMAScript version without modules, currently an alias to `@moxy/eslint-config-base/es2020`.
+- `@moxy/eslint-config-base/esm` - Latest ECMAScript version with ECMAScript modules, currently an alias to `@moxy/eslint-config-base/esm/es2020`.
+- `@moxy/eslint-config-base/cjs` - Latest ECMAScript version with CommonJS modules, currently an alias to `@moxy/eslint-config-base/cjs/es2020`.
 
 ℹ️ All files that end in `.config.js` within your project root folder will automatically be treated as Node.js files as they relate to tooling, such as `babel.config.js` and `commitlint.config.js`.
 
