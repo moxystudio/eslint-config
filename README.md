@@ -53,7 +53,7 @@ There are several **enhancer** packages, which are intended to be used in conjun
   }
   ```
 
-  ℹ️ If your project is Isomorphic / Universal, you may want to enable the `node` environment as well.
+  ℹ️ If your project is isomorphic / universal, you may want to enable the `node` environment as well.
 </details>
 
 <details>
