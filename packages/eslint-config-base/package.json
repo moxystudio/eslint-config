@@ -1,7 +1,7 @@
 {
   "name": "@moxy/eslint-config-base",
   "description": "MOXY's ESLint base configuration",
-  "version": "0.0.0",
+  "version": "11.0.0",
   "keywords": [
     "eslint-config",
     "eslintconfig",
@@ -26,8 +26,8 @@
     "lib"
   ],
   "dependencies": {
-    "eslint-plugin-jsdoc": "^20.3.1",
-    "eslint-plugin-import": "^2.20.1"
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsdoc": "^20.3.1"
   },
   "peerDependencies": {
     "eslint": "^6.0.0"
