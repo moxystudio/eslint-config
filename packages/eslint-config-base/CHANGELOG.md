@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [11.0.2](https://github.com/moxystudio/eslint-config/compare/v11.0.1...v11.0.2) (2020-03-19)
+
+
+### Bug Fixes
+
+* fix *.config.js not being correctly set to node ([79096cc](https://github.com/moxystudio/eslint-config/commit/79096ccd0027872fb4c32c44cc3463ed290dbf02))
+
+
+
+
+
 # [11.0.0](https://github.com/moxystudio/eslint-config/compare/v1.0.0...v11.0.0) (2020-03-19)
 
 
