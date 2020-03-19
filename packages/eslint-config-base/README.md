@@ -84,7 +84,7 @@ All files that end in `.config.js` within your project root folder will **automa
     }
     ```
 
-- Example of `.eslintrc.json` for isomorphic projects that use ECMAScript modules:
+- Example of `.eslintrc.json` for isomorphic / universal projects that use ECMAScript modules:
 
     ```json
     {
