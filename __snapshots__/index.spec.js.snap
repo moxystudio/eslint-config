@@ -1,694 +1,760 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should pass on packages/eslint-config-browser/test/fixtures/rules/best-practices/best-practices.js 1`] = `
-Array [
-  Object {
-    "column": 1,
-    "line": 5,
-    "rule": "no-alert",
-    "severity": 1,
-  },
-  Object {
-    "column": 1,
-    "line": 6,
-    "rule": "no-alert",
-    "severity": 1,
-  },
-  Object {
-    "column": 1,
-    "line": 7,
-    "rule": "no-alert",
-    "severity": 1,
-  },
-  Object {
-    "column": 1,
-    "line": 12,
-    "rule": "no-global-assign",
-    "severity": 2,
-  },
-]
-`;
+exports[`should pass on packages/eslint-config-babel/test/samples/my-class/MyClass.js 1`] = `Array []`;
 
-exports[`should pass on packages/eslint-config-browser/test/fixtures/rules/variables/variables.js 1`] = `
-Array [
-  Object {
-    "column": 21,
-    "line": 8,
-    "rule": "no-restricted-globals",
-    "severity": 2,
-  },
-]
-`;
-
-exports[`should pass on packages/eslint-config-browser/test/fixtures/samples/es6/contrived.good.js 1`] = `Array []`;
-
-exports[`should pass on packages/eslint-config-browser/test/fixtures/samples/es6-modules/contrived.bad.js 1`] = `
-Array [
-  Object {
-    "column": 1,
-    "line": 5,
-    "rule": "strict",
-    "severity": 2,
-  },
-  Object {
-    "column": 13,
-    "line": 9,
-    "rule": "prefer-import/prefer-import-over-require",
-    "severity": 1,
-  },
-]
-`;
-
-exports[`should pass on packages/eslint-config-browser/test/fixtures/samples/es6-modules/contrived.good.js 1`] = `Array []`;
-
-exports[`should pass on packages/eslint-config-browser/test/fixtures/samples/es6-modules/nested/require.config.js 1`] = `
-Array [
-  Object {
-    "column": 14,
-    "line": 5,
-    "rule": "prefer-import/prefer-import-over-require",
-    "severity": 1,
-  },
-]
-`;
-
-exports[`should pass on packages/eslint-config-browser/test/fixtures/samples/es6-modules/require.config.js 1`] = `Array []`;
-
-exports[`should pass on packages/eslint-config-browser/test/fixtures/samples/es6-modules/require.js 1`] = `
-Array [
-  Object {
-    "column": 14,
-    "line": 5,
-    "rule": "prefer-import/prefer-import-over-require",
-    "severity": 1,
-  },
-]
-`;
-
-exports[`should pass on packages/eslint-config-browser/test/fixtures/samples/es7/contrived.bad.js 1`] = `
-Array [
-  Object {
-    "column": 12,
-    "line": 5,
-    "rule": "no-restricted-properties",
-    "severity": 2,
-  },
-]
-`;
-
-exports[`should pass on packages/eslint-config-browser/test/fixtures/samples/es7/contrived.good.js 1`] = `Array []`;
-
-exports[`should pass on packages/eslint-config-browser/test/fixtures/samples/es8/contrived.good.js 1`] = `Array []`;
-
-exports[`should pass on packages/eslint-config-browser/test/fixtures/samples/es8-babel-parser/contrived.bad.js 1`] = `
-Array [
-  Object {
-    "column": 19,
-    "line": 4,
-    "rule": "babel/no-invalid-this",
-    "severity": 2,
-  },
-  Object {
-    "column": 27,
-    "line": 11,
-    "rule": "babel/semi",
-    "severity": 2,
-  },
-  Object {
-    "column": 16,
-    "line": 15,
-    "rule": "babel/object-curly-spacing",
-    "severity": 2,
-  },
-  Object {
-    "column": 29,
-    "line": 19,
-    "rule": "babel/new-cap",
-    "severity": 2,
-  },
-]
-`;
-
-exports[`should pass on packages/eslint-config-browser/test/fixtures/samples/es8-babel-parser/contrived.good.js 1`] = `Array []`;
-
-exports[`should pass on packages/eslint-config-browser/test/fixtures/samples/es9/contrived.good.js 1`] = `Array []`;
-
-exports[`should pass on packages/eslint-config-browser/test/fixtures/samples/es9-object-spread/contrived.bad.js 1`] = `
-Array [
-  Object {
-    "column": 13,
-    "line": 5,
-    "rule": "prefer-object-spread",
-    "severity": 2,
-  },
-]
-`;
-
-exports[`should pass on packages/eslint-config-browser/test/fixtures/samples/es9-object-spread/contrived.good.js 1`] = `Array []`;
-
-exports[`should pass on packages/eslint-config-browser/test/fixtures/samples/es10/contrived.good.js 1`] = `Array []`;
-
-exports[`should pass on packages/eslint-config-core/test/fixtures/rules/best-practices/best-practices.js 1`] = `
+exports[`should pass on packages/eslint-config-base/test/rules/best-practices.js 1`] = `
 Array [
   Object {
     "column": 22,
-    "line": 19,
+    "line": 6,
     "rule": "array-callback-return",
     "severity": 2,
   },
   Object {
     "column": 5,
-    "line": 70,
+    "line": 18,
     "rule": "curly",
     "severity": 2,
   },
   Object {
     "column": 5,
-    "line": 85,
+    "line": 33,
     "rule": "default-case",
     "severity": 2,
   },
   Object {
     "column": 18,
-    "line": 109,
+    "line": 57,
     "rule": "dot-location",
     "severity": 2,
   },
   Object {
     "column": 19,
-    "line": 125,
+    "line": 73,
     "rule": "dot-notation",
     "severity": 2,
   },
   Object {
     "column": 11,
-    "line": 139,
+    "line": 87,
     "rule": "eqeqeq",
     "severity": 2,
   },
   Object {
     "column": 23,
-    "line": 139,
+    "line": 87,
     "rule": "eqeqeq",
     "severity": 2,
   },
   Object {
     "column": 9,
-    "line": 175,
+    "line": 112,
     "rule": "no-caller",
     "severity": 2,
   },
   Object {
     "column": 9,
-    "line": 187,
+    "line": 124,
     "rule": "no-case-declarations",
     "severity": 2,
   },
   Object {
-    "column": 12,
-    "line": 220,
+    "column": 16,
+    "line": 151,
     "rule": "no-else-return",
     "severity": 2,
   },
   Object {
     "column": 11,
-    "line": 247,
+    "line": 172,
     "rule": "no-empty-pattern",
     "severity": 2,
   },
   Object {
     "column": 1,
-    "line": 269,
+    "line": 183,
     "rule": "no-eval",
     "severity": 2,
   },
   Object {
     "column": 1,
-    "line": 274,
+    "line": 188,
     "rule": "no-extend-native",
     "severity": 2,
   },
   Object {
     "column": 7,
-    "line": 282,
+    "line": 196,
     "rule": "no-extra-bind",
     "severity": 2,
   },
   Object {
     "column": 5,
-    "line": 299,
+    "line": 209,
     "rule": "no-fallthrough",
     "severity": 2,
   },
   Object {
     "column": 15,
-    "line": 326,
+    "line": 236,
     "rule": "no-floating-decimal",
     "severity": 2,
   },
   Object {
     "column": 1,
-    "line": 336,
+    "line": 246,
     "rule": "no-global-assign",
     "severity": 2,
   },
   Object {
     "column": 1,
-    "line": 350,
+    "line": 251,
+    "rule": "no-implicit-globals",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 260,
     "rule": "no-implied-eval",
     "severity": 2,
   },
   Object {
     "column": 9,
-    "line": 363,
+    "line": 269,
     "rule": "no-invalid-this",
     "severity": 2,
   },
   Object {
     "column": 5,
-    "line": 375,
+    "line": 281,
     "rule": "no-iterator",
     "severity": 2,
   },
   Object {
     "column": 5,
-    "line": 382,
+    "line": 288,
     "rule": "no-labels",
     "severity": 2,
   },
   Object {
     "column": 9,
-    "line": 383,
+    "line": 289,
     "rule": "no-labels",
     "severity": 2,
   },
   Object {
+    "column": 1,
+    "line": 296,
+    "rule": "no-lone-blocks",
+    "severity": 2,
+  },
+  Object {
     "column": 5,
-    "line": 391,
+    "line": 297,
     "rule": "no-lone-blocks",
     "severity": 2,
   },
   Object {
     "column": 20,
-    "line": 408,
+    "line": 314,
     "rule": "no-loop-func",
     "severity": 2,
   },
   Object {
     "column": 14,
-    "line": 426,
+    "line": 324,
     "rule": "no-multi-spaces",
     "severity": 2,
   },
   Object {
     "column": 17,
-    "line": 430,
+    "line": 328,
     "rule": "no-multi-spaces",
     "severity": 2,
   },
   Object {
     "column": 5,
-    "line": 452,
+    "line": 341,
     "rule": "no-new",
     "severity": 2,
   },
   Object {
     "column": 15,
-    "line": 459,
+    "line": 348,
     "rule": "no-new-func",
     "severity": 2,
   },
   Object {
     "column": 15,
-    "line": 470,
+    "line": 359,
     "rule": "no-new-wrappers",
     "severity": 2,
   },
   Object {
     "column": 15,
-    "line": 498,
+    "line": 370,
     "rule": "no-proto",
     "severity": 2,
   },
   Object {
     "column": 5,
-    "line": 511,
+    "line": 379,
     "rule": "no-restricted-properties",
     "severity": 2,
   },
   Object {
     "column": 5,
-    "line": 512,
+    "line": 380,
     "rule": "no-restricted-properties",
     "severity": 2,
   },
   Object {
-    "column": 5,
-    "line": 530,
+    "column": 1,
+    "line": 395,
+    "rule": "no-alert",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 396,
+    "rule": "no-alert",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 397,
+    "rule": "no-alert",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 406,
     "rule": "no-return-assign",
     "severity": 2,
   },
   Object {
-    "column": 14,
-    "line": 554,
+    "column": 29,
+    "line": 432,
+    "rule": "no-return-await",
+    "severity": 2,
+  },
+  Object {
+    "column": 18,
+    "line": 445,
     "rule": "no-script-url",
     "severity": 2,
   },
   Object {
     "column": 9,
-    "line": 562,
+    "line": 454,
     "rule": "no-self-assign",
     "severity": 2,
   },
   Object {
-    "column": 12,
-    "line": 571,
+    "column": 9,
+    "line": 463,
     "rule": "no-self-compare",
     "severity": 2,
   },
   Object {
     "column": 16,
-    "line": 580,
+    "line": 474,
     "rule": "no-sequences",
     "severity": 2,
   },
   Object {
-    "column": 5,
-    "line": 589,
+    "column": 9,
+    "line": 484,
     "rule": "no-throw-literal",
     "severity": 2,
   },
   Object {
     "column": 12,
-    "line": 603,
+    "line": 501,
     "rule": "no-unmodified-loop-condition",
     "severity": 2,
   },
   Object {
     "column": 5,
-    "line": 614,
+    "line": 512,
     "rule": "no-unused-expressions",
     "severity": 2,
   },
   Object {
     "column": 5,
-    "line": 627,
+    "line": 521,
     "rule": "no-useless-call",
     "severity": 2,
   },
   Object {
+    "column": 5,
+    "line": 522,
+    "rule": "no-useless-call",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 537,
+    "rule": "no-useless-catch",
+    "severity": 2,
+  },
+  Object {
     "column": 19,
-    "line": 640,
+    "line": 559,
     "rule": "no-useless-concat",
     "severity": 2,
   },
   Object {
     "column": 16,
-    "line": 656,
+    "line": 575,
     "rule": "no-useless-escape",
     "severity": 2,
   },
   Object {
     "column": 9,
-    "line": 670,
+    "line": 589,
     "rule": "no-useless-return",
     "severity": 2,
   },
   Object {
-    "column": 5,
-    "line": 688,
-    "rule": "no-void",
+    "column": 1,
+    "line": 606,
+    "rule": "no-lone-blocks",
     "severity": 2,
   },
   Object {
     "column": 5,
-    "line": 695,
+    "line": 607,
+    "rule": "no-void",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 613,
     "rule": "no-warning-comments",
     "severity": 1,
   },
   Object {
     "column": 54,
-    "line": 706,
+    "line": 619,
     "rule": "prefer-promise-reject-errors",
     "severity": 2,
   },
   Object {
     "column": 15,
-    "line": 717,
+    "line": 630,
     "rule": "radix",
     "severity": 2,
   },
   Object {
     "column": 15,
-    "line": 736,
+    "line": 641,
     "rule": "wrap-iife",
     "severity": 2,
   },
   Object {
     "column": 9,
-    "line": 754,
+    "line": 663,
     "rule": "yoda",
     "severity": 2,
   },
 ]
 `;
 
-exports[`should pass on packages/eslint-config-core/test/fixtures/rules/best-practices/best-practices-non-strict.js 1`] = `
+exports[`should pass on packages/eslint-config-base/test/rules/errors.js 1`] = `
 Array [
   Object {
-    "column": 17,
-    "line": 7,
-    "rule": "no-octal",
-    "severity": 2,
+    "column": 20,
+    "line": 13,
+    "rule": "no-await-in-loop",
+    "severity": 1,
   },
-  Object {
-    "column": 17,
-    "line": 18,
-    "rule": "no-octal-escape",
-    "severity": 2,
-  },
-  Object {
-    "column": 5,
-    "line": 32,
-    "rule": "no-with",
-    "severity": 2,
-  },
-]
-`;
-
-exports[`should pass on packages/eslint-config-core/test/fixtures/rules/best-practices/es8/best-practices.js 1`] = `
-Array [
-  Object {
-    "column": 16,
-    "line": 8,
-    "rule": "no-return-await",
-    "severity": 2,
-  },
-]
-`;
-
-exports[`should pass on packages/eslint-config-core/test/fixtures/rules/best-practices/no-implicit-globals/no-implicit-globals.js 1`] = `
-Array [
-  Object {
-    "column": 1,
-    "line": 5,
-    "rule": "no-implicit-globals",
-    "severity": 2,
-  },
-]
-`;
-
-exports[`should pass on packages/eslint-config-core/test/fixtures/rules/errors/errors.js 1`] = `
-Array [
   Object {
     "column": 9,
-    "line": 16,
+    "line": 36,
     "rule": "no-compare-neg-zero",
     "severity": 2,
   },
   Object {
     "column": 9,
-    "line": 35,
+    "line": 55,
     "rule": "no-cond-assign",
     "severity": 2,
   },
   Object {
     "column": 9,
-    "line": 67,
+    "line": 84,
     "rule": "no-constant-condition",
     "severity": 2,
   },
   Object {
     "column": 9,
-    "line": 84,
+    "line": 104,
     "rule": "no-control-regex",
     "severity": 2,
   },
   Object {
     "column": 1,
-    "line": 92,
+    "line": 112,
     "rule": "no-debugger",
     "severity": 1,
   },
   Object {
-    "column": 5,
-    "line": 98,
-    "rule": "no-dupe-args",
-    "severity": 2,
-  },
-  Object {
-    "column": 21,
-    "line": 98,
-    "rule": "no-redeclare",
-    "severity": 2,
-  },
-  Object {
-    "column": 5,
-    "line": 114,
+    "column": 9,
+    "line": 120,
     "rule": "no-dupe-keys",
     "severity": 2,
   },
   Object {
     "column": 5,
-    "line": 132,
+    "line": 142,
     "rule": "no-duplicate-case",
     "severity": 2,
   },
   Object {
     "column": 26,
-    "line": 156,
+    "line": 167,
     "rule": "no-empty",
     "severity": 2,
   },
   Object {
     "column": 1,
-    "line": 167,
+    "line": 186,
     "rule": "no-empty-character-class",
     "severity": 2,
   },
   Object {
     "column": 9,
-    "line": 184,
+    "line": 196,
     "rule": "no-extra-boolean-cast",
     "severity": 2,
   },
   Object {
-    "column": 6,
-    "line": 201,
+    "column": 2,
+    "line": 212,
     "rule": "no-extra-parens",
     "severity": 2,
   },
   Object {
-    "column": 14,
-    "line": 218,
+    "column": 24,
+    "line": 227,
     "rule": "no-extra-semi",
     "severity": 2,
   },
   Object {
-    "column": 9,
+    "column": 24,
     "line": 227,
+    "rule": "padding-line-between-statements",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 243,
     "rule": "no-func-assign",
     "severity": 2,
   },
   Object {
     "column": 9,
-    "line": 245,
+    "line": 262,
     "rule": "no-inner-declarations",
     "severity": 2,
   },
   Object {
     "column": 20,
-    "line": 261,
+    "line": 278,
     "rule": "no-invalid-regexp",
     "severity": 2,
   },
   Object {
     "column": 13,
-    "line": 274,
+    "line": 291,
     "rule": "new-cap",
     "severity": 2,
   },
   Object {
     "column": 13,
-    "line": 274,
+    "line": 291,
     "rule": "no-obj-calls",
     "severity": 2,
   },
   Object {
     "column": 47,
-    "line": 283,
+    "line": 300,
     "rule": "no-prototype-builtins",
     "severity": 2,
   },
   Object {
     "column": 20,
-    "line": 297,
+    "line": 314,
     "rule": "no-regex-spaces",
     "severity": 2,
   },
   Object {
-    "column": 7,
-    "line": 307,
+    "column": 17,
+    "line": 325,
     "rule": "no-sparse-arrays",
     "severity": 2,
   },
   Object {
-    "column": 9,
-    "line": 307,
+    "column": 18,
+    "line": 325,
     "rule": "array-bracket-spacing",
     "severity": 2,
   },
   Object {
-    "column": 7,
-    "line": 314,
+    "column": 17,
+    "line": 336,
     "rule": "no-template-curly-in-string",
     "severity": 2,
   },
   Object {
     "column": 5,
-    "line": 327,
+    "line": 348,
     "rule": "no-unreachable",
     "severity": 2,
   },
   Object {
-    "column": 9,
-    "line": 344,
+    "column": 13,
+    "line": 366,
     "rule": "no-unsafe-finally",
     "severity": 2,
   },
   Object {
     "column": 5,
-    "line": 351,
+    "line": 374,
     "rule": "no-unsafe-negation",
     "severity": 2,
   },
   Object {
     "column": 5,
-    "line": 362,
+    "line": 385,
     "rule": "use-isnan",
     "severity": 2,
   },
   Object {
     "column": 18,
-    "line": 377,
+    "line": 396,
     "rule": "valid-typeof",
     "severity": 2,
   },
 ]
 `;
 
-exports[`should pass on packages/eslint-config-core/test/fixtures/rules/errors/es8/errors.js 1`] = `
+exports[`should pass on packages/eslint-config-base/test/rules/es6.js 1`] = `
 Array [
   Object {
-    "column": 20,
+    "column": 22,
+    "line": 6,
+    "rule": "arrow-body-style",
+    "severity": 2,
+  },
+  Object {
+    "column": 22,
+    "line": 7,
+    "rule": "arrow-body-style",
+    "severity": 2,
+  },
+  Object {
+    "column": 15,
     "line": 15,
-    "rule": "no-await-in-loop",
+    "rule": "arrow-parens",
+    "severity": 2,
+  },
+  Object {
+    "column": 17,
+    "line": 22,
+    "rule": "arrow-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 20,
+    "line": 22,
+    "rule": "arrow-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 31,
+    "rule": "constructor-super",
+    "severity": 2,
+  },
+  Object {
+    "column": 14,
+    "line": 48,
+    "rule": "generator-star-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 14,
+    "line": 48,
+    "rule": "generator-star-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 14,
+    "line": 54,
+    "rule": "generator-star-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 71,
+    "rule": "no-class-assign",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 80,
+    "rule": "no-const-assign",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 95,
+    "rule": "no-dupe-class-members",
+    "severity": 2,
+  },
+  Object {
+    "column": 19,
+    "line": 107,
+    "rule": "no-new-symbol",
+    "severity": 2,
+  },
+  Object {
+    "column": 13,
+    "line": 120,
+    "rule": "no-this-before-super",
     "severity": 1,
+  },
+  Object {
+    "column": 19,
+    "line": 139,
+    "rule": "no-useless-computed-key",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 151,
+    "rule": "no-useless-constructor",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 168,
+    "rule": "no-lone-blocks",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 169,
+    "rule": "no-var",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 169,
+    "rule": "no-implicit-globals",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 182,
+    "rule": "object-shorthand",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 199,
+    "rule": "prefer-arrow-callback",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 212,
+    "rule": "prefer-const",
+    "severity": 2,
+  },
+  Object {
+    "column": 16,
+    "line": 223,
+    "rule": "prefer-numeric-literals",
+    "severity": 2,
+  },
+  Object {
+    "column": 21,
+    "line": 235,
+    "rule": "prefer-rest-params",
+    "severity": 2,
+  },
+  Object {
+    "column": 17,
+    "line": 251,
+    "rule": "prefer-spread",
+    "severity": 2,
+  },
+  Object {
+    "column": 13,
+    "line": 263,
+    "rule": "prefer-template",
+    "severity": 1,
+  },
+  Object {
+    "column": 5,
+    "line": 271,
+    "rule": "require-yield",
+    "severity": 2,
+  },
+  Object {
+    "column": 29,
+    "line": 288,
+    "rule": "rest-spread-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 22,
+    "line": 300,
+    "rule": "template-curly-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 39,
+    "line": 300,
+    "rule": "template-curly-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 15,
+    "line": 309,
+    "rule": "yield-star-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 15,
+    "line": 309,
+    "rule": "yield-star-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 15,
+    "line": 315,
+    "rule": "yield-star-spacing",
+    "severity": 2,
   },
 ]
 `;
 
-exports[`should pass on packages/eslint-config-core/test/fixtures/rules/jsdoc/jsdoc.js 1`] = `
+exports[`should pass on packages/eslint-config-base/test/rules/es6-esm.js 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "line": 4,
+    "rule": "no-duplicate-imports",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on packages/eslint-config-base/test/rules/jsdoc.js 1`] = `
 Array [
   Object {
     "column": 5,
@@ -735,7 +801,18 @@ Array [
 ]
 `;
 
-exports[`should pass on packages/eslint-config-core/test/fixtures/rules/strict/strict.js 1`] = `
+exports[`should pass on packages/eslint-config-base/test/rules/node.js 1`] = `
+Array [
+  Object {
+    "column": 22,
+    "line": 9,
+    "rule": "handle-callback-err",
+    "severity": 1,
+  },
+]
+`;
+
+exports[`should pass on packages/eslint-config-base/test/rules/strict.js 1`] = `
 Array [
   Object {
     "column": 1,
@@ -752,384 +829,408 @@ Array [
 ]
 `;
 
-exports[`should pass on packages/eslint-config-core/test/fixtures/rules/style/style.js 1`] = `
+exports[`should pass on packages/eslint-config-base/test/rules/style.js 1`] = `
 Array [
   Object {
-    "column": 8,
-    "line": 9,
+    "column": 18,
+    "line": 7,
     "rule": "array-bracket-spacing",
     "severity": 2,
   },
   Object {
-    "column": 16,
-    "line": 9,
+    "column": 26,
+    "line": 7,
     "rule": "array-bracket-spacing",
     "severity": 2,
   },
   Object {
-    "column": 25,
-    "line": 19,
+    "column": 21,
+    "line": 18,
     "rule": "block-spacing",
     "severity": 2,
   },
   Object {
-    "column": 38,
-    "line": 19,
+    "column": 37,
+    "line": 18,
     "rule": "block-spacing",
     "severity": 2,
   },
   Object {
     "column": 1,
-    "line": 31,
+    "line": 27,
     "rule": "brace-style",
     "severity": 2,
   },
   Object {
     "column": 11,
-    "line": 43,
+    "line": 39,
     "rule": "camelcase",
     "severity": 2,
   },
   Object {
-    "column": 1,
-    "line": 54,
+    "column": 5,
+    "line": 53,
     "rule": "capitalized-comments",
     "severity": 2,
   },
   Object {
     "column": 20,
-    "line": 146,
+    "line": 147,
     "rule": "comma-dangle",
     "severity": 2,
   },
   Object {
     "column": 32,
-    "line": 161,
+    "line": 162,
     "rule": "comma-spacing",
     "severity": 2,
   },
   Object {
     "column": 9,
-    "line": 174,
+    "line": 175,
     "rule": "comma-style",
     "severity": 2,
   },
   Object {
     "column": 18,
-    "line": 192,
+    "line": 193,
     "rule": "computed-property-spacing",
     "severity": 2,
   },
   Object {
     "column": 19,
-    "line": 210,
+    "line": 211,
     "rule": "consistent-this",
     "severity": 2,
   },
   Object {
     "column": 5,
-    "line": 235,
+    "line": 237,
     "rule": "func-call-spacing",
     "severity": 2,
   },
   Object {
     "column": 11,
-    "line": 269,
+    "line": 250,
     "rule": "func-style",
     "severity": 2,
   },
   Object {
     "column": 30,
-    "line": 269,
+    "line": 250,
     "rule": "semi",
     "severity": 2,
   },
   Object {
     "column": 1,
-    "line": 300,
+    "line": 263,
     "rule": "indent",
     "severity": 2,
   },
   Object {
+    "column": 30,
+    "line": 288,
+    "rule": "jsx-quotes",
+    "severity": 2,
+  },
+  Object {
     "column": 11,
-    "line": 326,
+    "line": 300,
     "rule": "key-spacing",
     "severity": 2,
   },
   Object {
-    "column": 6,
-    "line": 342,
+    "column": 2,
+    "line": 315,
     "rule": "keyword-spacing",
     "severity": 2,
   },
   Object {
     "column": 5,
-    "line": 380,
+    "line": 333,
     "rule": "lines-around-directive",
     "severity": 2,
   },
   Object {
     "column": 25,
-    "line": 399,
+    "line": 352,
     "rule": "max-depth",
     "severity": 1,
   },
   Object {
     "column": 1,
-    "line": 425,
+    "line": 378,
     "rule": "max-len",
     "severity": 1,
   },
   Object {
-    "column": 27,
-    "line": 456,
-    "rule": "max-nested-callbacks",
-    "severity": 1,
-  },
-  Object {
     "column": 31,
-    "line": 457,
+    "line": 410,
     "rule": "max-nested-callbacks",
     "severity": 1,
   },
   Object {
-    "column": 5,
-    "line": 472,
+    "column": 59,
+    "line": 425,
     "rule": "max-params",
     "severity": 1,
   },
   Object {
-    "column": 5,
-    "line": 487,
+    "column": 17,
+    "line": 440,
     "rule": "max-statements",
     "severity": 1,
   },
   Object {
-    "column": 47,
-    "line": 656,
+    "column": 49,
+    "line": 611,
     "rule": "max-statements-per-line",
     "severity": 2,
   },
   Object {
     "column": 28,
-    "line": 687,
+    "line": 631,
     "rule": "new-cap",
     "severity": 2,
   },
   Object {
     "column": 24,
-    "line": 702,
+    "line": 646,
     "rule": "new-parens",
     "severity": 2,
   },
   Object {
-    "column": 5,
-    "line": 717,
-    "rule": "padding-line-between-statements",
-    "severity": 2,
-  },
-  Object {
-    "column": 9,
-    "line": 733,
-    "rule": "padding-line-between-statements",
-    "severity": 2,
-  },
-  Object {
     "column": 15,
-    "line": 755,
+    "line": 659,
     "rule": "no-array-constructor",
     "severity": 2,
   },
   Object {
     "column": 15,
-    "line": 768,
+    "line": 672,
     "rule": "no-bitwise",
     "severity": 2,
   },
   Object {
     "column": 5,
-    "line": 801,
+    "line": 687,
     "rule": "no-lonely-if",
     "severity": 2,
   },
   Object {
     "column": 19,
-    "line": 816,
+    "line": 702,
     "rule": "no-mixed-operators",
     "severity": 2,
   },
   Object {
     "column": 23,
-    "line": 816,
+    "line": 702,
     "rule": "no-mixed-operators",
     "severity": 2,
   },
   Object {
     "column": 1,
-    "line": 840,
+    "line": 718,
     "rule": "no-multiple-empty-lines",
     "severity": 2,
   },
   Object {
     "column": 15,
-    "line": 861,
+    "line": 726,
     "rule": "no-nested-ternary",
     "severity": 2,
   },
   Object {
     "column": 44,
-    "line": 861,
+    "line": 726,
     "rule": "no-nested-ternary",
     "severity": 2,
   },
   Object {
     "column": 15,
-    "line": 884,
+    "line": 747,
     "rule": "no-new-object",
     "severity": 2,
   },
   Object {
     "column": 5,
-    "line": 900,
+    "line": 763,
     "rule": "no-plusplus",
     "severity": 2,
   },
   Object {
     "column": 19,
-    "line": 945,
+    "line": 785,
     "rule": "no-unneeded-ternary",
     "severity": 2,
   },
   Object {
     "column": 19,
-    "line": 959,
+    "line": 799,
     "rule": "no-whitespace-before-property",
     "severity": 2,
   },
   Object {
     "column": 15,
-    "line": 999,
+    "line": 812,
     "rule": "object-curly-spacing",
     "severity": 2,
   },
   Object {
     "column": 20,
-    "line": 999,
+    "line": 812,
     "rule": "object-curly-spacing",
     "severity": 2,
   },
   Object {
     "column": 15,
-    "line": 1011,
+    "line": 824,
     "rule": "object-property-newline",
     "severity": 2,
   },
   Object {
-    "column": 9,
-    "line": 1035,
+    "column": 5,
+    "line": 847,
     "rule": "one-var",
     "severity": 2,
   },
   Object {
     "column": 14,
-    "line": 1068,
+    "line": 867,
     "rule": "operator-linebreak",
     "severity": 2,
   },
   Object {
-    "column": 30,
-    "line": 1080,
+    "column": 26,
+    "line": 878,
+    "rule": "padded-blocks",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 882,
     "rule": "padded-blocks",
     "severity": 2,
   },
   Object {
     "column": 5,
-    "line": 1084,
-    "rule": "padded-blocks",
+    "line": 893,
+    "rule": "padding-line-between-statements",
     "severity": 2,
   },
   Object {
     "column": 9,
-    "line": 1099,
+    "line": 907,
+    "rule": "padding-line-between-statements",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 925,
     "rule": "quote-props",
     "severity": 2,
   },
   Object {
     "column": 15,
-    "line": 1115,
+    "line": 941,
     "rule": "quotes",
     "severity": 2,
   },
   Object {
     "column": 23,
-    "line": 1131,
+    "line": 953,
     "rule": "semi",
     "severity": 2,
   },
   Object {
     "column": 17,
-    "line": 1142,
+    "line": 964,
     "rule": "semi-spacing",
     "severity": 2,
   },
   Object {
-    "column": 17,
-    "line": 1171,
+    "column": 5,
+    "line": 977,
+    "rule": "semi-style",
+    "severity": 2,
+  },
+  Object {
+    "column": 19,
+    "line": 990,
     "rule": "space-before-blocks",
     "severity": 2,
   },
   Object {
     "column": 15,
-    "line": 1186,
+    "line": 1005,
     "rule": "space-before-function-paren",
     "severity": 2,
   },
   Object {
     "column": 16,
-    "line": 1201,
+    "line": 1020,
     "rule": "space-in-parens",
     "severity": 2,
   },
   Object {
     "column": 16,
-    "line": 1201,
+    "line": 1020,
     "rule": "space-in-parens",
     "severity": 2,
   },
   Object {
     "column": 16,
-    "line": 1216,
+    "line": 1035,
     "rule": "space-infix-ops",
     "severity": 2,
   },
   Object {
-    "column": 7,
-    "line": 1226,
+    "column": 17,
+    "line": 1047,
     "rule": "space-unary-ops",
     "severity": 2,
   },
   Object {
     "column": 1,
-    "line": 1233,
+    "line": 1058,
     "rule": "spaced-comment",
     "severity": 2,
   },
   Object {
     "column": 1,
-    "line": 1234,
+    "line": 1059,
     "rule": "spaced-comment",
     "severity": 2,
   },
   Object {
+    "column": 12,
+    "line": 1072,
+    "rule": "switch-colon-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 12,
+    "line": 1072,
+    "rule": "switch-colon-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 13,
+    "line": 1073,
+    "rule": "switch-colon-spacing",
+    "severity": 2,
+  },
+  Object {
     "column": 19,
-    "line": 1245,
+    "line": 1091,
     "rule": "template-tag-spacing",
     "severity": 2,
   },
 ]
 `;
 
-exports[`should pass on packages/eslint-config-core/test/fixtures/rules/style/style-lines.js 1`] = `
+exports[`should pass on packages/eslint-config-base/test/rules/style-lines.js 1`] = `
 Array [
   Object {
     "column": 1,
@@ -1137,70 +1238,123 @@ Array [
     "rule": "max-lines",
     "severity": 1,
   },
-  Object {
-    "column": 1,
-    "line": 4,
-    "rule": "strict",
-    "severity": 2,
-  },
 ]
 `;
 
-exports[`should pass on packages/eslint-config-core/test/fixtures/rules/variables/variables.js 1`] = `
+exports[`should pass on packages/eslint-config-base/test/rules/variables.js 1`] = `
 Array [
   Object {
-    "column": 5,
-    "line": 27,
-    "rule": "no-delete-var",
-    "severity": 2,
-  },
-  Object {
     "column": 14,
-    "line": 49,
+    "line": 7,
     "rule": "no-shadow-restricted-names",
     "severity": 2,
   },
   Object {
     "column": 15,
-    "line": 56,
+    "line": 14,
     "rule": "no-undef",
     "severity": 2,
   },
   Object {
     "column": 9,
-    "line": 63,
+    "line": 21,
     "rule": "no-undef-init",
     "severity": 2,
   },
   Object {
-    "column": 11,
-    "line": 81,
+    "column": 17,
+    "line": 34,
     "rule": "no-use-before-define",
     "severity": 2,
   },
   Object {
     "column": 19,
-    "line": 93,
+    "line": 44,
     "rule": "no-use-before-define",
     "severity": 2,
   },
 ]
 `;
 
-exports[`should pass on packages/eslint-config-core/test/fixtures/rules/variables/variables-with-unused.js 1`] = `
+exports[`should pass on packages/eslint-config-base/test/rules/variables-no-unused.js 1`] = `
 Array [
   Object {
-    "column": 11,
-    "line": 10,
+    "column": 13,
+    "line": 8,
+    "rule": "no-unused-vars",
+    "severity": 2,
+  },
+  Object {
+    "column": 18,
+    "line": 21,
     "rule": "no-unused-vars",
     "severity": 2,
   },
 ]
 `;
 
-exports[`should pass on packages/eslint-config-isomorphic/test/fixtures/globals/globals.config.js 1`] = `Array []`;
+exports[`should pass on packages/eslint-config-base/test/samples/es2015/babel.config.js 1`] = `Array []`;
 
-exports[`should pass on packages/eslint-config-jest/test/fixtures/rules/jest/jest.spec.js 1`] = `
+exports[`should pass on packages/eslint-config-base/test/samples/es2015/contrived.good.js 1`] = `Array []`;
+
+exports[`should pass on packages/eslint-config-base/test/samples/es2015-cjs/contrived.bad.js 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "line": 3,
+    "rule": null,
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on packages/eslint-config-base/test/samples/es2015-cjs/contrived.good.js 1`] = `Array []`;
+
+exports[`should pass on packages/eslint-config-base/test/samples/es2015-esm/contrived.bad.js 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "line": 5,
+    "rule": "strict",
+    "severity": 2,
+  },
+  Object {
+    "column": 13,
+    "line": 9,
+    "rule": "import/no-commonjs",
+    "severity": 2,
+  },
+  Object {
+    "column": 13,
+    "line": 9,
+    "rule": "no-undef",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on packages/eslint-config-base/test/samples/es2015-esm/contrived.good.js 1`] = `Array []`;
+
+exports[`should pass on packages/eslint-config-base/test/samples/es2016/contrived.bad.js 1`] = `
+Array [
+  Object {
+    "column": 12,
+    "line": 7,
+    "rule": "prefer-exponentiation-operator",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on packages/eslint-config-base/test/samples/es2016/contrived.good.js 1`] = `Array []`;
+
+exports[`should pass on packages/eslint-config-base/test/samples/es2017/contrived.good.js 1`] = `Array []`;
+
+exports[`should pass on packages/eslint-config-base/test/samples/es2018/contrived.good.js 1`] = `Array []`;
+
+exports[`should pass on packages/eslint-config-base/test/samples/es2019/contrived.good.js 1`] = `Array []`;
+
+exports[`should pass on packages/eslint-config-jest/test/rules/jest.spec.js 1`] = `
 Array [
   Object {
     "column": 1,
@@ -1235,414 +1389,81 @@ Array [
 ]
 `;
 
-exports[`should pass on packages/eslint-config-jest/test/fixtures/samples/jest/__tests__/jest.js 1`] = `
-Array [
-  Object {
-    "column": 1,
-    "line": 4,
-    "rule": "jest/no-disabled-tests",
-    "severity": 1,
-  },
-  Object {
-    "column": 4,
-    "line": 11,
-    "rule": "jest/no-focused-tests",
-    "severity": 2,
-  },
-  Object {
-    "column": 4,
-    "line": 19,
-    "rule": "jest/no-identical-title",
-    "severity": 2,
-  },
-  Object {
-    "column": 23,
-    "line": 28,
-    "rule": "jest/prefer-to-have-length",
-    "severity": 2,
-  },
-  Object {
-    "column": 5,
-    "line": 39,
-    "rule": "jest/valid-expect",
-    "severity": 2,
-  },
-]
-`;
+exports[`should pass on packages/eslint-config-jest/test/samples/project-cjs/__tests__/test-file.js 1`] = `Array []`;
 
-exports[`should pass on packages/eslint-config-jest/test/fixtures/samples/jest/jest.spec.js 1`] = `
+exports[`should pass on packages/eslint-config-jest/test/samples/project-cjs/non-test-file.js 1`] = `
 Array [
   Object {
     "column": 1,
-    "line": 4,
-    "rule": "jest/no-disabled-tests",
-    "severity": 1,
-  },
-  Object {
-    "column": 4,
-    "line": 11,
-    "rule": "jest/no-focused-tests",
-    "severity": 2,
-  },
-  Object {
-    "column": 4,
-    "line": 19,
-    "rule": "jest/no-identical-title",
-    "severity": 2,
-  },
-  Object {
-    "column": 23,
-    "line": 28,
-    "rule": "jest/prefer-to-have-length",
-    "severity": 2,
-  },
-  Object {
-    "column": 5,
-    "line": 39,
-    "rule": "jest/valid-expect",
-    "severity": 2,
-  },
-]
-`;
-
-exports[`should pass on packages/eslint-config-jest/test/fixtures/samples/jest/jest.test.js 1`] = `
-Array [
-  Object {
-    "column": 1,
-    "line": 4,
-    "rule": "jest/no-disabled-tests",
-    "severity": 1,
-  },
-  Object {
-    "column": 4,
-    "line": 11,
-    "rule": "jest/no-focused-tests",
-    "severity": 2,
-  },
-  Object {
-    "column": 4,
-    "line": 19,
-    "rule": "jest/no-identical-title",
-    "severity": 2,
-  },
-  Object {
-    "column": 23,
-    "line": 28,
-    "rule": "jest/prefer-to-have-length",
-    "severity": 2,
-  },
-  Object {
-    "column": 5,
-    "line": 39,
-    "rule": "jest/valid-expect",
-    "severity": 2,
-  },
-]
-`;
-
-exports[`should pass on packages/eslint-config-jest/test/fixtures/samples/jest/non-test-file.js 1`] = `
-Array [
-  Object {
-    "column": 1,
-    "line": 4,
+    "line": 5,
     "rule": "no-undef",
     "severity": 2,
   },
   Object {
-    "column": 1,
+    "column": 5,
     "line": 6,
     "rule": "no-undef",
     "severity": 2,
   },
-  Object {
-    "column": 1,
-    "line": 11,
-    "rule": "no-undef",
-    "severity": 2,
-  },
-  Object {
-    "column": 1,
-    "line": 13,
-    "rule": "no-undef",
-    "severity": 2,
-  },
-  Object {
-    "column": 1,
-    "line": 18,
-    "rule": "no-undef",
-    "severity": 2,
-  },
-  Object {
-    "column": 1,
-    "line": 19,
-    "rule": "no-undef",
-    "severity": 2,
-  },
-  Object {
-    "column": 1,
-    "line": 21,
-    "rule": "no-undef",
-    "severity": 2,
-  },
-  Object {
-    "column": 1,
-    "line": 22,
-    "rule": "no-undef",
-    "severity": 2,
-  },
-  Object {
-    "column": 1,
-    "line": 27,
-    "rule": "no-undef",
-    "severity": 2,
-  },
-  Object {
-    "column": 5,
-    "line": 28,
-    "rule": "no-undef",
-    "severity": 2,
-  },
-  Object {
-    "column": 1,
-    "line": 31,
-    "rule": "no-undef",
-    "severity": 2,
-  },
-  Object {
-    "column": 5,
-    "line": 32,
-    "rule": "no-undef",
-    "severity": 2,
-  },
-  Object {
-    "column": 1,
-    "line": 38,
-    "rule": "no-undef",
-    "severity": 2,
-  },
-  Object {
-    "column": 5,
-    "line": 39,
-    "rule": "no-undef",
-    "severity": 2,
-  },
-  Object {
-    "column": 1,
-    "line": 42,
-    "rule": "no-undef",
-    "severity": 2,
-  },
-  Object {
-    "column": 5,
-    "line": 43,
-    "rule": "no-undef",
-    "severity": 2,
-  },
-  Object {
-    "column": 1,
-    "line": 49,
-    "rule": "no-undef",
-    "severity": 2,
-  },
-  Object {
-    "column": 5,
-    "line": 50,
-    "rule": "prefer-import/prefer-import-over-require",
-    "severity": 1,
-  },
 ]
 `;
 
-exports[`should pass on packages/eslint-config-jest/test/fixtures/samples/jest/spec.js 1`] = `
+exports[`should pass on packages/eslint-config-jest/test/samples/project-cjs/spec.js 1`] = `Array []`;
+
+exports[`should pass on packages/eslint-config-jest/test/samples/project-cjs/test.js 1`] = `Array []`;
+
+exports[`should pass on packages/eslint-config-jest/test/samples/project-cjs/test/test-file.js 1`] = `Array []`;
+
+exports[`should pass on packages/eslint-config-jest/test/samples/project-cjs/test-file.spec.js 1`] = `Array []`;
+
+exports[`should pass on packages/eslint-config-jest/test/samples/project-cjs/test-file.test.js 1`] = `Array []`;
+
+exports[`should pass on packages/eslint-config-jest/test/samples/project-cjs/tests/test-file.js 1`] = `Array []`;
+
+exports[`should pass on packages/eslint-config-jest/test/samples/project-esm/__tests__/test-file.js 1`] = `Array []`;
+
+exports[`should pass on packages/eslint-config-jest/test/samples/project-esm/non-test-file.js 1`] = `
 Array [
   Object {
     "column": 1,
+    "line": 1,
+    "rule": "import/no-commonjs",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 1,
+    "rule": "no-undef",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 3,
+    "rule": "no-undef",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
     "line": 4,
-    "rule": "jest/no-disabled-tests",
-    "severity": 1,
-  },
-  Object {
-    "column": 4,
-    "line": 11,
-    "rule": "jest/no-focused-tests",
-    "severity": 2,
-  },
-  Object {
-    "column": 4,
-    "line": 19,
-    "rule": "jest/no-identical-title",
-    "severity": 2,
-  },
-  Object {
-    "column": 23,
-    "line": 28,
-    "rule": "jest/prefer-to-have-length",
-    "severity": 2,
-  },
-  Object {
-    "column": 5,
-    "line": 39,
-    "rule": "jest/valid-expect",
+    "rule": "no-undef",
     "severity": 2,
   },
 ]
 `;
 
-exports[`should pass on packages/eslint-config-jest/test/fixtures/samples/jest/test.js 1`] = `
-Array [
-  Object {
-    "column": 1,
-    "line": 4,
-    "rule": "jest/no-disabled-tests",
-    "severity": 1,
-  },
-  Object {
-    "column": 4,
-    "line": 11,
-    "rule": "jest/no-focused-tests",
-    "severity": 2,
-  },
-  Object {
-    "column": 4,
-    "line": 19,
-    "rule": "jest/no-identical-title",
-    "severity": 2,
-  },
-  Object {
-    "column": 23,
-    "line": 28,
-    "rule": "jest/prefer-to-have-length",
-    "severity": 2,
-  },
-  Object {
-    "column": 5,
-    "line": 39,
-    "rule": "jest/valid-expect",
-    "severity": 2,
-  },
-]
-`;
+exports[`should pass on packages/eslint-config-jest/test/samples/project-esm/spec.js 1`] = `Array []`;
 
-exports[`should pass on packages/eslint-config-jest/test/fixtures/samples/jest/test/jest.js 1`] = `
-Array [
-  Object {
-    "column": 1,
-    "line": 4,
-    "rule": "jest/no-disabled-tests",
-    "severity": 1,
-  },
-  Object {
-    "column": 4,
-    "line": 11,
-    "rule": "jest/no-focused-tests",
-    "severity": 2,
-  },
-  Object {
-    "column": 4,
-    "line": 19,
-    "rule": "jest/no-identical-title",
-    "severity": 2,
-  },
-  Object {
-    "column": 23,
-    "line": 28,
-    "rule": "jest/prefer-to-have-length",
-    "severity": 2,
-  },
-  Object {
-    "column": 5,
-    "line": 39,
-    "rule": "jest/valid-expect",
-    "severity": 2,
-  },
-]
-`;
+exports[`should pass on packages/eslint-config-jest/test/samples/project-esm/test.js 1`] = `Array []`;
 
-exports[`should pass on packages/eslint-config-jest/test/fixtures/samples/jest/tests/jest.js 1`] = `
-Array [
-  Object {
-    "column": 1,
-    "line": 4,
-    "rule": "jest/no-disabled-tests",
-    "severity": 1,
-  },
-  Object {
-    "column": 4,
-    "line": 11,
-    "rule": "jest/no-focused-tests",
-    "severity": 2,
-  },
-  Object {
-    "column": 4,
-    "line": 19,
-    "rule": "jest/no-identical-title",
-    "severity": 2,
-  },
-  Object {
-    "column": 23,
-    "line": 28,
-    "rule": "jest/prefer-to-have-length",
-    "severity": 2,
-  },
-  Object {
-    "column": 5,
-    "line": 39,
-    "rule": "jest/valid-expect",
-    "severity": 2,
-  },
-]
-`;
+exports[`should pass on packages/eslint-config-jest/test/samples/project-esm/test/test-file.js 1`] = `Array []`;
 
-exports[`should pass on packages/eslint-config-node/test/fixtures/rules/node/node.js 1`] = `
-Array [
-  Object {
-    "column": 5,
-    "line": 27,
-    "rule": "handle-callback-err",
-    "severity": 1,
-  },
-]
-`;
+exports[`should pass on packages/eslint-config-jest/test/samples/project-esm/test-file.spec.js 1`] = `Array []`;
 
-exports[`should pass on packages/eslint-config-node/test/fixtures/samples/es6/contrived.good.js 1`] = `Array []`;
+exports[`should pass on packages/eslint-config-jest/test/samples/project-esm/test-file.test.js 1`] = `Array []`;
 
-exports[`should pass on packages/eslint-config-node/test/fixtures/samples/es6-node/fileSize.good.js 1`] = `Array []`;
+exports[`should pass on packages/eslint-config-jest/test/samples/project-esm/tests/test-file.js 1`] = `Array []`;
 
-exports[`should pass on packages/eslint-config-node/test/fixtures/samples/es6-node/loudException.good.js 1`] = `Array []`;
-
-exports[`should pass on packages/eslint-config-node/test/fixtures/samples/es7/contrived.bad.js 1`] = `
-Array [
-  Object {
-    "column": 12,
-    "line": 7,
-    "rule": "no-restricted-properties",
-    "severity": 2,
-  },
-]
-`;
-
-exports[`should pass on packages/eslint-config-node/test/fixtures/samples/es7/contrived.good.js 1`] = `Array []`;
-
-exports[`should pass on packages/eslint-config-node/test/fixtures/samples/es8/contrived.good.js 1`] = `Array []`;
-
-exports[`should pass on packages/eslint-config-node/test/fixtures/samples/es9/contrived.good.js 1`] = `Array []`;
-
-exports[`should pass on packages/eslint-config-node/test/fixtures/samples/es9-object-spread/contrived.bad.js 1`] = `
-Array [
-  Object {
-    "column": 13,
-    "line": 7,
-    "rule": "prefer-object-spread",
-    "severity": 2,
-  },
-]
-`;
-
-exports[`should pass on packages/eslint-config-node/test/fixtures/samples/es9-object-spread/contrived.good.js 1`] = `Array []`;
-
-exports[`should pass on packages/eslint-config-node/test/fixtures/samples/es10/contrived.good.js 1`] = `Array []`;
-
-exports[`should pass on packages/eslint-config-react/test/fixtures/rules/react/react.js 1`] = `
+exports[`should pass on packages/eslint-config-react/test/rules/react.js 1`] = `
 Array [
   Object {
     "column": 5,
@@ -1657,297 +1478,339 @@ Array [
     "severity": 2,
   },
   Object {
-    "column": 9,
-    "line": 54,
+    "column": 13,
+    "line": 41,
     "rule": "react/default-props-match-prop-types",
     "severity": 2,
   },
   Object {
+    "column": 28,
+    "line": 70,
+    "rule": "react/forbid-foreign-prop-types",
+    "severity": 2,
+  },
+  Object {
     "column": 34,
-    "line": 102,
+    "line": 97,
     "rule": "react/jsx-boolean-value",
     "severity": 2,
   },
   Object {
     "column": 9,
-    "line": 115,
+    "line": 110,
     "rule": "react/jsx-closing-bracket-location",
     "severity": 2,
   },
   Object {
     "column": 44,
-    "line": 129,
+    "line": 124,
     "rule": "react/jsx-curly-spacing",
     "severity": 2,
   },
   Object {
     "column": 50,
-    "line": 129,
+    "line": 124,
     "rule": "react/jsx-curly-spacing",
     "severity": 2,
   },
   Object {
     "column": 44,
-    "line": 140,
+    "line": 135,
     "rule": "react/jsx-equals-spacing",
     "severity": 2,
   },
   Object {
     "column": 44,
-    "line": 140,
+    "line": 135,
     "rule": "react/jsx-equals-spacing",
     "severity": 2,
   },
   Object {
     "column": 17,
-    "line": 158,
+    "line": 153,
     "rule": "react/jsx-fragments",
     "severity": 1,
   },
   Object {
     "column": 35,
-    "line": 207,
+    "line": 194,
     "rule": "react/jsx-handler-names",
     "severity": 2,
   },
   Object {
     "column": 35,
-    "line": 211,
+    "line": 198,
     "rule": "react/jsx-handler-names",
     "severity": 2,
   },
   Object {
     "column": 1,
-    "line": 230,
+    "line": 217,
     "rule": "indent",
     "severity": 2,
   },
   Object {
     "column": 9,
-    "line": 230,
+    "line": 217,
     "rule": "react/jsx-indent-props",
     "severity": 2,
   },
   Object {
     "column": 1,
-    "line": 246,
+    "line": 233,
     "rule": "indent",
     "severity": 2,
   },
   Object {
     "column": 7,
-    "line": 246,
+    "line": 233,
     "rule": "react/jsx-indent",
     "severity": 2,
   },
   Object {
     "column": 29,
-    "line": 260,
+    "line": 249,
     "rule": "react/jsx-key",
     "severity": 1,
   },
   Object {
     "column": 35,
-    "line": 281,
+    "line": 264,
     "rule": "react/jsx-no-bind",
     "severity": 1,
   },
   Object {
     "column": 35,
-    "line": 285,
+    "line": 268,
     "rule": "react/jsx-no-bind",
     "severity": 1,
   },
   Object {
     "column": 22,
-    "line": 310,
+    "line": 293,
     "rule": "react/jsx-no-comment-textnodes",
     "severity": 2,
   },
   Object {
     "column": 22,
-    "line": 318,
+    "line": 301,
     "rule": "react/jsx-no-comment-textnodes",
     "severity": 2,
   },
   Object {
     "column": 44,
-    "line": 342,
+    "line": 325,
     "rule": "react/jsx-no-duplicate-props",
     "severity": 2,
   },
   Object {
     "column": 72,
-    "line": 360,
+    "line": 336,
     "rule": "react/jsx-no-target-blank",
     "severity": 1,
   },
   Object {
     "column": 24,
-    "line": 371,
+    "line": 347,
     "rule": "react/jsx-no-undef",
     "severity": 2,
   },
   Object {
     "column": 17,
-    "line": 385,
+    "line": 362,
     "rule": "react/jsx-pascal-case",
     "severity": 2,
   },
   Object {
-    "column": 30,
-    "line": 398,
-    "rule": "jsx-quotes",
-    "severity": 2,
-  },
-  Object {
     "column": 31,
-    "line": 416,
+    "line": 375,
     "rule": "react/jsx-tag-spacing",
     "severity": 2,
   },
   Object {
-    "column": 20,
-    "line": 427,
+    "column": 15,
+    "line": 386,
+    "rule": "react/jsx-tag-spacing",
+    "severity": 2,
+  },
+  Object {
+    "column": 19,
+    "line": 387,
     "rule": "react/jsx-tag-spacing",
     "severity": 2,
   },
   Object {
     "column": 23,
-    "line": 446,
+    "line": 407,
     "rule": "react/jsx-wrap-multilines",
     "severity": 2,
   },
   Object {
     "column": 28,
-    "line": 470,
+    "line": 422,
     "rule": "react/no-children-prop",
     "severity": 2,
   },
   Object {
     "column": 1,
-    "line": 499,
+    "line": 436,
     "rule": "react/no-deprecated",
     "severity": 1,
   },
   Object {
     "column": 13,
-    "line": 531,
+    "line": 446,
     "rule": "react/no-direct-mutation-state",
     "severity": 2,
   },
   Object {
     "column": 21,
-    "line": 562,
+    "line": 473,
     "rule": "react/no-is-mounted",
     "severity": 2,
   },
   Object {
     "column": 18,
-    "line": 598,
+    "line": 506,
     "rule": "react/no-render-return-value",
     "severity": 2,
   },
   Object {
     "column": 25,
-    "line": 623,
+    "line": 521,
     "rule": "react/no-string-refs",
     "severity": 2,
   },
   Object {
     "column": 48,
-    "line": 623,
+    "line": 521,
     "rule": "babel/semi",
     "severity": 2,
   },
   Object {
     "column": 11,
-    "line": 654,
+    "line": 552,
     "rule": "react/no-unescaped-entities",
     "severity": 2,
   },
   Object {
     "column": 13,
-    "line": 654,
+    "line": 552,
     "rule": "react/no-unescaped-entities",
     "severity": 2,
   },
   Object {
     "column": 14,
-    "line": 654,
+    "line": 552,
     "rule": "react/no-unescaped-entities",
     "severity": 2,
   },
   Object {
     "column": 22,
-    "line": 674,
+    "line": 572,
     "rule": "react/no-unknown-property",
     "severity": 2,
   },
   Object {
     "column": 42,
-    "line": 700,
+    "line": 583,
     "rule": "react/prefer-es6-class",
     "severity": 2,
   },
   Object {
     "column": 44,
-    "line": 728,
+    "line": 596,
     "rule": "react/prop-types",
     "severity": 2,
   },
   Object {
-    "column": 25,
-    "line": 768,
-    "rule": "prefer-import/prefer-import-over-require",
-    "severity": 1,
-  },
-  Object {
     "column": 9,
-    "line": 780,
+    "line": 622,
     "rule": "react/require-render-return",
     "severity": 2,
   },
   Object {
     "column": 23,
-    "line": 798,
+    "line": 640,
     "rule": "react/self-closing-comp",
     "severity": 2,
   },
   Object {
     "column": 9,
-    "line": 816,
+    "line": 658,
     "rule": "react/sort-comp",
     "severity": 2,
   },
   Object {
     "column": 22,
-    "line": 860,
+    "line": 689,
     "rule": "react/style-prop-object",
     "severity": 2,
   },
   Object {
     "column": 15,
-    "line": 872,
+    "line": 702,
     "rule": "react/void-dom-elements-no-children",
     "severity": 2,
   },
 ]
 `;
 
-exports[`should pass on packages/eslint-config-react/test/fixtures/rules/react/react-foreign-proptypes.js 1`] = `
+exports[`should pass on packages/eslint-config-react/test/rules/react-hooks.js 1`] = `
 Array [
   Object {
-    "column": 9,
-    "line": 6,
-    "rule": "react/forbid-foreign-prop-types",
+    "column": 13,
+    "line": 9,
+    "rule": "react-hooks/rules-of-hooks",
     "severity": 2,
+  },
+  Object {
+    "column": 13,
+    "line": 19,
+    "rule": "react-hooks/rules-of-hooks",
+    "severity": 2,
+  },
+  Object {
+    "column": 13,
+    "line": 29,
+    "rule": "react-hooks/rules-of-hooks",
+    "severity": 2,
+  },
+  Object {
+    "column": 12,
+    "line": 51,
+    "rule": "react-hooks/exhaustive-deps",
+    "severity": 1,
+  },
+  Object {
+    "column": 9,
+    "line": 72,
+    "rule": "react-hooks/rules-of-hooks",
+    "severity": 2,
+  },
+  Object {
+    "column": 15,
+    "line": 99,
+    "rule": "react-hooks/exhaustive-deps",
+    "severity": 1,
+  },
+  Object {
+    "column": 28,
+    "line": 128,
+    "rule": "react-hooks/exhaustive-deps",
+    "severity": 1,
   },
 ]
 `;
 
-exports[`should pass on packages/eslint-config-react/test/fixtures/rules/react/react-jsx-extension.jsx 1`] = `
+exports[`should pass on packages/eslint-config-react/test/rules/react-jsx-extension.jsx 1`] = `
 Array [
+  Object {
+    "column": 7,
+    "line": 5,
+    "rule": "no-unused-vars",
+    "severity": 2,
+  },
   Object {
     "column": 16,
     "line": 7,
@@ -1957,7 +1820,7 @@ Array [
 ]
 `;
 
-exports[`should pass on packages/eslint-config-react/test/fixtures/rules/react/react-missing-import.js 1`] = `
+exports[`should pass on packages/eslint-config-react/test/rules/react-missing-import.js 1`] = `
 Array [
   Object {
     "column": 13,
@@ -1968,363 +1831,278 @@ Array [
 ]
 `;
 
-exports[`should pass on packages/eslint-config-react/test/fixtures/rules/react/react-no-unused.js 1`] = `Array []`;
+exports[`should pass on packages/eslint-config-react/test/rules/react-no-unused.js 1`] = `Array []`;
 
-exports[`should pass on packages/eslint-config-react/test/fixtures/rules/react-hooks/call-at-top-level.js 1`] = `
-Array [
-  Object {
-    "column": 13,
-    "line": 17,
-    "rule": "react-hooks/rules-of-hooks",
-    "severity": 2,
-  },
-  Object {
-    "column": 13,
-    "line": 27,
-    "rule": "react-hooks/rules-of-hooks",
-    "severity": 2,
-  },
-  Object {
-    "column": 13,
-    "line": 37,
-    "rule": "react-hooks/rules-of-hooks",
-    "severity": 2,
-  },
-]
-`;
+exports[`should pass on packages/eslint-config-react/test/samples/my-component/MyComponent.js 1`] = `Array []`;
 
-exports[`should pass on packages/eslint-config-react/test/fixtures/rules/react-hooks/custom-hooks.js 1`] = `
-Array [
-  Object {
-    "column": 9,
-    "line": 20,
-    "rule": "react-hooks/rules-of-hooks",
-    "severity": 2,
-  },
-]
-`;
+exports[`should pass on packages/eslint-config-react/test/samples/my-component/MyComponent.old.js 1`] = `Array []`;
 
-exports[`should pass on packages/eslint-config-react/test/fixtures/rules/react-hooks/function-deps.js 1`] = `
-Array [
-  Object {
-    "column": 15,
-    "line": 7,
-    "rule": "react-hooks/exhaustive-deps",
-    "severity": 1,
-  },
-]
-`;
+exports[`should pass on packages/eslint-config-react/test/samples/my-component/MyComponent.test.js 1`] = `Array []`;
 
-exports[`should pass on packages/eslint-config-react/test/fixtures/rules/react-hooks/instance-like-variables.js 1`] = `
-Array [
-  Object {
-    "column": 28,
-    "line": 10,
-    "rule": "react-hooks/exhaustive-deps",
-    "severity": 1,
-  },
-]
-`;
-
-exports[`should pass on packages/eslint-config-react/test/fixtures/rules/react-hooks/missing-effect-deps.js 1`] = `
-Array [
-  Object {
-    "column": 12,
-    "line": 20,
-    "rule": "react-hooks/exhaustive-deps",
-    "severity": 1,
-  },
-]
-`;
-
-exports[`should pass on packages/eslint-config-react/test/fixtures/samples/react/contrived-old-es7.good.js 1`] = `Array []`;
-
-exports[`should pass on packages/eslint-config-react/test/fixtures/samples/react/contrived-old-es7.good.test.js 1`] = `Array []`;
-
-exports[`should pass on packages/eslint-config-react/test/fixtures/samples/react/contrived-old-es8.good.js 1`] = `Array []`;
-
-exports[`should pass on packages/eslint-config-react-a11y/test/fixtures/rules/jsx-a11y/jsx-a11y.js 1`] = `
+exports[`should pass on packages/eslint-config-react-web-a11y/test/rules/jsx-a11y.js 1`] = `
 Array [
   Object {
     "column": 23,
-    "line": 6,
+    "line": 9,
     "rule": "jsx-a11y/accessible-emoji",
     "severity": 1,
   },
   Object {
     "column": 23,
-    "line": 15,
+    "line": 20,
     "rule": "jsx-a11y/alt-text",
     "severity": 1,
   },
   Object {
     "column": 24,
-    "line": 24,
+    "line": 31,
     "rule": "jsx-a11y/anchor-has-content",
     "severity": 1,
   },
   Object {
     "column": 24,
-    "line": 25,
+    "line": 32,
     "rule": "jsx-a11y/anchor-has-content",
     "severity": 1,
   },
   Object {
     "column": 24,
-    "line": 35,
+    "line": 44,
     "rule": "jsx-a11y/anchor-is-valid",
     "severity": 1,
   },
   Object {
     "column": 24,
-    "line": 36,
+    "line": 45,
     "rule": "jsx-a11y/anchor-is-valid",
     "severity": 1,
   },
   Object {
     "column": 24,
-    "line": 37,
+    "line": 46,
     "rule": "jsx-a11y/anchor-is-valid",
     "severity": 1,
   },
   Object {
     "column": 24,
-    "line": 37,
+    "line": 46,
     "rule": "jsx-a11y/click-events-have-key-events",
     "severity": 1,
   },
   Object {
     "column": 24,
-    "line": 37,
+    "line": 46,
     "rule": "jsx-a11y/no-static-element-interactions",
     "severity": 1,
   },
   Object {
     "column": 23,
-    "line": 47,
+    "line": 58,
     "rule": "jsx-a11y/aria-activedescendant-has-tabindex",
     "severity": 1,
   },
   Object {
     "column": 31,
-    "line": 56,
+    "line": 69,
     "rule": "jsx-a11y/aria-props",
     "severity": 2,
   },
   Object {
     "column": 31,
-    "line": 57,
+    "line": 70,
     "rule": "jsx-a11y/aria-props",
     "severity": 2,
   },
   Object {
     "column": 31,
-    "line": 67,
+    "line": 82,
     "rule": "jsx-a11y/aria-proptypes",
     "severity": 2,
   },
   Object {
     "column": 31,
-    "line": 68,
+    "line": 83,
     "rule": "jsx-a11y/aria-proptypes",
     "severity": 2,
   },
   Object {
     "column": 31,
-    "line": 78,
+    "line": 95,
     "rule": "jsx-a11y/aria-role",
     "severity": 2,
   },
   Object {
     "column": 31,
-    "line": 79,
+    "line": 96,
     "rule": "jsx-a11y/aria-role",
     "severity": 2,
   },
   Object {
     "column": 31,
-    "line": 80,
+    "line": 97,
     "rule": "jsx-a11y/aria-role",
     "severity": 2,
   },
   Object {
     "column": 23,
-    "line": 89,
+    "line": 108,
     "rule": "jsx-a11y/aria-unsupported-elements",
     "severity": 1,
   },
   Object {
     "column": 23,
-    "line": 98,
+    "line": 119,
     "rule": "jsx-a11y/click-events-have-key-events",
     "severity": 1,
   },
   Object {
+    "column": 24,
+    "line": 130,
+    "rule": "jsx-a11y/heading-has-content",
+    "severity": 1,
+  },
+  Object {
+    "column": 24,
+    "line": 131,
+    "rule": "jsx-a11y/heading-has-content",
+    "severity": 1,
+  },
+  Object {
     "column": 23,
-    "line": 98,
-    "rule": "jsx-a11y/no-static-element-interactions",
-    "severity": 1,
-  },
-  Object {
-    "column": 24,
-    "line": 107,
-    "rule": "jsx-a11y/heading-has-content",
-    "severity": 1,
-  },
-  Object {
-    "column": 24,
-    "line": 108,
-    "rule": "jsx-a11y/heading-has-content",
-    "severity": 1,
-  },
-  Object {
-    "column": 24,
-    "line": 117,
+    "line": 142,
     "rule": "jsx-a11y/html-has-lang",
     "severity": 1,
   },
   Object {
     "column": 23,
-    "line": 126,
+    "line": 153,
     "rule": "jsx-a11y/iframe-has-title",
     "severity": 1,
   },
   Object {
     "column": 23,
-    "line": 135,
+    "line": 164,
     "rule": "jsx-a11y/img-redundant-alt",
     "severity": 1,
   },
   Object {
     "column": 23,
-    "line": 144,
+    "line": 175,
     "rule": "jsx-a11y/interactive-supports-focus",
     "severity": 1,
   },
   Object {
     "column": 13,
-    "line": 156,
-    "rule": "jsx-a11y/label-has-associated-control",
-    "severity": 1,
-  },
-  Object {
-    "column": 13,
-    "line": 163,
+    "line": 189,
     "rule": "jsx-a11y/label-has-associated-control",
     "severity": 1,
   },
   Object {
     "column": 29,
-    "line": 188,
+    "line": 220,
     "rule": "jsx-a11y/lang",
     "severity": 2,
   },
   Object {
     "column": 23,
-    "line": 208,
+    "line": 244,
     "rule": "jsx-a11y/mouse-events-have-key-events",
     "severity": 1,
   },
   Object {
     "column": 23,
-    "line": 218,
+    "line": 256,
     "rule": "jsx-a11y/no-access-key",
     "severity": 1,
   },
   Object {
-    "column": 40,
-    "line": 218,
-    "rule": "no-undef",
-    "severity": 2,
-  },
-  Object {
     "column": 28,
-    "line": 227,
+    "line": 267,
     "rule": "jsx-a11y/no-autofocus",
     "severity": 1,
   },
   Object {
     "column": 24,
-    "line": 236,
+    "line": 278,
     "rule": "jsx-a11y/no-distracting-elements",
     "severity": 1,
   },
   Object {
     "column": 24,
-    "line": 237,
+    "line": 279,
     "rule": "jsx-a11y/no-distracting-elements",
     "severity": 1,
   },
   Object {
     "column": 30,
-    "line": 246,
+    "line": 290,
     "rule": "jsx-a11y/no-interactive-element-to-noninteractive-role",
     "severity": 1,
   },
   Object {
     "column": 23,
-    "line": 255,
+    "line": 301,
     "rule": "jsx-a11y/no-noninteractive-element-interactions",
     "severity": 1,
   },
   Object {
-    "column": 81,
-    "line": 264,
+    "column": 77,
+    "line": 312,
     "rule": "jsx-a11y/no-noninteractive-element-to-interactive-role",
     "severity": 1,
   },
   Object {
     "column": 28,
-    "line": 273,
+    "line": 323,
     "rule": "jsx-a11y/no-noninteractive-tabindex",
     "severity": 1,
   },
   Object {
     "column": 23,
-    "line": 282,
+    "line": 334,
     "rule": "jsx-a11y/no-onchange",
     "severity": 1,
   },
   Object {
     "column": 23,
-    "line": 292,
+    "line": 346,
     "rule": "jsx-a11y/no-redundant-roles",
     "severity": 1,
   },
   Object {
     "column": 23,
-    "line": 305,
+    "line": 361,
     "rule": "jsx-a11y/no-static-element-interactions",
     "severity": 1,
   },
   Object {
     "column": 29,
-    "line": 316,
+    "line": 374,
     "rule": "jsx-a11y/role-has-required-aria-props",
     "severity": 1,
   },
   Object {
     "column": 23,
-    "line": 326,
+    "line": 386,
     "rule": "jsx-a11y/role-supports-aria-props",
     "severity": 2,
   },
   Object {
     "column": 28,
-    "line": 335,
+    "line": 397,
     "rule": "jsx-a11y/scope",
     "severity": 1,
   },
   Object {
     "column": 49,
-    "line": 344,
+    "line": 408,
     "rule": "jsx-a11y/tabindex-no-positive",
     "severity": 1,
   },
 ]
 `;
 
-exports[`should pass on packages/eslint-config-vue/test/fixtures/rules/Vue.vue 1`] = `
+exports[`should pass on packages/eslint-config-vue/test/rules/vue.vue 1`] = `
 Array [
   Object {
     "column": 20,
@@ -2389,7 +2167,7 @@ Array [
 ]
 `;
 
-exports[`should pass on packages/eslint-config-vue/test/fixtures/rules/vue-no-async-computed-properties.vue 1`] = `
+exports[`should pass on packages/eslint-config-vue/test/rules/vue-no-async-computed-properties.vue 1`] = `
 Array [
   Object {
     "column": 20,
@@ -2454,7 +2232,7 @@ Array [
 ]
 `;
 
-exports[`should pass on packages/eslint-config-vue/test/fixtures/rules/vue-no-dupe-attributes.vue 1`] = `
+exports[`should pass on packages/eslint-config-vue/test/rules/vue-no-dupe-attributes.vue 1`] = `
 Array [
   Object {
     "column": 29,
@@ -2519,7 +2297,7 @@ Array [
 ]
 `;
 
-exports[`should pass on packages/eslint-config-vue/test/fixtures/rules/vue-no-dupe-keys.vue 1`] = `
+exports[`should pass on packages/eslint-config-vue/test/rules/vue-no-dupe-keys.vue 1`] = `
 Array [
   Object {
     "column": 9,
@@ -2542,7 +2320,7 @@ Array [
 ]
 `;
 
-exports[`should pass on packages/eslint-config-vue/test/fixtures/rules/vue-no-reserved-keys.vue 1`] = `
+exports[`should pass on packages/eslint-config-vue/test/rules/vue-no-reserved-keys.vue 1`] = `
 Array [
   Object {
     "column": 9,
@@ -2577,7 +2355,7 @@ Array [
 ]
 `;
 
-exports[`should pass on packages/eslint-config-vue/test/fixtures/rules/vue-no-shared-component-data.vue 1`] = `
+exports[`should pass on packages/eslint-config-vue/test/rules/vue-no-shared-component-data.vue 1`] = `
 Array [
   Object {
     "column": 5,
@@ -2588,7 +2366,7 @@ Array [
 ]
 `;
 
-exports[`should pass on packages/eslint-config-vue/test/fixtures/rules/vue-no-side-effects-in-computed-properties.vue 1`] = `
+exports[`should pass on packages/eslint-config-vue/test/rules/vue-no-side-effects-in-computed-properties.vue 1`] = `
 Array [
   Object {
     "column": 13,
@@ -2605,7 +2383,7 @@ Array [
 ]
 `;
 
-exports[`should pass on packages/eslint-config-vue/test/fixtures/rules/vue-no-template-key.vue 1`] = `
+exports[`should pass on packages/eslint-config-vue/test/rules/vue-no-template-key.vue 1`] = `
 Array [
   Object {
     "column": 5,
@@ -2634,7 +2412,7 @@ Array [
 ]
 `;
 
-exports[`should pass on packages/eslint-config-vue/test/fixtures/rules/vue-no-textarea-mustache.vue 1`] = `
+exports[`should pass on packages/eslint-config-vue/test/rules/vue-no-textarea-mustache.vue 1`] = `
 Array [
   Object {
     "column": 5,
@@ -2651,9 +2429,9 @@ Array [
 ]
 `;
 
-exports[`should pass on packages/eslint-config-vue/test/fixtures/rules/vue-no-unused-components.vue 1`] = `Array []`;
+exports[`should pass on packages/eslint-config-vue/test/rules/vue-no-unused-components.vue 1`] = `Array []`;
 
-exports[`should pass on packages/eslint-config-vue/test/fixtures/rules/vue-no-use-vif-with-vfor.vue 1`] = `
+exports[`should pass on packages/eslint-config-vue/test/rules/vue-no-use-vif-with-vfor.vue 1`] = `
 Array [
   Object {
     "column": 5,
@@ -2688,10 +2466,16 @@ Array [
 ]
 `;
 
-exports[`should pass on packages/eslint-config-vue/test/fixtures/rules/vue-require-v-for-key.vue 1`] = `Array []`;
+exports[`should pass on packages/eslint-config-vue/test/rules/vue-require-v-for-key.vue 1`] = `Array []`;
 
-exports[`should pass on packages/eslint-config-vue/test/fixtures/rules/vue-require-valid-default-prop.vue 1`] = `
+exports[`should pass on packages/eslint-config-vue/test/rules/vue-require-valid-default-prop.vue 1`] = `
 Array [
+  Object {
+    "column": 9,
+    "line": 31,
+    "rule": "no-dupe-keys",
+    "severity": 2,
+  },
   Object {
     "column": 9,
     "line": 31,
@@ -2702,6 +2486,12 @@ Array [
     "column": 13,
     "line": 33,
     "rule": "vue/require-valid-default-prop",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 35,
+    "rule": "no-dupe-keys",
     "severity": 2,
   },
   Object {
@@ -2725,6 +2515,12 @@ Array [
   Object {
     "column": 9,
     "line": 43,
+    "rule": "no-dupe-keys",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 43,
     "rule": "vue/no-dupe-keys",
     "severity": 2,
   },
@@ -2732,6 +2528,12 @@ Array [
     "column": 13,
     "line": 45,
     "rule": "vue/require-valid-default-prop",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 47,
+    "rule": "no-dupe-keys",
     "severity": 2,
   },
   Object {
@@ -2749,7 +2551,7 @@ Array [
 ]
 `;
 
-exports[`should pass on packages/eslint-config-vue/test/fixtures/rules/vue-return-in-computed-property.vue 1`] = `
+exports[`should pass on packages/eslint-config-vue/test/rules/vue-return-in-computed-property.vue 1`] = `
 Array [
   Object {
     "column": 12,
@@ -2766,7 +2568,7 @@ Array [
 ]
 `;
 
-exports[`should pass on packages/eslint-config-vue/test/fixtures/rules/vue-valid-directives.vue 1`] = `
+exports[`should pass on packages/eslint-config-vue/test/rules/vue-valid-directives.vue 1`] = `
 Array [
   Object {
     "column": 10,

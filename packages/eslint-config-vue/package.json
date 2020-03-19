@@ -19,19 +19,21 @@
     "url": "git@github.com:moxystudio/eslint-config.git"
   },
   "license": "MIT",
-  "main": "index.js",
+  "main": "lib/index.js",
   "files": [
-    "rules",
     "lib"
   ],
-  "peerDependencies": {
-    "eslint": "^6.0.0"
-  },
   "dependencies": {
     "@vue/eslint-config-prettier": "^6.0.0",
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-vue": "^6.1.2",
     "prettier": "^1.19.1"
+  },
+  "peerDependencies": {
+    "@moxy/eslint-config-base": "^0.0.0"
+  },
+  "devDependencies": {
+    "@moxy/eslint-config-base": "^0.0.0"
   },
   "engines": {
     "node": ">=10",

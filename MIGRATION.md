@@ -14,27 +14,33 @@ Your `.eslintrc.json` would look similar to this:
     "extends": [
         "@moxy/eslint-config/es9",
         "@moxy/eslint-config/addons/browser",
+        "@moxy/eslint-config/addons/babel-parser",
         "@moxy/eslint-config/addons/es-modules",
         "@moxy/eslint-config/addons/react"
     ]
 }
 ```
 
-This monolithic, multiple **addon** approach has been refactored into a set of 3 different **base** configuration packages and 3 **enhancer** packages (more info on what packages exist and how to use them is in this repository's [README](README.md)).
-
-NOTE: both `@moxy/eslint-config-browser` and `@moxy/eslint-config-isomorphic` already introduce the previous `es-modules` and `babel-parser` **addons**.
-
-- `es-modules`: If you are going to use ES6 import & export instead of CommonJS or AMD (this rule skips root `[...].config.js` files to avoid ignoring this rule in common configuration files)
-- `babel-parser`: Use [babel-eslint](https://github.com/babel/babel-eslint) parser so that you may use language features that are not yet implemented in eslint (e.g.: dynamic imports)
+This monolithic, multiple **addon** approach has been refactored into one **base** configuration package and several **enhancer** packages (more info on what packages exist and how to use them is in this repository's [README](README.md)).
 
 For example, the example given above would look like this after migrating to the newest version:
 
 ```json
 {
     "root": true,
+    "env": {
+        "browser": true,
+    },
     "extends": [
-        "@moxy/eslint-config-browser",
+        "@moxy/eslint-config-base/esm/es2018",
+        "@moxy/eslint-config-babel",
         "@moxy/eslint-config-react"
     ]
 }
 ```
+
+...where:
+
+- `@moxy/eslint-config/es9`and `@moxy/eslint-config/addons/es-modules` was replaced with `@moxy/eslint-config-base/esm/es2018`
+- `@moxy/eslint-config/addons/browser` was replaced with ESLint's [`env`](https://eslint.org/docs/user-guide/configuring#specifying-environments).
+- `@moxy/eslint-config/addons/babel-parser` was replaced with `@moxy/eslint-config-babel`

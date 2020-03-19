@@ -1,0 +1,6 @@
+{
+    "root": true,
+    "extends": [
+        "../../../cjs/es2015"
+    ]
+}

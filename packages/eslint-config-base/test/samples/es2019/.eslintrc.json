@@ -1,0 +1,9 @@
+{
+    "root": true,
+    "extends": [
+        "../../../es2019"
+    ],
+    "rules": {
+        "no-implicit-globals": "off"
+    }
+}

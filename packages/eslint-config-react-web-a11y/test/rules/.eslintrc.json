@@ -1,0 +1,14 @@
+{
+    "root": true,
+    "env": {
+        "browser": true
+    },
+    "extends": [
+        "@moxy/eslint-config-base/esm",
+        "@moxy/eslint-config-react",
+        "../.."
+    ],
+    "rules": {
+        "no-unused-vars": 0
+    }
+}

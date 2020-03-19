@@ -1,0 +1,42 @@
+{
+  "name": "@moxy/eslint-config-base",
+  "description": "MOXY's ESLint base configuration",
+  "version": "0.0.0",
+  "keywords": [
+    "eslint-config",
+    "eslintconfig",
+    "eslint",
+    "lint",
+    "linter",
+    "style",
+    "base"
+  ],
+  "author": "André Cruz <andre@moxy.studio>",
+  "homepage": "https://github.com/moxystudio/eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:moxystudio/eslint-config.git"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "es*.js",
+    "esm",
+    "cjs",
+    "lib"
+  ],
+  "dependencies": {
+    "eslint-plugin-jsdoc": "^20.3.1",
+    "eslint-plugin-import": "^2.20.1"
+  },
+  "peerDependencies": {
+    "eslint": "^6.0.0"
+  },
+  "engines": {
+    "node": ">=10",
+    "npm": ">=3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

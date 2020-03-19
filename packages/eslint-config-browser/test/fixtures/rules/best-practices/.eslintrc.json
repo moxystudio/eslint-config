@@ -1,9 +1,0 @@
-{
-    "root": true,
-    "extends": [
-        "../../../../index.js"
-    ],
-    "rules": {
-        "no-unused-vars": 0
-    }
-}

@@ -24,18 +24,19 @@ $ npm install --save-dev eslint @moxy/eslint-config-jest
 
 Create a `.eslintrc.json` file in the project root and extend `@moxy/eslint-config-jest`.
 
-This package should be used in conjunction with one of the base packages, like `@moxy/eslint-config-node`.
+This package should be used in conjunction with [`@moxy/eslint-config-base`](../eslint-config-base).
 
-### Examples
+### Example
 
 ```json
 {
     "root": true,
+    "env": {
+        "browser": true,
+    },
     "extends": [
-        "@moxy/eslint-config-node",
+        "@moxy/eslint-config-base/esm",
         "@moxy/eslint-config-jest"
     ]
 }
 ```
-
-Note that by setting `root` to true, we ensure that no ancestor configuration is used which also improves `ESLint` performance because no more file lookups need to be done.

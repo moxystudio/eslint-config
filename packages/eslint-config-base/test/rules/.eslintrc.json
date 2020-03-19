@@ -1,0 +1,52 @@
+{
+    "root": true,
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "overrides": [
+        {
+            "files": "./**/*.js",
+            "excludedFiles": [
+                "./variables-no-unused.js",
+                "./es6-esm",
+                "./node"
+            ],
+            "env": {
+                "browser": true
+            },
+            "extends": "../..",
+            "rules": {
+                "no-unused-vars": 0
+            }
+        },
+        {
+            "files": "./variables-no-unused.js",
+            "extends": "../..",
+            "env": {
+                "browser": true
+            }
+        },
+        {
+            "files": "./node.js",
+            "extends": "../..",
+            "env": {
+                "node": true
+            },
+            "rules": {
+                "no-unused-vars": 0
+            }
+        },
+        {
+            "files": "./es6-esm.js",
+            "extends": "../../esm",
+            "env": {
+                "browser": true
+            },
+            "rules": {
+                "no-unused-vars": 0
+            }
+        }
+    ]
+}

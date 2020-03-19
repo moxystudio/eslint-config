@@ -1,8 +1,0 @@
-{
-    "root": true,
-    "extends": [
-        "@moxy/eslint-config-node",
-        "@moxy/eslint-config-browser/lib/es-modules.js",
-        "../../../../index.js"
-    ]
-}
