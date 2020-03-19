@@ -1,5 +1,5 @@
 {
-  "name": "@moxy/eslint-config-react-a11y",
+  "name": "@moxy/eslint-config-react-web-a11y",
   "description": "MOXY's ESLint accessibility rules for web projects that use React",
   "version": "1.0.0",
   "keywords": [
