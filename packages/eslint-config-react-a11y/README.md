@@ -23,18 +23,20 @@ $ npm install --save-dev eslint @moxy/eslint-config-react-a11y
 
 Create a `.eslintrc.json` file in the project root and extend `@moxy/eslint-config-react-a11y`.
 
-This package should only be used in conjunction with one of the two base packages `@moxy/eslint-config-isomorphic` or `@moxy/eslint-config-browser`.
+This package should be used in conjunction with [`@moxy/eslint-config-base`](../eslint-config-base) and [`@moxy/eslint-config-react`](../eslint-config-react).
 
-### Examples
+### Example
 
 ```json
 {
     "root": true,
+    "env": {
+        "browser": true,
+    },
     "extends": [
-        "@moxy/eslint-config-isomorphic",
+        "@moxy/eslint-config-base/esm",
+        "@moxy/eslint-config-react",
         "@moxy/eslint-config-react-a11y"
     ]
 }
 ```
-
-Note that by setting `root` to true, we ensure that no ancestor configuration is used which also improves `ESLint` performance because no more file lookups need to be done.

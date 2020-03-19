@@ -1,10 +1,10 @@
 'use strict';
 
 module.exports = {
-    'plugins': [
+    plugins: [
         'jsx-a11y',
     ],
-    'extends': [
-        '../rules/jsx-a11y.js',
+    extends: [
+        './rules/jsx-a11y',
     ].map(require.resolve),
 };

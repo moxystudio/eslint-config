@@ -27,8 +27,6 @@ Create a `.eslintrc.json` file in the project root and extend from one of these 
 - `@moxy/eslint-config-base/esm` - Latest ECMAScript version with ECMAScript modules, currently an alias to `@moxy/eslint-config-base/esm/es2020`.
 - `@moxy/eslint-config-base/cjs` - Latest ECMAScript version with CommonJS modules, currently an alias to `@moxy/eslint-config-base/cjs/es2020`.
 
-ℹ️ All files that end in `.config.js` within your project root folder will automatically be treated as Node.js files as they relate to tooling, such as `babel.config.js` and `commitlint.config.js`.
-
 <details>
   <summary>ℹ️ You may target older versions of ECMAScript by using one of these base configurations instead:</summary>
 
@@ -51,6 +49,8 @@ Create a `.eslintrc.json` file in the project root and extend from one of these 
   - `@moxy/eslint-config-base/cjs/es2019` - ECMAScript 2019 (aka es10) with CommonJS modules.
   - `@moxy/eslint-config-base/cjs/es2020` - ECMAScript 2020 (aka es11) with CommonJS modules.
 </details>
+
+All files that end in `.config.js` within your project root folder will automatically be treated as Node.js files as they relate to tooling, such as `babel.config.js` and `commitlint.config.js`.
 
 ### Examples
 

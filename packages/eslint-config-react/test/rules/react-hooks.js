@@ -1,6 +1,6 @@
 import { useEffect, useState, useCallback, useRef } from 'react';
 
-// `react-hooks/rules-of-hooks` - Hooks must always be called at the top level
+// `react-hooks/rules-of-hooks` - hooks must always be called at the top level
 // --------------------------------------------------------------------
 // Bad
 {
@@ -41,7 +41,7 @@ import { useEffect, useState, useCallback, useRef } from 'react';
     };
 }
 
-// `react-hooks/exhaustive-deps` - Warns about effects not having their dependencies declared
+// `react-hooks/exhaustive-deps` - warns about effects not having their dependencies declared
 // --------------------------------------------------------------------
 // Bad
 {
@@ -64,7 +64,7 @@ import { useEffect, useState, useCallback, useRef } from 'react';
     };
 }
 
-// `react-hooks/rules-of-hooks` - Custom hook names must be prefixed with "use"
+// `react-hooks/rules-of-hooks` - custom hook names must be prefixed with "use"
 // --------------------------------------------------------------------
 // Bad
 {
@@ -91,7 +91,7 @@ import { useEffect, useState, useCallback, useRef } from 'react';
     };
 }
 
-// `react-hooks/exhaustive-deps` - Warns about function references changing every render
+// `react-hooks/exhaustive-deps` - warns about function references changing every render
 // --------------------------------------------------------------------
 // Not advisable
 {
@@ -117,7 +117,7 @@ import { useEffect, useState, useCallback, useRef } from 'react';
         return null;
     };
 }
-// `react-hooks/exhaustive-deps` - Warns about preservation of most recent value
+// `react-hooks/exhaustive-deps` - warns about preservation of most recent value
 // --------------------------------------------------------------------
 // Not advisable
 {

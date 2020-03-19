@@ -30,6 +30,9 @@ This package should be used in conjunction with [`@moxy/eslint-config-base`](../
 ```json
 {
     "root": true,
+    "env": {
+        "browser": true,
+    },
     "extends": [
         "@moxy/eslint-config-base/esm",
         "@moxy/eslint-config-babel"

@@ -23,7 +23,7 @@ it('no-identical-title bad', () => {});
 it('no-identical-title good', () => {});
 it('no-identical-title good 2', () => {});
 
-// `prefer-to-have-length` - Prefer toHaveLength() over toBe()
+// `prefer-to-have-length` - prefer toHaveLength() over toBe()
 // ---------------------------------------------------------------------
 // Bad
 it('prefer-to-have-length bad', () => {
@@ -34,7 +34,7 @@ it('prefer-to-have-length good', () => {
     expect([].length).toHaveLength(0);
 });
 
-// `valid-expect` - Enforce valid expect() usage
+// `valid-expect` - enforce valid expect() usage
 // ---------------------------------------------------------------------
 // Bad
 it('valid-expect bad', () => {
@@ -43,11 +43,4 @@ it('valid-expect bad', () => {
 // Good
 it('valid-expect good', () => {
     expect('something').not.toEqual('else');
-});
-
-// `global-require` - Allow scoped require
-// `prefer-import/prefer-import-over-require` - Ignore imports
-// ---------------------------------------------------------------------
-it('global-require', () => {
-    require('foo');
 });

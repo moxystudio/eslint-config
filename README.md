@@ -31,7 +31,7 @@ There are a few available **enhancer** packages, which are intended to be used i
 - [`@moxy/eslint-config-babel`](packages/eslint-config-babel/) - If you are going to use [Babel](https://babeljs.io/) to transpile source code.
 - [`@moxy/eslint-config-jest`](packages/eslint-config-jest/) - If you are going to use [Jest](https://facebook.github.io/jest/) to develop tests.
 - [`@moxy/eslint-config-react`](packages/eslint-config-react/) - If you are going to use [React](https://reactjs.org/).
-- [`@moxy/eslint-config-react-a11y`](packages/eslint-config-react-a11y/) - If you are want to enforce accessibility rules in [React](https://reactjs.org/). Should only be used with [React](https://reactjs.org/) and [`@moxy/eslint-config-browser`](packages/eslint-config-browser/) or [`@moxy/eslint-config-isomorphic`](packages/eslint-config-isomorphic/).
+- [`@moxy/eslint-config-react-a11y`](packages/eslint-config-react-a11y/) - If you want to enforce accessibility rules in web projects based on [React](https://reactjs.org/).
 - [`@moxy/eslint-config-vue`](packages/eslint-config-vue/) - If you are going to use [Vue](https://vuejs.org/).
 
 ## Typical configs
@@ -57,7 +57,7 @@ There are a few available **enhancer** packages, which are intended to be used i
 </details>
 
 <details>
-  <summary>React project</summary>
+  <summary>React web project</summary>
 
   ```json
   {
@@ -68,7 +68,8 @@ There are a few available **enhancer** packages, which are intended to be used i
       "extends": [
           "@moxy/eslint-config-base/esm",
           "@moxy/eslint-config-babel",
-          "@moxy/eslint-config-react"
+          "@moxy/eslint-config-react",
+          "@moxy/eslint-config-react-a11y",
           "@moxy/eslint-config-jest"
       ]
   }

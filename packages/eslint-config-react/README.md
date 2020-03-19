@@ -25,11 +25,14 @@ Create a `.eslintrc.json` file in the project root and extend `@moxy/eslint-conf
 
 This package should be used in conjunction with [`@moxy/eslint-config-base`](../eslint-config-base).
 
-### Examples
+### Example
 
 ```json
 {
     "root": true,
+    "env": {
+        "browser": true,
+    },
     "extends": [
         "@moxy/eslint-config-base/esm",
         "@moxy/eslint-config-react"

@@ -12,7 +12,8 @@
     "react-lint",
     "react-eslint",
     "accessibility",
-    "a11y"
+    "a11y",
+    "jsx-a11y"
   ],
   "author": "André Cruz <andre@moxy.studio>",
   "homepage": "https://github.com/moxystudio/eslint-config",
@@ -21,21 +22,21 @@
     "url": "git@github.com:moxystudio/eslint-config.git"
   },
   "license": "MIT",
-  "main": "index.js",
+  "main": "lib/index.js",
   "files": [
-    "rules",
     "lib"
   ],
-  "peerDependencies": {
-    "eslint": "^6.0.0"
-  },
   "dependencies": {
     "eslint-plugin-jsx-a11y": "^6.2.3"
   },
+  "peerDependencies": {
+    "@moxy/eslint-config-base": "^0.0.0",
+    "@moxy/eslint-config-react": "^1.0.0"
+  },
   "devDependencies": {
-    "@moxy/babel-preset": "^3.2.4",
-    "@moxy/eslint-config-browser": "^1.0.0",
-    "react": "^16.12.0"
+    "@moxy/eslint-config-base": "^0.0.0",
+    "@moxy/eslint-config-react": "^1.0.0",
+    "react": "^16.13.0"
   },
   "engines": {
     "node": ">=10",
