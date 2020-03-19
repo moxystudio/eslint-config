@@ -11,7 +11,7 @@
 [david-dm-dev-url]:https://david-dm.org/moxystudio/eslint-config?type=dev&path=packages/eslint-config-react-a11y
 [david-dm-dev-image]:https://img.shields.io/david/dev/moxystudio/eslint-config.svg?path=packages/eslint-config-react-a11y
 
-MOXY's [ESLint](http://eslint.org/) accessibility rules for projects that use [React](https://reactjs.org).
+MOXY's [ESLint](http://eslint.org/) accessibility rules for web projects that use [React](https://reactjs.org).
 
 ## Installation
 
