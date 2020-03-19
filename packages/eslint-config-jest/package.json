@@ -24,13 +24,11 @@
     "lib"
   ],
   "dependencies": {
+    "@moxy/eslint-config-base": "^11.0.0",
     "eslint-plugin-jest": "^23.0.4"
   },
   "peerDependencies": {
-    "@moxy/eslint-config-base": "^0.0.0"
-  },
-  "devDependencies": {
-    "@moxy/eslint-config-base": "^11.0.0"
+    "eslint": "^6.0.0"
   },
   "engines": {
     "node": ">=10",
