@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [11.0.1](https://github.com/moxystudio/eslint-config/compare/v11.0.0...v11.0.1) (2020-03-19)
+
+
+### Bug Fixes
+
+* workaround for peer dependencies not being updated ([f7a0d59](https://github.com/moxystudio/eslint-config/commit/f7a0d59dafbdd67c434f006e171c9acdc65dcdf8))
+
+
+
+
+
 # [11.0.0](https://github.com/moxystudio/eslint-config/compare/v1.0.0...v11.0.0) (2020-03-19)
 
 
