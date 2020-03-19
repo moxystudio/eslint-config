@@ -26,7 +26,7 @@ The base config is published as [`@moxy/eslint-config-base`](packages/eslint-con
 
 ### Enhancer configs
 
-There are a few available **enhancer** packages, which are intended to be used in conjunction with the **base** configuration:
+There are several **enhancer** packages, which are intended to be used in conjunction with the **base** configuration:
 
 - [`@moxy/eslint-config-babel`](packages/eslint-config-babel/) - If you are going to use [Babel](https://babeljs.io/) to transpile source code.
 - [`@moxy/eslint-config-jest`](packages/eslint-config-jest/) - If you are going to use [Jest](https://facebook.github.io/jest/) to develop tests.
