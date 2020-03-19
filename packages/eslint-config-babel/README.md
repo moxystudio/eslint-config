@@ -39,5 +39,3 @@ This package should be used in conjunction with [`@moxy/eslint-config-base`](../
     ]
 }
 ```
-
-ℹ️ Note that by setting `root` to true, we ensure that no ancestor configuration is used which also improves `ESLint` performance because no more file lookups need to be done.
