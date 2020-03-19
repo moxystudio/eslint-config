@@ -11,6 +11,6 @@ module.exports = {
         // Report AMD require and define calls
         'import/no-amd': 'error',
         // Report CommonJS require calls and module.exports or exports.*
-        'no-commonjs': 0,
+        'import/no-commonjs': 'off',
     },
 };

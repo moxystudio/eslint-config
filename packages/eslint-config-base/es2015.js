@@ -28,7 +28,7 @@ module.exports = {
                 node: true,
             },
             extends: [
-                './lib/rules/cjs-modules',
+                './lib/modules/cjs',
             ],
         },
     ],

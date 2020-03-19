@@ -1293,9 +1293,11 @@ Array [
 ]
 `;
 
-exports[`should pass on packages/eslint-config-base/test/samples/es2015/babel.config.js 1`] = `Array []`;
+exports[`should pass on packages/eslint-config-base/test/samples/es2015/commitlint.config.js 1`] = `Array []`;
 
 exports[`should pass on packages/eslint-config-base/test/samples/es2015/contrived.good.js 1`] = `Array []`;
+
+exports[`should pass on packages/eslint-config-base/test/samples/es2015-cjs/commitlint.config.js 1`] = `Array []`;
 
 exports[`should pass on packages/eslint-config-base/test/samples/es2015-cjs/contrived.bad.js 1`] = `
 Array [
@@ -1309,6 +1311,8 @@ Array [
 `;
 
 exports[`should pass on packages/eslint-config-base/test/samples/es2015-cjs/contrived.good.js 1`] = `Array []`;
+
+exports[`should pass on packages/eslint-config-base/test/samples/es2015-esm/commitlint.config.js 1`] = `Array []`;
 
 exports[`should pass on packages/eslint-config-base/test/samples/es2015-esm/contrived.bad.js 1`] = `
 Array [

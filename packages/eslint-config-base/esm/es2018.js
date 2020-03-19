@@ -2,7 +2,7 @@
 
 module.exports = {
     extends: [
+        '../lib/modules/esm',
         '../es2018',
-        '../lib/rules/es-modules',
     ].map(require.resolve),
 };

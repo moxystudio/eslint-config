@@ -2,7 +2,7 @@
 
 module.exports = {
     extends: [
+        '../lib/modules/cjs',
         '../es2015',
-        '../lib/rules/cjs-modules',
     ].map(require.resolve),
 };

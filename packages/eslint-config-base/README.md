@@ -106,4 +106,5 @@ All files that end in `.config.js` within your project root folder will **automa
 This package contains functionality that may be used directly if necessary:
 
 - [_rules_](./lib/rules)
+- [_modules_](./lib/modules)
 - [_test-patterns_](./lib/test-patterns.js)
