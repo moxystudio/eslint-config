@@ -8,7 +8,7 @@
     ],
     "overrides": [
         {
-            "files": "./index.spec.js",
+            "files": "./index.test.js",
             "extends": [
                 "./packages/eslint-config-jest"
             ]

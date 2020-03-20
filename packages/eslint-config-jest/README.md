@@ -26,6 +26,8 @@ Create a `.eslintrc.json` file in the project root and extend `@moxy/eslint-conf
 
 This package should be used in conjunction with [`@moxy/eslint-config-base`](../eslint-config-base).
 
+ℹ️ Only test files will have Jest globals and rules activated. Please check the [test-patterns](../eslint-config-base/lib/test-patterns.js) to see how you should name your test files.
+
 ### Example
 
 ```json

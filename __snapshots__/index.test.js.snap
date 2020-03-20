@@ -1363,31 +1363,97 @@ Array [
   Object {
     "column": 1,
     "line": 6,
-    "rule": "jest/no-disabled-tests",
-    "severity": 1,
+    "rule": "no-undef",
+    "severity": 2,
   },
   Object {
-    "column": 4,
+    "column": 1,
+    "line": 8,
+    "rule": "no-undef",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
     "line": 13,
-    "rule": "jest/no-focused-tests",
+    "rule": "no-undef",
     "severity": 2,
   },
   Object {
-    "column": 4,
+    "column": 1,
+    "line": 15,
+    "rule": "no-undef",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 20,
+    "rule": "no-undef",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
     "line": 21,
-    "rule": "jest/no-identical-title",
+    "rule": "no-undef",
     "severity": 2,
   },
   Object {
-    "column": 23,
+    "column": 1,
+    "line": 23,
+    "rule": "no-undef",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 24,
+    "rule": "no-undef",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 29,
+    "rule": "no-undef",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
     "line": 30,
-    "rule": "jest/prefer-to-have-length",
+    "rule": "no-undef",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 33,
+    "rule": "no-undef",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 34,
+    "rule": "no-undef",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 40,
+    "rule": "no-undef",
     "severity": 2,
   },
   Object {
     "column": 5,
     "line": 41,
-    "rule": "jest/valid-expect",
+    "rule": "no-undef",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 44,
+    "rule": "no-undef",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 45,
+    "rule": "no-undef",
     "severity": 2,
   },
 ]
@@ -1412,13 +1478,26 @@ Array [
 ]
 `;
 
-exports[`should pass on packages/eslint-config-jest/test/samples/project-cjs/spec.js 1`] = `Array []`;
+exports[`should pass on packages/eslint-config-jest/test/samples/project-cjs/non-test-file.spec.js 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "line": 5,
+    "rule": "no-undef",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 6,
+    "rule": "no-undef",
+    "severity": 2,
+  },
+]
+`;
 
 exports[`should pass on packages/eslint-config-jest/test/samples/project-cjs/test.js 1`] = `Array []`;
 
 exports[`should pass on packages/eslint-config-jest/test/samples/project-cjs/test/test-file.js 1`] = `Array []`;
-
-exports[`should pass on packages/eslint-config-jest/test/samples/project-cjs/test-file.spec.js 1`] = `Array []`;
 
 exports[`should pass on packages/eslint-config-jest/test/samples/project-cjs/test-file.test.js 1`] = `Array []`;
 
@@ -1455,13 +1534,38 @@ Array [
 ]
 `;
 
-exports[`should pass on packages/eslint-config-jest/test/samples/project-esm/spec.js 1`] = `Array []`;
+exports[`should pass on packages/eslint-config-jest/test/samples/project-esm/non-test-file.spec.js 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "line": 1,
+    "rule": "import/no-commonjs",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 1,
+    "rule": "no-undef",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 3,
+    "rule": "no-undef",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "line": 4,
+    "rule": "no-undef",
+    "severity": 2,
+  },
+]
+`;
 
 exports[`should pass on packages/eslint-config-jest/test/samples/project-esm/test.js 1`] = `Array []`;
 
 exports[`should pass on packages/eslint-config-jest/test/samples/project-esm/test/test-file.js 1`] = `Array []`;
-
-exports[`should pass on packages/eslint-config-jest/test/samples/project-esm/test-file.spec.js 1`] = `Array []`;
 
 exports[`should pass on packages/eslint-config-jest/test/samples/project-esm/test-file.test.js 1`] = `Array []`;
 
