@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "lint": "eslint . --ignore-pattern **/test",
-    "test": "jest --env node --coverage",
+    "test": "jest",
     "postinstall": "lerna bootstrap",
     "prerelease": "npm run test && npm run lint",
     "release": "lerna publish",
@@ -12,6 +12,7 @@
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
     "@commitlint/config-conventional": "^8.2.0",
+    "@moxy/jest-config": "^2.1.0",
     "eslint": "^6.8.0",
     "husky": "^4.2.3",
     "jest": "^25.1.0",
