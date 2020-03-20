@@ -39,7 +39,8 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [1.0.0](https://github.com/moxystudio/eslint-config/compare/v10.1.1...v1.0.0) (2020-03-13)
+
+# RFC-0003 implementation (2020-03-13)
 
 
 ### Bug Fixes

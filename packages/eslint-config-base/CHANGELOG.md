@@ -26,3 +26,26 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 * removed the previous three base packages in favor of just one
 * added a few new rules that were missing
+
+
+
+
+
+
+# RFC-0003 implementation (2020-03-13)
+
+
+### Bug Fixes
+
+* testing and versioning ([#87](https://github.com/moxystudio/eslint-config/issues/87)) ([8daa19d](https://github.com/moxystudio/eslint-config/commit/8daa19d491d8bade13da3c2f68edfdf311ea13aa))
+
+
+### Code Refactoring
+
+* implement RFC-0003 ([#86](https://github.com/moxystudio/eslint-config/issues/86)) ([10b9b2f](https://github.com/moxystudio/eslint-config/commit/10b9b2f771592248fb14fa7dbceb16b590046416))
+
+
+### BREAKING CHANGES
+
+* Refactors eslint-config into multiple packages,
+according to https://github.com/moxystudio/rfcs-oss/blob/master/rfcs/0003-split-eslint-config.md
