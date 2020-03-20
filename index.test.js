@@ -7,7 +7,7 @@ const cli = new eslint.CLIEngine({
     useEslintrc: true,
 });
 
-const report = cli.executeOnFiles(['packages/*/test/**/*.{js,jsx,vue}']);
+const report = cli.executeOnFiles(['packages/*/test/**/*.{js,jsx,ts,vue}']);
 const results = report.results;
 
 results.forEach((object) => {
