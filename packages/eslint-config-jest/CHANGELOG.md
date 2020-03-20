@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [11.0.3](https://github.com/moxystudio/eslint-config/compare/v11.0.2...v11.0.3) (2020-03-20)
+
+
+### Bug Fixes
+
+* forgot to disable jest for *.spec.js as part of v11 ([8ef54d4](https://github.com/moxystudio/eslint-config/commit/8ef54d4e8438be1764c1771580d29c0600efbddf))
+
+
+
+
+
 ## [11.0.2](https://github.com/moxystudio/eslint-config/compare/v11.0.1...v11.0.2) (2020-03-19)
 
 **Note:** Version bump only for package @moxy/eslint-config-jest
