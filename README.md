@@ -14,7 +14,7 @@ MOXY's set of [ESLint](http://eslint.org/) configuration packages to be used acr
 This repository contains two sets of _ESLint_ configurations to be used in JavaScript projects:
 
 - the **base** configuration, which defines the common ESLint rules, the ECMAScript version and the module system.
-- the **enhancers**, which contain specific settings for different frameworks (jest, react or vue).
+- the **enhancers**, which contain specific settings for different frameworks, like React or Vue.
 
 By using one or more of these packages, you can enforce the desired code styles for each type of project.
 
