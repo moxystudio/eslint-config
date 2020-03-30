@@ -1318,20 +1318,56 @@ exports[`should pass on packages/eslint-config-base/test/samples/es2015-esm/cont
 Array [
   Object {
     "column": 1,
-    "line": 5,
+    "line": 4,
     "rule": "strict",
     "severity": 2,
   },
   Object {
-    "column": 13,
+    "column": 1,
+    "line": 8,
+    "rule": "import/order",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
     "line": 9,
+    "rule": "import/order",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 11,
+    "rule": "import/order",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 12,
+    "rule": "import/newline-after-import",
+    "severity": 2,
+  },
+  Object {
+    "column": 13,
+    "line": 22,
     "rule": "import/no-commonjs",
     "severity": 2,
   },
   Object {
     "column": 13,
-    "line": 9,
+    "line": 22,
+    "rule": "import/order",
+    "severity": 2,
+  },
+  Object {
+    "column": 13,
+    "line": 22,
     "rule": "no-undef",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 25,
+    "rule": "import/first",
     "severity": 2,
   },
 ]
@@ -2759,7 +2795,7 @@ exports[`should pass on packages/eslint-config-vue/test/rules/vue-no-shared-comp
 Array [
   Object {
     "column": 5,
-    "line": 7,
+    "line": 8,
     "rule": "vue/no-shared-component-data",
     "severity": 2,
   },
