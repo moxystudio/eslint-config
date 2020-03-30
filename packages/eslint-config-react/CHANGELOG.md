@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [12.0.0](https://github.com/moxystudio/eslint-config/compare/v11.0.3...v12.0.0) (2020-03-30)
+
+**Note:** Version bump only for package @moxy/eslint-config-react
+
+
+
+
+
 ## [11.0.3](https://github.com/moxystudio/eslint-config/compare/v11.0.2...v11.0.3) (2020-03-20)
 
 **Note:** Version bump only for package @moxy/eslint-config-react

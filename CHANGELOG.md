@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [12.0.0](https://github.com/moxystudio/eslint-config/compare/v11.0.3...v12.0.0) (2020-03-30)
+
+
+### Features
+
+* add import order rules ([#92](https://github.com/moxystudio/eslint-config/issues/92)) ([dc7040d](https://github.com/moxystudio/eslint-config/commit/dc7040d87292961f226bb5b64f6e164884ec2b73))
+
+
+### BREAKING CHANGES
+
+* added rules that enforce import order
+
+
+
+
+
 ## [11.0.3](https://github.com/moxystudio/eslint-config/compare/v11.0.2...v11.0.3) (2020-03-20)
 
 
