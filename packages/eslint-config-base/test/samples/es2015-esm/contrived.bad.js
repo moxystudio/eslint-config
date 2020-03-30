@@ -15,6 +15,7 @@ fs.read(foo);
 foobar();
 baz();
 barbaz();
+index();
 
 // Test warning when using require
 
@@ -24,3 +25,4 @@ const bar = require('foo/bar');
 import biz from '../biz';
 
 bar();
+biz();

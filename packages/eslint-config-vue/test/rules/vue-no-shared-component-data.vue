@@ -3,6 +3,7 @@
 <script>
 /* ✗ BAD */
 import Vue from "vue";
+
 Vue.component("some-comp", {
     data: {
         foo: "bar"
