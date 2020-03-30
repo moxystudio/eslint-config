@@ -1318,20 +1318,68 @@ exports[`should pass on packages/eslint-config-base/test/samples/es2015-esm/cont
 Array [
   Object {
     "column": 1,
-    "line": 5,
+    "line": 4,
     "rule": "strict",
     "severity": 2,
   },
   Object {
-    "column": 13,
+    "column": 1,
+    "line": 8,
+    "rule": "import/order",
+    "severity": 2,
+  },
+  Object {
+    "column": 8,
+    "line": 8,
+    "rule": "no-unused-vars",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
     "line": 9,
+    "rule": "import/order",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 11,
+    "rule": "import/order",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 12,
+    "rule": "import/newline-after-import",
+    "severity": 2,
+  },
+  Object {
+    "column": 13,
+    "line": 21,
     "rule": "import/no-commonjs",
     "severity": 2,
   },
   Object {
     "column": 13,
-    "line": 9,
+    "line": 21,
+    "rule": "import/order",
+    "severity": 2,
+  },
+  Object {
+    "column": 13,
+    "line": 21,
     "rule": "no-undef",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 24,
+    "rule": "import/first",
+    "severity": 2,
+  },
+  Object {
+    "column": 8,
+    "line": 24,
+    "rule": "no-unused-vars",
     "severity": 2,
   },
 ]
@@ -2757,6 +2805,12 @@ Array [
 
 exports[`should pass on packages/eslint-config-vue/test/rules/vue-no-shared-component-data.vue 1`] = `
 Array [
+  Object {
+    "column": 1,
+    "line": 5,
+    "rule": "import/newline-after-import",
+    "severity": 2,
+  },
   Object {
     "column": 5,
     "line": 7,
