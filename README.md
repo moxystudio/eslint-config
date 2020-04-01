@@ -43,7 +43,7 @@ There are several **enhancer** packages, which are intended to be used in conjun
   {
       "root": true,
       "env": {
-          "browser": true,
+          "browser": true
       },
       "extends": [
           "@moxy/eslint-config-base/esm",
@@ -63,7 +63,7 @@ There are several **enhancer** packages, which are intended to be used in conjun
   {
       "root": true,
       "env": {
-          "browser": true,
+          "browser": true
       },
       "extends": [
           "@moxy/eslint-config-base/esm",
@@ -85,7 +85,7 @@ There are several **enhancer** packages, which are intended to be used in conjun
   {
       "root": true,
       "env": {
-          "node": true,
+          "node": true
       },
       "extends": [
           "@moxy/eslint-config-base/cjs/es2019",
