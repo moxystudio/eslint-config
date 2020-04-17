@@ -1,7 +1,7 @@
 {
   "name": "@moxy/eslint-config-jest",
   "description": "MOXY's ESLint configuration enhancer for projects that use Jest for testing",
-  "version": "12.0.0",
+  "version": "12.0.1",
   "keywords": [
     "eslint-config",
     "eslintconfig",
@@ -24,7 +24,7 @@
     "lib"
   ],
   "dependencies": {
-    "@moxy/eslint-config-base": "^12.0.0",
+    "@moxy/eslint-config-base": "^12.0.1",
     "eslint-plugin-jest": "^23.0.4"
   },
   "peerDependencies": {

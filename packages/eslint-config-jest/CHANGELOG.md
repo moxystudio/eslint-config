@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [12.0.1](https://github.com/moxystudio/eslint-config/compare/v12.0.0...v12.0.1) (2020-04-17)
+
+
+### Bug Fixes
+
+* add files in __mock__ to test patterns ([#94](https://github.com/moxystudio/eslint-config/issues/94)) ([0819983](https://github.com/moxystudio/eslint-config/commit/0819983978df5161d05c607318882922311e3ea2))
+
+
+
+
+
 # [12.0.0](https://github.com/moxystudio/eslint-config/compare/v11.0.3...v12.0.0) (2020-03-30)
 
 **Note:** Version bump only for package @moxy/eslint-config-jest
