@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [12.0.2](https://github.com/moxystudio/eslint-config/compare/v12.0.1...v12.0.2) (2020-04-24)
+
+
+### Bug Fixes
+
+* make order work in CJS ([#95](https://github.com/moxystudio/eslint-config/issues/95)) ([d9b9262](https://github.com/moxystudio/eslint-config/commit/d9b9262c62de35775470a6d5e7b042d50dbe9c8f))
+
+
+
+
+
 ## [12.0.1](https://github.com/moxystudio/eslint-config/compare/v12.0.0...v12.0.1) (2020-04-17)
 
 
