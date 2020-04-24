@@ -1,11 +1,21 @@
 // Made up sample.. not genuine
 
-// Test unnecessary `use strict`
-
 'use strict';
 
-// Test warning when using require
+const fs = require('fs');
+const foo = require('foo');
+const foobar = require('../../foobar');
+const baz = require('../baz');
+const bar = require('./bar/baz');
+const index = require('./');
 
-const bar = require('foo/bar');
+fs.readFileSync('/path/to/file');
+
+foo();
+
+foobar();
+baz();
 
 bar();
+
+index();
