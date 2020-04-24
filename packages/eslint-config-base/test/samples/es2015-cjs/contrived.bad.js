@@ -1,9 +1,17 @@
 // Made up sample.. not genuine
 
-import fs from 'fs';
+'use strict';
 
-fs.readFileSync('/path/to/file');
+// Test imports with different groups and order
+const fs = require('fs');
+const index = require('./');
+const foobar = require('../../foobar');
+const foo = require('foo');
+const barbaz = require('./bar/baz');
+const baz = require('../baz');
+fs.read(foo);
 
-import bar from 'foo/bar';
-
-bar();
+foobar();
+baz();
+barbaz();
+index();

@@ -1302,6 +1302,41 @@ exports[`should pass on packages/eslint-config-base/test/samples/es2015-cjs/comm
 exports[`should pass on packages/eslint-config-base/test/samples/es2015-cjs/contrived.bad.js 1`] = `
 Array [
   Object {
+    "column": 15,
+    "line": 7,
+    "rule": "import/order",
+    "severity": 2,
+  },
+  Object {
+    "column": 16,
+    "line": 8,
+    "rule": "import/order",
+    "severity": 2,
+  },
+  Object {
+    "column": 16,
+    "line": 10,
+    "rule": "import/order",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 11,
+    "rule": "import/newline-after-import",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 12,
+    "rule": "padding-line-between-statements",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on packages/eslint-config-base/test/samples/es2015-cjs/contrived.bad-syntax.js 1`] = `
+Array [
+  Object {
     "column": 1,
     "line": 3,
     "rule": null,
@@ -1651,7 +1686,7 @@ exports[`should pass on packages/eslint-config-jest/test/samples/project-cjs/tes
 
 exports[`should pass on packages/eslint-config-jest/test/samples/project-cjs/tests/test-file.test.js 1`] = `Array []`;
 
-exports[`should pass on packages/eslint-config-jest/test/samples/project-esm/__mocks__/sample-mock.js 1`] = `Array []`;
+exports[`should pass on packages/eslint-config-jest/test/samples/project-esm/__mocks__/other-sample-mock.js 1`] = `Array []`;
 
 exports[`should pass on packages/eslint-config-jest/test/samples/project-esm/__tests__/non-test-file.js 1`] = `
 Array [

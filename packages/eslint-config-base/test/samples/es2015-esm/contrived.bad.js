@@ -17,7 +17,7 @@ baz();
 barbaz();
 index();
 
-// Test warning when using require
+// Test error when using require
 
 const bar = require('foo/bar');
 

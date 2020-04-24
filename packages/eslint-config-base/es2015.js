@@ -9,6 +9,7 @@ module.exports = {
         './lib/rules/best-practices',
         './lib/rules/errors',
         './lib/rules/es6',
+        './lib/rules/import',
         './lib/rules/jsdoc',
         './lib/rules/node',
         './lib/rules/strict',
