@@ -2,5 +2,5 @@
 
 module.exports = [
     '**/?(*.)test.[jt]s',
-    '__mocks__/**/*.js',
+    '**/__mocks__/**/*.js',
 ];
