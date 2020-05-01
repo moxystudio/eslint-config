@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [12.0.3](https://github.com/moxystudio/eslint-config/compare/v12.0.2...v12.0.3) (2020-05-01)
+
+
+### Bug Fixes
+
+* accept mocks in deep folders ([824e014](https://github.com/moxystudio/eslint-config/commit/824e0146180c3b96cc431c4055ba84c9887801a0))
+
+
+
+
+
 ## [12.0.2](https://github.com/moxystudio/eslint-config/compare/v12.0.1...v12.0.2) (2020-04-24)
 
 
