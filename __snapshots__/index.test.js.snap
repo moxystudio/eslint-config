@@ -1570,6 +1570,8 @@ exports[`should pass on packages/eslint-config-jest/test/samples/project-cjs/__t
 
 exports[`should pass on packages/eslint-config-jest/test/samples/project-cjs/__tests__/test-file.test.js 1`] = `Array []`;
 
+exports[`should pass on packages/eslint-config-jest/test/samples/project-cjs/jest.setup.js 1`] = `Array []`;
+
 exports[`should pass on packages/eslint-config-jest/test/samples/project-cjs/non-test-file.js 1`] = `
 Array [
   Object {
@@ -1749,6 +1751,8 @@ Array [
 exports[`should pass on packages/eslint-config-jest/test/samples/project-esm/__tests__/test.js 1`] = `Array []`;
 
 exports[`should pass on packages/eslint-config-jest/test/samples/project-esm/__tests__/test-file.test.js 1`] = `Array []`;
+
+exports[`should pass on packages/eslint-config-jest/test/samples/project-esm/jest.setup.js 1`] = `Array []`;
 
 exports[`should pass on packages/eslint-config-jest/test/samples/project-esm/non-test-file.js 1`] = `
 Array [
