@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [12.1.0](https://github.com/moxystudio/eslint-config/compare/v12.0.3...v12.1.0) (2020-05-04)
+
+
+### Features
+
+* consider jest.setup.js part of testPattern ([2e2c755](https://github.com/moxystudio/eslint-config/commit/2e2c755db2636a5369e22e4ccab4a8f31e787c56))
+
+
+
+
+
 ## [12.0.3](https://github.com/moxystudio/eslint-config/compare/v12.0.2...v12.0.3) (2020-05-01)
 
 

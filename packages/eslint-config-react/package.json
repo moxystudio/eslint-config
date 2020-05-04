@@ -1,7 +1,7 @@
 {
   "name": "@moxy/eslint-config-react",
   "description": "MOXY's ESLint configuration enhancer for projects that use React",
-  "version": "12.0.3",
+  "version": "12.1.0",
   "keywords": [
     "eslint-config",
     "eslintconfig",
@@ -24,7 +24,7 @@
     "lib"
   ],
   "dependencies": {
-    "@moxy/eslint-config-base": "^12.0.3",
+    "@moxy/eslint-config-base": "^12.1.0",
     "eslint-plugin-react": "^7.16.0",
     "eslint-plugin-react-hooks": "^2.3.0"
   },
@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "@moxy/babel-preset": "^3.2.4",
-    "@moxy/eslint-config-babel": "^12.0.3",
+    "@moxy/eslint-config-babel": "^12.1.0",
     "create-react-class": "^15.6.3",
     "prop-types": "^15.6.2",
     "react": "^16.12.0"
