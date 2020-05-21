@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [12.1.1](https://github.com/moxystudio/eslint-config/compare/v12.1.0...v12.1.1) (2020-05-21)
+
+
+### Bug Fixes
+
+* **eslint-config-base:** update eslint peer dependency due to modification in no-implicit-gloabls rule ([#96](https://github.com/moxystudio/eslint-config/issues/96)) ([2f94b83](https://github.com/moxystudio/eslint-config/commit/2f94b837c72f525a4c1538ea56b9ba171bcf6340))
+
+
+
+
+
 # [12.1.0](https://github.com/moxystudio/eslint-config/compare/v12.0.3...v12.1.0) (2020-05-04)
 
 
