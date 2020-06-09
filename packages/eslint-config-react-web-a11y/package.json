@@ -27,12 +27,14 @@
     "lib"
   ],
   "dependencies": {
-    "eslint-plugin-jsx-a11y": "^6.2.3"
+    "eslint-plugin-jsx-a11y": "6.2.3"
   },
   "peerDependencies": {
     "eslint": "^6.0.0"
   },
   "devDependencies": {
+    "@moxy/babel-preset": "^3.2.4",
+    "@moxy/eslint-config-babel": "^12.1.1",
     "@moxy/eslint-config-base": "^12.1.1",
     "@moxy/eslint-config-react": "^12.1.1",
     "react": "^16.12.0"

@@ -1,16 +1,21 @@
 {
-  "packages": [
-    "packages/*"
-  ],
-  "version": "12.1.1",
-  "command": {
-    "bootstrap": {
-      "hoist": true
+    "packages": [
+        "packages/*"
+    ],
+    "version": "12.1.1",
+    "command": {
+        "bootstrap": {
+            "hoist": true
+        },
+        "version": {
+            "conventionalCommits": true,
+            "changelogPreset": "conventionalcommits",
+            "message": "chore(release): %v"
+        }
     },
-    "publish": {
-      "conventionalCommits": true,
-      "commitHooks": false,
-      "message": "chore(release): %v"
-    }
-  }
+    "ignoreChanges": [
+        "**/?(*.)test.js",
+        "**/__mocks__/**",
+        "**/*.md"
+    ]
 }
