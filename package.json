@@ -1,6 +1,11 @@
 {
   "name": "root",
   "private": true,
+  "homepage": "https://github.com/moxystudio/eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:moxystudio/eslint-config.git"
+  },
   "scripts": {
     "lint": "eslint . --ignore-pattern **/test",
     "test": "jest",
