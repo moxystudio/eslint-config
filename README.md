@@ -33,6 +33,7 @@ There are several **enhancer** packages, which are intended to be used in conjun
 - [`@moxy/eslint-config-react`](packages/eslint-config-react/) - If you are going to use [React](https://reactjs.org/).
 - [`@moxy/eslint-config-react-web-a11y`](packages/eslint-config-react-web-a11y/) - If you want to enforce accessibility rules in web projects based on [React](https://reactjs.org/).
 - [`@moxy/eslint-config-vue`](packages/eslint-config-vue/) - If you are going to use [Vue](https://vuejs.org/).
+- [`@moxy/eslint-config-react-native`](packages/eslint-config-react-native/) - If you are going to use [React Native](https://reactnative.dev/).
 
 ## Typical configs
 
@@ -96,6 +97,24 @@ There are several **enhancer** packages, which are intended to be used in conjun
 
   ⚠️ In the above example, we choose the `es2019` version instead of the latest ECMAScript version because there's no Babel compilation and we are restricted to what the Node.js runtime supports. Please check [node.green](https://node.green/) and select the most appropriate ECMAScript version based on the Node.js version you are targeting.
 </details>
+
+<details>
+  <summary>React Native apps</summary>
+
+  ```json
+  {
+      "root": true,
+      "extends": [
+          "@moxy/eslint-config-base/esm",
+          "@moxy/eslint-config-babel",
+          "@moxy/eslint-config-react",
+          "@moxy/eslint-config-react-native",
+          "@moxy/eslint-config-jest"
+      ]
+  }
+  ```
+</details>
+
 
 ## Older versions
 
