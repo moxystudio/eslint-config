@@ -2318,6 +2318,364 @@ exports[`should pass on packages/eslint-config-react/test/samples/my-component/M
 
 exports[`should pass on packages/eslint-config-react/test/samples/my-component/MyComponent.test.js 1`] = `Array []`;
 
+exports[`should pass on packages/eslint-config-react-native/test/rules/env.js 1`] = `Array []`;
+
+exports[`should pass on packages/eslint-config-react-native/test/rules/no-color-literals.js 1`] = `
+Array [
+  Object {
+    "column": 49,
+    "line": 13,
+    "rule": "react-native/no-color-literals",
+    "severity": 2,
+  },
+  Object {
+    "column": 49,
+    "line": 13,
+    "rule": "react-native/no-inline-styles",
+    "severity": 2,
+  },
+  Object {
+    "column": 49,
+    "line": 18,
+    "rule": "react-native/no-color-literals",
+    "severity": 2,
+  },
+  Object {
+    "column": 49,
+    "line": 18,
+    "rule": "react-native/no-inline-styles",
+    "severity": 2,
+  },
+  Object {
+    "column": 49,
+    "line": 23,
+    "rule": "react-native/no-color-literals",
+    "severity": 2,
+  },
+  Object {
+    "column": 49,
+    "line": 23,
+    "rule": "react-native/no-inline-styles",
+    "severity": 2,
+  },
+  Object {
+    "column": 49,
+    "line": 28,
+    "rule": "react-native/no-color-literals",
+    "severity": 2,
+  },
+  Object {
+    "column": 49,
+    "line": 28,
+    "rule": "react-native/no-inline-styles",
+    "severity": 2,
+  },
+  Object {
+    "column": 63,
+    "line": 33,
+    "rule": "react-native/no-color-literals",
+    "severity": 2,
+  },
+  Object {
+    "column": 63,
+    "line": 33,
+    "rule": "react-native/no-inline-styles",
+    "severity": 2,
+  },
+  Object {
+    "column": 74,
+    "line": 38,
+    "rule": "react/prop-types",
+    "severity": 2,
+  },
+  Object {
+    "column": 81,
+    "line": 38,
+    "rule": "react-native/no-color-literals",
+    "severity": 2,
+  },
+  Object {
+    "column": 81,
+    "line": 38,
+    "rule": "react-native/no-inline-styles",
+    "severity": 2,
+  },
+  Object {
+    "column": 63,
+    "line": 43,
+    "rule": "react-native/no-color-literals",
+    "severity": 2,
+  },
+  Object {
+    "column": 63,
+    "line": 43,
+    "rule": "react-native/no-inline-styles",
+    "severity": 2,
+  },
+  Object {
+    "column": 72,
+    "line": 43,
+    "rule": "no-undef",
+    "severity": 2,
+  },
+  Object {
+    "column": 78,
+    "line": 43,
+    "rule": "react/prop-types",
+    "severity": 2,
+  },
+  Object {
+    "column": 15,
+    "line": 49,
+    "rule": "react-native/no-color-literals",
+    "severity": 2,
+  },
+  Object {
+    "column": 15,
+    "line": 58,
+    "rule": "react-native/no-color-literals",
+    "severity": 2,
+  },
+  Object {
+    "column": 15,
+    "line": 68,
+    "rule": "react-native/no-color-literals",
+    "severity": 2,
+  },
+  Object {
+    "column": 20,
+    "line": 69,
+    "rule": "no-constant-condition",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on packages/eslint-config-react-native/test/rules/no-inline-styles.js 1`] = `
+Array [
+  Object {
+    "column": 45,
+    "line": 8,
+    "rule": "react-native/no-inline-styles",
+    "severity": 2,
+  },
+  Object {
+    "column": 28,
+    "line": 12,
+    "rule": "react/prop-types",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on packages/eslint-config-react-native/test/rules/no-raw-text.js 1`] = `
+Array [
+  Object {
+    "column": 37,
+    "line": 8,
+    "rule": "react-native/no-raw-text",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on packages/eslint-config-react-native/test/rules/no-single-element-style-arrays.js 1`] = `
+Array [
+  Object {
+    "column": 37,
+    "line": 13,
+    "rule": "react-native/no-single-element-style-arrays",
+    "severity": 2,
+  },
+  Object {
+    "column": 46,
+    "line": 13,
+    "rule": "react-native/no-inline-styles",
+    "severity": 2,
+  },
+  Object {
+    "column": 37,
+    "line": 17,
+    "rule": "react-native/no-single-element-style-arrays",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on packages/eslint-config-react-native/test/rules/no-unused-styles/imported-styles/class-component/MyComponent.js 1`] = `Array []`;
+
+exports[`should pass on packages/eslint-config-react-native/test/rules/no-unused-styles/imported-styles/class-component/styles.js 1`] = `Array []`;
+
+exports[`should pass on packages/eslint-config-react-native/test/rules/no-unused-styles/imported-styles/function-component/MyComponent.js 1`] = `Array []`;
+
+exports[`should pass on packages/eslint-config-react-native/test/rules/no-unused-styles/imported-styles/function-component/styles.js 1`] = `Array []`;
+
+exports[`should pass on packages/eslint-config-react-native/test/rules/no-unused-styles/same-file-styles/class-component.js 1`] = `
+Array [
+  Object {
+    "column": 5,
+    "line": 8,
+    "rule": "react-native/no-unused-styles",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on packages/eslint-config-react-native/test/rules/no-unused-styles/same-file-styles/class-component-fragment.js 1`] = `
+Array [
+  Object {
+    "column": 5,
+    "line": 8,
+    "rule": "react-native/no-unused-styles",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on packages/eslint-config-react-native/test/rules/no-unused-styles/same-file-styles/function-component.js 1`] = `
+Array [
+  Object {
+    "column": 5,
+    "line": 8,
+    "rule": "react-native/no-unused-styles",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on packages/eslint-config-react-native/test/rules/no-unused-styles/same-file-styles/function-component-fragment.js 1`] = `Array []`;
+
+exports[`should pass on packages/eslint-config-react-native/test/rules/sort-styles.js 1`] = `
+Array [
+  Object {
+    "column": 9,
+    "line": 10,
+    "rule": "react-native/sort-styles",
+    "severity": 2,
+  },
+  Object {
+    "column": 13,
+    "line": 18,
+    "rule": "react-native/sort-styles",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 22,
+    "rule": "react-native/sort-styles",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on packages/eslint-config-react-native/test/rules/split-platform-components/MyAndroidComponent.ios.js 1`] = `
+Array [
+  Object {
+    "column": 10,
+    "line": 4,
+    "rule": "react-native/split-platform-components",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on packages/eslint-config-react-native/test/rules/split-platform-components/MyAndroidComponent.js 1`] = `
+Array [
+  Object {
+    "column": 10,
+    "line": 4,
+    "rule": "react-native/split-platform-components",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on packages/eslint-config-react-native/test/rules/split-platform-components/MyComponent.android.js 1`] = `Array []`;
+
+exports[`should pass on packages/eslint-config-react-native/test/rules/split-platform-components/MyComponent.ios.js 1`] = `Array []`;
+
+exports[`should pass on packages/eslint-config-react-native/test/rules/split-platform-components/MyComponent.js 1`] = `
+Array [
+  Object {
+    "column": 10,
+    "line": 4,
+    "rule": "react-native/split-platform-components",
+    "severity": 2,
+  },
+  Object {
+    "column": 28,
+    "line": 4,
+    "rule": "react-native/split-platform-components",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on packages/eslint-config-react-native/test/rules/split-platform-components/MyIOSComponent.android.js 1`] = `
+Array [
+  Object {
+    "column": 10,
+    "line": 4,
+    "rule": "react-native/split-platform-components",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on packages/eslint-config-react-native/test/rules/split-platform-components/MyIOSComponent.js 1`] = `
+Array [
+  Object {
+    "column": 10,
+    "line": 4,
+    "rule": "react-native/split-platform-components",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on packages/eslint-config-react-native/test/rules/split-platform-components/no-unresolved/android-only/MyComponent.android.js 1`] = `Array []`;
+
+exports[`should pass on packages/eslint-config-react-native/test/rules/split-platform-components/no-unresolved/android-only/index.js 1`] = `
+Array [
+  Object {
+    "column": 25,
+    "line": 4,
+    "rule": "import/no-unresolved",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on packages/eslint-config-react-native/test/rules/split-platform-components/no-unresolved/both-platforms/MyComponent.android.js 1`] = `Array []`;
+
+exports[`should pass on packages/eslint-config-react-native/test/rules/split-platform-components/no-unresolved/both-platforms/MyComponent.ios.js 1`] = `Array []`;
+
+exports[`should pass on packages/eslint-config-react-native/test/rules/split-platform-components/no-unresolved/both-platforms/index.js 1`] = `Array []`;
+
+exports[`should pass on packages/eslint-config-react-native/test/rules/split-platform-components/no-unresolved/ios-only/MyComponent.ios.js 1`] = `Array []`;
+
+exports[`should pass on packages/eslint-config-react-native/test/rules/split-platform-components/no-unresolved/ios-only/index.js 1`] = `
+Array [
+  Object {
+    "column": 25,
+    "line": 4,
+    "rule": "import/no-unresolved",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`should pass on packages/eslint-config-react-native/test/rules/split-platform-components/no-unresolved/no-platform/index.js 1`] = `
+Array [
+  Object {
+    "column": 25,
+    "line": 4,
+    "rule": "import/no-unresolved",
+    "severity": 2,
+  },
+]
+`;
+
 exports[`should pass on packages/eslint-config-react-web-a11y/test/rules/jsx-a11y.js 1`] = `
 Array [
   Object {
