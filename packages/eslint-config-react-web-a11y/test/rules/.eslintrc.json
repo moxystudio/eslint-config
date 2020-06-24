@@ -5,6 +5,7 @@
     },
     "extends": [
         "@moxy/eslint-config-base/esm",
+        "@moxy/eslint-config-babel",
         "@moxy/eslint-config-react",
         "../.."
     ],
