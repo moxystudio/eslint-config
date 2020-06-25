@@ -1,0 +1,18 @@
+{
+    "root": true,
+    "extends": [
+        "@moxy/eslint-config-base/esm",
+        "@moxy/eslint-config-babel",
+        "@moxy/eslint-config-react",
+        "../.."
+    ],
+    "overrides": [
+        {
+            "files": "./**/*.js",
+            "rules": {
+                "no-unused-vars": 0,
+                "react/jsx-no-bind": 0
+            }
+        }
+    ]
+}

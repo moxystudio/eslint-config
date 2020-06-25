@@ -36,3 +36,5 @@ This package should be used in conjunction with [`@moxy/eslint-config-base`](../
     ]
 }
 ```
+
+ℹ️ The environment is automatically set to `react-native/react-native`.
