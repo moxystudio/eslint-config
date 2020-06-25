@@ -2676,6 +2676,161 @@ Array [
 ]
 `;
 
+exports[`should pass on packages/eslint-config-react-native-a11y/test/rules/a11y.js 1`] = `
+Array [
+  Object {
+    "column": 41,
+    "line": 43,
+    "rule": "react-native-a11y/has-valid-accessibility-states",
+    "severity": 2,
+  },
+  Object {
+    "column": 23,
+    "line": 62,
+    "rule": "react-native-a11y/has-accessibility-hint",
+    "severity": 2,
+  },
+  Object {
+    "column": 23,
+    "line": 74,
+    "rule": "react-native-a11y/has-accessibility-props",
+    "severity": 2,
+  },
+  Object {
+    "column": 23,
+    "line": 78,
+    "rule": "react-native-a11y/has-accessibility-props",
+    "severity": 2,
+  },
+  Object {
+    "column": 23,
+    "line": 82,
+    "rule": "react-native-a11y/has-accessibility-props",
+    "severity": 2,
+  },
+  Object {
+    "column": 23,
+    "line": 86,
+    "rule": "react-native-a11y/has-accessibility-props",
+    "severity": 2,
+  },
+  Object {
+    "column": 41,
+    "line": 105,
+    "rule": "react-native-a11y/has-valid-accessibility-role",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 225,
+    "rule": "react-native-a11y/no-nested-touchables",
+    "severity": 2,
+  },
+  Object {
+    "column": 41,
+    "line": 256,
+    "rule": "react-native-a11y/has-valid-accessibility-component-type",
+    "severity": 2,
+  },
+  Object {
+    "column": 29,
+    "line": 277,
+    "rule": "react-native-a11y/has-valid-accessibility-live-region",
+    "severity": 2,
+  },
+  Object {
+    "column": 19,
+    "line": 299,
+    "rule": "react-native-a11y/has-valid-important-for-accessibility",
+    "severity": 2,
+  },
+  Object {
+    "column": 41,
+    "line": 320,
+    "rule": "react-native-a11y/has-valid-accessibility-traits",
+    "severity": 2,
+  },
+  Object {
+    "column": 23,
+    "line": 398,
+    "rule": "react-native-a11y/has-valid-accessibility-ignores-invert-colors",
+    "severity": 2,
+  },
+  Object {
+    "column": 13,
+    "line": 404,
+    "rule": "react-native-a11y/has-valid-accessibility-ignores-invert-colors",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 436,
+    "rule": "react-native-a11y/has-valid-accessibility-actions",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "line": 445,
+    "rule": "react-native-a11y/has-valid-accessibility-actions",
+    "severity": 2,
+  },
+  Object {
+    "column": 41,
+    "line": 577,
+    "rule": "react-native-a11y/has-valid-accessibility-state",
+    "severity": 2,
+  },
+  Object {
+    "column": 41,
+    "line": 581,
+    "rule": "react-native-a11y/has-valid-accessibility-state",
+    "severity": 2,
+  },
+  Object {
+    "column": 41,
+    "line": 612,
+    "rule": "react-native-a11y/has-valid-accessibility-value",
+    "severity": 2,
+  },
+  Object {
+    "column": 41,
+    "line": 616,
+    "rule": "react-native-a11y/has-valid-accessibility-value",
+    "severity": 2,
+  },
+  Object {
+    "column": 41,
+    "line": 616,
+    "rule": "react-native-a11y/has-valid-accessibility-value",
+    "severity": 2,
+  },
+  Object {
+    "column": 41,
+    "line": 620,
+    "rule": "react-native-a11y/has-valid-accessibility-value",
+    "severity": 2,
+  },
+  Object {
+    "column": 41,
+    "line": 620,
+    "rule": "react-native-a11y/has-valid-accessibility-value",
+    "severity": 2,
+  },
+  Object {
+    "column": 41,
+    "line": 620,
+    "rule": "react-native-a11y/has-valid-accessibility-value",
+    "severity": 2,
+  },
+  Object {
+    "column": 41,
+    "line": 624,
+    "rule": "react-native-a11y/has-valid-accessibility-value",
+    "severity": 2,
+  },
+]
+`;
+
 exports[`should pass on packages/eslint-config-react-web-a11y/test/rules/jsx-a11y.js 1`] = `
 Array [
   Object {

@@ -31,9 +31,10 @@ There are several **enhancer** packages, which are intended to be used in conjun
 - [`@moxy/eslint-config-babel`](packages/eslint-config-babel/) - If you are going to use [Babel](https://babeljs.io/) to transpile source code.
 - [`@moxy/eslint-config-jest`](packages/eslint-config-jest/) - If you are going to use [Jest](https://facebook.github.io/jest/) to develop tests.
 - [`@moxy/eslint-config-react`](packages/eslint-config-react/) - If you are going to use [React](https://reactjs.org/).
-- [`@moxy/eslint-config-react-web-a11y`](packages/eslint-config-react-web-a11y/) - If you want to enforce accessibility rules in web projects based on [React](https://reactjs.org/).
+- [`@moxy/eslint-config-react-web-a11y`](packages/eslint-config-react-web-a11y/) - If you want to detect accessibility issues in web projects based on [React](https://reactjs.org/).
 - [`@moxy/eslint-config-vue`](packages/eslint-config-vue/) - If you are going to use [Vue](https://vuejs.org/).
 - [`@moxy/eslint-config-react-native`](packages/eslint-config-react-native/) - If you are going to use [React Native](https://reactnative.dev/).
+- [`@moxy/eslint-config-react-native-a11y`](packages/eslint-config-react-native-a11y/) - If you want to detect accessibility issues in [React Native](https://reactnative.dev/) apps.
 
 ## Typical configs
 
@@ -109,6 +110,7 @@ There are several **enhancer** packages, which are intended to be used in conjun
           "@moxy/eslint-config-babel",
           "@moxy/eslint-config-react",
           "@moxy/eslint-config-react-native",
+          "@moxy/eslint-config-react-native-a11y",
           "@moxy/eslint-config-jest"
       ]
   }

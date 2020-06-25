@@ -1,0 +1,53 @@
+{
+  "name": "@moxy/eslint-config-react-native-a11y",
+  "description": "MOXY's ESLint accessibility rules for React Native apps",
+  "version": "12.1.1",
+  "keywords": [
+    "eslint-config",
+    "eslintconfig",
+    "eslint",
+    "lint",
+    "linter",
+    "style",
+    "react-lint",
+    "react-eslint",
+    "react-native",
+    "a11y",
+    "accessibility"
+  ],
+  "author": "André Costa Lima <andreclima.pt@gmail.com>",
+  "homepage": "https://github.com/moxystudio/eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:moxystudio/eslint-config.git"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "lib",
+    "rn-*",
+    "android.js",
+    "ios.js"
+  ],
+  "dependencies": {
+    "@moxy/eslint-config-base": "^12.1.1",
+    "eslint-plugin-react-native-a11y": "^2.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^6.0.0"
+  },
+  "devDependencies": {
+    "@moxy/babel-preset": "^3.2.4",
+    "@moxy/eslint-config-babel": "^12.1.1",
+    "@moxy/eslint-config-react": "^12.1.1",
+    "react": "^16.12.0",
+    "react-native": "^0.62.0"
+  },
+  "engines": {
+    "node": ">=10",
+    "npm": ">=3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
