@@ -1,7 +1,7 @@
 {
   "name": "@moxy/eslint-config-react-native-a11y",
   "description": "MOXY's ESLint accessibility rules for React Native apps",
-  "version": "12.3.0",
+  "version": "12.3.1",
   "keywords": [
     "eslint-config",
     "eslintconfig",
