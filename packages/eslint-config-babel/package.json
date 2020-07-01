@@ -1,7 +1,7 @@
 {
   "name": "@moxy/eslint-config-babel",
   "description": "MOXY's ESLint configuration enhancer for projects that use Babel",
-  "version": "12.2.0",
+  "version": "12.3.0",
   "keywords": [
     "eslint-config",
     "eslintconfig",

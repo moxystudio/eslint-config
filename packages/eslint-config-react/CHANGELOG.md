@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [12.3.0](https://github.com/moxystudio/eslint-config/compare/v12.2.0...v12.3.0) (2020-07-01)
+
+
+### Features
+
+* add react native a11y enhancer ([7734e2e](https://github.com/moxystudio/eslint-config/commit/7734e2e983e41928bb5f827cec2d982adbb143fb))
+
+
+
 ## [12.2.0](https://github.com/moxystudio/eslint-config/compare/v12.1.1...v12.2.0) (2020-06-25)
 
 **Note:** Version bump only for package @moxy/eslint-config-react
