@@ -1,9 +1,13 @@
 'use strict';
 
-module.exports = {
-    extends: [
-        './base-config',
-        '../lib/rules/platforms/rn-059/any',
-        '../lib/rules/platforms/rn-059/ios',
-    ].map(require.resolve),
-};
+const baseConfig = require('./base-config');
+
+module.exports = Object.assign(
+    {
+        extends: [
+            '../lib/rules/platforms/rn-059/any',
+            '../lib/rules/platforms/rn-059/ios',
+        ].map(require.resolve),
+    },
+    baseConfig
+);

@@ -2676,6 +2676,8 @@ Array [
 ]
 `;
 
+exports[`should pass on packages/eslint-config-react-native/test/samples/my-component/MyComponent.test.js 1`] = `Array []`;
+
 exports[`should pass on packages/eslint-config-react-native-a11y/test/rules/a11y.js 1`] = `
 Array [
   Object {
@@ -2830,6 +2832,8 @@ Array [
   },
 ]
 `;
+
+exports[`should pass on packages/eslint-config-react-native-a11y/test/samples/my-component/MyComponent.test.js 1`] = `Array []`;
 
 exports[`should pass on packages/eslint-config-react-web-a11y/test/rules/jsx-a11y.js 1`] = `
 Array [
