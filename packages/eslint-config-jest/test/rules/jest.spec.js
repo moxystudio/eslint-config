@@ -44,3 +44,10 @@ it('valid-expect bad', () => {
 it('valid-expect good', () => {
     expect('something').not.toEqual('else');
 });
+
+// `lowercase-name` - Enforce lowercase test names
+// ---------------------------------------------------------------------
+// Bad
+it('Lowercase-name bad', () => {});
+// Good
+it('lowercase-name good', () => {});

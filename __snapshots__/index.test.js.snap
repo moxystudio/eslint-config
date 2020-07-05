@@ -1527,6 +1527,18 @@ Array [
     "rule": "no-undef",
     "severity": 2,
   },
+  Object {
+    "column": 1,
+    "line": 51,
+    "rule": "no-undef",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 53,
+    "rule": "no-undef",
+    "severity": 2,
+  },
 ]
 `;
 
