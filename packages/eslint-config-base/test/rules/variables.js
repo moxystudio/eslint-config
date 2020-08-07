@@ -4,7 +4,7 @@
 // ---------------------------------------------------------------------
 // Bad
 {
-    function undefined() {}
+    const undefined = () => {};
 }
 
 // `no-undef` - disallow the use of undeclared variables unless mentioned in /*global */ comments

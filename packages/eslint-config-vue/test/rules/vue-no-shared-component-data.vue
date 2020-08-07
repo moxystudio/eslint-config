@@ -6,15 +6,15 @@ import Vue from "vue";
 
 Vue.component("some-comp", {
     data: {
-        foo: "bar"
-    }
+        foo: "bar",
+    },
 });
 
 export default {
     data() {
         return {
-            foo: "bar"
+            foo: "bar",
         };
-    }
+    },
 };
 </script>

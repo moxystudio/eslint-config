@@ -6,14 +6,19 @@
     "extends": [
         "@moxy/eslint-config-base/esm",
         "@moxy/eslint-config-babel",
-        "../.."
+        ".."
     ],
+    "parserOptions": {
+        "babelOptions": {
+            "configFile": "./packages/eslint-config-react/test/.babelrc.json"
+        }
+    },
     "overrides": [
         {
             "files": "./**/*.js",
-            "excludedFiles": "./react-no-unused.js",
+            "excludedFiles": "./rules/react-no-unused.js",
             "rules": {
-                "no-unused-vars": 0
+                "no-unused-vars": "off"
             }
         }
     ]

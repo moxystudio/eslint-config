@@ -25,10 +25,10 @@
   ],
   "dependencies": {
     "@moxy/eslint-config-base": "^12.2.0",
-    "eslint-plugin-jest": "^23.0.4"
+    "eslint-plugin-jest": "^23.20.0"
   },
   "peerDependencies": {
-    "eslint": "^6.0.0"
+    "eslint": "^7.6.0"
   },
   "engines": {
     "node": ">=10",

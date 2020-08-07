@@ -217,7 +217,7 @@ const handleEvent = () => {};
 // ---------------------------------------------------------------------
 // Bad
 {
-    const bad = () => <html lang="PT" />;
+    const bad = () => <html lang="foo" />;
 }
 // Good
 {
@@ -383,7 +383,7 @@ const handleEvent = () => {};
 // ---------------------------------------------------------------------
 // Bad
 {
-    const bad = () => <span role="checkbox" aria-checked="false" aria-required />;
+    const bad = () => <span role="radio" aria-checked="false" aria-required />;
 }
 // Good
 {

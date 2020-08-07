@@ -5,7 +5,9 @@
     },
     "extends": [
         "@moxy/eslint-config-base/esm",
-        "@moxy/eslint-config-babel",
-        "../../.."
-    ]
+        ".."
+    ],
+    "rules": {
+        "no-unused-vars": "off"
+    }
 }

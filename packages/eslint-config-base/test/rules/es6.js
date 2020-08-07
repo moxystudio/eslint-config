@@ -45,21 +45,27 @@
 // ---------------------------------------------------------------------
 // Bad
 {
-    function *foo() {
-        yield 1;
-    }
+    const x = () => {
+        function *foo() {
+            yield 1;
+        }
+    };
 }
 // Also bad
 {
-    function * foo() {
-        yield 1;
-    }
+    const x = () => {
+        function * foo() {
+            yield 1;
+        }
+    };
 }
 // Good
 {
-    function* foo() {
-        yield 1;
-    }
+    const x = () => {
+        function* foo() {
+            yield 1;
+        }
+    };
 }
 
 // `no-class-assign` - disallow reassigning class members
@@ -231,15 +237,17 @@
 // ---------------------------------------------------------------------
 // Bad
 {
-    function foo() {
-        console.log(arguments);
-    }
+    const x = () => {
+        function foo() {
+            console.log(arguments);
+        }
+    };
 }
 // Good
 {
-    function foo(...args) {
+    const foo = (...args) => {
         console.log(args);
-    }
+    };
 }
 
 // `prefer-spread` - require spread operators instead of .apply()
@@ -268,15 +276,11 @@ console.log(`a${Math.random()}`);
 // ---------------------------------------------------------------------
 // Bad
 {
-    function* aa() {
-        return 10;
-    }
-}
-// Good
-{
-    function aa() {
-        return 10;
-    }
+    const x = () => {
+        function* aa() {
+            return 10;
+        }
+    };
 }
 
 // `rest-spread-spacing` - enforce spacing between rest and spread operators and their expressions
@@ -305,19 +309,25 @@ console.log(`random: ${Math.random()}!`);
 // ---------------------------------------------------------------------
 // Bad
 {
-    function* foo() {
-        yield *1;
-    }
+    const x = () => {
+        function* foo() {
+            yield *1;
+        }
+    };
 }
 // Also bad
 {
-    function* foo() {
-        yield * 1;
-    }
+    const x = () => {
+        function* foo() {
+            yield * 1;
+        }
+    };
 }
 // Good
 {
-    function* foo() {
-        yield* 1;
-    }
+    const x = () => {
+        function* foo() {
+            yield* 1;
+        }
+    };
 }

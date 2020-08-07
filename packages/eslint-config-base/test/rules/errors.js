@@ -239,17 +239,21 @@ if (Math.random() === 1) {
 // ---------------------------------------------------------------------
 // Bad
 {
-    function c() {
-        c = 'foo';
-    }
+    const x = () => {
+        function c() {
+            c = 'foo';
+        }
+    };
 }
 // Good
 {
-    function c() {
-        const foo = 'foo';
-    }
+    const x = () => {
+        function c() {
+            const foo = 'foo';
+        }
 
-    const d = c;
+        const d = c;
+    };
 }
 
 // `no-inner-declarations` - disallow variable or function declarations in nested blocks
@@ -294,14 +298,14 @@ console.log(Math());
 // ---------------------------------------------------------------------
 // Bad
 {
-    function Person() {}
+    class Person {}
     const person = new Person();
 
     const isPrototypeOfBar = Person.prototype.isPrototypeOf(person);
 }
 // Good
 {
-    function Person() {}
+    class Person {}
     const person = new Person();
 
     const isPrototypeOfBar = Object.prototype.isPrototypeOf.call(Person, person);

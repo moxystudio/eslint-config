@@ -5,22 +5,22 @@
 /* ✗ BAD */
 export default {
     props: {
-        foo: String
+        foo: String,
     },
     computed: {
         foo: {
             get() {
                 return null;
-            }
-        }
+            },
+        },
     },
     data() {
         return {
-            foo: null
+            foo: null,
         };
     },
     methods: {
-        foo() {}
-    }
+        foo() {},
+    },
 };
 </script>

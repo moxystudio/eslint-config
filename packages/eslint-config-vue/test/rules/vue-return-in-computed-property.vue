@@ -20,7 +20,7 @@ export default {
                 return this.baf;
             }
         },
-        baf() {}
-    }
+        baf() {},
+    },
 };
 </script>

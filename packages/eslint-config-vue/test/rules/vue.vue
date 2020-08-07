@@ -25,7 +25,7 @@ export default {
             return this.tim();
         },
         bar() {
-            return fetch("url").then(response => {});
+            return fetch("url").then((response) => {});
         },
         tim() {
             setTimeout(() => {}, 0);
@@ -35,8 +35,8 @@ export default {
         },
         anim() {
             requestAnimationFrame(() => {});
-        }
-    }
+        },
+    },
 };
 </script>
 <!-- `vue/no-dupe-keys` - disallow duplication of field names -->
@@ -46,19 +46,19 @@ export default {
 /* ✗ BAD */
 export default {
     props: {
-        foo: String
+        foo: String,
     },
     computed: {
         foo: {
-            get() {}
-        }
+            get() {},
+        },
     },
     data: {
-        foo: null
+        foo: null,
     },
     methods: {
-        foo() {}
-    }
+        foo() {},
+    },
 };
 </script>
 

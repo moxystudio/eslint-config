@@ -25,7 +25,7 @@ export default {
             return this.tim();
         },
         bar() {
-            return fetch("url").then(response => {});
+            return fetch("url").then((response) => {});
         },
         tim() {
             setTimeout(() => {}, 0);
@@ -35,7 +35,7 @@ export default {
         },
         anim() {
             requestAnimationFrame(() => {});
-        }
-    }
+        },
+    },
 };
 </script>

@@ -1,6 +1,6 @@
 'use strict';
 
-const babelRules = require('eslint-plugin-babel').rules;
+const babelRules = require('@babel/eslint-plugin').rules;
 
 const baseRules = Object.assign(
     {},
@@ -14,16 +14,17 @@ const baseRules = Object.assign(
 );
 
 const rules = Object.keys(babelRules).reduce((rules, name) => {
+    /* istanbul ignore else */
     if (!babelRules[name].meta.deprecated && baseRules[name]) {
-        rules[name] = 0;
-        rules[`babel/${name}`] = baseRules[name];
+        rules[name] = 'off';
+        rules[`@babel/${name}`] = baseRules[name];
     }
 
     return rules;
 }, {});
 
 module.exports = {
-    parser: require.resolve('babel-eslint'),
-    plugins: ['babel'],
+    parser: '@babel/eslint-parser',
+    plugins: ['@babel/eslint-plugin'],
     rules,
 };

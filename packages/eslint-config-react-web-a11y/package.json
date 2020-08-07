@@ -27,10 +27,10 @@
     "lib"
   ],
   "dependencies": {
-    "eslint-plugin-jsx-a11y": "6.2.3"
+    "eslint-plugin-jsx-a11y": "^6.3.1"
   },
   "peerDependencies": {
-    "eslint": "^6.0.0"
+    "eslint": "^7.6.0"
   },
   "devDependencies": {
     "@moxy/babel-preset": "^3.2.4",

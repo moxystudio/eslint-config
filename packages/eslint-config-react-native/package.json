@@ -30,7 +30,7 @@
     "eslint-plugin-react-native": "^3.8.1"
   },
   "peerDependencies": {
-    "eslint": "^6.0.0"
+    "eslint": "^7.6.0"
   },
   "devDependencies": {
     "@moxy/babel-preset": "^3.2.4",

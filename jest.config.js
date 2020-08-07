@@ -1,13 +1,12 @@
 'use strict';
 
-const { compose, baseConfig } = require('@moxy/jest-config');
+const { compose, baseConfig } = require('@moxy/jest-config-base');
 
-module.exports = compose([
-    baseConfig,
+module.exports = compose(
+    baseConfig('node'),
     (config) => {
-        config.testEnvironment = 'node';
         config.testMatch = ['**/index.test.js'];
 
         return config;
-    },
-]);
+    }
+);

@@ -24,8 +24,8 @@ export default {
         TheButton,
         TheModal,
         TheInput,
-        TheDropdown
-    }
+        TheDropdown,
+    },
 };
 </script>
 
@@ -44,7 +44,7 @@ import TheModal from "components/TheModal.vue";
 export default {
     components: {
         TheButton, // Unused component
-        "the-modal": TheModal // Unused component
-    }
+        "the-modal": TheModal, // Unused component
+    },
 };
 </script>
