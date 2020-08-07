@@ -49,5 +49,17 @@ it('valid-expect good', () => {
 // ---------------------------------------------------------------------
 // Bad
 it('Lowercase-name bad', () => {});
+// Also bad
+describe('Foo', () => {
+    describe('Foo', () => {
+
+    });
+});
 // Good
 it('lowercase-name good', () => {});
+// Also good
+describe('Foo', () => {
+    describe('myMethod', () => {
+
+    });
+});

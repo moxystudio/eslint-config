@@ -1429,114 +1429,54 @@ exports[`should pass on packages/eslint-config-base/test/samples/es2018/contrive
 
 exports[`should pass on packages/eslint-config-base/test/samples/es2019/contrived.good.js 1`] = `Array []`;
 
-exports[`should pass on packages/eslint-config-jest/test/rules/jest.spec.js 1`] = `
+exports[`should pass on packages/eslint-config-jest/test/rules/jest.test.js 1`] = `
 Array [
   Object {
     "column": 1,
     "line": 6,
-    "rule": "no-undef",
-    "severity": 2,
+    "rule": "jest/no-disabled-tests",
+    "severity": 1,
   },
   Object {
-    "column": 1,
-    "line": 8,
-    "rule": "no-undef",
-    "severity": 2,
-  },
-  Object {
-    "column": 1,
+    "column": 4,
     "line": 13,
-    "rule": "no-undef",
+    "rule": "jest/no-focused-tests",
     "severity": 2,
   },
   Object {
-    "column": 1,
-    "line": 15,
-    "rule": "no-undef",
-    "severity": 2,
-  },
-  Object {
-    "column": 1,
-    "line": 20,
-    "rule": "no-undef",
-    "severity": 2,
-  },
-  Object {
-    "column": 1,
+    "column": 4,
     "line": 21,
-    "rule": "no-undef",
+    "rule": "jest/no-identical-title",
     "severity": 2,
   },
   Object {
-    "column": 1,
-    "line": 23,
-    "rule": "no-undef",
-    "severity": 2,
-  },
-  Object {
-    "column": 1,
-    "line": 24,
-    "rule": "no-undef",
-    "severity": 2,
-  },
-  Object {
-    "column": 1,
-    "line": 29,
-    "rule": "no-undef",
-    "severity": 2,
-  },
-  Object {
-    "column": 5,
+    "column": 23,
     "line": 30,
-    "rule": "no-undef",
-    "severity": 2,
-  },
-  Object {
-    "column": 1,
-    "line": 33,
-    "rule": "no-undef",
-    "severity": 2,
-  },
-  Object {
-    "column": 5,
-    "line": 34,
-    "rule": "no-undef",
-    "severity": 2,
-  },
-  Object {
-    "column": 1,
-    "line": 40,
-    "rule": "no-undef",
+    "rule": "jest/prefer-to-have-length",
     "severity": 2,
   },
   Object {
     "column": 5,
     "line": 41,
-    "rule": "no-undef",
+    "rule": "jest/valid-expect",
     "severity": 2,
   },
   Object {
-    "column": 1,
-    "line": 44,
-    "rule": "no-undef",
-    "severity": 2,
-  },
-  Object {
-    "column": 5,
-    "line": 45,
-    "rule": "no-undef",
-    "severity": 2,
-  },
-  Object {
-    "column": 1,
+    "column": 4,
     "line": 51,
-    "rule": "no-undef",
+    "rule": "jest/lowercase-name",
     "severity": 2,
   },
   Object {
-    "column": 1,
-    "line": 53,
-    "rule": "no-undef",
+    "column": 14,
+    "line": 54,
+    "rule": "jest/lowercase-name",
+    "severity": 2,
+  },
+  Object {
+    "column": 10,
+    "line": 61,
+    "rule": "jest/no-identical-title",
     "severity": 2,
   },
 ]

@@ -15,6 +15,8 @@ module.exports = {
         // Ensure expect is called correctly
         'jest/valid-expect': 'error',
         // Enforce lowercase test names
-        'jest/lowercase-name': 'error',
+        'jest/lowercase-name': ['error', {
+            ignoreTopLevelDescribe: true,
+        }],
     },
 };
