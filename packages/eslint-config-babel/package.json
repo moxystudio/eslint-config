@@ -1,7 +1,7 @@
 {
   "name": "@moxy/eslint-config-babel",
   "description": "MOXY's ESLint configuration enhancer for projects that use Babel",
-  "version": "12.3.0",
+  "version": "13.0.0",
   "keywords": [
     "eslint-config",
     "eslintconfig",
@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "@moxy/babel-preset": "^3.2.4",
-    "@moxy/eslint-config-base": "^12.2.0"
+    "@moxy/eslint-config-base": "^13.0.0"
   },
   "engines": {
     "node": ">=10",

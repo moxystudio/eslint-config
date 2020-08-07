@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [13.0.0](https://github.com/moxystudio/eslint-config/compare/v12.3.1...v13.0.0) (2020-08-07)
+
+
+### ⚠ BREAKING CHANGES
+
+* all packages have now a peerDependency on eslint v7
+
+### Features
+
+* upgrade to eslint v7! ([#108](https://github.com/moxystudio/eslint-config/issues/108)) ([16ba3a3](https://github.com/moxystudio/eslint-config/commit/16ba3a37c7e91c1ce6e4e7dd313c0c3cd9484ab2))
+
+
+
 ## [12.2.0](https://github.com/moxystudio/eslint-config/compare/v12.1.1...v12.2.0) (2020-06-25)
 
 **Note:** Version bump only for package @moxy/eslint-config-base
