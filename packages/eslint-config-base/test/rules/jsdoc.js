@@ -7,9 +7,7 @@
      * @param {Number} num The first number.
      * @returns The sum of the two numbers.
      */
-    function add(num1, num2) {
-        return num1 + num2;
-    }
+    const add = (num1, num2) => num1 + num2;
 }
 // Good
 {
@@ -20,7 +18,5 @@
      * @param {number} num2 - The second number.
      * @returns {number} The sum of the two numbers.
      */
-    function add(num1, num2) {
-        return num1 + num2;
-    }
+    const add = (num1, num2) => num1 + num2;
 }

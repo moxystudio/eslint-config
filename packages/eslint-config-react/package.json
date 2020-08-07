@@ -25,11 +25,11 @@
   ],
   "dependencies": {
     "@moxy/eslint-config-base": "^12.2.0",
-    "eslint-plugin-react": "^7.16.0",
-    "eslint-plugin-react-hooks": "^2.3.0"
+    "eslint-plugin-react": "^7.20.5",
+    "eslint-plugin-react-hooks": "^4.0.8"
   },
   "peerDependencies": {
-    "eslint": "^6.0.0"
+    "eslint": "^7.6.0"
   },
   "devDependencies": {
     "@moxy/babel-preset": "^3.2.4",

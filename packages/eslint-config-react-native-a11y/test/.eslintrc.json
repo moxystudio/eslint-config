@@ -1,0 +1,18 @@
+{
+    "root": true,
+    "extends": [
+        "@moxy/eslint-config-base/esm",
+        "@moxy/eslint-config-babel",
+        "@moxy/eslint-config-react",
+        ".."
+    ],
+    "parserOptions": {
+        "babelOptions": {
+            "configFile": "./packages/eslint-config-react-native-a11y/test/.babelrc.json"
+        }
+    },
+    "rules": {
+        "no-unused-vars": "off",
+        "react/jsx-no-bind": "off"
+    }
+}

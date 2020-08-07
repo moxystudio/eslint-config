@@ -12,42 +12,42 @@ export default {
         // A number with default value
         propD: {
             type: Number,
-            default: 100
+            default: 100,
         },
         // Object/array defaults should be returned from a factory function
         propE: {
             type: Object,
             default() {
                 return { message: "hello" };
-            }
+            },
         },
         propF: {
             type: Array,
             default() {
                 return [];
-            }
+            },
         },
         /* ✗ BAD */
         propA: {
             type: String,
-            default: {}
+            default: {},
         },
         propB: {
             type: String,
-            default: []
+            default: [],
         },
         propC: {
             type: Object,
-            default: []
+            default: [],
         },
         propD: {
             type: Array,
-            default: []
+            default: [],
         },
         propE: {
             type: Object,
-            default: { message: "hello" }
-        }
-    }
+            default: { message: "hello" },
+        },
+    },
 };
 </script>

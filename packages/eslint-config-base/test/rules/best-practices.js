@@ -104,13 +104,15 @@
 // ---------------------------------------------------------------------
 // Bad
 {
-    function foo(n) {
-        if (n <= 0) {
-            return;
-        }
+    const x = {
+        foo: function foo(n) {
+            if (n <= 0) {
+                return;
+            }
 
-        arguments.callee(n - 1);
-    }
+            arguments.callee(n - 1);
+        },
+    };
 }
 
 // `no-case-declarations` - disallow lexical declarations in case clauses
@@ -251,7 +253,7 @@ Object = 'a';
 function globalFn() {}
 // Good
 {
-    function localFn() {}
+    const myFn = () => {};
 }
 
 // `no-implied-eval` - disallow the use of eval()-like methods
@@ -265,11 +267,13 @@ setTimeout(() => 'foo', 1000);
 // ---------------------------------------------------------------------
 // Bad
 {
-    function foo() {
-        this.a = 'bar';
-    }
+    const x = () => {
+        function foo() {
+            this.a = 'bar';
+        }
 
-    foo();
+        foo();
+    };
 }
 
 // `no-iterator` - disallow the use of the __iterator__ property

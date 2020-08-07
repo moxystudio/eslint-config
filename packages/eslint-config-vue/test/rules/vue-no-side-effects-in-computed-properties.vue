@@ -11,8 +11,8 @@ export default {
         },
         reversedArray() {
             return this.array.reverse(); // <- side effect - orginal array is being mutated
-        }
-    }
+        },
+    },
 };
 </script>
 
@@ -25,7 +25,7 @@ export default {
         },
         reversedArray() {
             return this.array.slice(0).reverse(); // .slice makes a copy of the array, instead of mutating the orginal
-        }
-    }
+        },
+    },
 };
 </script>

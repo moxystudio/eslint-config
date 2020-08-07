@@ -4,20 +4,20 @@
 /* ✗ BAD */
 export default {
     props: {
-        $el: String
+        $el: String,
     },
     computed: {
         $on: {
-            get() {}
-        }
+            get() {},
+        },
     },
     data() {
         return {
-            _foo: null
+            _foo: null,
         };
     },
     methods: {
-        $nextTick() {}
-    }
+        $nextTick() {},
+    },
 };
 </script>

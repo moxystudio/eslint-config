@@ -18,7 +18,7 @@
             },
             "extends": "../..",
             "rules": {
-                "no-unused-vars": 0
+                "no-unused-vars": "off"
             }
         },
         {
@@ -35,7 +35,7 @@
                 "node": true
             },
             "rules": {
-                "no-unused-vars": 0
+                "no-unused-vars": "off"
             }
         },
         {
@@ -45,7 +45,7 @@
                 "browser": true
             },
             "rules": {
-                "no-unused-vars": 0
+                "no-unused-vars": "off"
             }
         }
     ]

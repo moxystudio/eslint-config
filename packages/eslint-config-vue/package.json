@@ -25,12 +25,12 @@
   ],
   "dependencies": {
     "@vue/eslint-config-prettier": "^6.0.0",
-    "eslint-plugin-prettier": "^3.1.2",
-    "eslint-plugin-vue": "^6.1.2",
-    "prettier": "^1.19.1"
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-vue": "^7.0.0-beta.1",
+    "prettier": "^2.0.0"
   },
   "peerDependencies": {
-    "eslint": "^6.0.0"
+    "eslint": "^7.6.0"
   },
   "devDependencies": {
     "@moxy/eslint-config-base": "^12.2.0"

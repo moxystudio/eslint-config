@@ -357,7 +357,7 @@ import createReactClass from 'create-react-class';
 // ---------------------------------------------------------------------
 // Bad
 {
-    class My_Component extends Component {} // eslint-disable-line babel/camelcase
+    class My_Component extends Component {} // eslint-disable-line camelcase
 
     const foo = <My_Component />;
 }
@@ -518,7 +518,7 @@ ReactDOM.render(<Component />, '#root');
 {
     class MyComponent extends Component {
         render() {
-            return <div ref="hello">Hello</div>
+            return <div ref="hello">Hello</div>;
         }
     }
 }

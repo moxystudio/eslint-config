@@ -1,0 +1,15 @@
+{
+    "root": true,
+    "env": {
+        "browser": true
+    },
+    "extends": [
+        "@moxy/eslint-config-base/esm",
+        ".."
+    ],
+    "parserOptions": {
+        "babelOptions": {
+            "configFile": "./packages/eslint-config-babel/test/.babelrc.json"
+        }
+    }
+}

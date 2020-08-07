@@ -251,7 +251,9 @@ if (Math.random() > 0.5) {
 }
 // Good
 {
-    function fn() {}
+    const x = () => {
+        function fn() {}
+    };
     const fn2 = () => {};
 }
 
@@ -397,9 +399,9 @@ Here's another paragraph!
 // ---------------------------------------------------------------------
 // Not advisable
 {
-    function f(cb) {
+    const f = (cb) => {
         cb();
-    }
+    };
 
     f(() => {
         f(() => {
@@ -626,13 +628,13 @@ Here's another paragraph!
 // ---------------------------------------------------------------------
 // Bad
 {
-    function person() {}
+    class person {}
 
     const notCapital = new person();
 }
 // Good
 {
-    function Person() {}
+    class Person {}
 
     const notCapital = new Person();
 }
@@ -641,13 +643,13 @@ Here's another paragraph!
 // ---------------------------------------------------------------------
 // Bad
 {
-    function Person() {}
+    class Person {}
 
     const notCapital = new Person;
 }
 // Good
 {
-    function Person() {}
+    class Person {}
 
     const notCapital = new Person();
 }
@@ -987,45 +989,57 @@ if (Math.random() > 0.5) {
 // ---------------------------------------------------------------------
 // Bad
 {
-    function foo(){
-        // Do something
-    }
+    const x = () => {
+        function foo(){
+            // Do something
+        }
+    };
 }
 // Good
 {
-    function foo() {
-        // Do something
-    }
+    const x = () => {
+        function foo() {
+            // Do something
+        }
+    };
 }
 
 // `space-before-function-paren` - enforce consistent spacing before function definition opening parenthesis
 // ---------------------------------------------------------------------
 // Bad
 {
-    function f () {
-
-    }
+    const x = () => {
+        function f () {
+            // Do something
+        }
+    };
 }
 // Good
 {
-    function f() {
-
-    }
+    const x = () => {
+        function f() {
+            // Do something
+        }
+    };
 }
 
 // `space-in-parens` - enforce consistent spacing inside parentheses
 // ---------------------------------------------------------------------
 // Bad
 {
-    function f( ) {
-
-    }
+    const x = () => {
+        function f( ) {
+            // Do something
+        }
+    };
 }
 // Good
 {
-    function f() {
-
-    }
+    const x = () => {
+        function f() {
+            // Do something
+        }
+    };
 }
 
 // `space-infix-ops` - require spacing around infix operators
@@ -1087,12 +1101,12 @@ if (Math.random() > 0.5) {
 // ---------------------------------------------------------------------
 // Bad
 {
-    function func() {}
+    const func = () => {};
     const hello = func `Hello world`;
 }
 // Good
 {
-    function func() {}
+    const func = () => {};
     const hello = func`Hello world`;
 }
 

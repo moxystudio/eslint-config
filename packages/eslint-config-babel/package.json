@@ -24,11 +24,11 @@
     "lib"
   ],
   "dependencies": {
-    "babel-eslint": "^10.1.0",
-    "eslint-plugin-babel": "^5.3.0"
+    "@babel/eslint-parser": "^7.11.0",
+    "@babel/eslint-plugin": "^7.11.0"
   },
   "peerDependencies": {
-    "eslint": "^6.0.0"
+    "eslint": "^7.6.0"
   },
   "devDependencies": {
     "@moxy/babel-preset": "^3.2.4",

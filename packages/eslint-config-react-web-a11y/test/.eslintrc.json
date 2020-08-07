@@ -7,9 +7,14 @@
         "@moxy/eslint-config-base/esm",
         "@moxy/eslint-config-babel",
         "@moxy/eslint-config-react",
-        "../.."
+        ".."
     ],
+    "parserOptions": {
+        "babelOptions": {
+            "configFile": "./packages/eslint-config-react-web-a11y/test/.babelrc.json"
+        }
+    },
     "rules": {
-        "no-unused-vars": 0
+        "no-unused-vars": "off"
     }
 }
