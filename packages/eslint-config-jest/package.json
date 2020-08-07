@@ -1,7 +1,7 @@
 {
   "name": "@moxy/eslint-config-jest",
   "description": "MOXY's ESLint configuration enhancer for projects that use Jest for testing",
-  "version": "13.0.0",
+  "version": "13.0.1",
   "keywords": [
     "eslint-config",
     "eslintconfig",

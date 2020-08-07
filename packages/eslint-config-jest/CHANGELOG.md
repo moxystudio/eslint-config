@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [13.0.1](https://github.com/moxystudio/eslint-config/compare/v13.0.0...v13.0.1) (2020-08-07)
+
+
+### Bug Fixes
+
+* **jest:** lax lowercase tests ([39cede8](https://github.com/moxystudio/eslint-config/commit/39cede8f5c185d628005210906d3316a455501ba))
+
+
+
 ## [13.0.0](https://github.com/moxystudio/eslint-config/compare/v12.3.1...v13.0.0) (2020-08-07)
 
 
