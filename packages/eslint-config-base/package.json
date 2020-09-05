@@ -1,7 +1,7 @@
 {
   "name": "@moxy/eslint-config-base",
   "description": "MOXY's ESLint base configuration",
-  "version": "13.0.0",
+  "version": "13.0.3",
   "keywords": [
     "eslint-config",
     "eslintconfig",

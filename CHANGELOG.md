@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [13.0.3](https://github.com/moxystudio/eslint-config/compare/v13.0.2...v13.0.3) (2020-09-05)
+
+
+### Bug Fixes
+
+* **base:** .eslintrc.js files are CJS ([edb0796](https://github.com/moxystudio/eslint-config/commit/edb0796a6c857a95a3be229dff737f4a69e92eff))
+
+
+
 ### [13.0.2](https://github.com/moxystudio/eslint-config/compare/v13.0.1...v13.0.2) (2020-09-05)
 
 

@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [13.0.3](https://github.com/moxystudio/eslint-config/compare/v13.0.2...v13.0.3) (2020-09-05)
+
+**Note:** Version bump only for package @moxy/eslint-config-babel
+
+
+
+
+
 ## [13.0.0](https://github.com/moxystudio/eslint-config/compare/v12.3.1...v13.0.0) (2020-08-07)
 
 

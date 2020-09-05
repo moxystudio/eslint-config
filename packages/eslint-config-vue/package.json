@@ -1,7 +1,7 @@
 {
   "name": "@moxy/eslint-config-vue",
   "description": "MOXY's ESLint configuration enhancer for projects that use Vue",
-  "version": "13.0.0",
+  "version": "13.0.3",
   "keywords": [
     "eslint-config",
     "eslintconfig",
@@ -33,7 +33,7 @@
     "eslint": "^7.6.0"
   },
   "devDependencies": {
-    "@moxy/eslint-config-base": "^13.0.0"
+    "@moxy/eslint-config-base": "^13.0.3"
   },
   "engines": {
     "node": ">=10",

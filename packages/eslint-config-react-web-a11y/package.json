@@ -1,7 +1,7 @@
 {
   "name": "@moxy/eslint-config-react-web-a11y",
   "description": "MOXY's ESLint accessibility rules for web projects that use React",
-  "version": "13.0.2",
+  "version": "13.0.3",
   "keywords": [
     "eslint-config",
     "eslintconfig",
@@ -34,9 +34,9 @@
   },
   "devDependencies": {
     "@moxy/babel-preset": "^3.2.4",
-    "@moxy/eslint-config-babel": "^13.0.0",
-    "@moxy/eslint-config-base": "^13.0.0",
-    "@moxy/eslint-config-react": "^13.0.2",
+    "@moxy/eslint-config-babel": "^13.0.3",
+    "@moxy/eslint-config-base": "^13.0.3",
+    "@moxy/eslint-config-react": "^13.0.3",
     "react": "^16.12.0"
   },
   "engines": {
