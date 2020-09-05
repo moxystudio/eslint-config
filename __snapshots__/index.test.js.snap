@@ -3352,13 +3352,13 @@ Array [
 exports[`should pass on packages/eslint-config-vue/test/rules/vue-no-template-key.vue 1`] = `
 Array [
   Object {
-    "column": 5,
+    "column": 15,
     "line": 10,
     "rule": "vue/no-template-key",
     "severity": 2,
   },
   Object {
-    "column": 5,
+    "column": 15,
     "line": 11,
     "rule": "vue/no-template-key",
     "severity": 2,
@@ -3370,7 +3370,7 @@ Array [
     "severity": 2,
   },
   Object {
-    "column": 5,
+    "column": 15,
     "line": 12,
     "rule": "vue/no-template-key",
     "severity": 2,
