@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [13.0.2](https://github.com/moxystudio/eslint-config/compare/v13.0.1...v13.0.2) (2020-09-05)
+
+
+### Bug Fixes
+
+* **react:** enforce jsx curly spacing on children ([8151d57](https://github.com/moxystudio/eslint-config/commit/8151d5715f646f5483b9f167c6998c2cffe5018c))
+
+
+
 ### [13.0.1](https://github.com/moxystudio/eslint-config/compare/v13.0.0...v13.0.1) (2020-08-07)
 
 

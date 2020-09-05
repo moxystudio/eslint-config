@@ -1,7 +1,7 @@
 {
   "name": "@moxy/eslint-config-react",
   "description": "MOXY's ESLint configuration enhancer for projects that use React",
-  "version": "13.0.0",
+  "version": "13.0.2",
   "keywords": [
     "eslint-config",
     "eslintconfig",

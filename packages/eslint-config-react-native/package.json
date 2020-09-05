@@ -1,7 +1,7 @@
 {
   "name": "@moxy/eslint-config-react-native",
   "description": "MOXY's ESLint configuration enhancer for React Native apps",
-  "version": "13.0.0",
+  "version": "13.0.2",
   "keywords": [
     "eslint-config",
     "eslintconfig",
@@ -35,7 +35,7 @@
   "devDependencies": {
     "@moxy/babel-preset": "^3.2.4",
     "@moxy/eslint-config-babel": "^13.0.0",
-    "@moxy/eslint-config-react": "^13.0.0",
+    "@moxy/eslint-config-react": "^13.0.2",
     "react": "^16.12.0",
     "react-native": "^0.61.5"
   },
