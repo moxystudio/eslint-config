@@ -121,11 +121,13 @@ import createReactClass from 'create-react-class';
 // ---------------------------------------------------------------------
 // Bad
 {
-    const component = <Component isLoading={false} />;
+    const children = 'foo';
+    const component = <Component isLoading={false}>{children}</Component>;
 }
 // Good
 {
-    const component = <Component isLoading={ false } />;
+    const children = 'foo';
+    const component = <Component isLoading={ false }>{ children }</Component>;
 }
 
 // `jsx-equals-spacing` - enforce or disallow spaces around equal signs in JSX attributes

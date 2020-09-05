@@ -13,7 +13,7 @@ module.exports = {
         // Validate closing bracket location in JSX
         'react/jsx-closing-bracket-location': ['error', 'after-props'],
         // Enforce or disallow spaces inside of curly braces in JSX attributes
-        'react/jsx-curly-spacing': ['error', 'always'],
+        'react/jsx-curly-spacing': ['error', { when: 'always', children: true }],
         // Enforce or disallow spaces around equal signs in JSX attributes
         'react/jsx-equals-spacing': ['error', 'never'],
         // Restrict file extensions that may contain JSX
