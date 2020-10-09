@@ -2389,12 +2389,6 @@ Array [
     "severity": 2,
   },
   Object {
-    "column": 78,
-    "line": 43,
-    "rule": "react/prop-types",
-    "severity": 2,
-  },
-  Object {
     "column": 15,
     "line": 49,
     "rule": "react-native/no-color-literals",

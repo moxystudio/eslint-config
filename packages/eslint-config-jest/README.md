@@ -34,7 +34,7 @@ This package should be used in conjunction with [`@moxy/eslint-config-base`](../
 {
     "root": true,
     "env": {
-        "browser": true,
+        "browser": true
     },
     "extends": [
         "@moxy/eslint-config-base/esm",

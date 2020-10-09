@@ -62,10 +62,10 @@ All files that end in `.config.js` within your project root folder will **automa
     {
         "root": true,
         "env": {
-            "node": true,
+            "node": true
         },
         "extends": [
-            "@moxy/eslint-config-base/cjs/es2019",
+            "@moxy/eslint-config-base/cjs/es2019"
         ]
     }
     ```
@@ -76,7 +76,7 @@ All files that end in `.config.js` within your project root folder will **automa
     {
         "root": true,
         "env": {
-            "browser": true,
+            "browser": true
         },
         "extends": [
             "@moxy/eslint-config-base/esm",
@@ -91,10 +91,10 @@ All files that end in `.config.js` within your project root folder will **automa
         "root": true,
         "env": {
             "browser": true,
-            "node": true,
+            "node": true
         },
         "extends": [
-            "@moxy/eslint-config-base/esm",
+            "@moxy/eslint-config-base/esm"
         ]
     }
     ```
