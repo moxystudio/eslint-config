@@ -4,14 +4,7 @@
         "node": true
     },
     "extends": [
-        "./packages/eslint-config-base/cjs/es2015"
-    ],
-    "overrides": [
-        {
-            "files": "./index.test.js",
-            "extends": [
-                "./packages/eslint-config-jest"
-            ]
-        }
+        "./packages/eslint-config-base/cjs/es2015",
+        "./packages/eslint-config-jest"
     ]
 }
