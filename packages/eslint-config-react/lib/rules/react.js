@@ -38,7 +38,7 @@ module.exports = {
         // Prevent duplicate props in JSX
         'react/jsx-no-duplicate-props': 'error',
         // Prevent usage of unsafe target='_blank'
-        'react/jsx-no-target-blank': 'warn',
+        'react/jsx-no-target-blank': ['warn', { allowReferrer: true }],
         // Disallow undeclared variables in JSX
         'react/jsx-no-undef': 'error',
         // Enforce PasalCase for user-defined JSX components

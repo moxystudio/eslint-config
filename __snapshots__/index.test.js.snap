@@ -2059,146 +2059,146 @@ Array [
     "severity": 2,
   },
   Object {
-    "column": 72,
+    "column": 23,
     "line": 338,
     "rule": "react/jsx-no-target-blank",
     "severity": 1,
   },
   Object {
     "column": 24,
-    "line": 349,
+    "line": 353,
     "rule": "react/jsx-no-undef",
     "severity": 2,
   },
   Object {
     "column": 17,
-    "line": 364,
+    "line": 368,
     "rule": "react/jsx-pascal-case",
     "severity": 2,
   },
   Object {
     "column": 31,
-    "line": 377,
+    "line": 381,
     "rule": "react/jsx-tag-spacing",
     "severity": 2,
   },
   Object {
     "column": 15,
-    "line": 388,
+    "line": 392,
     "rule": "react/jsx-tag-spacing",
     "severity": 2,
   },
   Object {
     "column": 19,
-    "line": 389,
+    "line": 393,
     "rule": "react/jsx-tag-spacing",
     "severity": 2,
   },
   Object {
     "column": 23,
-    "line": 409,
+    "line": 413,
     "rule": "react/jsx-wrap-multilines",
     "severity": 2,
   },
   Object {
     "column": 28,
-    "line": 424,
+    "line": 428,
     "rule": "react/no-children-prop",
     "severity": 2,
   },
   Object {
     "column": 1,
-    "line": 438,
+    "line": 442,
     "rule": "react/no-deprecated",
     "severity": 1,
   },
   Object {
     "column": 13,
-    "line": 448,
+    "line": 452,
     "rule": "react/no-direct-mutation-state",
     "severity": 2,
   },
   Object {
     "column": 21,
-    "line": 475,
+    "line": 479,
     "rule": "react/no-is-mounted",
     "severity": 2,
   },
   Object {
     "column": 18,
-    "line": 508,
+    "line": 512,
     "rule": "react/no-render-return-value",
     "severity": 2,
   },
   Object {
     "column": 25,
-    "line": 523,
+    "line": 527,
     "rule": "react/no-string-refs",
     "severity": 2,
   },
   Object {
     "column": 11,
-    "line": 554,
+    "line": 558,
     "rule": "react/no-unescaped-entities",
     "severity": 2,
   },
   Object {
     "column": 13,
-    "line": 554,
+    "line": 558,
     "rule": "react/no-unescaped-entities",
     "severity": 2,
   },
   Object {
     "column": 14,
-    "line": 554,
+    "line": 558,
     "rule": "react/no-unescaped-entities",
     "severity": 2,
   },
   Object {
     "column": 22,
-    "line": 574,
+    "line": 578,
     "rule": "react/no-unknown-property",
     "severity": 2,
   },
   Object {
     "column": 42,
-    "line": 585,
+    "line": 589,
     "rule": "react/prefer-es6-class",
     "severity": 2,
   },
   Object {
     "column": 44,
-    "line": 598,
+    "line": 602,
     "rule": "react/prop-types",
     "severity": 2,
   },
   Object {
     "column": 9,
-    "line": 624,
+    "line": 628,
     "rule": "react/require-render-return",
     "severity": 2,
   },
   Object {
     "column": 23,
-    "line": 642,
+    "line": 646,
     "rule": "react/self-closing-comp",
     "severity": 2,
   },
   Object {
     "column": 9,
-    "line": 660,
+    "line": 664,
     "rule": "react/sort-comp",
     "severity": 2,
   },
   Object {
     "column": 22,
-    "line": 691,
+    "line": 695,
     "rule": "react/style-prop-object",
     "severity": 2,
   },
   Object {
     "column": 15,
-    "line": 704,
+    "line": 708,
     "rule": "react/void-dom-elements-no-children",
     "severity": 2,
   },
@@ -2353,19 +2353,13 @@ Array [
     "severity": 2,
   },
   Object {
-    "column": 74,
-    "line": 38,
-    "rule": "react/prop-types",
-    "severity": 2,
-  },
-  Object {
-    "column": 81,
+    "column": 80,
     "line": 38,
     "rule": "react-native/no-color-literals",
     "severity": 2,
   },
   Object {
-    "column": 81,
+    "column": 80,
     "line": 38,
     "rule": "react-native/no-inline-styles",
     "severity": 2,
@@ -2380,12 +2374,6 @@ Array [
     "column": 63,
     "line": 43,
     "rule": "react-native/no-inline-styles",
-    "severity": 2,
-  },
-  Object {
-    "column": 72,
-    "line": 43,
-    "rule": "no-undef",
     "severity": 2,
   },
   Object {
@@ -2507,7 +2495,16 @@ Array [
 ]
 `;
 
-exports[`should pass on packages/eslint-config-react-native/test/rules/no-unused-styles/same-file-styles/function-component-fragment.js 1`] = `Array []`;
+exports[`should pass on packages/eslint-config-react-native/test/rules/no-unused-styles/same-file-styles/function-component-fragment.js 1`] = `
+Array [
+  Object {
+    "column": 5,
+    "line": 7,
+    "rule": "react-native/no-unused-styles",
+    "severity": 2,
+  },
+]
+`;
 
 exports[`should pass on packages/eslint-config-react-native/test/rules/sort-styles.js 1`] = `
 Array [
