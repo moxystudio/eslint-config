@@ -35,12 +35,12 @@ import { StyleSheet, View, Text } from 'react-native';
 
     // Also bad
     {
-        const MyComponent = (props) => <Text style={ [styles.text, props.foo && { color: '#FFF' }] }>MOXY</Text>;
+        const MyComponent = () => <Text style={ [styles.text, Math.random() && { color: '#FFF' }] }>MOXY</Text>;
     }
 
     // Also bad
     {
-        const MyComponent = () => <Text style={ [styles.text, { color: props.foo ? '#FFF' : '#000' }] }>MOXY</Text>;
+        const MyComponent = () => <Text style={ [styles.text, { color: Math.random() ? '#FFF' : '#000' }] }>MOXY</Text>;
     }
 }
 // Also bad

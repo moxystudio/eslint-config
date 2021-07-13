@@ -339,7 +339,11 @@ import createReactClass from 'create-react-class';
 }
 // Good
 {
-    const component = <a href="http://this.link/comes/from/user/input" target="_blank" rel="noopener noreferrer">foo</a>;
+    const component = <a href="http://this.link/comes/from/user/input" target="_blank" rel="noreferrer">foo</a>;
+}
+// Also good
+{
+    const component = <a href="http://this.link/comes/from/user/input" target="_blank" rel="noopener">foo</a>;
 }
 
 // `jsx-no-undef` - disallow undeclared variables in JSX
