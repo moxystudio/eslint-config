@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [13.1.0](https://github.com/moxystudio/eslint-config/compare/v13.0.3...v13.1.0) (2021-07-13)
+
+
+### Features
+
+* allow noopener in rel when using target blank ([#111](https://github.com/moxystudio/eslint-config/issues/111)) ([6a26997](https://github.com/moxystudio/eslint-config/commit/6a2699739761cc8deb7120370adebf4f07a0f048))
+
+
+
 ### [13.0.3](https://github.com/moxystudio/eslint-config/compare/v13.0.2...v13.0.3) (2020-09-05)
 
 **Note:** Version bump only for package @moxy/eslint-config-jest
