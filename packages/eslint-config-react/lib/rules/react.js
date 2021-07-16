@@ -24,6 +24,7 @@ module.exports = {
         'react/jsx-handler-names': ['error', {
             eventHandlerPrefix: 'handle',
             eventHandlerPropPrefix: 'on',
+            checkLocalVariables: true,
         }],
         // Validate props indentation in JSX
         'react/jsx-indent-props': ['error', 4],

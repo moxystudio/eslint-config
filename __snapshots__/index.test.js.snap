@@ -2286,7 +2286,16 @@ exports[`should pass on packages/eslint-config-react/test/samples/my-component/M
 
 exports[`should pass on packages/eslint-config-react/test/samples/my-component/MyComponent.old.js 1`] = `Array []`;
 
-exports[`should pass on packages/eslint-config-react/test/samples/my-component/MyComponent.test.js 1`] = `Array []`;
+exports[`should pass on packages/eslint-config-react/test/samples/my-component/MyComponent.test.js 1`] = `
+Array [
+  Object {
+    "column": 43,
+    "line": 4,
+    "rule": "react/jsx-handler-names",
+    "severity": 2,
+  },
+]
+`;
 
 exports[`should pass on packages/eslint-config-react-native/test/rules/env.js 1`] = `Array []`;
 
